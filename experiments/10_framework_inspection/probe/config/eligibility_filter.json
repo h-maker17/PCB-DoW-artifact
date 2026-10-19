@@ -1,0 +1,9 @@
+{
+  "scope": "Provisional evidence registry over the unchanged 353-repository discovery universe; not a frozen eligible pool",
+  "authority": "Guide candidate criterion: Python agent/RAG framework with official-documentation-linked runnable RAG example; excludes lists/courses/personal demos/model implementations",
+  "positive_gate": "A framework's self-description and a pinned official documentation-to-runnable-recipe pointer must both be verified; AST hits alone cannot satisfy this gate",
+  "negative_gate": "Exclude explicit self-descriptions as sample/resource/recipe collections, curated lists, courses/books/tutorials. Also exclude explicitly self-described OCR/extraction toolkits, crawler/scraper components, context compression components and task-specific penetration testing applications: these are outside agent/RAG framework scope. Scope dossiers can cite an exact official README self-description. A collection of implemented libraries/components is not automatically a sample list. Never exclude from missing keywords, filename patterns, UI, missing parallel primitives or expected execution class.",
+  "pending": "Every other repository remains unresolved until factual framework scope and official runnable-recipe evidence have been checked",
+  "ranking_gate": "Any unresolved row prevents eligibility_complete and formal sample freeze; PyPI must use the same final eligible pool",
+  "outcome_labels": "None: this registry never invokes the experiment classifier or supplies A2/A3 labels"
+}

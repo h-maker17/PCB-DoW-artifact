@@ -1,0 +1,10 @@
+task,group,N,tool_return_log_bytes,minimal_counter_log_bytes,byte_comparison_cpu_median_us,health_statistics_cpu_median_us,byte_divergence_detected,timing_scope,iterations
+hotpotqa,462bfef9526bb7983e70eecbfdfbb348ec9a742bd62bfabe6c9aecd47825c5e8,5,45360,70,64.4795,65.4025,True,"SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",100
+hotpotqa,2499c2c538894fda5ad359e8eb5785e4973348698a8bb8d6c0fa28a93e6ee0b8,5,37385,70,54.2275,63.4795,True,"SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",100
+hotpotqa,b111ea72c8f7cfe3e422ac6bc44f1cca191cb7e416f67099fe7310d5ec7b9ed7,5,44690,70,63.567,62.7845,True,"SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",100
+triviaqa,a0959dc4707d4e3e053e2699039b13c5a0d532201ca9a7360b26e029e1cfaef6,5,28010,70,42.153,77.0625,True,"SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",100
+triviaqa,0e3b724deb4a01f3fd99dc8934201f4f8f5536d1f9f7c3628c83276451f559a3,5,21400,70,34.2175,78.39,True,"SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",100
+triviaqa,6bf54e6490bee7822a3c13e4d523f22ae005e08705d7d430e90f8eafa94b7e78,5,28195,70,42.8355,62.723,True,"SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",100
+gov_report,b47adb1917bedc9f8b99df8b397feb761481f2aeb8f95d7aef63d4ec69d8302c,5,57485,70,80.0435,62.461,True,"SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",100
+gov_report,9a8655eae6ce0ef064db486f77cd75e2a09bd646e5b057a4340c9adcd6599e82,5,56995,70,151.91,118.78,True,"SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",100
+gov_report,cb62e936ebc1ccc27ca0fd34bec8005203177026e13af470934019385a54e36d,5,56630,70,141.2065,111.986,True,"SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",100

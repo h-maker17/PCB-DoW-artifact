@@ -1,0 +1,227 @@
+{
+  "registered_before_tests": true,
+  "cases": [
+    {
+      "id": "shape_one_repeat",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "one_repeat",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_three_repeats",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "three_repeats",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_N1",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "N1",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_N2",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "N2",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_N3",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "N3",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_duplicate_final",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "duplicate_final",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_missing_final",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "missing_final",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_unknown_final",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "unknown_final",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_one_template",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "one_template",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_asymmetric_templates",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "asymmetric_templates",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_no_requests",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "no_requests",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_unknown_request",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "unknown_request",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_missing_arm",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "missing_arm",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_broadcast_extra",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "broadcast_extra",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_earlier_final",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "earlier_final",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_missing_all_round",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "missing_all_round",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "shape_final_messages_mismatch",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "final_messages_mismatch",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "adjacent_chunks_shared_BPE_episode",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "shared_BPE",
+      "expected_status": "measured",
+      "expected_class": "full_collapse"
+    },
+    {
+      "id": "shape_bool_return_replica",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "bool_return_replica",
+      "expected_status": "invalid_incomplete_episode",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "G_S_shared_BPE_rejected_episode",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "G_S_shared_BPE",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    }
+  ],
+  "gate_cases": [
+    "unissued_archive_mislabeled_synthetic",
+    "scope_contract_mismatch",
+    "unregistered_control",
+    "control_path_SHA_changed",
+    "mutated_final_messages",
+    "mutated_rendered_outside_G_S",
+    "mutated_token_ids_same_length",
+    "mutated_offsets_legal_range",
+    "template_mislabeled",
+    "registry_tamper",
+    "policy_tamper",
+    "runtime_code_tamper",
+    "standalone_run_classification",
+    "reissued_wrong_same_scope_contract",
+    "reissued_modified_runs",
+    "reissued_modified_receipt",
+    "reissued_wrong_source_root",
+    "reissued_wrong_queries",
+    "untrusted_renderer",
+    "reissued_control_wrong_queries",
+    "duplicated_control_repeat_receipt",
+    "mixed_control_identity_receipt",
+    "negative_source_probe_byte_identity"
+  ],
+  "extra_probes": [
+    "unmarked_reordered_success",
+    "BPE_shared_boundary",
+    "zero_width_special_token",
+    "old_empty_join_failure_new_success",
+    "g0_minus_1_boundary_retained",
+    "LCP_in_proven_glue",
+    "complete_S_preserved",
+    "ascii_encoding_dedup",
+    "overlapping_byte_occurrences"
+  ],
+  "binding_cases": [
+    "messages_last_request",
+    "raw_body_payload",
+    "rendered_outside_G_S",
+    "token_ids_same_length",
+    "offsets_legal_range",
+    "wrong_template"
+  ]
+}

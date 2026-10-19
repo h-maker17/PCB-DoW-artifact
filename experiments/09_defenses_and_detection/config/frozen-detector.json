@@ -1,0 +1,179 @@
+{
+  "schema": 1,
+  "frozen_unix": 1791349105.3918853,
+  "source_dataset_sha256": "90f5cb7dbc226c3b38c11f58fe97cb61c33f9b29f7e179bf3e01da20f8631758",
+  "selection": "maximum calibration TPR@empirical FPR<=1%, AUC tie break, then simpler; no test/evasion data",
+  "feature_order": [
+    "1-mean",
+    "1-min",
+    "below-.95-fraction",
+    "variance"
+  ],
+  "selected_model": {
+    "name": "joint-OR",
+    "type": "joint-OR",
+    "medians": [
+      0.04158346327808271,
+      0.0746136865342163,
+      0.25,
+      0.00043854695707578787
+    ],
+    "scales": [
+      0.2060814202600282,
+      0.2915140671992174,
+      0.4269562819149835,
+      0.009173504526181434
+    ]
+  },
+  "joint_thresholds": {
+    "0.01": 2.1540996190065824,
+    "0.05": 2.1540996190065824
+  },
+  "mean_benign_band": [
+    0.5316001143328789,
+    1.0
+  ],
+  "health_floor": 0.95,
+  "candidates": [
+    {
+      "name": "joint-OR",
+      "model": {
+        "name": "joint-OR",
+        "type": "joint-OR",
+        "medians": [
+          0.04158346327808271,
+          0.0746136865342163,
+          0.25,
+          0.00043854695707578787
+        ],
+        "scales": [
+          0.2060814202600282,
+          0.2915140671992174,
+          0.4269562819149835,
+          0.009173504526181434
+        ]
+      },
+      "thresholds": {
+        "0.01": 2.1540996190065824,
+        "0.05": 2.1540996190065824
+      },
+      "calibration_AUC": 1.0,
+      "calibration_TPR_1pct": 1.0,
+      "calibration_FPR_1pct": 0.0
+    },
+    {
+      "name": "joint-CART-depth3",
+      "model": {
+        "name": "joint-CART-depth3",
+        "type": "tree",
+        "depth": 3,
+        "root": {
+          "feature": 0,
+          "threshold": 0.7012983374177847,
+          "samples": 120,
+          "left": {
+            "probability": 0.0,
+            "samples": 90
+          },
+          "right": {
+            "probability": 1.0,
+            "samples": 30
+          }
+        }
+      },
+      "thresholds": {
+        "0.01": 0.0,
+        "0.05": 0.0
+      },
+      "calibration_AUC": 1.0,
+      "calibration_TPR_1pct": 1.0,
+      "calibration_FPR_1pct": 0.0
+    },
+    {
+      "name": "joint-CART-depth5",
+      "model": {
+        "name": "joint-CART-depth5",
+        "type": "tree",
+        "depth": 5,
+        "root": {
+          "feature": 0,
+          "threshold": 0.7012983374177847,
+          "samples": 120,
+          "left": {
+            "probability": 0.0,
+            "samples": 90
+          },
+          "right": {
+            "probability": 1.0,
+            "samples": 30
+          }
+        }
+      },
+      "thresholds": {
+        "0.01": 0.0,
+        "0.05": 0.0
+      },
+      "calibration_AUC": 1.0,
+      "calibration_TPR_1pct": 1.0,
+      "calibration_FPR_1pct": 0.0
+    }
+  ],
+  "single_models": {
+    "mean": {
+      "model": {
+        "type": "single",
+        "feature": 0
+      },
+      "thresholds": {
+        "0.01": 0.4683998856671211,
+        "0.05": 0.4683998856671211
+      }
+    },
+    "minimum": {
+      "model": {
+        "type": "single",
+        "feature": 1
+      },
+      "thresholds": {
+        "0.01": 0.6666666666666667,
+        "0.05": 0.6666666666666667
+      }
+    },
+    "below-floor": {
+      "model": {
+        "type": "single",
+        "feature": 2
+      },
+      "thresholds": {
+        "0.01": 1.0,
+        "0.05": 1.0
+      }
+    },
+    "variance": {
+      "model": {
+        "type": "single",
+        "feature": 3
+      },
+      "thresholds": {
+        "0.01": 0.020199189561878373,
+        "0.05": 0.020199189561878373
+      }
+    }
+  },
+  "H_relative_delta_threshold": 0.7087378640776699,
+  "counts": {
+    "train": {
+      "rows": 120,
+      "groups": 30
+    },
+    "calibration": {
+      "rows": 120,
+      "groups": 30
+    },
+    "test": {
+      "rows": 120,
+      "groups": 30
+    }
+  },
+  "scope": "strongest preregistered four-feature candidate on development data; no assertion of globally optimal detector"
+}

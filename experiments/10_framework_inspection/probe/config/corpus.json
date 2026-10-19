@@ -1,0 +1,15 @@
+{
+  "embedding":"sentence-transformers/all-MiniLM-L6-v2 (pinned model API revision and per-file SHA256 receipts)",
+  "device":"cpu",
+  "vector_index":"FAISS IndexFlatL2; normalized float32 embeddings; k=1 for construction controls; real recipe must retain its retrieval defaults and record any CPU-backend substitution",
+  "query":"What is the laboratory retention policy?",
+  "documents":[
+    "SCAN_CONTROL_G_614B_BEGIN The laboratory retention policy requires retaining audit records for seven years. Access requires two approvals. SCAN_CONTROL_G_614B_END",
+    "The cafeteria serves lunch at noon and closes at two in the afternoon.",
+    "The observatory telescope requires a monthly optics calibration."
+  ],
+  "history":"The prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.",
+  "history_repeats":24,
+  "control_tail":"[REPLICA_{replica:04d}]",
+  "note":"Synthetic declared local corpus; no retrieval-quality or task-quality claims. Control construction has known layout. Real adapters must preserve official recipe prompt positions."
+}

@@ -1,0 +1,1363 @@
+[
+  {
+    "id": "old_empty_join_failure_new_success",
+    "passed": true,
+    "evidence": [
+      {
+        "phase": "benign",
+        "template": "llama33",
+        "replica": 0,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "benign",
+        "template": "llama33",
+        "replica": 1,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "benign",
+        "template": "llama33",
+        "replica": 2,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "benign",
+        "template": "llama33",
+        "replica": 3,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "benign",
+        "template": "qwen3",
+        "replica": 0,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "benign",
+        "template": "qwen3",
+        "replica": 1,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "benign",
+        "template": "qwen3",
+        "replica": 2,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "benign",
+        "template": "qwen3",
+        "replica": 3,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "attacked",
+        "template": "llama33",
+        "replica": 0,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "attacked",
+        "template": "llama33",
+        "replica": 1,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "attacked",
+        "template": "llama33",
+        "replica": 2,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "attacked",
+        "template": "llama33",
+        "replica": 3,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "attacked",
+        "template": "qwen3",
+        "replica": 0,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "attacked",
+        "template": "qwen3",
+        "replica": 1,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "attacked",
+        "template": "qwen3",
+        "replica": 2,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      },
+      {
+        "phase": "attacked",
+        "template": "qwen3",
+        "replica": 3,
+        "old": {
+          "status": "ambiguous",
+          "occurrences": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "unmarked_reordered_success",
+    "passed": true,
+    "evidence": [
+      {
+        "G": {
+          "status": "ok",
+          "chars": [
+            133,
+            287
+          ],
+          "tokens": [
+            27,
+            53
+          ],
+          "native_chunk_locations": [
+            {
+              "chars": [
+                231,
+                287
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 0
+            },
+            {
+              "chars": [
+                178,
+                231
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 1
+            },
+            {
+              "chars": [
+                133,
+                178
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 2
+            }
+          ],
+          "reordered": true,
+          "gaps": [
+            {
+              "chars": [
+                178,
+                178
+              ],
+              "text": "",
+              "Unicode_codepoints": 0,
+              "UTF8_bytes": 0
+            },
+            {
+              "chars": [
+                231,
+                231
+              ],
+              "text": "",
+              "Unicode_codepoints": 0,
+              "UTF8_bytes": 0
+            }
+          ]
+        },
+        "S": {
+          "status": "ok",
+          "chars": [
+            304,
+            3443
+          ],
+          "tokens": [
+            56,
+            535
+          ]
+        },
+        "proof": {
+          "source_file": "sources/assembly_sources.py",
+          "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+          "assembly_expression_AST_sha256": "c20214620da04f8d2c7efe541029f1ca82e599042c032878435cea791dcde7f9",
+          "assembly_expression": "\"\".join(reversed(chunks))",
+          "native_field": "raw_chunks",
+          "call_key": "R0_C0000",
+          "source_replica": 0,
+          "target_replica": 0,
+          "request_round": 0,
+          "actual_model_message_field": [
+            "messages",
+            0,
+            "content"
+          ],
+          "model_field_sha256": "5f09eba6837a1d9bfe075fb0fa028e4bf650c419c7d038fd22cc32503f3f2587",
+          "source_generated_block_sha256": "c2f54fd2b9fbf6c72483a302815e22602e3c454df5855f5f34966bb4722ec5b9",
+          "rendered_sha256": "6cd9aaed1d8f491f3c94270e59d6b6fa1aea46ee435d88745e0544c7c57468f0",
+          "render_mappings": [
+            {
+              "render_codec": "identity",
+              "effective_chunk_codec": "identity",
+              "predicted_chunks": [
+                [
+                  2,
+                  [
+                    133,
+                    178
+                  ]
+                ],
+                [
+                  1,
+                  [
+                    178,
+                    231
+                  ]
+                ],
+                [
+                  0,
+                  [
+                    231,
+                    287
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "G": {
+          "status": "ok",
+          "chars": [
+            28,
+            182
+          ],
+          "tokens": [
+            5,
+            31
+          ],
+          "native_chunk_locations": [
+            {
+              "chars": [
+                126,
+                182
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 0
+            },
+            {
+              "chars": [
+                73,
+                126
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 1
+            },
+            {
+              "chars": [
+                28,
+                73
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 2
+            }
+          ],
+          "reordered": true,
+          "gaps": [
+            {
+              "chars": [
+                73,
+                73
+              ],
+              "text": "",
+              "Unicode_codepoints": 0,
+              "UTF8_bytes": 0
+            },
+            {
+              "chars": [
+                126,
+                126
+              ],
+              "text": "",
+              "Unicode_codepoints": 0,
+              "UTF8_bytes": 0
+            }
+          ]
+        },
+        "S": {
+          "status": "ok",
+          "chars": [
+            199,
+            3338
+          ],
+          "tokens": [
+            34,
+            517
+          ]
+        },
+        "proof": {
+          "source_file": "sources/assembly_sources.py",
+          "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+          "assembly_expression_AST_sha256": "c20214620da04f8d2c7efe541029f1ca82e599042c032878435cea791dcde7f9",
+          "assembly_expression": "\"\".join(reversed(chunks))",
+          "native_field": "raw_chunks",
+          "call_key": "R0_C0000",
+          "source_replica": 0,
+          "target_replica": 0,
+          "request_round": 0,
+          "actual_model_message_field": [
+            "messages",
+            0,
+            "content"
+          ],
+          "model_field_sha256": "5f09eba6837a1d9bfe075fb0fa028e4bf650c419c7d038fd22cc32503f3f2587",
+          "source_generated_block_sha256": "c2f54fd2b9fbf6c72483a302815e22602e3c454df5855f5f34966bb4722ec5b9",
+          "rendered_sha256": "67581195f557c8b1bb80400c3012f1744be59dfde241b22d01d693b3e4f51519",
+          "render_mappings": [
+            {
+              "render_codec": "identity",
+              "effective_chunk_codec": "identity",
+              "predicted_chunks": [
+                [
+                  2,
+                  [
+                    28,
+                    73
+                  ]
+                ],
+                [
+                  1,
+                  [
+                    73,
+                    126
+                  ]
+                ],
+                [
+                  0,
+                  [
+                    126,
+                    182
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "ascii_encoding_dedup",
+    "passed": true,
+    "evidence": [
+      {
+        "chars": [
+          7,
+          12
+        ],
+        "encodings": [
+          "identity",
+          "json_string_utf8"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "overlapping_byte_occurrences",
+    "passed": true,
+    "evidence": [
+      {
+        "chars": [
+          0,
+          3
+        ],
+        "encodings": [
+          "identity",
+          "json_string_utf8"
+        ]
+      },
+      {
+        "chars": [
+          1,
+          4
+        ],
+        "encodings": [
+          "identity",
+          "json_string_utf8"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zero_width_special_token",
+    "passed": true,
+    "evidence": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "complete_S_preserved",
+    "passed": true,
+    "evidence": [
+      {
+        "template": "llama33",
+        "complete_text_equal": true,
+        "S": {
+          "status": "ok",
+          "chars": [
+            304,
+            3443
+          ],
+          "tokens": [
+            57,
+            536
+          ]
+        },
+        "history_length": 3139,
+        "G": {
+          "status": "ok",
+          "chars": [
+            133,
+            287
+          ],
+          "tokens": [
+            27,
+            54
+          ],
+          "native_chunk_locations": [
+            {
+              "chars": [
+                133,
+                189
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 0
+            },
+            {
+              "chars": [
+                189,
+                242
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 1
+            },
+            {
+              "chars": [
+                242,
+                287
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 2
+            }
+          ],
+          "reordered": false,
+          "gaps": [
+            {
+              "chars": [
+                189,
+                189
+              ],
+              "text": "",
+              "Unicode_codepoints": 0,
+              "UTF8_bytes": 0
+            },
+            {
+              "chars": [
+                242,
+                242
+              ],
+              "text": "",
+              "Unicode_codepoints": 0,
+              "UTF8_bytes": 0
+            }
+          ]
+        }
+      },
+      {
+        "template": "qwen3",
+        "complete_text_equal": true,
+        "S": {
+          "status": "ok",
+          "chars": [
+            199,
+            3338
+          ],
+          "tokens": [
+            35,
+            518
+          ]
+        },
+        "history_length": 3139,
+        "G": {
+          "status": "ok",
+          "chars": [
+            28,
+            182
+          ],
+          "tokens": [
+            5,
+            32
+          ],
+          "native_chunk_locations": [
+            {
+              "chars": [
+                28,
+                84
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 0
+            },
+            {
+              "chars": [
+                84,
+                137
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 1
+            },
+            {
+              "chars": [
+                137,
+                182
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 2
+            }
+          ],
+          "reordered": false,
+          "gaps": [
+            {
+              "chars": [
+                84,
+                84
+              ],
+              "text": "",
+              "Unicode_codepoints": 0,
+              "UTF8_bytes": 0
+            },
+            {
+              "chars": [
+                137,
+                137
+              ],
+              "text": "",
+              "Unicode_codepoints": 0,
+              "UTF8_bytes": 0
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "BPE_shared_boundary",
+    "passed": true,
+    "evidence": [
+      {
+        "template": "llama33",
+        "text": "Antidisestablishmentarianism",
+        "actual_offsets": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            7,
+            16
+          ],
+          [
+            16,
+            20
+          ],
+          [
+            20,
+            25
+          ],
+          [
+            25,
+            28
+          ]
+        ],
+        "adjacent_chars": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "tokens": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "template": "qwen3",
+        "text": "Antidisestablishmentarianism",
+        "actual_offsets": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            7,
+            16
+          ],
+          [
+            16,
+            20
+          ],
+          [
+            20,
+            25
+          ],
+          [
+            25,
+            28
+          ]
+        ],
+        "adjacent_chars": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "tokens": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BPE_shared_boundary_complete_episode",
+    "passed": true,
+    "evidence": [
+      {
+        "template": "llama33",
+        "classification": {
+          "L_benign": 541,
+          "L_attacked": 31,
+          "signed_difference": 510,
+          "positive_loss": 510,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        },
+        "actual_adjacent_chunks": [
+          {
+            "chars": [
+              133,
+              138
+            ],
+            "encodings": [
+              "identity",
+              "json_string_utf8"
+            ],
+            "native_index": 0
+          },
+          {
+            "chars": [
+              138,
+              179
+            ],
+            "encodings": [
+              "identity",
+              "json_string_utf8"
+            ],
+            "native_index": 1
+          }
+        ],
+        "token_spans": [
+          [
+            27,
+            29
+          ],
+          [
+            28,
+            36
+          ]
+        ],
+        "shared_real_BPE_token": true
+      },
+      {
+        "template": "qwen3",
+        "classification": {
+          "L_benign": 525,
+          "L_attacked": 9,
+          "signed_difference": 516,
+          "positive_loss": 516,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        },
+        "actual_adjacent_chunks": [
+          {
+            "chars": [
+              28,
+              33
+            ],
+            "encodings": [
+              "identity",
+              "json_string_utf8"
+            ],
+            "native_index": 0
+          },
+          {
+            "chars": [
+              33,
+              74
+            ],
+            "encodings": [
+              "identity",
+              "json_string_utf8"
+            ],
+            "native_index": 1
+          }
+        ],
+        "token_spans": [
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            14
+          ]
+        ],
+        "shared_real_BPE_token": true
+      }
+    ]
+  },
+  {
+    "id": "frozen_AST_and_g0_minus_1_retained",
+    "passed": true,
+    "evidence": {
+      "locate": "3d6be85f33db295a6c093b65d62c0e560c68ca34940247a99353874e270484fd",
+      "token_lcp": "6418fa78326350a5f20d59ff46d5a9201dc58311962e86f0651a36434d1494ec",
+      "classify": "4d4bac95eb72b6588e557efdbfb92dbbb4c8fc9f30ebea73afbcf7514b703ace",
+      "pair_integrity": "c1954ec136b8979e61d0ffa04f6af351d0520f6e101ec0158ed96500e02c2be7",
+      "repeat_invariant": "49b7df873e198169eecfa6af0f9a695da6a3871601148031aefcb36fcf9f484d"
+    }
+  },
+  {
+    "id": "LCP_in_proven_glue",
+    "passed": true,
+    "evidence": [
+      {
+        "template": "llama33",
+        "classification": {
+          "L_benign": 566,
+          "L_attacked": 31,
+          "signed_difference": 535,
+          "positive_loss": 535,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        },
+        "G": {
+          "status": "ok",
+          "chars": [
+            133,
+            307
+          ],
+          "tokens": [
+            27,
+            66
+          ],
+          "native_chunk_locations": [
+            {
+              "chars": [
+                133,
+                134
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 0
+            },
+            {
+              "chars": [
+                197,
+                250
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 1
+            },
+            {
+              "chars": [
+                262,
+                307
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 2
+            }
+          ],
+          "reordered": false,
+          "gaps": [
+            {
+              "chars": [
+                134,
+                197
+              ],
+              "text": "\n\nSource 2: alpha beta gamma delta epsilon zeta eta theta iota\n",
+              "Unicode_codepoints": 63,
+              "UTF8_bytes": 63
+            },
+            {
+              "chars": [
+                250,
+                262
+              ],
+              "text": "\n\nSource 3: ",
+              "Unicode_codepoints": 12,
+              "UTF8_bytes": 12
+            }
+          ]
+        },
+        "attacked_G": {
+          "status": "ok",
+          "chars": [
+            154,
+            328
+          ],
+          "tokens": [
+            36,
+            75
+          ],
+          "native_chunk_locations": [
+            {
+              "chars": [
+                154,
+                155
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 0
+            },
+            {
+              "chars": [
+                218,
+                271
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 1
+            },
+            {
+              "chars": [
+                283,
+                328
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 2
+            }
+          ],
+          "reordered": false,
+          "gaps": [
+            {
+              "chars": [
+                155,
+                218
+              ],
+              "text": "\n\nSource 2: alpha beta gamma delta epsilon zeta eta theta iota\n",
+              "Unicode_codepoints": 63,
+              "UTF8_bytes": 63
+            },
+            {
+              "chars": [
+                271,
+                283
+              ],
+              "text": "\n\nSource 3: ",
+              "Unicode_codepoints": 12,
+              "UTF8_bytes": 12
+            }
+          ]
+        },
+        "L_attacked_offset": [
+          143,
+          144
+        ],
+        "LCP_in_gap": true
+      },
+      {
+        "template": "qwen3",
+        "classification": {
+          "L_benign": 550,
+          "L_attacked": 9,
+          "signed_difference": 541,
+          "positive_loss": 541,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        },
+        "G": {
+          "status": "ok",
+          "chars": [
+            28,
+            202
+          ],
+          "tokens": [
+            5,
+            44
+          ],
+          "native_chunk_locations": [
+            {
+              "chars": [
+                28,
+                29
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 0
+            },
+            {
+              "chars": [
+                92,
+                145
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 1
+            },
+            {
+              "chars": [
+                157,
+                202
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 2
+            }
+          ],
+          "reordered": false,
+          "gaps": [
+            {
+              "chars": [
+                29,
+                92
+              ],
+              "text": "\n\nSource 2: alpha beta gamma delta epsilon zeta eta theta iota\n",
+              "Unicode_codepoints": 63,
+              "UTF8_bytes": 63
+            },
+            {
+              "chars": [
+                145,
+                157
+              ],
+              "text": "\n\nSource 3: ",
+              "Unicode_codepoints": 12,
+              "UTF8_bytes": 12
+            }
+          ]
+        },
+        "attacked_G": {
+          "status": "ok",
+          "chars": [
+            49,
+            223
+          ],
+          "tokens": [
+            16,
+            55
+          ],
+          "native_chunk_locations": [
+            {
+              "chars": [
+                49,
+                50
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 0
+            },
+            {
+              "chars": [
+                113,
+                166
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 1
+            },
+            {
+              "chars": [
+                178,
+                223
+              ],
+              "encodings": [
+                "identity",
+                "json_string_utf8"
+              ],
+              "native_index": 2
+            }
+          ],
+          "reordered": false,
+          "gaps": [
+            {
+              "chars": [
+                50,
+                113
+              ],
+              "text": "\n\nSource 2: alpha beta gamma delta epsilon zeta eta theta iota\n",
+              "Unicode_codepoints": 63,
+              "UTF8_bytes": 63
+            },
+            {
+              "chars": [
+                166,
+                178
+              ],
+              "text": "\n\nSource 3: ",
+              "Unicode_codepoints": 12,
+              "UTF8_bytes": 12
+            }
+          ]
+        },
+        "L_attacked_offset": [
+          38,
+          39
+        ],
+        "LCP_in_gap": true
+      }
+    ]
+  },
+  {
+    "id": "full_binding_layer_direct_negative_controls",
+    "passed": true,
+    "evidence": [
+      {
+        "template": "llama33",
+        "mutation": "messages_last_request",
+        "rejected": true,
+        "reason": "messages_last_request_mismatch"
+      },
+      {
+        "template": "llama33",
+        "mutation": "raw_body_payload",
+        "rejected": true,
+        "reason": "raw_request_body_payload_mismatch"
+      },
+      {
+        "template": "llama33",
+        "mutation": "rendered_outside_G_S",
+        "rejected": true,
+        "reason": "complete_render_binding_mismatch:rendered"
+      },
+      {
+        "template": "llama33",
+        "mutation": "token_ids_same_length",
+        "rejected": true,
+        "reason": "complete_render_binding_mismatch:token_ids"
+      },
+      {
+        "template": "llama33",
+        "mutation": "offsets_legal_range",
+        "rejected": true,
+        "reason": "complete_render_binding_mismatch:offsets"
+      },
+      {
+        "template": "llama33",
+        "mutation": "wrong_template",
+        "rejected": true,
+        "reason": "complete_render_binding_mismatch:rendered"
+      },
+      {
+        "template": "qwen3",
+        "mutation": "messages_last_request",
+        "rejected": true,
+        "reason": "messages_last_request_mismatch"
+      },
+      {
+        "template": "qwen3",
+        "mutation": "raw_body_payload",
+        "rejected": true,
+        "reason": "raw_request_body_payload_mismatch"
+      },
+      {
+        "template": "qwen3",
+        "mutation": "rendered_outside_G_S",
+        "rejected": true,
+        "reason": "complete_render_binding_mismatch:rendered"
+      },
+      {
+        "template": "qwen3",
+        "mutation": "token_ids_same_length",
+        "rejected": true,
+        "reason": "complete_render_binding_mismatch:token_ids"
+      },
+      {
+        "template": "qwen3",
+        "mutation": "offsets_legal_range",
+        "rejected": true,
+        "reason": "complete_render_binding_mismatch:offsets"
+      },
+      {
+        "template": "qwen3",
+        "mutation": "wrong_template",
+        "rejected": true,
+        "reason": "complete_render_binding_mismatch:rendered"
+      }
+    ]
+  },
+  {
+    "id": "G_S_shared_BPE_rejected_complete_episode",
+    "passed": true,
+    "evidence": [
+      {
+        "template": "llama33",
+        "G": {
+          "status": "ambiguous",
+          "reason": "G_S_token_overlap",
+          "diagnostic_envelope": {
+            "chars": [
+              133,
+              271
+            ],
+            "tokens": [
+              27,
+              50
+            ],
+            "gaps": [
+              {
+                "chars": [
+                  189,
+                  189
+                ],
+                "text": "",
+                "Unicode_codepoints": 0,
+                "UTF8_bytes": 0
+              },
+              {
+                "chars": [
+                  242,
+                  242
+                ],
+                "text": "",
+                "Unicode_codepoints": 0,
+                "UTF8_bytes": 0
+              }
+            ],
+            "rendered_native_order": [
+              0,
+              1,
+              2
+            ]
+          }
+        },
+        "S": {
+          "status": "ok",
+          "chars": [
+            271,
+            3410
+          ],
+          "tokens": [
+            49,
+            528
+          ]
+        },
+        "classifier": {
+          "L_benign": 546,
+          "L_attacked": 31,
+          "signed_difference": 515,
+          "positive_loss": 515,
+          "class": "ambiguous",
+          "reason": "G-split/missing/multiple or sentinel missing"
+        }
+      },
+      {
+        "template": "qwen3",
+        "G": {
+          "status": "ambiguous",
+          "reason": "G_S_token_overlap",
+          "diagnostic_envelope": {
+            "chars": [
+              28,
+              166
+            ],
+            "tokens": [
+              5,
+              28
+            ],
+            "gaps": [
+              {
+                "chars": [
+                  84,
+                  84
+                ],
+                "text": "",
+                "Unicode_codepoints": 0,
+                "UTF8_bytes": 0
+              },
+              {
+                "chars": [
+                  137,
+                  137
+                ],
+                "text": "",
+                "Unicode_codepoints": 0,
+                "UTF8_bytes": 0
+              }
+            ],
+            "rendered_native_order": [
+              0,
+              1,
+              2
+            ]
+          }
+        },
+        "S": {
+          "status": "ok",
+          "chars": [
+            166,
+            3305
+          ],
+          "tokens": [
+            27,
+            510
+          ]
+        },
+        "classifier": {
+          "L_benign": 530,
+          "L_attacked": 9,
+          "signed_difference": 521,
+          "positive_loss": 521,
+          "class": "ambiguous",
+          "reason": "G-split/missing/multiple or sentinel missing"
+        }
+      }
+    ]
+  }
+]

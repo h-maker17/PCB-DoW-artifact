@@ -1,0 +1,941 @@
+[
+  {
+    "task": "hotpotqa",
+    "id": "fc6267db9ba02bbb251960231bc87251c581110e4e2b5f3f",
+    "question": "Which case was brought to court first Miller v. California or Gates v. Collier ?",
+    "answers": [
+      "Miller v. California"
+    ],
+    "context_sha256": "b23bc40ec16fa2d3faa3cfab7a87d623405d8ad80424ac0d8a61a5ddc938a33a"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "d542fcd45bbf5112eee9127f04ae060a887c8ef2050aa160",
+    "question": "The actor that plays Phileas Fogg in \"Around the World in 80 Days\", co-starred with Gary Cooper in a 1939 Goldwyn Productions film based on a novel by what author?",
+    "answers": [
+      "Charles L. Clifford"
+    ],
+    "context_sha256": "68cff0832c1b8bf9b932a9cc510bd4e43ac1bc23016e55e42d226e3d189b0f93"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "cb9214532284b8202912b1b75592832daef0b109593185a0",
+    "question": "Prior to playing for Michigan State, Keith Nichol played football for a school located in what city?",
+    "answers": [
+      "Norman"
+    ],
+    "context_sha256": "f90639857bddc7f72ffb07d6e79b388109b65dcf941c73f55d1eae877a0f9afc"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "105e7f4d337799315ddf870acc4ff2a62a1e6cdf489086cd",
+    "question": "Gary L. Bennett was a part of the space missions that have a primary destination of what celestial body?",
+    "answers": [
+      "Sun"
+    ],
+    "context_sha256": "9ea53c9644796518e9ee3afae0ef865484b671616607e0de4249bf96f7adf846"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "5ff08452b84748458e71d82a6d387599969311fd61cd8fd1",
+    "question": "Was Atom Egoyans biggest commercial success on stage or on film?",
+    "answers": [
+      "erotic thriller film"
+    ],
+    "context_sha256": "327ccfe29751588a4b49a16a61d40eb88563f9baab5e44a71887cf8177c83c69"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "97b31d6d7a9137c220726ad51a6dca3e957e2c94ce5e65b8",
+    "question": "Celebrity Fifteen to One has had more than one appearance by an English writer and former Conservative Member of what?",
+    "answers": [
+      "Parliament"
+    ],
+    "context_sha256": "63d8fe5525180e3251dd3146bd68c989b10dfacddc8879098d94eb2becfa81bf"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "11a7ad9d646184c16480376226d58f1b2754b095563c8344",
+    "question": "Thirukkalacherry is a village in which Indian town?",
+    "answers": [
+      "Tharangambadi"
+    ],
+    "context_sha256": "ad6cb36e7de595bf0162f3d87748d1873e58e3064508af573754f2b59fc9fdc5"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "3dd1ade26fd583844dd2af051d61eb20856ccc8e23abae59",
+    "question": "Which is a flowering plant, Pueraria or Pleiospilos?",
+    "answers": [
+      "Pleiospilos"
+    ],
+    "context_sha256": "d7750424684653200daa72d70ed99e8a55d95fee98fa716f85336395b62fb532"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "f039fe9cc81a0a312f9899beca2fe26b710bf8c3aa23a4d9",
+    "question": "After Russell D. Moore served at the Southern Baptist Theological Seminary he became the President of The Ethics & Religious Liberty Commission (ERLC) in what year?",
+    "answers": [
+      "2013"
+    ],
+    "context_sha256": "2081d8d844c408521d89d111a929e1faeaf9c1c57c74e27d5b7ecadc0633e6be"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "a30caa5dafcc37835bfe4093f129017adf4c814e9016e10d",
+    "question": "For which band, was the female member of Fitz and The Tantrums, the front woman for ten years ?",
+    "answers": [
+      "The Rebirth"
+    ],
+    "context_sha256": "6cab4e766c26a23a1c03b292678b362784150cc3ed97750a38e6c71f6e30f4ca"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "72feb2a8e5b92548a357bfc11e94050464f93f1ce286418c",
+    "question": "When was the American singer, songwriter, record producer, dancer and actress born who's second studio album is Chapter II?",
+    "answers": [
+      "October 13, 1980"
+    ],
+    "context_sha256": "39aecd2c50fb2fa81886a2299505ef507dcac11d903e841d0fac78c618fddc49"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf",
+    "question": "The Greatest Event in Television History aired on the channel that was founded by whom?",
+    "answers": [
+      "Betty Cohen"
+    ],
+    "context_sha256": "d2f1cf671fe34bd6f848636b85aaad3ff8945f144725a444d4be10fac740eba3"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "21bc398556b5612bf0437043cd2800e943bab5929c4bccc5",
+    "question": "Who starred in her final film role in the 1964 film directed by the man who also did Vera Cruz and Kiss Me Deadly?",
+    "answers": [
+      "Mary Astor"
+    ],
+    "context_sha256": "7c8311a7af1242a7e21f2f31212cc74aa5cb5df3ecbc8a0ba03950cbf88d8560"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "e0998dbc2db68c7b18adff7fcc67081acc865c974b721312",
+    "question": "Finally includes the song that peaked at what on the US Hot 100",
+    "answers": [
+      "number five"
+    ],
+    "context_sha256": "ef58d41d47727571aeb50b935d95bb58cd5c485c4143b470ff713d05ee73fbac"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "139d2fcf8763003414ebd0187eb30b94930de13c4ab754a0",
+    "question": "What are some other areas that share a common deer species with the forests of Mara and Mondrem?",
+    "answers": [
+      "New Zealand, Canada, the United States, the Falkland Islands, and Peru."
+    ],
+    "context_sha256": "3bc44bfeced62c7b7945cd6a4b55b713f5777781fc415f7f06b48af5943aa6ac"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "c261ca6aeaf366815232e91db1ef4dc8408cec3750c38ee9",
+    "question": "Professional cyclist Sara Symington competed in which Olympic Games held in Sydeney, Australia?",
+    "answers": [
+      "2000 Summer Olympic Games"
+    ],
+    "context_sha256": "3459ca9cb90b6ebb9fc36cbb7bce91fb97113c953dcce332b1015f04446ea281"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "ab016faac478c4acc6e9ed3ed87f9e29dbed47fd946be244",
+    "question": "Which retired Argentine footballer who played as a forward was a main player for Valencia CF?",
+    "answers": [
+      "Claudio Javier López"
+    ],
+    "context_sha256": "421c4fe49d037a502925197822bfa914cdf04496eef2e030ddc295caab7a4059"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "cae319fad2385d30d79efac0fb61e58518fbdc0703be3b0f",
+    "question": "What actor was also a president that Richard Darman worked with when they were in office?",
+    "answers": [
+      "George H. W. Bush"
+    ],
+    "context_sha256": "b575dc3328a586028e77ffee27a1996c7491be938564b7493e6a0311ffed9319"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "e4df9576e5cd102024e81baf94a43325335d0ba2d8892041",
+    "question": "The song that came out ahead of The Wanted's \"Lightning\" on the UK Singles Chart was featured on which album?",
+    "answers": [
+      "\"Talk That Talk\""
+    ],
+    "context_sha256": "71bbfaca1d7a72ce79fe54b2dcb0fc71ea02268d384b4e405bad7a685736b985"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "5e3362de0244d2b96c83958c4d3229151999292c369b0197",
+    "question": "Name a member of a British-American supergroup who recored a version of Nobody's child in 1990",
+    "answers": [
+      "Bob Dylan"
+    ],
+    "context_sha256": "815cc08a36dcbc8705f5a0bb8468f64db02f18f79355c34200ea3f879306a74f"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "fda38e0c47dcd2b4f1de4adefeb00ab431221c0ef9adeb31",
+    "question": "What Friday night programming block included what collective series that includes \"Whatever Happened to... Robot Jones?\"?",
+    "answers": [
+      "Cartoon Cartoon Fridays"
+    ],
+    "context_sha256": "308ec98f662ce5f4b01ff3fbc3c3e9c52dbf54c44e13b2b0dadfc063e260d315"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "ef245cc27251f559f3cd900c11c7bf9f303eec3c4b346802",
+    "question": "Where does the city situated where Kellyville Ridge is located?",
+    "answers": [
+      "on the Cumberland Plain"
+    ],
+    "context_sha256": "2dd3770cec82432e11d27b6e534bfd485a2d8d3521fc6c7c22a1582d0d4462b1"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "3a75aba6bc2496016339474aef28ffdc9dbebdc00ccc166b",
+    "question": "Oak Beach, New York and Great South Bay are both situated between what same island?",
+    "answers": [
+      "Long Island"
+    ],
+    "context_sha256": "94505240b06477ef4c189a3624ce4ebd33e0aee49cc7b6a0046495eed7f1e5ea"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "3dc3db870ea907282d3160c597c4d618ae6ba2a6bdd712bb",
+    "question": "Who is a guest in the final two episodes of season eighteen of South Park?",
+    "answers": [
+      "PewDiePie"
+    ],
+    "context_sha256": "da7bdaf9a5a49760d23ddd1662bb048ab06746588f0adba2a91dd63798931d8c"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "26a5366c80c3a569c474a3990f3383beb125d34149e8ed3e",
+    "question": "Robbie Tucker plays in what series that follows a group of friends who run an Irish bar?",
+    "answers": [
+      "It's Always Sunny in Philadelphia"
+    ],
+    "context_sha256": "3eb8e30d28b06c3fd0020e51d5414d5f167f535c41a430f3edf40e9add6bc224"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "6eafb48c7a974b5097cb4752eb3853dbac8f622173d24e44",
+    "question": "High School Confidential, an eight part documentary followed twelve high school teenagers from a high school in Overland Park, Kansas that ranked what in the 2009 Newsweek ranking of the top 1,500 high schools in the United States?",
+    "answers": [
+      "#364"
+    ],
+    "context_sha256": "5c57ca23237505a0d8d32813a8e0c079a80dfe54fc9a6ef652c001ab4120d2b9"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "1ceb1c91662d241b3421853112a91b5868d1b81fe3b88ce4",
+    "question": "The large subunit and small subunit that use two types of RNA are major components that make up what?",
+    "answers": [
+      "Ribosomes"
+    ],
+    "context_sha256": "86b359e8aa68e559018e4f380088b9979332d5ab3c0b3d20573440e3e51bd648"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "7e525340152c2f4b26d7fba85c680dde7b75af77356a7c22",
+    "question": "Whiich genus has more species, Dracula or Pistacia?",
+    "answers": [
+      "Dracula"
+    ],
+    "context_sha256": "6902e0e467bd66d24a1ac2ffa9596a31a241ca699448762b095d0f42fa34c820"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "b6352c61b4a748448ce38882861cd5ae5f7f2869a81e92a1",
+    "question": "Band-e-Amir Dragons is named after the lakes in which Afghan national park?",
+    "answers": [
+      "Band-e Amir National Park"
+    ],
+    "context_sha256": "196b2d8699b94fcefbe33c939d35939187116ab2135d7087f82ad6eae381f8e6"
+  },
+  {
+    "task": "hotpotqa",
+    "id": "4b83e873a551cd83a2e409d2b4467f74dd332326fcbca843",
+    "question": "The 1958 Pro Bowl was played at the California stadium that is the home for which college?",
+    "answers": [
+      "University of Southern California"
+    ],
+    "context_sha256": "f090e95c23a0d2365942f1f0c392c85903da8e4597e8d1afd6c159e9c0a01bf0"
+  },
+  {
+    "task": "triviaqa",
+    "id": "bf1556b2b68228cd71538d898121398f8e47fbaa45c6f717",
+    "question": "Which group had a number one hit in 2009 with 'I Gotta Feeling'?",
+    "answers": [
+      "The Black Eyed Peas",
+      "Yesterday (The Black Eyed Peas song)",
+      "Black Eyed Peas",
+      "Instant def",
+      "The Black-Eyed Peas",
+      "The black eyed peas",
+      "Black Eyed Peas (band)",
+      "TBEP",
+      "Roots to Fruits",
+      "Black eyed peas (band)",
+      "Black-Eyed Peas",
+      "Black Eyed Peas, The",
+      "Black Eyed peas (group)",
+      "Black eyed pees",
+      "BLACK EYED PEAS",
+      "Black-eyed Peas",
+      "Yesterday (The Black Eyed Peas)",
+      "Black Eye Peas"
+    ],
+    "context_sha256": "c4e69b51e8a6ac2d346bec077b42b98d041fbe2dec3ec6bd06682da60a4bab06"
+  },
+  {
+    "task": "triviaqa",
+    "id": "27a3112482b43aa286477c3362da80a443743554f95cb79c",
+    "question": "Artiodactyla Suidae is the scientific name for which farm animal?",
+    "answers": [
+      "Chazer",
+      "Piggeh",
+      "Sus (genus)",
+      "Pig",
+      "Pigs",
+      "🐷",
+      "🐖",
+      "🐽"
+    ],
+    "context_sha256": "a50665ff570508672b81da44a05d9f6bc70d84d89aba7a84a8415188bce39ea2"
+  },
+  {
+    "task": "triviaqa",
+    "id": "e72d3db98c747a77e8daeaeadb198a6037059a23a1ea6160",
+    "question": "What name is given to the soft spots on a baby's head which, during birth, enable the bony plates of the skull to flex allowing the child's head to pass through the birth canal?",
+    "answers": [
+      "Fonticulus",
+      "Fontanel",
+      "Soft spot",
+      "Fonticuli cranii",
+      "Fontanell",
+      "Fontanelle",
+      "Depressed fontanelle",
+      "Fontanelles",
+      "FONTANELLE",
+      "Soft spots",
+      "Fonticuli",
+      "Fontanels"
+    ],
+    "context_sha256": "4015cd566df7fcba48e92ce331b59464cc4a17a64d704c27e34935ba45844faa"
+  },
+  {
+    "task": "triviaqa",
+    "id": "a76d6efca6c7f441949a1d0773716e73ca61720ddebe4444",
+    "question": "A novel by General Lew Wallace published in 1880 was made into which films in 1926 (a silent movie) and 1959 (produced by William Wyler)?",
+    "answers": [
+      "Ben hur",
+      "Ben-Hur (film)",
+      "Ben hurr",
+      "Ben-hur",
+      "Ben-Hur (disambiguation)",
+      "Ben Hurr",
+      "Ben-Hur",
+      "Ben Hur"
+    ],
+    "context_sha256": "bcce11620dd2b07b5c392b75d44cf712e1a6003ced451af0ec5a9bae345bad5d"
+  },
+  {
+    "task": "triviaqa",
+    "id": "1561a2d83c6647ccf04c593c3ab6ebe9b06da5b36d18abd5",
+    "question": "Which disease of the central nervous system is named after the Englishman who wrote 'An Essay on the Shaking Palsy'?",
+    "answers": [
+      "Notable sufferers of parkinson's disease",
+      "Symptoms of parkinson's disease",
+      "Signs of parkinson's disease",
+      "Parkinsons",
+      "Pakinson's Disease",
+      "Parkinson's",
+      "Parkinsonism, primary",
+      "Parkinston's disease",
+      "Shaking Palsy",
+      "Hypokinetic rigid syndrome",
+      "Motor symptoms of Parkinson's disease",
+      "Parkinson's disease and Diet",
+      "Morbus Parkinson",
+      "Motor symptoms parkinson's disease",
+      "Parkinsonians",
+      "Antiparkinsonism",
+      "Shaking palsy",
+      "Parkinson’s",
+      "Neuropsychiatric symptoms of parkinson's disease",
+      "Epidemiology of parkinson's disease",
+      "History of parkinson's disease",
+      "Parkinson’s Disease",
+      "Parkinsons' disease",
+      "Diagnosis of parkinson's disease",
+      "Prognosis of parkinson's disease",
+      "Parkinson disease",
+      "Parkinsons Disease",
+      "Traumatic Parkinson's",
+      "Parkinson's disease research directions",
+      "Parkinson's Disease",
+      "Causes of parkinson's disease",
+      "Research directions in parkinson's disease",
+      "Parkinston’s disease",
+      "Parkinson's disease",
+      "Parkinson’s disease",
+      "Pathophysiology of parkinson's disease",
+      "Parkinsons' Disease",
+      "Classification of parkinson's disease",
+      "Parkinsons disease",
+      "Parkinsonian tremor",
+      "Research directions of parkinson's disease",
+      "Paralysis agitans",
+      "Parkinsonian tremors",
+      "Genetic causes of parkinson's disease",
+      "Parkinson facies"
+    ],
+    "context_sha256": "f66ea3fc3a45758ad3c05e4372c18319b4288dabe6fa19bf47a867de0962371a"
+  },
+  {
+    "task": "triviaqa",
+    "id": "083f966d9057da4c3d8ad60d9f3edd6c6d9b78e902b422b1",
+    "question": "What was the name of the 'Birdman of Alcatraz'?",
+    "answers": [
+      "Birdman of Alcatrez",
+      "Della Mae Jones",
+      "The alcatraz bird man",
+      "Robert Franklin Stroud",
+      "Birdman Of Alcatraz",
+      "Bird Man of Alcatraz",
+      "Robert Stroud",
+      "ROBERT STROUD",
+      "The Birdman of Alcatraz",
+      "Birdman of Alcatraz"
+    ],
+    "context_sha256": "733f7108b055dd15a488b4871c75cd2dbf4a885925ef301248ba91d959b03f4f"
+  },
+  {
+    "task": "triviaqa",
+    "id": "6ebc860d3b3488f1b4fdf04ed5bd953a699da063f62b32e1",
+    "question": "In which classic novel does the character Queequeg appear?",
+    "answers": [
+      "Fedallah",
+      "Timor Tim",
+      "Dagoo",
+      "Moby-Dick: Captain Ahab",
+      "Moby Dick; or, The Whale",
+      "Ahab's Wife, Or, The Star-Gazer",
+      "Moby-dick",
+      "Moby Dick: Captain Ahab",
+      "Fast-Fish and Loose-Fish",
+      "Tashtego",
+      "Call me Ishmael",
+      "Moby-Dick (character)",
+      "Moby-Dick",
+      "Moby-Dick; or, The White Whale",
+      "Starbuck: Moby Dick",
+      "Moby dick",
+      "Moby-Dick; or, The Whale",
+      "Moby Dick (Novel)",
+      "Starbuck (Moby-Dick)",
+      "Ahabian",
+      "Moby Dick",
+      "MobyDick",
+      "Moby-Dick (novel)"
+    ],
+    "context_sha256": "1e77b7c15f84d605a2ad771150b405bb4e61294201d60a97899cfb08ab2053d5"
+  },
+  {
+    "task": "triviaqa",
+    "id": "61dd0325b82ea97a7b6700acf7f12662ddfaa88d785c9a31",
+    "question": "The advance south into England by Bonnie Prince Charlie in 1745 reached approximately as far as the Swarkstone Bridge on which major English River?",
+    "answers": [
+      "Trent",
+      "Trent (disambiguation)",
+      "TRENT"
+    ],
+    "context_sha256": "e44722a9c06348c55e6e341a669587143be57ae77853c48fb035fd6ae2a8b1bd"
+  },
+  {
+    "task": "triviaqa",
+    "id": "7477cce4e63c5782f5696469687bc0d8be9ca1b57a1a8274",
+    "question": "Who was the choreographer of the dance troupe Hot Gossip?",
+    "answers": [
+      "Arlene Philips",
+      "Arlene Phillips"
+    ],
+    "context_sha256": "a80c2ca25079ab11a85698c5f1a91de4343acb69895fe9449cdb9ac267dde88e"
+  },
+  {
+    "task": "triviaqa",
+    "id": "bd8d4b03fbbe4065a646b560f2779f3ed36a6d531ebf9181",
+    "question": "Which Roman coin was equivalent in value to four sesterces?",
+    "answers": [
+      "Denarius",
+      "Dinarius",
+      "Denarii",
+      "𐆖"
+    ],
+    "context_sha256": "c232d57b74de3a8251aeca569d7e121f46d26bbf716fc6ca55012a4e43e2a711"
+  },
+  {
+    "task": "triviaqa",
+    "id": "e12e382762b2f04c141b620a8ebca521a59d9b087216a0c9",
+    "question": "Who were the first ever winners of the FA Cup, in 1872?",
+    "answers": [
+      "The Wanderer",
+      "Wanderer (disambiguation)",
+      "The Wanderer (album)",
+      "Wanderer",
+      "Wanderer (album)",
+      "The Wanderer (song)",
+      "Wanderers",
+      "The Wanderer (disambiguation)",
+      "WANDERERS",
+      "The wanderers",
+      "The Wanderers",
+      "The Wanderer (novel)",
+      "The Wanderers (novel)"
+    ],
+    "context_sha256": "4711d05a610a01ed2430e243515a48ad37ef0889cd6269e314048caec6eee240"
+  },
+  {
+    "task": "triviaqa",
+    "id": "d66ff6f451adf1f6a0b857c0252dc081f0aab171d8d28151",
+    "question": "\"Which artist was known as \"\"Jack the Dripper'?\"",
+    "answers": [
+      "Paul Jackson Pollock",
+      "Pollock, Jackson",
+      "Number 1 (painting)",
+      "Jack the Dripper",
+      "Lavender Mist",
+      "Jackson pollock",
+      "Jackson Polluck",
+      "Jackson Pollock",
+      "Jackson Pollack",
+      "One: Number 31",
+      "Number 1 (Jackson Pollock)",
+      "Pollockian"
+    ],
+    "context_sha256": "210206a7c639abeb5752ffbdec5ad91547fff7e59796e8872e5675d7da04d075"
+  },
+  {
+    "task": "triviaqa",
+    "id": "e8ee92ef3ce909dc1f4c0f44e6ad315e33ee06470a95cb7d",
+    "question": "Which word can mean a unit of measurement of a small island?",
+    "answers": [
+      "English inch",
+      "Inch (unit)",
+      "International inch",
+      "Decimal inch",
+      "U.S. survey inch",
+      "Inches",
+      "Ynch",
+      "㏌",
+      "Scottish inch",
+      "Decimal Inch",
+      "Inch (Scottish length)",
+      "Inch",
+      "Inch (length)",
+      "Inch (Scots)",
+      "Scots inch",
+      "In (unit)"
+    ],
+    "context_sha256": "8cae89992083f92e70a2768ff56811d46a35bef8a3277e66feb1c555815d32fb"
+  },
+  {
+    "task": "triviaqa",
+    "id": "9db8d568e23c49da19f66f2522e1fd988c88cb485bd303fd",
+    "question": "Which aperitif is named for the Paris chemist who created it in 1846?",
+    "answers": [
+      "Dubonnet",
+      "DuBonnet",
+      "Queen Elizabeth's favourite drink"
+    ],
+    "context_sha256": "1fdeed478b371dfea832a45988796a47fa6963ebbb378e334b25a935001cda5f"
+  },
+  {
+    "task": "triviaqa",
+    "id": "1f273fc7790ace52010907475860f709f29586961abf7abc",
+    "question": "Who was the first emperor of Rome?",
+    "answers": [
+      "GAIVS•IVLIVS•CAESAR•OCTAVIANVS",
+      "Julius Caesar Octavianus",
+      "Gaius Julius Caesar Octavianus",
+      "GAIVS*IVLIVS*CAESAR*OCTAVIANVS",
+      "Ceasar Augustus",
+      "Gaius Octavius Thurinus",
+      "Augustus Octavian Caesar",
+      "Octavious",
+      "Agustus",
+      "Augustus",
+      "Octavian Caesar",
+      "Caesar Octavian",
+      "IMPERATOR•CAESAR•DIVI•FILIVS•AVGVSTVS",
+      "Avgvstvs",
+      "Octavianus",
+      "Octavian Augustus",
+      "Augustus Ceasar",
+      "Augusts Caesar",
+      "Coinage reform of Augustus",
+      "Augustus Caesar",
+      "Emperor Augustus",
+      "Emperor Augustus of Rome",
+      "Gaius Julius Caesar Augustus",
+      "IMPERATOR*CAESAR*DIVI*FILIVS*AVGVSTVS",
+      "Octavius Caesar",
+      "Roman Emperor Augustus",
+      "Augustus, Emperor of Rome",
+      "Octavius",
+      "Octavian",
+      "Gaius Julius Caesar Octavanius Augustus",
+      "Augustan reform",
+      "Caesar Octavianus",
+      "Gaius Octavius Augustus",
+      "Octavianus Augustus",
+      "Cæsar Augustus",
+      "Octavian Augustus Caesar",
+      "Caesar Augustus"
+    ],
+    "context_sha256": "01fb0133fed2addead18c18f5254dfc67142eeaf4bd9d191ebad2656472301fb"
+  },
+  {
+    "task": "triviaqa",
+    "id": "23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b",
+    "question": "\"Who dubbed the singing voice for Audrey Hepburn in the film version of \"\"My Fair Lady\"\"?\"",
+    "answers": [
+      "Marnie Nixon",
+      "Marni Nixon"
+    ],
+    "context_sha256": "8b961d15e822a656927e0c61ef71d3fb8f355e59651cca7387be3f5bf3a30800"
+  },
+  {
+    "task": "triviaqa",
+    "id": "43685bc8cc3a8130145610c0841816de3d874dea513bab88",
+    "question": "For which film in 1951, starring Marlon Brando, did Karl Malden win the Oscar as Best Supporting Actor?",
+    "answers": [
+      "A Streetcar named Desire",
+      "A streetcar called desire",
+      "Streetcar Named Desire",
+      "A Streetcar Named Desire",
+      "A Street car named desire",
+      "A Streetcar Named Desire (film)",
+      "A Streetcar Named Desire (disambiguation)",
+      "A STREETCAR NAMED DESIRE",
+      "Street Car Named Desire"
+    ],
+    "context_sha256": "e028ef04379f9490b07328e8a1efdf7df605ac386ac707010d17bb8f2bb5e848"
+  },
+  {
+    "task": "triviaqa",
+    "id": "f7ddb0b337bd11fbd252911d5ac124b0f2243b7d599e8ccf",
+    "question": "In what year was Band-Aid's Do They Know It's Christmas the UK Christmas chart-topping record (bonus point each for the years of reissue success by Band Aid II and Band Aid 20)?",
+    "answers": [
+      "1984",
+      "one thousand, nine hundred and eighty-four"
+    ],
+    "context_sha256": "975cc9584ae1bbf9f39f64c2a9ed6384b0d4c0aa9d8535dac702ca6bb4e7f549"
+  },
+  {
+    "task": "triviaqa",
+    "id": "99ec5bf16cc7ececd816ee3acb8cb07be56e6a95f1b1f111",
+    "question": "The Alfred Hitchcock films Rebecca and The Birds were based on novels by which author?",
+    "answers": [
+      "Lady Browning",
+      "Daphne Du Maurier",
+      "Daphne de Maurier",
+      "Daphne du Maurier",
+      "Du Maurier, Daphne",
+      "Dame Daphne du Maurier",
+      "Daphne du maurier",
+      "DAPHNE DU MAURIER",
+      "Daphne Dumaurier",
+      "Dame Daphne Du Maurier",
+      "Dame Daphne du Maurier, Lady Browning DBE",
+      "Dame Daphne du Maurier, Lady Browning"
+    ],
+    "context_sha256": "fb0387fdff7974f50736847f2b07f17a59eea9e26517b21b63a6072e528dd85f"
+  },
+  {
+    "task": "triviaqa",
+    "id": "d6b9e82e303b1a66609c967bdd1afb0b12afd18642788e18",
+    "question": "What is the name of the character played by actor Nicholas Lyndhurst in the British television series ‘Goodnight Sweetheart’?",
+    "answers": [
+      "Phoebe Sparrow",
+      "Gary sparrow",
+      "Donald Bamford",
+      "Gary Sparrow",
+      "Phoebe Bamford",
+      "List of Goodnight Sweetheart characters",
+      "Reg Deadman",
+      "Ron Wheatcroft",
+      "Yvonne Sparrow"
+    ],
+    "context_sha256": "b3a80c9e976e2f136fe78376924af79ae62378fe6763635d9d02e9faee018e5c"
+  },
+  {
+    "task": "triviaqa",
+    "id": "9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b",
+    "question": "Which is the highest waterfall in the world?",
+    "answers": [
+      "Kerepakupai-Merú",
+      "Kerepakupai Merú",
+      "Salto Ángel",
+      "Kerepakupai-merú",
+      "Kerepakupai-Meru",
+      "Churun Merú",
+      "Highest Waterfall",
+      "Kerepakupai Meru",
+      "Kerepakupai merú",
+      "Parakupa-vena",
+      "Kerepakupai meru",
+      "Devil's mouth",
+      "Kerepakupai-meru",
+      "The Angel Falls",
+      "Angel falls",
+      "Salto Angel",
+      "Angel Falls"
+    ],
+    "context_sha256": "a06d30e04f9b18095bcaa3feee34c3fb09f51684fa247bda1c311a8ddcc73962"
+  },
+  {
+    "task": "triviaqa",
+    "id": "479484905f84b59a8459804f54db2315c0d136bde0260424",
+    "question": "What de-facto independent country does China claim ownership of?",
+    "answers": [
+      "Zhonghua Minguo",
+      "Republic of China",
+      "Taiwan country",
+      "Tawian",
+      "China, the Republic of",
+      "China (Taiwan)",
+      "Tai-Wan",
+      "Ilha formosa",
+      "Chung-hua Min-kuo",
+      "Republic of China(Taiwan)",
+      "臺灣",
+      "Ts'ai Tai-wan te Chung-hua Min-kuo",
+      "Taioaan",
+      "R.O.C",
+      "Tâi-oân",
+      "ISO 3166-1:TW",
+      "Tiawan",
+      "Taiwan, ROC",
+      "Min Guo",
+      "TAIWAN",
+      "Taiwan (nation)",
+      "Republic of CHina",
+      "Free China (modern)",
+      "Republic of China (R.O.C.)",
+      "Taiwan (country)",
+      "Jhong-hua Min-guo",
+      "Taiwan Island",
+      "台湾",
+      "JhongHua MinGuo",
+      "台灣",
+      "Taioan",
+      "Taiwan, Republic of China",
+      "Taïwan",
+      "Minguo",
+      "Chung-Hua Min-Kuo",
+      "Chuka Minkoku",
+      "Republic Of China",
+      "Jhonghua Minguo",
+      "RoC",
+      "Tai-oan",
+      "China (Republic of)",
+      "Republic of China/Taiwan",
+      "Taiwan (ROC)",
+      "Republic of China (1945–71)",
+      "Chunghwa Minkuo",
+      "Zhōnghuá Mínguó",
+      "Taiwan ROC",
+      "Taiwan Country",
+      "Chunghwa Republic",
+      "Republic China",
+      "R China",
+      "R.o.China",
+      "Republic of China, Taiwan",
+      "Chunghwaminkuo",
+      "Republic of china",
+      "Republic of China on Taiwan",
+      "Taiwan (state)",
+      "China (ROC)",
+      "Republic of China (ROC)",
+      "Republic of China (Taiwan)",
+      "Táiwān",
+      "RO China",
+      "The R.O.C.",
+      "Chūka Minkoku",
+      "Taiwan (Republic of China)",
+      "China (Republic : 1949-)",
+      "TPKM",
+      "China, Republic of (Taiwan)",
+      "ROC (China)",
+      "Tawan",
+      "Jhonghuá Mínguó",
+      "Zhonghuá Mínguó",
+      "中华民国",
+      "R.O. China",
+      "The Republic of China",
+      "Chung Min Kuo",
+      "Zhōnghuá Mín'guó",
+      "JhongHuá MínGuó",
+      "Republic of China (1949–present)",
+      "中華民國",
+      "T'aiwan",
+      "Táiwan",
+      "China, Republic of",
+      "Taiwan",
+      "Chunghua Minkuo"
+    ],
+    "context_sha256": "93ad7c34536d64449a2205a38d6d2f00ee8d4d09f784d7a8322fbfd824c1740d"
+  },
+  {
+    "task": "triviaqa",
+    "id": "227352a28bef0f784302f1e7cdd187e8c06a4d48f8a76006",
+    "question": "In January 1968 who was chosen as leader of the Communist Party in Czechoslovakia?",
+    "answers": [
+      "Alexander Dubcek",
+      "Aleksandr Dubcek",
+      "Alexander Dubček",
+      "Dubcek",
+      "Alexander Dubchek",
+      "Alexander dubek",
+      "Dubček",
+      "Alexander Dubek"
+    ],
+    "context_sha256": "1bbaf1ba4bce9773199980926a596c7460463b46844bd4ebe118090e78a92f14"
+  },
+  {
+    "task": "triviaqa",
+    "id": "7040aea54d4f2c64eeeebd9b0989f56551279e5a2cd1f362",
+    "question": "Who played Miss Pugh on the Hancock radio show?",
+    "answers": [
+      "Hattie jakes",
+      "Hattie Jacques",
+      "Josephine Edwina Jaques"
+    ],
+    "context_sha256": "9d3488044aeb812cda73331249419b91c8843993087a617fd19d4ff5e1de5cef"
+  },
+  {
+    "task": "triviaqa",
+    "id": "55a799feee5e5bbe02baf8edcbe4fe4ede28f32968b7bdba",
+    "question": "Didsbury, Ardwick and Fallowfield are all areas of which British city?",
+    "answers": [
+      "Manchester developments",
+      "Manchester (borough)",
+      "UN/LOCODE:GBMNC",
+      "Manchester, Greater Manchester",
+      "Manchester, UK",
+      "Climate of Manchester",
+      "City of Manchester",
+      "The weather in Manchester",
+      "Manchester (city, England)",
+      "Machester",
+      "Drizzlechester",
+      "Mancs",
+      "Manchester",
+      "Manchester, United Kingdom",
+      "Manchester (England)",
+      "Metropolitan Borough of Manchester",
+      "Manchester, U.K.",
+      "Manchester (UK)",
+      "England Manchester",
+      "Manchester, England",
+      "County Borough of Manchester"
+    ],
+    "context_sha256": "ae01d548e76b028009d750d7b39a7144cc6eb8bcf2ae721306981f0aa7d7348a"
+  },
+  {
+    "task": "triviaqa",
+    "id": "e0a0f9802f67976f1f8adcf23935aa1ba7cc36709c823711",
+    "question": "What was the first name of the mother of US President Barack Obama?",
+    "answers": [
+      "Stanley (TV series)",
+      "Stanley (company)",
+      "Stanley (disambiguation)",
+      "Stanley (TV Show)",
+      "Stanley",
+      "Stanley (film)"
+    ],
+    "context_sha256": "26bf36318a67f0c907f11cdb630db9cf3392c0bd150abf6ee46ea6f485d5071d"
+  },
+  {
+    "task": "triviaqa",
+    "id": "b86498129e7b548f4f4652218458137ad86636b95126a4a1",
+    "question": "Chanterelle and Oyster are types of what?",
+    "answers": [
+      "Psychoactive mushroom",
+      "Bacidocarp",
+      "Macrofungi",
+      "Mushroom",
+      "Toadstools",
+      "Mushroom Curry",
+      "Mushrooms",
+      "Psychoactive fungi",
+      "Toadstool",
+      "Psychoactive fungus",
+      "Psychoactive mushrooms",
+      "Mushroom curry",
+      "🍄",
+      "Fungophobia"
+    ],
+    "context_sha256": "6e081104a6f8554b3c0e4db8951576a669b51eee43de86f4d0dd2979f918679e"
+  },
+  {
+    "task": "triviaqa",
+    "id": "0b96db37ad7998fe3829267d3b4963a8ff043520208058a8",
+    "question": "Which article has parts called - cantle, skirt, flap and pommel?",
+    "answers": [
+      "Saddle",
+      "Saddlemaker",
+      "Cantle",
+      "Pommel (saddle)",
+      "Saddle tree",
+      "Saddlery and Harness",
+      "Knee roll"
+    ],
+    "context_sha256": "cde8148c25d27bdd070fd652b35b24a66d9667e245781b62f912840073277ec8"
+  },
+  {
+    "task": "triviaqa",
+    "id": "25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921",
+    "question": "In the book David Copperfield what was Mr Micawber's first name?",
+    "answers": [
+      "Wilkin",
+      "Wilkins (disambiguation)",
+      "WILKINS",
+      "Wilkins"
+    ],
+    "context_sha256": "9f16737f9d1e389a70d877768185a8d5b6fa47622796c42ef46d9abe7c4a3b4a"
+  },
+  {
+    "task": "triviaqa",
+    "id": "56c19047272f3785a637e0b7692829391727d1ef1be1b8c0",
+    "question": "If you had two eight enders in one bonspiel what are you playing",
+    "answers": [
+      "Curling sheet",
+      "Curling",
+      "Chess on ice",
+      "Curling (sport)",
+      "Button (curling)",
+      "Curling rock",
+      "Curling rink",
+      "Curling shoes",
+      "Roaring game",
+      "The roaring game",
+      "Curling stone",
+      "Hammer (curling)",
+      "Sweeping (sport)",
+      "Curling broom",
+      "Free guard zone",
+      "History of curling"
+    ],
+    "context_sha256": "536bfa10fd75de9edcf3d5412b561f7301d949e3f634930f73c058d4a313779c"
+  }
+]

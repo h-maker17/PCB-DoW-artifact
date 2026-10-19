@@ -1,0 +1,36 @@
+{
+  "registered_utc": "2026-10-12T09:42:56.129656+00:00",
+  "files": [
+    {
+      "file": "sources/actionable_independent_review.md",
+      "sha256": "fdcb580ed5026b18e5191a53c304b4de900628303f50fe1b967c30fe78641628",
+      "bytes": 13918
+    },
+    {
+      "file": "sources/assembly_sources.py",
+      "sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "bytes": 1435
+    },
+    {
+      "file": "sources/official_RAG_source.txt",
+      "sha256": "f1fe97035f865c12be33abddccf3006c9f2d6fdc1ad4f42c9605298a0af75c51",
+      "bytes": 12679
+    },
+    {
+      "file": "sources/pipeline_4aeb9964.txt",
+      "sha256": "816c68afdc57b598934597bc89841c1ad64a414fe9fd91a22fb8e9073bacf276",
+      "bytes": 47234
+    },
+    {
+      "file": "sources/pipeline_8ee30445.txt",
+      "sha256": "45c5a7e6bbde59d53ec70dcaff13383617772ec3644e5c1058210f2e0c051ddf",
+      "bytes": 38903
+    }
+  ],
+  "original_protocol": {
+    "file": "config/measurement_protocol.json",
+    "sha256": "bd6215458160f8d23f548a9faad84491a681a40fc0f87ba2cc859e7bdd8b1605"
+  },
+  "Library_guide_full_text_read": true,
+  "Library_original_bytes_materialization_verified": false
+}

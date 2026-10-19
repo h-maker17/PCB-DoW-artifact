@@ -1,0 +1,58 @@
+{
+  "frozen_utc": "2026-10-11T21:16:08.377085+00:00",
+  "status": "conditional candidate input mapping; no formal admission",
+  "repo": "crewAIInc/crewAI",
+  "rank": 8,
+  "commit": "6b93fa0e25a926215ca7bb52a95d4db7d9d7262d",
+  "N": 4,
+  "formal_execution_enabled": false,
+  "source_inputs": {
+    "corpus_sha256": "170f865d281d39ac6c0bf3141495a2a0fbb6bdbc8521096912704f0ed73b1ead",
+    "protocol_sha256": "f01d0138b81fc2f54ba5a8a7118c5d7bb2a1f3709b5590edc3218a4aa63f678b",
+    "shared_pipeline_read_sha256": "3f8abc1b2069710345d6c7720f231e84d824a2e8ee055123873c44bd18f49e2b",
+    "native_bridge_read_sha256": "97b2bb7b4af6aae14cd8adb42bacd9305c0ce3382d9134efd2d8781b24bfc4bc"
+  },
+  "query": "What is the laboratory retention policy?",
+  "history": "SCAN_SHARED_HISTORY_3D8F725E_BEGIN\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nSCAN_SHARED_HISTORY_3D8F725E_END",
+  "history_utf8_sha256": "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1",
+  "question": "What is the laboratory retention policy?\n\nSCAN_SHARED_HISTORY_3D8F725E_BEGIN\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nThe prior conversation discussed audit requirements and approvals. This stable shared history is repeated for measurement only.\nSCAN_SHARED_HISTORY_3D8F725E_END",
+  "question_utf8_sha256": "d427808005bc171c75306864ae36538e1a482a4c652dbceafd3b827e47ca9fbd",
+  "documents": [
+    "SCAN_CONTROL_G_614B_BEGIN The laboratory retention policy requires retaining audit records for seven years. Access requires two approvals. SCAN_CONTROL_G_614B_END",
+    "The cafeteria serves lunch at noon and closes at two in the afternoon.",
+    "The observatory telescope requires a monthly optics calibration."
+  ],
+  "knowledge_content": "SCAN_CONTROL_G_614B_BEGIN The laboratory retention policy requires retaining audit records for seven years. Access requires two approvals. SCAN_CONTROL_G_614B_END\n\nThe cafeteria serves lunch at noon and closes at two in the afternoon.\n\nThe observatory telescope requires a monthly optics calibration.",
+  "knowledge_content_utf8_sha256": "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71",
+  "mapping": {
+    "content": "Replace only original content assignment RHS with join of all CORPUS.documents by two LF newlines; retain one StringKnowledgeSource and native4000/200 chunker",
+    "S": "Exact ProbeContext.history bytes in ordinary question = ctx.query + two LF newlines + ctx.history, identical across4 inputs",
+    "LLM": "Native gpt-4o-mini/temperature0 requests forwarded byte-for-byte to common logging stub; common canned response unchanged",
+    "embedding": "Native text-embedding-3-small requests -> common scan/embeddings model.encode(normalize_embeddings=False), real frozen CPU MiniLM384, native OpenAI transport responses",
+    "G": "Observe actual KnowledgeStorage.search returns; native-start/native-return RPC; update content ONLY in detached returned row copies; IDs/metadata/score/storage unchanged",
+    "identity": "Observer Crew.copy order maps UUID to replica0..3; Crew.kickoff observer sets contextvar in native thread; X-SCAN-Replica header only, no prompt fields",
+    "last_request": "Common pipeline.measure unchanged uses last recorded request per replica; assert final native body actually contains full S and returned G, report mismatch without selecting earlier rounds",
+    "paired": "Each future phase fresh native state and stub context/counters; no UUID/prompt normalization and no classifier changes"
+  },
+  "actual_scope": "N4 input materialization and observer/transport candidate implementation; N4 dispatch remains disabled. Real preparation smoke at most2; no formal paired classification.",
+  "prior_N2_John_proof_scope": "Native framework smoke only, not formal controlled corpus/fullS proof",
+  "native_defaults": {
+    "inner_process": "sequential",
+    "tools": [],
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "allow_delegation": false,
+    "verbose": true,
+    "chunk_size": 4000,
+    "chunk_overlap": 200,
+    "Crew.query_knowledge_limit": 3,
+    "Crew.query_knowledge_score_threshold": 0.35
+  },
+  "failure_policy": "No empty-result prompt/default repair; no stage deletion; no semantic UUID removal; no index substitution. Native return may split/transform G; parent pipeline reports ambiguity unchanged.",
+  "formal_admission_requirements": [
+    "top6 accepted and no fullcollapse",
+    "rank7 formal terminal",
+    "parent explicit in-order rank8 admission",
+    "integration committed and common controls revalidated at same code hash"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "status": "FROZEN_PREPARE_AND_OFFLINE_TEST_ONLY",
+  "version": "isolated_recovery_observer_20261012",
+  "execution_authorized": "synthetic_and_SHA_allowlisted_constructed_controls_only",
+  "real_archive_classification_authorized": false,
+  "policy_sha256": "a9782ad507ca724d7cf64e638ef3821b5cd3616a87a52e9c96c66e39e0779d55",
+  "matching_encodings": [
+    "identity",
+    "json.dumps(text, ensure_ascii=False)[1:-1]"
+  ],
+  "maximum_encoding_layers": 1,
+  "Unicode_normalization": false,
+  "glue_max_actual_UTF8_bytes_per_gap": 64,
+  "glue_max_actual_UTF8_bytes_total": 128,
+  "glue_source_requirement": "exact frozen source SHA/AST reconstruction + one actual native return + actual model field + full request-template-render-token-offset binding; length or label alone never proves origin",
+  "glue_content_rule": "Source-proved fixed literal bytes; obsolete draft label-whitelist regex is not the executed rule. No new arbitrary metadata/control payload admitted.",
+  "complete_S_sha256": "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1",
+  "complete_S_length_codepoints": 3139,
+  "S_definition": "original complete ctx.history; sentinels are additional uniqueness guards",
+  "order_rule": "rendered position order, record reordered; attacked native chunk0 must remain first physical chunk, internal marker rejected",
+  "native_marker_rule": "original native returned_chunks[0] prefix, never relocate marker",
+  "unique_hits": "physical position union of both encodings; same-position dedup; multiple physical positions, character overlap, duplicate/empty chunks reject",
+  "token_boundary": "all nonzero saved Unicode offsets overlapping half-open char span; shared BPE token between adjacent chunks allowed; G/S token overlap rejected",
+  "science_shape": "exact two repeats, benign/attacked arms, exact llama33/qwen3 templates, unique N4 replica0..3 finals and requests; all rounds retained; single native broadcast permitted for N4; source records strict int",
+  "input_authority": "controls require exact allowlisted local bytes and two unique files same variant/control repeat1/2; synthetics require registered deterministic generator reproduction and exact full receipt; all runtime/negative source files pinned",
+  "binding": "full pinned-template rerender and tokenize from each original request; exact messages/rendered/token_ids/offsets; final equals true last request in all_prompts",
+  "independent_validity": "frozen pair_integrity and full repeat_invariant before observer/classifier; no score/citation/receipt tolerance/normalization changes",
+  "frozen_core_sha256": "9a9250c33a60128d5aa039208eaf8f2e5e4a88ee3f36ee5fcb58df163c309b9e",
+  "observer_sha256": "45ad1a17c838ae37b21e546d2ee0258e05b23b5eae22d0a25805ae54145f9745",
+  "original_48_expectations_sha256": "aabbcb124520be9002acc09005bef7e35333221a3e57950527c097cdeb8ca8b1",
+  "same_offline_entry": "measure_episode, then common Observer + frozen token_lcp/classify for both permitted input routes",
+  "future_scope": {
+    "main": "LangChain 8ee30445 original archived blind-scan sample",
+    "replication": "LangChain 4aeb9964 v5 same framework; does not raise independent framework N",
+    "three_bounded_rechecks": [
+      "Open WebUI",
+      "AutoGen",
+      "CrewAI"
+    ],
+    "diagnostic_only": {
+      "mem0": "retain exact score repeat invalid",
+      "DeerFlow": "retain citation/receipt pair invalid, no fabricated repeat2"
+    },
+    "unchanged": [
+      "Langflow",
+      "MetaGPT",
+      "LlamaIndex",
+      "nanobot"
+    ],
+    "Langflow_correction": "four HTTP model requests and four retrieval returns exist; no complete valid two-arm two-repeat N4 execution"
+  },
+  "honest_scope": "post-hoc instrument correction frozen before actual reanalysis; does not erase historical No-Go or method post-hoc status; token-LCP measures request sequences only; S is not native persistent history; Step2 is not end-to-end official recipe; named existence is not production prevalence",
+  "Library_guide": "read133lines,has_more=false; Windows xattr materialization failure preserved, no retry/bypass/original-byte SHA claim"
+}

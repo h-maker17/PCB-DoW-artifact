@@ -1,0 +1,871 @@
+{
+  "scope": "constructed_control",
+  "original_root": "D:\\path\\to\\workspace\\SCAN_a2a3_v7",
+  "files": [
+    {
+      "control": "grounding_first_independent_pre",
+      "variant": "validated",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/grounding_first_independent_pre/repeat_1/trace.json",
+      "sha256": "60c751b772b2be26605ed752d7e166973dfd523f1e75f77b15ee49e2a25d6e32",
+      "bytes": 2322549,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 35,
+          "signed_difference": 530,
+          "positive_loss": 530,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 13,
+          "signed_difference": 540,
+          "positive_loss": 540,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "grounding_first_independent_pre",
+      "variant": "validated",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/grounding_first_independent_pre/repeat_2/trace.json",
+      "sha256": "60c751b772b2be26605ed752d7e166973dfd523f1e75f77b15ee49e2a25d6e32",
+      "bytes": 2322549,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 35,
+          "signed_difference": 530,
+          "positive_loss": 530,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 13,
+          "signed_difference": 540,
+          "positive_loss": 540,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "append_independent_pre",
+      "variant": "validated",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/append_independent_pre/repeat_1/trace.json",
+      "sha256": "7a4d2d585e5a1bb7376dc024e3afbe41638fe0b53bd80053fd4a0225c40dfe0d",
+      "bytes": 2326796,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 566,
+          "L_attacked": 532,
+          "signed_difference": 34,
+          "positive_loss": 34,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        },
+        "qwen3": {
+          "L_benign": 554,
+          "L_attacked": 514,
+          "signed_difference": 40,
+          "positive_loss": 40,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "append_independent_pre",
+      "variant": "validated",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/append_independent_pre/repeat_2/trace.json",
+      "sha256": "7a4d2d585e5a1bb7376dc024e3afbe41638fe0b53bd80053fd4a0225c40dfe0d",
+      "bytes": 2326796,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 566,
+          "L_attacked": 532,
+          "signed_difference": 34,
+          "positive_loss": 34,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        },
+        "qwen3": {
+          "L_benign": 554,
+          "L_attacked": 514,
+          "signed_difference": 40,
+          "positive_loss": 40,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "broadcast",
+      "variant": "validated",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/broadcast/repeat_1/trace.json",
+      "sha256": "ef87a28c4208506d3bdbaf237aa4a5cda0fa7c6ea09e587e0058c7c6c258c9d5",
+      "bytes": 2300990,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 574,
+          "signed_difference": -9,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 564,
+          "signed_difference": -11,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "broadcast",
+      "variant": "validated",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/broadcast/repeat_2/trace.json",
+      "sha256": "ef87a28c4208506d3bdbaf237aa4a5cda0fa7c6ea09e587e0058c7c6c258c9d5",
+      "bytes": 2300990,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 574,
+          "signed_difference": -9,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 564,
+          "signed_difference": -11,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "react_mid_generation_diverged",
+      "variant": "validated",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/react_mid_generation_diverged/repeat_1/trace.json",
+      "sha256": "fbfed909e1390f0d8de2d2a2b752b295e2777c04ab5678bec229f4fc2ef5bf54",
+      "bytes": 4381123,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 707,
+          "L_attacked": 707,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        },
+        "qwen3": {
+          "L_benign": 681,
+          "L_attacked": 681,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "react_mid_generation_diverged",
+      "variant": "validated",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/react_mid_generation_diverged/repeat_2/trace.json",
+      "sha256": "fbfed909e1390f0d8de2d2a2b752b295e2777c04ab5678bec229f4fc2ef5bf54",
+      "bytes": 4381123,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 707,
+          "L_attacked": 707,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        },
+        "qwen3": {
+          "L_benign": 681,
+          "L_attacked": 681,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "grounding_first_independent_pre",
+      "variant": "validated_sse",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/grounding_first_independent_pre/repeat_1/trace.json",
+      "sha256": "f0c04a6971b87baaf5b8360b6451391c8255e787a0f8af424d8faf4303efc586",
+      "bytes": 2348485,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 35,
+          "signed_difference": 530,
+          "positive_loss": 530,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 13,
+          "signed_difference": 540,
+          "positive_loss": 540,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "grounding_first_independent_pre",
+      "variant": "validated_sse",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/grounding_first_independent_pre/repeat_2/trace.json",
+      "sha256": "f0c04a6971b87baaf5b8360b6451391c8255e787a0f8af424d8faf4303efc586",
+      "bytes": 2348485,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 35,
+          "signed_difference": 530,
+          "positive_loss": 530,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 13,
+          "signed_difference": 540,
+          "positive_loss": 540,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "append_independent_pre",
+      "variant": "validated_sse",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/append_independent_pre/repeat_1/trace.json",
+      "sha256": "08267acd6fb90c8dd22cfa9186eddc59b63f32ec3c4623d181362022cbbef1a1",
+      "bytes": 2352732,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 566,
+          "L_attacked": 532,
+          "signed_difference": 34,
+          "positive_loss": 34,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        },
+        "qwen3": {
+          "L_benign": 554,
+          "L_attacked": 514,
+          "signed_difference": 40,
+          "positive_loss": 40,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "append_independent_pre",
+      "variant": "validated_sse",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/append_independent_pre/repeat_2/trace.json",
+      "sha256": "08267acd6fb90c8dd22cfa9186eddc59b63f32ec3c4623d181362022cbbef1a1",
+      "bytes": 2352732,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 566,
+          "L_attacked": 532,
+          "signed_difference": 34,
+          "positive_loss": 34,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        },
+        "qwen3": {
+          "L_benign": 554,
+          "L_attacked": 514,
+          "signed_difference": 40,
+          "positive_loss": 40,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "broadcast",
+      "variant": "validated_sse",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/broadcast/repeat_1/trace.json",
+      "sha256": "4aa4db886abb7b8d8bd644be8c1b6170eae4a31a404c20a0263bb08546109173",
+      "bytes": 2326926,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 574,
+          "signed_difference": -9,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 564,
+          "signed_difference": -11,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "broadcast",
+      "variant": "validated_sse",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/broadcast/repeat_2/trace.json",
+      "sha256": "4aa4db886abb7b8d8bd644be8c1b6170eae4a31a404c20a0263bb08546109173",
+      "bytes": 2326926,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 574,
+          "signed_difference": -9,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 564,
+          "signed_difference": -11,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "react_mid_generation_diverged",
+      "variant": "validated_sse",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/react_mid_generation_diverged/repeat_1/trace.json",
+      "sha256": "d2f0eada6af8adc80c4e90e3eab5a7d80ef4e1c4c1298cf3f3baae9f4c24b8e9",
+      "bytes": 4439395,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 707,
+          "L_attacked": 707,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        },
+        "qwen3": {
+          "L_benign": 681,
+          "L_attacked": 681,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "react_mid_generation_diverged",
+      "variant": "validated_sse",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/react_mid_generation_diverged/repeat_2/trace.json",
+      "sha256": "d2f0eada6af8adc80c4e90e3eab5a7d80ef4e1c4c1298cf3f3baae9f4c24b8e9",
+      "bytes": 4439395,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 707,
+          "L_attacked": 707,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        },
+        "qwen3": {
+          "L_benign": 681,
+          "L_attacked": 681,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "grounding_first_independent_pre",
+      "variant": "validated_json_concurrent",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/grounding_first_independent_pre/repeat_1/trace.json",
+      "sha256": "1ee8fe5945d0a0fbc598b756728346cb370c4d9dff85db5e4ad63862471c7b9f",
+      "bytes": 2322549,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 35,
+          "signed_difference": 530,
+          "positive_loss": 530,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 13,
+          "signed_difference": 540,
+          "positive_loss": 540,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "grounding_first_independent_pre",
+      "variant": "validated_json_concurrent",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/grounding_first_independent_pre/repeat_2/trace.json",
+      "sha256": "73d29d1578634056158f32047041381b5dea7822f8d934de08a8e91aaab16362",
+      "bytes": 2322549,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 35,
+          "signed_difference": 530,
+          "positive_loss": 530,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 13,
+          "signed_difference": 540,
+          "positive_loss": 540,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "append_independent_pre",
+      "variant": "validated_json_concurrent",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/append_independent_pre/repeat_1/trace.json",
+      "sha256": "96cd6a17d314b88ef997229452700d077339f7920c190b4e37f3593e224c872e",
+      "bytes": 2326796,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 566,
+          "L_attacked": 532,
+          "signed_difference": 34,
+          "positive_loss": 34,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        },
+        "qwen3": {
+          "L_benign": 554,
+          "L_attacked": 514,
+          "signed_difference": 40,
+          "positive_loss": 40,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "append_independent_pre",
+      "variant": "validated_json_concurrent",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/append_independent_pre/repeat_2/trace.json",
+      "sha256": "5dde64c8a4ee1cc0ed78a2e3cef71e4776b0e171a5d09c66e2d672bcc8381342",
+      "bytes": 2326796,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 566,
+          "L_attacked": 532,
+          "signed_difference": 34,
+          "positive_loss": 34,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        },
+        "qwen3": {
+          "L_benign": 554,
+          "L_attacked": 514,
+          "signed_difference": 40,
+          "positive_loss": 40,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "broadcast",
+      "variant": "validated_json_concurrent",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/broadcast/repeat_1/trace.json",
+      "sha256": "75c2872319b50ea83a4a12ea6044b59fcbd7bf897cae422b253e9066f282ec73",
+      "bytes": 2300990,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 574,
+          "signed_difference": -9,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 564,
+          "signed_difference": -11,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "broadcast",
+      "variant": "validated_json_concurrent",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/broadcast/repeat_2/trace.json",
+      "sha256": "0069f6befc66d2a4a682559b1ca171253818b8dfcc8d79d4dae3be544f4af399",
+      "bytes": 2300990,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 574,
+          "signed_difference": -9,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 564,
+          "signed_difference": -11,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "react_mid_generation_diverged",
+      "variant": "validated_json_concurrent",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/react_mid_generation_diverged/repeat_1/trace.json",
+      "sha256": "50a05af27e7a2dce09379e0a388bc86fade7bbabe0a8e4b90063172925d791de",
+      "bytes": 4381123,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 707,
+          "L_attacked": 707,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        },
+        "qwen3": {
+          "L_benign": 681,
+          "L_attacked": 681,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "react_mid_generation_diverged",
+      "variant": "validated_json_concurrent",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/react_mid_generation_diverged/repeat_2/trace.json",
+      "sha256": "2fd7345a747f449047ecd99c18b4caf5eebfb39b022f04e629c146022901b93b",
+      "bytes": 4381123,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 707,
+          "L_attacked": 707,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        },
+        "qwen3": {
+          "L_benign": 681,
+          "L_attacked": 681,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "grounding_first_independent_pre",
+      "variant": "validated_sse_concurrent",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/grounding_first_independent_pre/repeat_1/trace.json",
+      "sha256": "d8dcf11211e7394562dbcdbcc684b6fac0f9d9c58fceb60a43992b253d0426bd",
+      "bytes": 2348485,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 35,
+          "signed_difference": 530,
+          "positive_loss": 530,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 13,
+          "signed_difference": 540,
+          "positive_loss": 540,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "grounding_first_independent_pre",
+      "variant": "validated_sse_concurrent",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/grounding_first_independent_pre/repeat_2/trace.json",
+      "sha256": "d8977c38f171f81f54be01558348355eb161f5421f855c8c558c8ed67a339c6a",
+      "bytes": 2348485,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 35,
+          "signed_difference": 530,
+          "positive_loss": 530,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 13,
+          "signed_difference": 540,
+          "positive_loss": 540,
+          "class": "full_collapse",
+          "reason": "paired truncation in G before S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "append_independent_pre",
+      "variant": "validated_sse_concurrent",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/append_independent_pre/repeat_1/trace.json",
+      "sha256": "cdcb2ce5b4f9de5106c99dc54297b0a8d155fb0b59b1a252119fadfd8eb9955a",
+      "bytes": 2352732,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 566,
+          "L_attacked": 532,
+          "signed_difference": 34,
+          "positive_loss": 34,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        },
+        "qwen3": {
+          "L_benign": 554,
+          "L_attacked": 514,
+          "signed_difference": 40,
+          "positive_loss": 40,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "append_independent_pre",
+      "variant": "validated_sse_concurrent",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/append_independent_pre/repeat_2/trace.json",
+      "sha256": "3a51be778671ed44b38fc6ba4ae9a4539c68fb8c913f94b31a717582700c6b1b",
+      "bytes": 2352732,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 566,
+          "L_attacked": 532,
+          "signed_difference": 34,
+          "positive_loss": 34,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        },
+        "qwen3": {
+          "L_benign": 554,
+          "L_attacked": 514,
+          "signed_difference": 40,
+          "positive_loss": 40,
+          "class": "bounded_G",
+          "reason": "paired truncation in G after complete S"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "broadcast",
+      "variant": "validated_sse_concurrent",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/broadcast/repeat_1/trace.json",
+      "sha256": "6e1bf56d45dcc6cd441bca95e3ac18b8b0133bf1c318d4ff756983aad3a14b5c",
+      "bytes": 2326926,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 574,
+          "signed_difference": -9,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 564,
+          "signed_difference": -11,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "broadcast",
+      "variant": "validated_sse_concurrent",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/broadcast/repeat_2/trace.json",
+      "sha256": "812d9fd91756566f07b220f174e3d5e2bec7ca2414ac4b3d7f9473896fd91666",
+      "bytes": 2326926,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 565,
+          "L_attacked": 574,
+          "signed_difference": -9,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        },
+        "qwen3": {
+          "L_benign": 553,
+          "L_attacked": 564,
+          "signed_difference": -11,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "no positive paired shared-prefix loss"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "react_mid_generation_diverged",
+      "variant": "validated_sse_concurrent",
+      "repeat": 1,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/react_mid_generation_diverged/repeat_1/trace.json",
+      "sha256": "4952df88664a613d7dc0c194a47edfc3e97f3fd899599f74301caa26ff077eec",
+      "bytes": 4439395,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 707,
+          "L_attacked": 707,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        },
+        "qwen3": {
+          "L_benign": 681,
+          "L_attacked": 681,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        }
+      },
+      "new_observer_applied": false
+    },
+    {
+      "control": "react_mid_generation_diverged",
+      "variant": "validated_sse_concurrent",
+      "repeat": 2,
+      "file": "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/react_mid_generation_diverged/repeat_2/trace.json",
+      "sha256": "4558cce99d047ee09ca3b93816e0db320040a8837666194b82b6e12c100a4e8a",
+      "bytes": 4439395,
+      "stored_classification_read_only": {
+        "llama33": {
+          "L_benign": 707,
+          "L_attacked": 707,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        },
+        "qwen3": {
+          "L_benign": 681,
+          "L_attacked": 681,
+          "signed_difference": 0,
+          "positive_loss": 0,
+          "class": "immune",
+          "reason": "G outside benign shared prefix (upstream divergence)"
+        }
+      },
+      "new_observer_applied": false
+    }
+  ],
+  "no_framework_archives_in_replay_manifest": true
+}

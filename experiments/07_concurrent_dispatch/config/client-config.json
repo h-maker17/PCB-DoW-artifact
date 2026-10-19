@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "temperature": 0,
+  "max_tokens": 16,
+  "stream": false,
+  "HTTP_timeout_seconds": 600,
+  "HTTP_keepalive_seconds": 120,
+  "automatic_HTTP_retries": 0,
+  "independent_HTTP_slots": 20
+}

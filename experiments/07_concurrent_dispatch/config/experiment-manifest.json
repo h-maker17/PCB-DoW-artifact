@@ -1,0 +1,324 @@
+{
+  "experiment_id": "G_FORMAL_20261012_LLAMA_R3_V7",
+  "phase": "formal",
+  "model": "llama",
+  "D": 30,
+  "R": 3,
+  "planned_rounds": 1620,
+  "planned_model_requests": 20250,
+  "planned_tool_calls": 14040,
+  "attempt_policy": {
+    "maximum_attempt_index": 2,
+    "whole_round_retry_limit": 1,
+    "automatic_HTTP_retries": 0,
+    "automatic_round_retries": 0,
+    "pilot_exception_allowed": false
+  },
+  "analysis": {
+    "primary_N": 20,
+    "primary_f": 0.1,
+    "bootstrap_draws": 10000,
+    "seed": 20261011,
+    "R": 3,
+    "primary_arms": [
+      "C-A",
+      "C-D"
+    ],
+    "interaction_arms": [
+      "C-A",
+      "C-D",
+      "S-A",
+      "S-D"
+    ],
+    "all_R_required": true,
+    "secondary_confirmatory": false
+  },
+  "cost_limit": {
+    "unlimited": true,
+    "rate_RMB_per_hour": 6,
+    "new_instance_allowed": false
+  },
+  "walltime_limit": {
+    "unlimited": true
+  },
+  "GPU_UUID": "GPU-15654ab8-354e-54e9-17ee-08dd799f7027",
+  "L2_gate": {
+    "capability_passed": true,
+    "short_output_observation_passed": true,
+    "review_reference": "Parent independent dual-gate actual R6 evidence review 2026-10-11T13:30Z",
+    "status": "passed",
+    "final_Llama_pilot_reviewed": true,
+    "capability": {
+      "status": "passed",
+      "pilot_run": "llama-r6-20261011T131437Z",
+      "evidence_archive_sha256": "9c5cd29e30d9e73a157f6c7cd8fac94d3810785ab75571f088355cae72cd5ce0"
+    },
+    "formal_short_output_observation": {
+      "status": "passed",
+      "known_P_C_rounds": 36,
+      "total_P_C_rounds": 36,
+      "no_effect_selection": true
+    },
+    "reviewed_config_sha256": "321b9d6cd8afc5a4ef190a2fdf96b344c4d5e65f7f5451cd353deea69fef9d5d"
+  },
+  "engine_dependency_lock_sha256": "777b8d175684733df5fc4efb2b51d621a29ee77851d1c7f7d01183d0fb3637f7",
+  "model_manifest_sha256": "0b477466473bcd6e849661af186a97d28948047986e686a84086f5862cbc7ba4",
+  "pilot_evidence_archive_sha256": "9c5cd29e30d9e73a157f6c7cd8fac94d3810785ab75571f088355cae72cd5ce0",
+  "used_before": true,
+  "guide_original_byte_sha256": null,
+  "data_sha256": "c08918b0a8c934cda641334dfea6923fa9bbf5cadbbf7504f993812739d66d44",
+  "pilot_data_sha256": "4dfc3f7644e84676f322e51c23d5c2012ccfce948bad8695db3fdb3e50dee84c",
+  "inputs_sha256": "a36e414fb2968a96b70353a7a8221c521e627d65fd1720663fd3b9de96cc6b8c",
+  "schedule_sha256": "aa3ef8d842aaa17b1c661e0e9f131b0060b3976bb2123ecff7cdabd4547e08b6",
+  "server_config_sha256": "a04e85e6ef71ee380fc7ceb8fcd55a33fd654daad7289ea0e2bb97873b776823",
+  "client_config_sha256": "274cb4ecbe16c68774797e99d0468b4aa2194af5a09bb458a5582cf048ac77db",
+  "protocol_sha256": "af6561e9890907aee3d5b9787f8c10c539755ef54aeb7935cf4e02ded39ced31",
+  "token_audit_sha256": "48164f75b970f4b4855d11cf4c759bac28b3657de4d6bab1c1eb1af7ecb7545b",
+  "reviewed_reference_sha256": "321b9d6cd8afc5a4ef190a2fdf96b344c4d5e65f7f5451cd353deea69fef9d5d",
+  "schema_version": "1.1",
+  "protocol_version": "PCB-DoW G v1.1",
+  "created_utc": "2026-10-12T07:44:58.666946+00:00",
+  "owner": "G experiment user",
+  "execution_authorized": true,
+  "approval_reference": "Direct human release of reviews/new-instance-20261012/REVIEW-v7.md in current conversation",
+  "authorization_pending_reason": "Final v7 exact-source Linux CPU verification and review pending; production execution remains closed",
+  "host": "<instance-id>",
+  "GPU_type": "NVIDIA H100 80GB HBM3",
+  "GPU_count": 1,
+  "resource_isolation": {
+    "root": "/path/to/workspace/多智能体系统实验数据/G-experiment/formal/G_FORMAL_20261012_LLAMA_R3_V7",
+    "port": 18021,
+    "only_owned_process_cleanup": true,
+    "external_GPU_conflict_stops": true,
+    "disk_preflight_GiB": 30,
+    "disk_stop_GiB": 20
+  },
+  "model_revision": {
+    "name": "Llama-3.3-70B-Instruct-FP8",
+    "readonly_manifest_sha256": "0b477466473bcd6e849661af186a97d28948047986e686a84086f5862cbc7ba4"
+  },
+  "tokenizer": {
+    "model_manifest_sha256": "0b477466473bcd6e849661af186a97d28948047986e686a84086f5862cbc7ba4",
+    "chat_template_sha256": "e10ca381b1ccc5cf9db52e371f3b6651576caee0a630b452e2816b2d404d4b65",
+    "real_token_audit_sha256": "48164f75b970f4b4855d11cf4c759bac28b3657de4d6bab1c1eb1af7ecb7545b"
+  },
+  "engine": {
+    "name": "vLLM",
+    "version": "0.11.2",
+    "path": "/path/to/workspace/多智能体系统实验数据/G-experiment/env/g-venv",
+    "dependency_metadata_sha256": "777b8d175684733df5fc4efb2b51d621a29ee77851d1c7f7d01183d0fb3637f7"
+  },
+  "server_config": {
+    "argv": [
+      "/path/to/workspace/多智能体系统实验数据/G-experiment/env/g-venv/bin/python",
+      "-B",
+      "/path/to/workspace/多智能体系统实验数据/G-experiment/revisions/formal-v7-20261012/code/gserver.py",
+      "serve",
+      "/path/to/workspace/LLM-Model/Llama-3.3-70B-Instruct-FP8",
+      "--served-model-name",
+      "G-llama",
+      "--host",
+      "127.0.0.1",
+      "--port",
+      "18021",
+      "--api-server-count",
+      "1",
+      "--tensor-parallel-size",
+      "1",
+      "--pipeline-parallel-size",
+      "1",
+      "--max-num-seqs",
+      "32",
+      "--max-num-batched-tokens",
+      "2048",
+      "--max-model-len",
+      "8192",
+      "--gpu-memory-utilization",
+      "0.95",
+      "--block-size",
+      "16",
+      "--dtype",
+      "bfloat16",
+      "--kv-cache-dtype",
+      "auto",
+      "--enable-prefix-caching",
+      "--enable-chunked-prefill",
+      "--enforce-eager",
+      "--no-async-scheduling",
+      "--cpu-offload-gb",
+      "0",
+      "--swap-space",
+      "0",
+      "--enable-prompt-tokens-details",
+      "--disable-log-requests",
+      "--seed",
+      "42"
+    ],
+    "resolved_policy": {
+      "vllm": "0.11.2",
+      "engine": "V1",
+      "host": "127.0.0.1",
+      "port": 18021,
+      "tensor_parallel_size": 1,
+      "pipeline_parallel_size": 1,
+      "max_num_seqs": 32,
+      "max_num_batched_tokens": 2048,
+      "max_model_len": 8192,
+      "gpu_memory_utilization": 0.95,
+      "block_size": 16,
+      "kv_cache_dtype": "auto",
+      "dtype": "bfloat16",
+      "enable_prefix_caching": true,
+      "enable_chunked_prefill": true,
+      "enforce_eager": true,
+      "api_server_count": 1,
+      "speculative_decoding": null,
+      "cpu_offload_gb": 0,
+      "swap_space_gib": 0,
+      "async_scheduling": false
+    },
+    "actual_KV_dtype_required": "torch.bfloat16",
+    "server_HTTP_keepalive_seconds": 600
+  },
+  "client_config": {
+    "seed": 42,
+    "temperature": 0,
+    "max_tokens": 16,
+    "stream": false,
+    "HTTP_timeout_seconds": 600,
+    "HTTP_keepalive_seconds": 120,
+    "automatic_HTTP_retries": 0,
+    "independent_HTTP_slots": 20
+  },
+  "cache_isolation_method": "verified physical prefix cache reset/drain plus unique per-round shared cache_salt",
+  "metric_mapping": "native prompt_token_ids exact offline plus calibrated cached_tokens; P/H/U full N",
+  "dataset_manifest_sha256": "be2da93f6ddff4c2a668074dc752af5b487e35238860210c3c2f794990da91d2",
+  "source_snapshot_sha256": {
+    "raw-gov_report.jsonl": "d28112beb3a9b41d80aa390837fa1a31c9e3da84a5262009c97585cc49f597c4",
+    "gov_report.json": "e5b899f29cff770f3f473a2e6b123e150e18ca410fb392767658dcaa7e72ee02",
+    "raw-source.json": "c2e54bcf88b7a2c316828a00eca9ef603c1c1c4b8b71a612c51b683aee035593",
+    "selection-audit.json": "80efe7f287c00e604e2f6751ea85d1492534f87bc20ace6e8d6fc5f4cf1f15c9",
+    "source_manifest.json": "1aafabe2250afb3648f6ec772fbe7d2d0e9057909d0df928ecb162a160303fdb"
+  },
+  "marker_policy": {
+    "inputs_sha256": "a36e414fb2968a96b70353a7a8221c521e627d65fd1720663fd3b9de96cc6b8c",
+    "per_call_marker_unique": true,
+    "marker_A_D_length_delta": 0
+  },
+  "decode_policy": {
+    "seed": 42,
+    "temperature": 0,
+    "max_tokens": 16,
+    "stream": false,
+    "HTTP_timeout_seconds": 600,
+    "HTTP_keepalive_seconds": 120,
+    "automatic_HTTP_retries": 0,
+    "independent_HTTP_slots": 20
+  },
+  "N": [
+    5,
+    20
+  ],
+  "schedules": [
+    "S",
+    "P",
+    "C"
+  ],
+  "arms": [
+    "D",
+    "A",
+    "B"
+  ],
+  "pilot_excluded_ids": [
+    "526d812057ca29c7ad0e6b1e48a0fc3a63a2a4ecd914c4f8",
+    "0f6c000c1653bd9ad797ec6f7ab49051531cf0181ac1c572",
+    "63bfe4332c2b9854797561b506336d4a5f5b878b005b6b0b"
+  ],
+  "randomization": {
+    "seed": 20261011,
+    "scheme": "shuffle document-repeat blocks then shuffle18cells",
+    "schedule_sha256": "aa3ef8d842aaa17b1c661e0e9f131b0060b3976bb2123ecff7cdabd4547e08b6"
+  },
+  "analysis_version": "formal-v7",
+  "analysis_source_sha256": {
+    "formal_core.py": "0eac96b7996e3e0b951646e6019726f6908014dfa100c886586c694b6e6cd4e9",
+    "gformal_reports.py": "232f07a93769e03c25fffc55160e1b6e265941240d5bba13fa46039065f89640",
+    "gformal_adjudication.py": "296236550f19f81299749fd4dd40ff2c09343f34554712cca3ad9ce9035b20f4"
+  },
+  "failure_policy": {
+    "maximum_attempt_index": 2,
+    "whole_round_retry_limit": 1,
+    "automatic_HTTP_retries": 0,
+    "automatic_round_retries": 0,
+    "pilot_exception_allowed": false
+  },
+  "primary_contrast": "C-A/C-D,N20,f0.1; increase iff95CI lower>1",
+  "secondary_contrasts": [
+    "interaction(C-A/C-D)/(S-A/S-D)",
+    "all36 A/D,B/D cost contrasts",
+    "same-arm P/S and C/P cost ratios"
+  ],
+  "multiple_comparison_policy": "secondary descriptive/uncorrected95CI",
+  "pair_completeness": "all3of3; primary2arms; interaction4arms; each schedule comparison2arms",
+  "backend_evidence_policy": {
+    "overlap_not_cost_filter": true,
+    "statuses": [
+      "confirmed_overlap",
+      "confirmed_none",
+      "unknown"
+    ],
+    "step_fraction_not_time_coverage": true,
+    "physical_claim_requires_formal_trace": true
+  },
+  "startup_diagnostic_requests_per_segment": 25,
+  "supersedes_review_candidate": {
+    "source_bundle_sha256": "8968c58502b96b487cea8d55c6fb19e553659ff4107a18fd7ae3bcdcfc25f532",
+    "manifest_sha256": "e7f9dcadd8330c8ed6d3f6fac2eb81132f3f86ce8715e66dae2cb19d77697e83",
+    "actual_Linux_failure": "Unrelated container /pause PID1 uid65535 namespace read denied; v6 live cleanup check failed",
+    "failure_log_sha256": "cebfb821f57d440fb6c7cae66ed603bf1a8b2198534828d75a885eb383ebb6ab",
+    "regression_log_sha256": "eb11e33df704172d2db189d96ad3356ad8b95e8d08c61c8d0d2bfeed6efcde68"
+  },
+  "revision_reason": "Preserve v6 initial Linux failure; scope /proc full identity to stat-confirmed owned group/session; fail closed on possible-member errors",
+  "exclusive_runtime_window": {
+    "instance": "<instance-id>",
+    "GPU_UUID": "GPU-15654ab8-354e-54e9-17ee-08dd799f7027",
+    "experiment_id": "G_FORMAL_20261012_LLAMA_R3_V7",
+    "exclusive_to_G": true,
+    "scope": "this_G_runtime_window",
+    "statement_ids": [
+      "human-new-instance-exclusive-20261012"
+    ],
+    "user_statements": [
+      "确认，本次运行窗口仅用于 G 实验"
+    ],
+    "authority": "Direct human async reply in this conversation; statement_id is local evidence label, not platform message ID",
+    "platform_physical_isolation_claim": false
+  },
+  "resource_monitor_policy": {
+    "admission": "user_approved_exclusive_instance_window",
+    "unmapped_PID_attribution": "unknown",
+    "unknown_alone_is_failure": false,
+    "expected_compute_candidates_for_single_engine": 1,
+    "monitor_period_seconds": 1,
+    "concrete_anomalies": "pause_for_review_without_automatic_external_classification",
+    "confirmed_external_failure_rule": "existing_external_resource_conflict",
+    "cleanup": "own_G_process_group_only",
+    "platform_isolation_guarantee": false
+  },
+  "implementation_protocol_sha256": "d3e011eae9a349fce5fed0858e3fb4a44cd39279188ce0122efd01e310323788",
+  "billing_provenance": {
+    "rate_RMB_per_hour": 6,
+    "user_statement": "实际单价是6元/小时，没有使用时间限制，直到实验结束，我手动关闭",
+    "authority": "Direct human async reply in this conversation",
+    "billing_start": null,
+    "instance_shutdown_by": "user"
+  },
+  "environment_binding": {
+    "readonly_log_sha256": "01181afd03a68721a6c508faebe693e38c5a1d613a1ddedfaa042024febe3c72",
+    "detail_log_sha256": "68b7c75a95d7ac8e5eb8eda2b4ada96dd2bf6f72d1f314f7e7300ef172a7f048",
+    "driver": "575.57.08",
+    "large_weights_rehashed": false,
+    "model_verification_scope": "Compare stored SHA manifest, actual presence/size and live small-file hashes; large weights are not rehashed in this preflight",
+    "pidfd_supported": true
+  }
+}

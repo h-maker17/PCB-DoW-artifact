@@ -1,0 +1,37 @@
+{
+  "frozen_before_framework_execution": true,
+  "llama33": {
+    "model_family": "Llama-3.3-70B-Instruct",
+    "source": "User-supplied files from the original-paper cloud deployment, independently byte-verified against the NVIDIA-published FP8 repository",
+    "source_directory": "D:/path/to/workspace",
+    "source_clarified_by_user": "2026-10-10",
+    "official_reference_revision": "6f6073b423013f6a7d4d9f39144961bfbfbc386b",
+    "official_byte_parity": "not confirmed; three small config files differ in public Git blob hash and byte size; gated LFS tokenizer hash is redacted",
+    "scope": "Official NVIDIA FP8 deployment template with pinned repository revision and file hashes; no claim of byte parity with separate Meta reference revision.",
+    "sha256": {
+      "config.json": "76bea1c34b224053cd5706a916d2fdc3c40f332d9f79bd8dd7965e436869c795",
+      "special_tokens_map.json": "1b1835caa5b4d70acaa210fa222b0036f1882f9525c4660fd4810fb3e1e40ff8",
+      "tokenizer.json": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b",
+      "tokenizer_config.json": "cf9caa6e3956c24f5787bff455fccb25532afa5091d6b8cbee01a5b7235a1362"
+    },
+    "deployment_model_name": "Llama-3.3-70B-Instruct-FP8",
+    "quantization_note": "FP8 identifies deployed weights. It does not establish tokenizer/chat-template byte equivalence with the official unquantized reference. No weights are used in SCAN.",
+    "publisher": "NVIDIA",
+    "repository": "nvidia/Llama-3.3-70B-Instruct-FP8",
+    "revision": "fde04ee76a27704c88f569542ef023b57d4d0362",
+    "nvidia_byte_parity": "verified: all four files and supplied model card byte-identical",
+    "provenance_evidence": "evidence/templates/llama33/nvidia_byte_parity.json"
+  },
+  "qwen3": {
+    "model_family": "Qwen3-8B",
+    "source": "Official Hugging Face Qwen/Qwen3-8B repository",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "sha256": {
+      "config.json": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+      "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+    }
+  },
+  "server_required": false,
+  "notes": "No cloud instance creation or model weights needed. Local deployment provenance is a user statement; cloud-directory byte parity has not been independently SSH-verified."
+}

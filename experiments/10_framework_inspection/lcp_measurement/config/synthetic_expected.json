@@ -1,0 +1,402 @@
+{
+  "registered_utc": "2026-10-12T09:42:56.129656+00:00",
+  "cases": [
+    {
+      "id": "empty_join_G_before_S",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "full_collapse"
+    },
+    {
+      "id": "empty_join_S_before_G",
+      "assembly": "empty_join",
+      "layout": "S_before_G",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "bounded_G"
+    },
+    {
+      "id": "newline_join_G_before_S",
+      "assembly": "newline_join",
+      "layout": "G_before_S",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "full_collapse"
+    },
+    {
+      "id": "newline_join_S_before_G",
+      "assembly": "newline_join",
+      "layout": "S_before_G",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "bounded_G"
+    },
+    {
+      "id": "labelled_join_G_before_S",
+      "assembly": "labelled_join",
+      "layout": "G_before_S",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "full_collapse"
+    },
+    {
+      "id": "labelled_join_S_before_G",
+      "assembly": "labelled_join",
+      "layout": "S_before_G",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "bounded_G"
+    },
+    {
+      "id": "json_empty_G_before_S",
+      "assembly": "json_empty",
+      "layout": "G_before_S",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "full_collapse"
+    },
+    {
+      "id": "json_empty_S_before_G",
+      "assembly": "json_empty",
+      "layout": "S_before_G",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "bounded_G"
+    },
+    {
+      "id": "json_newline_G_before_S",
+      "assembly": "json_newline",
+      "layout": "G_before_S",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "full_collapse"
+    },
+    {
+      "id": "json_newline_S_before_G",
+      "assembly": "json_newline",
+      "layout": "S_before_G",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "bounded_G"
+    },
+    {
+      "id": "json_labelled_G_before_S",
+      "assembly": "json_labelled",
+      "layout": "G_before_S",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "full_collapse"
+    },
+    {
+      "id": "json_labelled_S_before_G",
+      "assembly": "json_labelled",
+      "layout": "S_before_G",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "bounded_G"
+    },
+    {
+      "id": "unicode_identity",
+      "assembly": "newline_join",
+      "layout": "G_before_S",
+      "mutation": "unicode",
+      "expected_status": "measured",
+      "expected_class": "full_collapse"
+    },
+    {
+      "id": "unicode_JSON",
+      "assembly": "json_newline",
+      "layout": "G_before_S",
+      "mutation": "unicode",
+      "expected_status": "measured",
+      "expected_class": "full_collapse"
+    },
+    {
+      "id": "query_allowed_inside_chunk",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "query_in_chunk",
+      "expected_status": "measured",
+      "expected_class": "full_collapse"
+    },
+    {
+      "id": "equivalent_encodings_dedup",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "ascii_equivalence",
+      "expected_status": "measured",
+      "expected_class": "full_collapse"
+    },
+    {
+      "id": "byte_limit_boundary_64_128",
+      "assembly": "gap64",
+      "layout": "G_before_S",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "full_collapse"
+    },
+    {
+      "id": "full_query_not_short_words",
+      "assembly": "policy_word_gap",
+      "layout": "G_before_S",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "full_collapse"
+    },
+    {
+      "id": "LCP_in_proven_glue",
+      "assembly": "legal_glue_LCP",
+      "layout": "G_before_S",
+      "mutation": "short_first_chunk",
+      "expected_status": "measured",
+      "expected_class": "full_collapse"
+    },
+    {
+      "id": "missing_chunk",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "missing_chunk",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "empty_chunk",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "empty_chunk",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "duplicate_chunk",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "duplicate_chunk",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "overlap_and_nesting",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "nested_chunks",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "identity_elsewhere_JSON_here",
+      "assembly": "newline_join",
+      "layout": "G_before_S",
+      "mutation": "encoding_ambiguity",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "one_chunk_extra_occurrence",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "extra_occurrence",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "second_JSON_layer",
+      "assembly": "json_newline",
+      "layout": "G_before_S",
+      "mutation": "double_encoding",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "Unicode_normalization_forbidden",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "normalize_chunk",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "offset_not_Unicode_coordinate",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "bad_offsets",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "token_offset_count_mismatch",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "offset_count",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "unknown_short_instruction",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "unknown_gap",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "unproved_S_fragment",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "S_fragment_gap",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "legal_label_across_messages",
+      "assembly": "labelled_join",
+      "layout": "G_before_S",
+      "mutation": "cross_messages",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "self_declared_source_bool",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "fake_source_bool",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "tampered_source_SHA",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "tampered_source",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "native_call_binding_mismatch",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "wrong_call",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "request_round_binding_mismatch",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "wrong_round",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "raw_request_body_mismatch",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "raw_body_mismatch",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "gap65_bytes",
+      "assembly": "gap65",
+      "layout": "G_before_S",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "total129_bytes",
+      "assembly": "gap43",
+      "layout": "G_before_S",
+      "mutation": "four_chunks",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "UTF8_not_codepoint_limit",
+      "assembly": "gap_unicode33",
+      "layout": "G_before_S",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "full_query_in_gap",
+      "assembly": "query_gap",
+      "layout": "G_before_S",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "marker_in_gap",
+      "assembly": "marker_gap",
+      "layout": "G_before_S",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "complete_S_in_gap",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "S_in_gap",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "reordered_attack_marker_internal",
+      "assembly": "reversed_join",
+      "layout": "G_before_S",
+      "mutation": null,
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "attempt_move_marker",
+      "assembly": "reversed_join",
+      "layout": "G_before_S",
+      "mutation": "move_marker",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "invalid_UTF8_native_string",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "invalid_native_utf8",
+      "expected_status": "measured",
+      "expected_class": "ambiguous"
+    },
+    {
+      "id": "pair_invalid_priority",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "invalid_pair",
+      "expected_status": "invalid_pair",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    },
+    {
+      "id": "repeat_score_invalid_priority",
+      "assembly": "empty_join",
+      "layout": "G_before_S",
+      "mutation": "invalid_repeat",
+      "expected_status": "invalid_repeat",
+      "expected_class": null,
+      "expected_observer_calls": 0
+    }
+  ],
+  "templates": [
+    "llama33",
+    "qwen3"
+  ],
+  "repeats": 2,
+  "N": 4,
+  "old_empty_join_bug_proof_required": true,
+  "reordered_unmarked_location_probe_required": true,
+  "framework_execution_gate_negative_required": true,
+  "old_24positive_7negative_evidence_preserved": true,
+  "truth_not_adjusted_to_fit_observer": true
+}

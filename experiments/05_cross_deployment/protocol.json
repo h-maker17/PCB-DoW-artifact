@@ -1,0 +1,16 @@
+{
+  "created_before_formal_runs": true,
+  "model_order": [
+    "glm4-9b",
+    "gpt-oss-120b",
+    "deepseek-v4-flash"
+  ],
+  "repeats": 5,
+  "formal_runs_per_model": 75,
+  "formal_requests_per_model": 555,
+  "task_quality_is_not_C_acceptance": true,
+  "front_tolerance_tokens": 32,
+  "control_hit_threshold": 0.9,
+  "resource_downloads": "manual user execution",
+  "no_injection_changes_to_force_Go": true
+}

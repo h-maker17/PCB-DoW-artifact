@@ -1,0 +1,9 @@
+fixture,changed,original_token_changed_fraction,structural_oracle,before_tokens,after_tokens
+python,True,0.41666666666666663,Python syntax broken,12,9
+yaml,True,0.5,YAML syntax broken,18,11
+persian-zwnj,True,0.33333333333333337,token/byte alteration only; no automatic semantic equivalence claim,3,2
+devanagari-zwj,True,0.6666666666666667,token/byte alteration only; no automatic semantic equivalence claim,3,2
+emoji-zwj,True,0.19999999999999996,token/byte alteration only; no automatic semantic equivalence claim,15,12
+nbsp-typography,True,0.6666666666666667,token/byte alteration only; no automatic semantic equivalence claim,3,2
+ordinary-prose,False,0.0,token/byte alteration only; no automatic semantic equivalence claim,6,6
+nonsemantic-whitespace,True,0.375,token/byte alteration only; no automatic semantic equivalence claim,8,6

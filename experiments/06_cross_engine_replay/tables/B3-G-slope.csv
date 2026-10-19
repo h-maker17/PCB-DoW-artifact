@@ -1,0 +1,9 @@
+engine,N,layout,expected_slope,measured_slope_mean,measured_slope_lo,measured_slope_hi
+sglang,5,prepend,4,4.0,4.0,4.0
+vllm,5,prepend,4,4.0,4.0,4.0
+sglang,5,append,4,4.0,4.0,4.0
+vllm,5,append,4,4.0,4.0,4.0
+sglang,20,prepend,19,19.0,19.0,19.0
+vllm,20,prepend,19,19.0,19.0,19.0
+sglang,20,append,19,19.0,19.0,19.0
+vllm,20,append,19,19.0,19.0,19.0

@@ -1,0 +1,218 @@
+[
+  {
+    "fixture": "python",
+    "original": "def f():\n    if True:\n        return 1\n",
+    "normalized": "def f(): if True: return 1",
+    "before_tokens": [
+      755,
+      282,
+      4019,
+      262,
+      422,
+      3082,
+      512,
+      286,
+      471,
+      220,
+      16,
+      198
+    ],
+    "after_tokens": [
+      755,
+      282,
+      4658,
+      422,
+      3082,
+      25,
+      471,
+      220,
+      16
+    ],
+    "original_token_changed_fraction": 0.41666666666666663,
+    "changed": true,
+    "structural_oracle": "Python syntax broken"
+  },
+  {
+    "fixture": "yaml",
+    "original": "parent:\n  child: value\n  list:\n    - one\n    - two\n",
+    "normalized": "parent: child: value list: - one - two",
+    "before_tokens": [
+      3850,
+      512,
+      220,
+      1716,
+      25,
+      907,
+      198,
+      220,
+      1160,
+      512,
+      262,
+      482,
+      832,
+      198,
+      262,
+      482,
+      1403,
+      198
+    ],
+    "after_tokens": [
+      3850,
+      25,
+      1716,
+      25,
+      907,
+      1160,
+      25,
+      482,
+      832,
+      482,
+      1403
+    ],
+    "original_token_changed_fraction": 0.5,
+    "changed": true,
+    "structural_oracle": "YAML syntax broken",
+    "parser_error": "mapping values are not allowed here\n  in \"<unicode string>\", line 1, column 14:\n    parent: child: value list: - one - two\n                 ^",
+    "parser_version": "6.0.3"
+  },
+  {
+    "fixture": "persian-zwnj",
+    "original": "می‌روم",
+    "normalized": "میروم",
+    "before_tokens": [
+      101902,
+      90464,
+      116259
+    ],
+    "after_tokens": [
+      101902,
+      116259
+    ],
+    "original_token_changed_fraction": 0.33333333333333337,
+    "changed": true,
+    "structural_oracle": "token/byte alteration only; no automatic semantic equivalence claim"
+  },
+  {
+    "fixture": "devanagari-zwj",
+    "original": "क्‍ष",
+    "normalized": "क्ष",
+    "before_tokens": [
+      65804,
+      103265,
+      101876
+    ],
+    "after_tokens": [
+      65804,
+      100580
+    ],
+    "original_token_changed_fraction": 0.6666666666666667,
+    "changed": true,
+    "structural_oracle": "token/byte alteration only; no automatic semantic equivalence claim"
+  },
+  {
+    "fixture": "emoji-zwj",
+    "original": "👩‍👩‍👧‍👦",
+    "normalized": "👩👩👧👦",
+    "before_tokens": [
+      9468,
+      239,
+      102,
+      102470,
+      9468,
+      239,
+      102,
+      102470,
+      9468,
+      239,
+      100,
+      102470,
+      9468,
+      239,
+      99
+    ],
+    "after_tokens": [
+      9468,
+      239,
+      102,
+      9468,
+      239,
+      102,
+      9468,
+      239,
+      100,
+      9468,
+      239,
+      99
+    ],
+    "original_token_changed_fraction": 0.19999999999999996,
+    "changed": true,
+    "structural_oracle": "token/byte alteration only; no automatic semantic equivalence claim"
+  },
+  {
+    "fixture": "nbsp-typography",
+    "original": "10 kg",
+    "normalized": "10 kg",
+    "before_tokens": [
+      605,
+      4194,
+      7501
+    ],
+    "after_tokens": [
+      605,
+      21647
+    ],
+    "original_token_changed_fraction": 0.6666666666666667,
+    "changed": true,
+    "structural_oracle": "token/byte alteration only; no automatic semantic equivalence claim"
+  },
+  {
+    "fixture": "ordinary-prose",
+    "original": "The report contains two facts.",
+    "normalized": "The report contains two facts.",
+    "before_tokens": [
+      791,
+      1934,
+      5727,
+      1403,
+      13363,
+      13
+    ],
+    "after_tokens": [
+      791,
+      1934,
+      5727,
+      1403,
+      13363,
+      13
+    ],
+    "original_token_changed_fraction": 0.0,
+    "changed": false,
+    "structural_oracle": "token/byte alteration only; no automatic semantic equivalence claim"
+  },
+  {
+    "fixture": "nonsemantic-whitespace",
+    "original": "The   report\tcontains two facts.",
+    "normalized": "The report contains two facts.",
+    "before_tokens": [
+      791,
+      256,
+      1934,
+      197,
+      13676,
+      1403,
+      13363,
+      13
+    ],
+    "after_tokens": [
+      791,
+      1934,
+      5727,
+      1403,
+      13363,
+      13
+    ],
+    "original_token_changed_fraction": 0.375,
+    "changed": true,
+    "structural_oracle": "token/byte alteration only; no automatic semantic equivalence claim"
+  }
+]

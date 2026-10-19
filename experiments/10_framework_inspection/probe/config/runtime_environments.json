@@ -1,0 +1,50 @@
+{
+  "frozen_before_controls": true,
+  "scope": "Installed dependency inventory plus pinned native source overrides; no release-wheel parity claim",
+  "environments": {
+    "reports/environment_core.freeze.txt": "e7250cfb5a854525c61cda7ffcc65b4d4b1f0cc7923315fc50386f4b8b33c567",
+    "reports/environment_langflow.freeze.txt": "9e50f3338322e046bee6554bcadb14dcbd714d98dc9316a6c28d797769c661da",
+    "reports/environment_openwebui.freeze.txt": "5bcaac9d0ce85aa5fc09ec34053b7af5f86b6bfdcb71a6e603b4ea258ed1aeb2"
+  },
+  "native_sources": {
+    "lf": "df7125ad32e37eee31809df0f13937a5155f81aee9ee86e9d15ed2be5310dcbb",
+    "ow": "2e1679d2f7823dfa3e587fa1facba430dec301adc108e7e965d101159e7889bf"
+  },
+  "isolation": "Each paired pass uses fresh own data/config/DB/static directory; original native runtime behavior retained",
+  "conditional_extension_runtime": {
+    "ag": {
+      "manifest": {
+        "file": "evidence/runtime_manifests/ag.json",
+        "sha256": "5a9a69957f1f06c5048036c0c90402535d1e13286b4b0a5b1e27dad0422f9fbe"
+      },
+      "interpreter": "preparation/autogen_night/env/Scripts/python.exe",
+      "framework_commit": "027ecf0a379bcc1d09956d46d12d44a3ad9cee14",
+      "source_receipt": {
+        "file": "preparation/autogen_night/source_receipt.json",
+        "sha256": "dd5f698f2dc0f1f68baad0e2f9c11e8566790cd7f47c448c5070fec3bc42eec6"
+      },
+      "dependency_lock": {
+        "file": "preparation/autogen_night/requirements.lock.txt",
+        "sha256": "f28d97590762f3a508cb22b5d1ebb95538767c7d1151bd0ca76731267a8795d9"
+      },
+      "conditional_preparation_only": true
+    },
+    "ca": {
+      "manifest": {
+        "file": "evidence/runtime_manifests/ca.json",
+        "sha256": "98b4b4153712109cc9d2302311512d9999c94fbf0598af014a0b1b0c1348247d"
+      },
+      "interpreter": "preparation/crewai_night/venv/Scripts/python.exe",
+      "framework_commit": "6b93fa0e25a926215ca7bb52a95d4db7d9d7262d",
+      "source_receipt": {
+        "file": "preparation/crewai_night/evidence/source_manifest.json",
+        "sha256": "ac5804d4abda70621ba25bc9e7e9b8f709140645c55ff8bb6191a906217599ef"
+      },
+      "dependency_lock": {
+        "file": "preparation/crewai_night/evidence/environment_lock.txt",
+        "sha256": "2217e3a57a5a7e2284607fb7426c15ef22adfd828dcf2aedf7f6be4f488426e1"
+      },
+      "conditional_preparation_only": true
+    }
+  }
+}

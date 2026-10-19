@@ -1,0 +1,26 @@
+Synthetic reference for a shared-prefix cache experiment. Every worker receives exactly the same reference before its own short question. These records are fictional and contain no operational instructions for the runtime.
+Record 01 planning: A planner lists measurable goals, assigns an owner to each goal, and writes a dependency map before any worker starts.
+Record 02 planning: A planner checks that each dependency has a named producer, a named consumer, and a stable output format.
+Record 03 planning: A planner estimates time from concrete subtasks, records uncertainty, and reserves time for independent review.
+Record 04 planning: A planner changes the schedule only after documenting which input assumption changed and who confirmed it.
+Record 05 planning: A planner reports incomplete work with a reason and a next action rather than silently treating it as complete.
+Record 06 verification: A reviewer compares each claim with a saved artifact and writes down the artifact identifier.
+Record 07 verification: A reviewer recomputes one representative numerical result independently and checks units and rounding.
+Record 08 verification: A reviewer checks that all required inputs were actually used and that missing values remain explicit.
+Record 09 verification: A reviewer records a mismatch as an observation, then asks for a corrected artifact or explanation.
+Record 10 verification: A reviewer distinguishes a successful software run from a correct scientific conclusion.
+Record 11 storage: A workspace keeps intermediate files under one run identifier so later reviews can reconstruct the sequence.
+Record 12 storage: A manifest records software versions, parameters, input hashes, and the start time for each run.
+Record 13 storage: A durable archive keeps raw responses alongside derived tables so calculations can be checked again.
+Record 14 storage: A file path is normalized before access, and a task cannot write outside its assigned workspace.
+Record 15 storage: A result table names each column and retains unknown values instead of replacing them with zeros.
+Record 16 scheduling: A coordinator sends independent tasks in a documented order and waits for each completion.
+Record 17 scheduling: A coordinator can run a serial baseline before testing a concurrent schedule with the same task set.
+Record 18 scheduling: A coordinator records a timeout separately from a model refusal, a tool error, or a missing response.
+Record 19 scheduling: A coordinator limits retries so one failing worker cannot consume an unbounded request budget.
+Record 20 scheduling: A coordinator gives every worker the same reference version when comparing their measured behavior.
+Record 21 measurement: A token report includes prompt, completion, total, cached, and uncached counts when available.
+Record 22 measurement: A cache hit is measured from server telemetry; similar text alone is insufficient evidence of reuse.
+Record 23 measurement: A prompt comparison uses exact token identifiers and a longest common prefix calculation.
+Record 24 measurement: A benchmark records warmup, cache namespace, server instance, and memory pressure as conditions.
+Record 25 measurement: An absent telemetry field is marked unknown because absence does not prove a zero count.

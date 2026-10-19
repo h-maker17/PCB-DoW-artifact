@@ -1,0 +1,54 @@
+{
+  "kind": "NORMALIZED_PUBLIC_DOCUMENT_FACTS_NOT_PAID_ACCEPTANCE",
+  "access_utc_window": {
+    "start_utc": "2026-10-13T00:02:36Z",
+    "end_utc": "2026-10-13T00:12:42.750841+00:00"
+  },
+  "capture_method": "web.run primary-document reads; normalized factual record",
+  "hash_scope": "SHA256 of local normalized JSON, not remote full HTML or server signature",
+  "credentials_accessed": false,
+  "provider_API_called": false,
+  "full_input_bound_proven": false,
+  "source_urls": [
+    "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+  ],
+  "facts": {
+    "model": "deepseek-v4-pro",
+    "documented_version": "DeepSeek-V4-Pro-0813",
+    "currency": "CNY",
+    "per_million_tokens_peak": {
+      "hit": 0.3,
+      "miss": 9,
+      "output": 27
+    },
+    "per_million_tokens_offpeak": {
+      "hit": 0.15,
+      "miss": 4.5,
+      "output": 13.5
+    },
+    "timezone": "Asia/Shanghai (UTC+08:00)",
+    "peak_weekdays": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "peak_local_half_open_windows": [
+      [
+        "09:00",
+        "12:00"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "Chinese_statutory_holidays_are_offpeak": true,
+    "other_times_are_offpeak": true,
+    "deduction_rule": "Token consumption times model unit price is deducted from recharge or gift balance; gift balance is used first.",
+    "prices_subject_to_change": true
+  },
+  "explicit_inference": "Multiplier 1 supports published API balance token deduction only, not payment-channel, recharge, exchange, tax or other external charges.",
+  "access_time_resolution": "Conservative clock-bounded tool-access interval; not a provider/server timestamp."
+}

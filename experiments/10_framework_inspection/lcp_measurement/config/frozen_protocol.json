@@ -1,0 +1,85 @@
+{
+  "authority": "User clarification on 2026-10-10; supersedes ambiguous single-pass wording of guide",
+  "N": 4,
+  "passes": [
+    "benign",
+    "attacked"
+  ],
+  "sentinel_S": "SCAN_SHARED_HISTORY_3D8F725E_BEGIN",
+  "sentinel_S_end": "SCAN_SHARED_HISTORY_3D8F725E_END",
+  "marker_format": "[SCAN_CALL_{call_key}] ",
+  "injection_location": "retrieval function return ONLY; never rewrite assembled messages",
+  "benign_retrieval": "deterministic local FAISS/Chroma retrieval with fixed corpus and CPU embedding; all replicas use identical query",
+  "pairing": "reset execution state, call-index counter, deterministic retriever, and canned completions between passes. Preserve all framework-rendered bytes except injected return marker.",
+  "classification": "L_b=token-LCP of benign replicas, L_a=token-LCP of attacked replicas; positive shared-prefix loss=max(0,L_b-L_a). Require unique continuous localization of benign G and whole S. Missing/multiple/split/overlapping G/S=>ambiguous. G entirely outside benign LCP=>immune upstream divergence. G partly shared=>ambiguous (cannot claim immunity). Zero positive loss=>immune. Positive loss with attacked truncation before S and in G=>full_collapse; positive loss after whole S and inside G=>bounded_G; otherwise ambiguous. A token overlapping the initial G character belongs to G; allow its preceding boundary token due to tokenizer context.",
+  "tolerance_tokens": 0,
+  "broadcast_length_note": "Identical added marker can lengthen attacked LCP. Record signed difference as well as nonnegative loss; no class is inferred from call count.",
+  "coordinate_system": "half-open token intervals from character spans in fully rendered prompt, using actual tokenizer offsets. Store rendered text, raw token IDs and offsets, not visual estimates.",
+  "template_render": "official tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True) and tokenize rendered text with add_special_tokens=False; preserve official defaults including Qwen thinking default",
+  "normalization": "Only trace metadata timestamps/request UUIDs/scheduling order may be normalized for reproducibility comparison. NEVER normalize rendered prompt text or token IDs, including tool call IDs and semantic dict order. Archive raw and canonical metadata separately. For AutoGen only, narrowly guarded incidental native source audit path aliases are additionally allowed under autogen_audit_source_canonicalization; raw source paths remain archived.",
+  "react_control_premise": "Distinct deterministic assistant tool-call content across replicas models already-diverged generation; use identical canned outputs for paired benign/attacked passes. Timing alone never implies immunity.",
+  "nonclaims": [
+    "No GPU or serving cache metrics measured in SCAN",
+    "No numeric cost amplification inferred from stubs",
+    "No population prevalence inference",
+    "No claim that all mid-generation calls are immune"
+  ],
+  "reproducibility": "Commit instrumentation and adapters before controls; same code commit for controls and framework outputs, rerun all controls after any code change. Record installed package lock and model/file SHA256. Repeat measurement and compare full invariants.",
+  "framework_stub_rule": "The replica_nonce semantic divergence is exclusive to the already-diverged ReAct constructed control. Framework adapters register deterministic canned tool calls from the frozen recipe without replica-dependent arguments unless the official recipe itself supplies them. Unregistered or absent tools fail explicitly; timing alone cannot manufacture immunity.",
+  "request_pair_integrity": "Archive original HTTP request body text; compare every per-replica request in order after removal of injected retrieval markers. Preserve dict insertion order, tool-schema order, semantic IDs and prompt/token bytes.",
+  "marker_regex": "\\[SCAN_CALL_R(?:\\d+|broadcast)_C\\d{4,}\\] ",
+  "invocation_identity": "Unique marker at retrieval-return layer is keyed by replica plus its local invocation ordinal, not global thread arrival order. Broadcast has one invocation and one unchanged returned marker copied by framework wiring. Never normalize marker or other prompt bytes after rendering.",
+  "canonical_trace": "Archive raw trace and separate canonical trace. Group events/returns/requests by replica, preserve within-replica order, exact HTTP body bytes and stable call_key; remove global scheduling seq/call only. For mem0 only, permit audited nonsemantic native retrieval metadata UUID aliases under metadata_uuid_canonicalization. Never alter measurements, prompts, token IDs, tool call IDs, citations, receipts or native integer prompt IDs. For AutoGen, exact audit UUID and source path adapters follow their separate guarded policies; raw evidence remains original.",
+  "stub_transport": "Support JSON and SSE chat completions plus models discovery; retain official client streaming setting. Four controls also repeated through SSE with OpenAI SDK consuming tool-call deltas, at same code revision.",
+  "control_validation_variants": [
+    "json_sequential",
+    "sse_sequential",
+    "json_concurrent",
+    "sse_concurrent"
+  ],
+  "concurrency_validation": "Run all four known-truth controls via ThreadPoolExecutor branches as well as sequential branches, twice each. Canonical invariants including exact semantic bytes must match sequential reference at the same transport. This is an instrument validation only, not a substitute for an official framework parallel primitive.",
+  "metadata_uuid_canonicalization": {
+    "scope": "mem0 native_result_metadata.ids only",
+    "authority": "Guide section5 incidental nonsemantic UUID normalization, explicitly approved parent repair delegation",
+    "required_guard": "Target UUID must be absent from every complete model request (parsed payload and original raw HTTP text) and every rendered prompt across all request rounds and templates; otherwise keep original ID",
+    "stable_binding": "Unique actual storage (user_id,text) binding with SHA256-derived audit alias; ordered ids must match corresponding raw chunk texts in storage; absent or nonunique binding stays raw",
+    "preserved": "Raw IDs, order, scores, text and stored relationship retained; stable aliases preserve equality/repeated reference and never replace anything outside exact audit metadata ids path",
+    "separate_evidence": "Raw-to-alias and guard/storage hash evidence archived outside canonical comparison, never overwrite raw trace",
+    "prohibited": "No blanket UUID removal, toolcall/citation/receipt text handling, prompt UUID normalization, native integer ID changes, G locator or classifier changes; no historical trace relabeling"
+  },
+  "autogen_audit_UUID_canonicalization": {
+    "scope": "AutoGen native_result_metadata.native_results[].metadata.id only",
+    "authority": "Explicit parent rank7 admission-instrument authenticity check delegation",
+    "guard": "Target UUID absent from complete raw HTTP/parsed model requests and every rendered prompt; otherwise original ID retained",
+    "binding": "Actual read-only branch-private Chroma SQLite embedding_id/chroma:document/source/chunk_index/mime_type, original owned document bytes and ordinal; no synthetic user_id/text convention",
+    "stable_alias": "Digest of branch/collection/document ordinal/document bytes hash/chunk index/text/mime_type, unique actual relation; preserve equal/repeated references and ID order",
+    "unchanged": "Scores, content, all raw source paths, native semantic IDs, all raw storage/requests/prompts/token IDs, toolcall/citation/receipt fields; UUID stable aliases unchanged. Separate canonical source aliases governed only by autogen_audit_source_canonicalization.",
+    "source_path_note": "Original93d5 preserved source exactly and failed repeat. Prospective new policy separately permits guarded source audit aliases; no historical reclassification."
+  },
+  "autogen_audit_source_canonicalization": {
+    "scope": "AutoGen canonical native_result_metadata.native_results[].metadata.source only",
+    "authority": {
+      "file": "evidence/rank7_integration/parent_source_policy_authorization.md",
+      "sha256": "231fa0021543f2a43b17ed83be31ab4e1b492fdca79819ee1b8004b665102e57",
+      "parent_thread": "01a12971-326a-7428-8d00-177448891012"
+    },
+    "stable_binding": "Actual unique branch-private Chroma embedding_id/source/chunk/text/MIME and owned file byte SHA; alias binds logical namespace + full ordered document inventory digest + branch + actual collection + document ordinal + actual file byte SHA. Different logical documents stay distinct even with equal filename/content; same source repeated references stay equal.",
+    "guard": "Independently scan every raw HTTP body, recursive parsed payload string leaf (including string keys conservatively), and complete rendered prompt across all replicas/rounds/arms/templates. Decode valid JSON documents/string fragments, nested JSON/Unicode and percent URI forms in separate inspection representations; never scan only a json.dumps of the entire requests object. Windows case/slash normalized only inside inspection. Any semantic source match or incomplete inspection protects the original source.",
+    "scope_limit": "Current full native input inventory must exactly match actual plain one-chunk file/Chroma inventory. Missing/nonunique/outside owned directory/changed source-chunk-text relation/multi-chunk/transform evidence retains original paths.",
+    "preserved": "Raw IDs/paths/storage/file bytes, scores/text/ordered returns, all complete HTTP/parsed/rendered prompts/token IDs, toolcall/citation/receipt semantics, G/S/pair/last request/classifier. File identity/content/count/order/chunk/store changes remain visible.",
+    "separate_evidence": "canonical_metadata_source_audit.json records raw source to alias, every location, actual Chroma binding, file receipt, logical document catalog and guard inventory digests.",
+    "historical93d5": "Strict failure and all raw logs remain preserved; new policy is prospective only.",
+    "inspection_evidence": "Archive original scanned string, origin/replica/request/rendered index, every independent decoded representation and SHA/guard form; target protection evidence includes matched origin and representation SHA. Actual model contents remain original.",
+    "unicode_repair_authority": {
+      "file": "evidence/rank7_integration/parent_unicode_repair_authorization.md",
+      "sha256": "64f2d3d405eae355e557b27f9ea3b224022c0428933a53dcb5f1ed904ab3b4ab"
+    }
+  },
+  "rank7_exact_approved_packet_gate": {
+    "approval_fields": [
+      "pre_run_packet_file",
+      "pre_run_packet_sha256"
+    ],
+    "rule": "Resolve relative packet inside project reports; actual file SHA must match real approved record, packet rank/repo/code_commit and accepted_top6_extension_trigger must match exact formal target. Integrity fixtures do not authorize formal execution."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "observed_utc": "2026-10-11T21:21:35.925674+00:00",
+  "original_frozen_read_sha256": "3f8abc1b2069710345d6c7720f231e84d824a2e8ee055123873c44bd18f49e2b",
+  "snapshot_sha256": "74ca570f87b38a296a7f3c92f0917f9b4e0700c83df663c3b202a065e3d17405",
+  "native_bridge_snapshot_sha256": "97b2bb7b4af6aae14cd8adb42bacd9305c0ce3382d9134efd2d8781b24bfc4bc",
+  "source": "D:\\path\\to\\workspace\\SCAN_a2a3_v7\\exec\\pipeline.py",
+  "reason": "Concurrent parent-owned instrumentation changed between read/freeze and preparation import. First attempt stopped before native execution. Record new exact source snapshot for preparation-only shared-stub test; semantic corpus/fullS mapping unchanged.",
+  "formal_admission": false,
+  "parent_protocol_delta": [
+    "canonical_trace",
+    "metadata_uuid_canonicalization"
+  ],
+  "CrewAI_metadata_UUID_aliasing": false,
+  "current_parent_protocol_sha256": "1b98b955046e7f68e0adfa2cabe7387de9be5620ddad3ff34e9c7602bb569013",
+  "original_input_contract_unchanged": true
+}

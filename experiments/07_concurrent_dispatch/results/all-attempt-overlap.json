@@ -1,0 +1,147 @@
+[
+  {
+    "N": 5,
+    "schedule": "C",
+    "arm": "A",
+    "states": {
+      "confirmed_overlap": 90,
+      "unknown": 1
+    }
+  },
+  {
+    "N": 5,
+    "schedule": "C",
+    "arm": "B",
+    "states": {
+      "confirmed_overlap": 90
+    }
+  },
+  {
+    "N": 5,
+    "schedule": "C",
+    "arm": "D",
+    "states": {
+      "confirmed_overlap": 90
+    }
+  },
+  {
+    "N": 5,
+    "schedule": "P",
+    "arm": "A",
+    "states": {
+      "confirmed_overlap": 90
+    }
+  },
+  {
+    "N": 5,
+    "schedule": "P",
+    "arm": "B",
+    "states": {
+      "confirmed_overlap": 90
+    }
+  },
+  {
+    "N": 5,
+    "schedule": "P",
+    "arm": "D",
+    "states": {
+      "confirmed_overlap": 90
+    }
+  },
+  {
+    "N": 5,
+    "schedule": "S",
+    "arm": "A",
+    "states": {
+      "confirmed_none": 90
+    }
+  },
+  {
+    "N": 5,
+    "schedule": "S",
+    "arm": "B",
+    "states": {
+      "confirmed_none": 90
+    }
+  },
+  {
+    "N": 5,
+    "schedule": "S",
+    "arm": "D",
+    "states": {
+      "confirmed_none": 90
+    }
+  },
+  {
+    "N": 20,
+    "schedule": "C",
+    "arm": "A",
+    "states": {
+      "confirmed_overlap": 90
+    }
+  },
+  {
+    "N": 20,
+    "schedule": "C",
+    "arm": "B",
+    "states": {
+      "confirmed_overlap": 90
+    }
+  },
+  {
+    "N": 20,
+    "schedule": "C",
+    "arm": "D",
+    "states": {
+      "confirmed_overlap": 90
+    }
+  },
+  {
+    "N": 20,
+    "schedule": "P",
+    "arm": "A",
+    "states": {
+      "confirmed_overlap": 90
+    }
+  },
+  {
+    "N": 20,
+    "schedule": "P",
+    "arm": "B",
+    "states": {
+      "confirmed_overlap": 90
+    }
+  },
+  {
+    "N": 20,
+    "schedule": "P",
+    "arm": "D",
+    "states": {
+      "confirmed_overlap": 90
+    }
+  },
+  {
+    "N": 20,
+    "schedule": "S",
+    "arm": "A",
+    "states": {
+      "confirmed_none": 90
+    }
+  },
+  {
+    "N": 20,
+    "schedule": "S",
+    "arm": "B",
+    "states": {
+      "confirmed_none": 90
+    }
+  },
+  {
+    "N": 20,
+    "schedule": "S",
+    "arm": "D",
+    "states": {
+      "confirmed_none": 90
+    }
+  }
+]

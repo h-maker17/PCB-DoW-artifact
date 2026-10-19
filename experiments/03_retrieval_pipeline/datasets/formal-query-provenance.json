@@ -1,0 +1,10 @@
+[
+  {
+    "path": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-task-generalization/datasets/processed/hotpotqa.json",
+    "sha256": "dc89e0baea08b8fe665164cf9c78620b2da7f8672553b8b731ae5f6e72789fca"
+  },
+  {
+    "path": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-task-generalization/datasets/processed/triviaqa.json",
+    "sha256": "e40cfb7fcbd14afaf3834ea8c560bdd5e060f433381b446a922a3e359999ab09"
+  }
+]

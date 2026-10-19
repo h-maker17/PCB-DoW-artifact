@@ -1,0 +1,24 @@
+{
+  "dataset_repository": "THUDM/LongBench",
+  "mirror_candidates": [
+    "https://modelscope.cn/datasets/ZhipuAI/LongBench/resolve/master/data.zip",
+    "https://hf-mirror.com/datasets/THUDM/LongBench/resolve/main/data.zip",
+    "http://hf-mirror.com/datasets/THUDM/LongBench/resolve/main/data.zip"
+  ],
+  "transport_note": "Archive downloaded successfully; post-download README request returned HTTP 403. Exact successful transport URL was not retained by the first downloader. Original records verified against the archive, not against an upstream published digest.",
+  "archive_sha256": "cb45b11a4133c6bc1d6a44b0f8e701335ff1e543195db1103472e575857f7f64",
+  "subsets": {
+    "hotpotqa": {
+      "records": 200,
+      "sha256": "a0005ab2a1bc2ac3a70352dccbf96cccc4e0aac6bb677f6a55180fa51b92ef6f"
+    },
+    "gov_report": {
+      "records": 200,
+      "sha256": "d28112beb3a9b41d80aa390837fa1a31c9e3da84a5262009c97585cc49f597c4"
+    },
+    "triviaqa": {
+      "records": 200,
+      "sha256": "ed2529de2e10b12c00f49981870c23c7c51667069cdd8d0740e1423ff337d7fa"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "NORMALIZED_PUBLIC_DOCUMENT_FACTS_NOT_PAID_ACCEPTANCE",
+  "access_utc_window": {
+    "start_utc": "2026-10-13T00:02:36Z",
+    "end_utc": "2026-10-13T00:12:42.750841+00:00"
+  },
+  "capture_method": "web.run primary-document reads; normalized factual record",
+  "hash_scope": "SHA256 of local normalized JSON, not remote full HTML or server signature",
+  "credentials_accessed": false,
+  "provider_API_called": false,
+  "full_input_bound_proven": false,
+  "source_urls": [
+    "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+    "https://api-docs.deepseek.com/api/create-chat-completion/"
+  ],
+  "facts": {
+    "base_url": "https://api.deepseek.com",
+    "method": "POST",
+    "resource_path": "/chat/completions",
+    "http_url": "https://api.deepseek.com/chat/completions",
+    "model": "deepseek-v4-pro",
+    "created_public_type": "integer Unix seconds",
+    "candidate_output_limit": 64
+  },
+  "explicit_inference": "Full URL combines official OpenAI-format base and resource. Account responses and clock alignment remain unobserved.",
+  "access_time_resolution": "Conservative clock-bounded tool-access interval; not a provider/server timestamp."
+}

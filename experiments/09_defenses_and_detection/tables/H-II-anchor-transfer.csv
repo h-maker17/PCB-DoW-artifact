@@ -1,0 +1,3 @@
+model,task,AUC,joint_TPR_transfer,joint_FPR_transfer,archived_runs,document_groups,CI,scope
+qwen,synthetic-anchor,1.0,1.0,0.0,10,1,not estimated with a single semantic document group,supplementary frozen Llama-detector transfer; not a new model-specific operating-point calibration
+llama,synthetic-anchor,1.0,1.0,0.0,10,1,not estimated with a single semantic document group,supplementary frozen Llama-detector transfer; not a new model-specific operating-point calibration

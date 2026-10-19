@@ -1,0 +1,154 @@
+{
+  "rank": 7,
+  "repo": "microsoft/autogen",
+  "framework_commit": "027ecf0a379bcc1d09956d46d12d44a3ad9cee14",
+  "status": "final reviewable N4 integration candidate; formal extension NOT triggered",
+  "step": "step-2",
+  "wording": "official RAG example used as the per-branch body of its official parallel primitive",
+  "body": {
+    "url": "https://github.com/microsoft/autogen/blob/027ecf0a379bcc1d09956d46d12d44a3ad9cee14/python/docs/src/user-guide/agentchat-user-guide/memory.ipynb",
+    "cells": [
+      15,
+      17,
+      18
+    ],
+    "chain": "Original full SimpleDocumentIndexer fetch/HTML-strip/1500-character split/add -> native memory clear/index -> original AssistantAgent.run_stream/Console -> memory close"
+  },
+  "parallel_primitive": {
+    "url": "https://github.com/microsoft/autogen/blob/027ecf0a379bcc1d09956d46d12d44a3ad9cee14/python/docs/src/user-guide/core-user-guide/design-patterns/concurrent-agents.ipynb",
+    "cells": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "chain": "Original @default_subscription Processor -> native register -> SingleThreadedAgentRuntime.start -> one publish_message(DefaultTopicId) -> stop_when_idle; native runtime owns its gather. Only mock sleep body replaced by complete RAG cells."
+  },
+  "defaults": {
+    "chunk_size": 1500,
+    "chunk_unit": "characters",
+    "overlap": 0,
+    "collection_name": "autogen_docs",
+    "k": 3,
+    "score_threshold": 0.4,
+    "declared_distance_metric": "cosine",
+    "actual_native_collection_HNSW_space": "l2",
+    "model": "gpt-4o",
+    "assistant_name": "rag_assistant",
+    "tools": null,
+    "system_message": "You are a helpful AI assistant. Solve tasks using your tools. Reply with TERMINATE when the task has been completed.",
+    "model_client_stream": false,
+    "max_tool_iterations": 1,
+    "model_context": "native default UnboundedChatCompletionContext",
+    "allow_reset": false,
+    "embedding_function_config": {
+      "function_type": "default"
+    }
+  },
+  "S_query_contract": {
+    "ordinary_input": "CORPUS.query + two newlines + unmodified complete ctx.history",
+    "native_retrieval_query": "last model-context message content = identical ordinary input",
+    "history_point": "ordinary task string; no new role/context injection or G relocation",
+    "G_assembly": "native ChromaDBVectorMemory.update_context appends a SystemMessage with Relevant memory content and numbered original MemoryContent.content",
+    "render_order_observed": [
+      "original assistant system",
+      "user(query+whole S)",
+      "system(native G)"
+    ],
+    "no_trim_or_reorder": true
+  },
+  "connections": {
+    "corpus": "Declared frozen SCAN corpus supplied as UTF-8 local files, preserving complete original indexer; document source metadata/UUIDs are native",
+    "filesystem": "persistence_path and native ONNX DOWNLOAD_PATH redirected into this preparation only",
+    "embedding": "Native Chroma DefaultEmbeddingFunction -> native ONNX all-MiniLM-L6-v2, 384 float32, mean pooling/L2 normalization, 256-token native truncation; no OpenAI/provider alias substitution",
+    "LLM": "Native OpenAIChatCompletionClient(model=gpt-4o), only api_key/base_url connection to loopback logging stub",
+    "observer": "Read-only memory.query wrapper and streaming TaskResult observation; optional retrieval-return hook reserved for parent integration; native update_context untouched"
+  },
+  "environment": {
+    "path": "env",
+    "strict_isolation": true,
+    "inherits_base_site_packages": false,
+    "official_source_versions": {
+      "autogen-core": "0.7.5",
+      "autogen-agentchat": "0.7.5",
+      "autogen-ext": "0.7.5"
+    },
+    "runtime_imports": "Verified frozen source, not installed wheels; wheels provide official package metadata only",
+    "dependency_lock": "requirements.lock.txt",
+    "dependency_receipts": "reports/*install.json",
+    "GPU_used": false,
+    "external_paid_services_or_credentials": false,
+    "LLM_weights_downloaded": false
+  },
+  "parent_review_required": [],
+  "integration_remaining": "Parent owns the unchanged formal extension trigger, shared adapter registration, frozen runtime manifest/config and instrumentation commit/control reruns; candidate entry remains unregistered. No shared pipeline/config/manifest/index changes performed here.",
+  "test_evidence": "reports/integration_contract_results.json",
+  "formal_extension_started": false,
+  "formal_N4_executed": false,
+  "paired_arms_or_classification_executed": false,
+  "timebox_hours_per_framework": 8,
+  "failures_retained": [
+    {
+      "file": "reports/native_contract_attempt1.log",
+      "failure": "Missing official OpenAI extra in fresh isolated env; installed dependency, no native recipe repair."
+    },
+    {
+      "file": "reports/native_contract_attempt2.log",
+      "failure": "Two native bodies completed; audit serialization failed on native DefaultEmbeddingFunction configuration object; added type/get_config serialization only."
+    }
+  ],
+  "nonfatal_warning": "Native resolved model gpt-4o-2024-08-06 differs from stub response model gpt-4o; cost/token estimation warning retained, no recipe model change.",
+  "true_native_vs_mock": {
+    "LLM": "loopback canned answer only through native OpenAIChatCompletionClient HTTP",
+    "embedding": "real native MiniLM",
+    "vector_search": "real native persistent Chroma",
+    "runtime": "real frozen SingleThreadedAgentRuntime",
+    "prompt_assembly": "real frozen AssistantAgent/ChromaDBVectorMemory.update_context"
+  },
+  "parent_decision": {
+    "authority": "Source-thread parent technical decision received after isolated pre-review",
+    "default_conflict": "Approved retention of native config/metadata cosine, effective HNSW l2, original1-distance/2 score and threshold0.4",
+    "query_contract": "Approved retention of native 517 query+S tokens ->256 token embedding truncation; full S at LLM; three documents untruncated; no accuracy equivalence claim"
+  },
+  "N4_support": {
+    "entry": "adapter_autogen_integration.py --native-input <private config JSON>",
+    "API": "native(config) / native_async(config)",
+    "config_fields": [
+      "base_url",
+      "query",
+      "history",
+      "N",
+      "documents",
+      "state_dir",
+      "phase",
+      "attempt_id or run_id"
+    ],
+    "parallel": "N native registrations, exact official default-subscription Processor recreation, one native publish and stop_when_idle; no author branch loop/gather",
+    "private_storage": "state_dir/attempt/phase/Rbranch/chroma; inputs and branch evidence in the same branch-private directory",
+    "shared_HTTP_routes": [
+      "/v1/scan/native-start",
+      "/v1/scan/native-return",
+      "/v1/chat/completions"
+    ],
+    "identity": "X-SCAN-Replica / X-SCAN-Attempt / X-SCAN-Phase headers only; never body/prompt fields",
+    "marker": "existing shared native-return prefix only on independent MemoryContent copies; no ID/score/index/metadata/order edits",
+    "source_native_body": "full unchanged original indexer and required cells; transport/factories/observers only",
+    "completion": "all original TaskResults, final assistant strings, actual native add/storage evidence; no successful receipt on branch failure"
+  },
+  "actual_body_provider_evidence": "reports/integration_contract_raw.json -> native.actual_body_ONNX_sessions (16 actual inference calls; no auxiliary CPU session used)",
+  "N2_evidence_preserved": "preserved_n2",
+  "integration_contract_failures_retained": [
+    {
+      "file": "reports/integration_contract_attempt1.log",
+      "failure": "Subclassing original Processor reset inherited subscription registry; zero branch execution. Completion gate failed correctly. Fixed by recreating exact original decorated class."
+    },
+    {
+      "file": "reports/integration_contract_attempt2.log",
+      "failure": "Chinese native source-path metadata rejected by http.client Latin-1 string-body encoding; fixed to UTF-8 bytes only. Raw native cancellation/telemetry errors retained; no recipe repair."
+    },
+    {
+      "file": "reports/integration_exception_contract_raw.json",
+      "failure": "Expected negative contract: malformed shared observer result count AFTER native indexing/embedding/search. Native branch error recorded; no final model request or false success receipt."
+    }
+  ]
+}

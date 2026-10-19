@@ -1,0 +1,110 @@
+[
+  {
+    "task": "hotpotqa",
+    "group": "462bfef9526bb7983e70eecbfdfbb348ec9a742bd62bfabe6c9aecd47825c5e8",
+    "N": 5,
+    "tool_return_log_bytes": 45360,
+    "minimal_counter_log_bytes": 70,
+    "byte_comparison_cpu_median_us": 64.4795,
+    "health_statistics_cpu_median_us": 65.4025,
+    "byte_divergence_detected": true,
+    "timing_scope": "SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",
+    "iterations": 100
+  },
+  {
+    "task": "hotpotqa",
+    "group": "2499c2c538894fda5ad359e8eb5785e4973348698a8bb8d6c0fa28a93e6ee0b8",
+    "N": 5,
+    "tool_return_log_bytes": 37385,
+    "minimal_counter_log_bytes": 70,
+    "byte_comparison_cpu_median_us": 54.2275,
+    "health_statistics_cpu_median_us": 63.4795,
+    "byte_divergence_detected": true,
+    "timing_scope": "SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",
+    "iterations": 100
+  },
+  {
+    "task": "hotpotqa",
+    "group": "b111ea72c8f7cfe3e422ac6bc44f1cca191cb7e416f67099fe7310d5ec7b9ed7",
+    "N": 5,
+    "tool_return_log_bytes": 44690,
+    "minimal_counter_log_bytes": 70,
+    "byte_comparison_cpu_median_us": 63.567,
+    "health_statistics_cpu_median_us": 62.7845,
+    "byte_divergence_detected": true,
+    "timing_scope": "SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",
+    "iterations": 100
+  },
+  {
+    "task": "triviaqa",
+    "group": "a0959dc4707d4e3e053e2699039b13c5a0d532201ca9a7360b26e029e1cfaef6",
+    "N": 5,
+    "tool_return_log_bytes": 28010,
+    "minimal_counter_log_bytes": 70,
+    "byte_comparison_cpu_median_us": 42.153,
+    "health_statistics_cpu_median_us": 77.0625,
+    "byte_divergence_detected": true,
+    "timing_scope": "SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",
+    "iterations": 100
+  },
+  {
+    "task": "triviaqa",
+    "group": "0e3b724deb4a01f3fd99dc8934201f4f8f5536d1f9f7c3628c83276451f559a3",
+    "N": 5,
+    "tool_return_log_bytes": 21400,
+    "minimal_counter_log_bytes": 70,
+    "byte_comparison_cpu_median_us": 34.2175,
+    "health_statistics_cpu_median_us": 78.39,
+    "byte_divergence_detected": true,
+    "timing_scope": "SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",
+    "iterations": 100
+  },
+  {
+    "task": "triviaqa",
+    "group": "6bf54e6490bee7822a3c13e4d523f22ae005e08705d7d430e90f8eafa94b7e78",
+    "N": 5,
+    "tool_return_log_bytes": 28195,
+    "minimal_counter_log_bytes": 70,
+    "byte_comparison_cpu_median_us": 42.8355,
+    "health_statistics_cpu_median_us": 62.723,
+    "byte_divergence_detected": true,
+    "timing_scope": "SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",
+    "iterations": 100
+  },
+  {
+    "task": "gov_report",
+    "group": "b47adb1917bedc9f8b99df8b397feb761481f2aeb8f95d7aef63d4ec69d8302c",
+    "N": 5,
+    "tool_return_log_bytes": 57485,
+    "minimal_counter_log_bytes": 70,
+    "byte_comparison_cpu_median_us": 80.0435,
+    "health_statistics_cpu_median_us": 62.461,
+    "byte_divergence_detected": true,
+    "timing_scope": "SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",
+    "iterations": 100
+  },
+  {
+    "task": "gov_report",
+    "group": "9a8655eae6ce0ef064db486f77cd75e2a09bd646e5b057a4340c9adcd6599e82",
+    "N": 5,
+    "tool_return_log_bytes": 56995,
+    "minimal_counter_log_bytes": 70,
+    "byte_comparison_cpu_median_us": 151.91,
+    "health_statistics_cpu_median_us": 118.78,
+    "byte_divergence_detected": true,
+    "timing_scope": "SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",
+    "iterations": 100
+  },
+  {
+    "task": "gov_report",
+    "group": "cb62e936ebc1ccc27ca0fd34bec8005203177026e13af470934019385a54e36d",
+    "N": 5,
+    "tool_return_log_bytes": 56630,
+    "minimal_counter_log_bytes": 70,
+    "byte_comparison_cpu_median_us": 141.2065,
+    "health_statistics_cpu_median_us": 111.986,
+    "byte_divergence_detected": true,
+    "timing_scope": "SHA256/equality and four-feature CPU logic, excludes log I/O/collection/network; repeated fixed buffers",
+    "iterations": 100
+  }
+]

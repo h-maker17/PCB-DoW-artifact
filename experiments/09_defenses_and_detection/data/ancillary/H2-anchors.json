@@ -1,0 +1,702 @@
+[
+  {
+    "key": "B1-qwen-n5-r1-none",
+    "model": "qwen",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-qwen",
+    "split": "test-only-anchor",
+    "label": 0,
+    "category": "none",
+    "N": 5,
+    "prompt": [
+      2595,
+      2595,
+      2595,
+      2595,
+      2595
+    ],
+    "cached": [
+      0,
+      2560,
+      2560,
+      2560,
+      2560
+    ],
+    "features": {
+      "mean_hit": 0.9865125240847784,
+      "variance_hit": 0.0,
+      "min_hit": 0.9865125240847784,
+      "below_floor_count": 0,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-02-qwen-anchor/data/20261002T121019Z-mapshared-none-fe3ddf",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-qwen-n5-r1-front",
+    "model": "qwen",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-qwen",
+    "split": "test-only-anchor",
+    "label": 1,
+    "category": "front",
+    "N": 5,
+    "prompt": [
+      2597,
+      2597,
+      2598,
+      2598,
+      2599
+    ],
+    "cached": [
+      0,
+      560,
+      560,
+      560,
+      560
+    ],
+    "features": {
+      "mean_hit": 0.21555043937025456,
+      "variance_hit": 3.441831716217035e-09,
+      "min_hit": 0.21546748749519046,
+      "below_floor_count": 4,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-02-qwen-anchor/data/20261002T121026Z-mapshared-prefix-312473",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-qwen-n5-r2-none",
+    "model": "qwen",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-qwen",
+    "split": "test-only-anchor",
+    "label": 0,
+    "category": "none",
+    "N": 5,
+    "prompt": [
+      2595,
+      2595,
+      2595,
+      2595,
+      2595
+    ],
+    "cached": [
+      0,
+      2560,
+      2560,
+      2560,
+      2560
+    ],
+    "features": {
+      "mean_hit": 0.9865125240847784,
+      "variance_hit": 0.0,
+      "min_hit": 0.9865125240847784,
+      "below_floor_count": 0,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-02-qwen-anchor/data/20261002T121142Z-mapshared-none-eb6aed",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-qwen-n5-r2-front",
+    "model": "qwen",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-qwen",
+    "split": "test-only-anchor",
+    "label": 1,
+    "category": "front",
+    "N": 5,
+    "prompt": [
+      2597,
+      2597,
+      2598,
+      2598,
+      2599
+    ],
+    "cached": [
+      0,
+      560,
+      560,
+      560,
+      560
+    ],
+    "features": {
+      "mean_hit": 0.21555043937025456,
+      "variance_hit": 3.441831716217035e-09,
+      "min_hit": 0.21546748749519046,
+      "below_floor_count": 4,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-02-qwen-anchor/data/20261002T121146Z-mapshared-prefix-69bda7",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-qwen-n5-r3-none",
+    "model": "qwen",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-qwen",
+    "split": "test-only-anchor",
+    "label": 0,
+    "category": "none",
+    "N": 5,
+    "prompt": [
+      2595,
+      2595,
+      2595,
+      2595,
+      2595
+    ],
+    "cached": [
+      0,
+      2560,
+      2560,
+      2560,
+      2560
+    ],
+    "features": {
+      "mean_hit": 0.9865125240847784,
+      "variance_hit": 0.0,
+      "min_hit": 0.9865125240847784,
+      "below_floor_count": 0,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-02-qwen-anchor/data/20261002T121301Z-mapshared-none-362ea7",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-qwen-n5-r3-front",
+    "model": "qwen",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-qwen",
+    "split": "test-only-anchor",
+    "label": 1,
+    "category": "front",
+    "N": 5,
+    "prompt": [
+      2597,
+      2597,
+      2598,
+      2598,
+      2599
+    ],
+    "cached": [
+      0,
+      560,
+      560,
+      560,
+      560
+    ],
+    "features": {
+      "mean_hit": 0.21555043937025456,
+      "variance_hit": 3.441831716217035e-09,
+      "min_hit": 0.21546748749519046,
+      "below_floor_count": 4,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-02-qwen-anchor/data/20261002T121305Z-mapshared-prefix-27726d",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-qwen-n5-r4-none",
+    "model": "qwen",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-qwen",
+    "split": "test-only-anchor",
+    "label": 0,
+    "category": "none",
+    "N": 5,
+    "prompt": [
+      2595,
+      2595,
+      2595,
+      2595,
+      2595
+    ],
+    "cached": [
+      0,
+      2560,
+      2560,
+      2560,
+      2560
+    ],
+    "features": {
+      "mean_hit": 0.9865125240847784,
+      "variance_hit": 0.0,
+      "min_hit": 0.9865125240847784,
+      "below_floor_count": 0,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-02-qwen-anchor/data/20261002T121421Z-mapshared-none-06bad5",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-qwen-n5-r4-front",
+    "model": "qwen",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-qwen",
+    "split": "test-only-anchor",
+    "label": 1,
+    "category": "front",
+    "N": 5,
+    "prompt": [
+      2597,
+      2597,
+      2598,
+      2598,
+      2599
+    ],
+    "cached": [
+      0,
+      560,
+      560,
+      560,
+      560
+    ],
+    "features": {
+      "mean_hit": 0.21555043937025456,
+      "variance_hit": 3.441831716217035e-09,
+      "min_hit": 0.21546748749519046,
+      "below_floor_count": 4,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-02-qwen-anchor/data/20261002T121425Z-mapshared-prefix-a7db98",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-qwen-n5-r5-none",
+    "model": "qwen",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-qwen",
+    "split": "test-only-anchor",
+    "label": 0,
+    "category": "none",
+    "N": 5,
+    "prompt": [
+      2595,
+      2595,
+      2595,
+      2595,
+      2595
+    ],
+    "cached": [
+      0,
+      2560,
+      2560,
+      2560,
+      2560
+    ],
+    "features": {
+      "mean_hit": 0.9865125240847784,
+      "variance_hit": 0.0,
+      "min_hit": 0.9865125240847784,
+      "below_floor_count": 0,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-02-qwen-anchor/data/20261002T121539Z-mapshared-none-2593ca",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-qwen-n5-r5-front",
+    "model": "qwen",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-qwen",
+    "split": "test-only-anchor",
+    "label": 1,
+    "category": "front",
+    "N": 5,
+    "prompt": [
+      2597,
+      2597,
+      2598,
+      2598,
+      2599
+    ],
+    "cached": [
+      0,
+      560,
+      560,
+      560,
+      560
+    ],
+    "features": {
+      "mean_hit": 0.21555043937025456,
+      "variance_hit": 3.441831716217035e-09,
+      "min_hit": 0.21546748749519046,
+      "below_floor_count": 4,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-02-qwen-anchor/data/20261002T121544Z-mapshared-prefix-a50944",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-llama-n5-r1-none",
+    "model": "llama",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-llama",
+    "split": "test-only-anchor",
+    "label": 0,
+    "category": "none",
+    "N": 5,
+    "prompt": [
+      2737,
+      2737,
+      2737,
+      2737,
+      2737
+    ],
+    "cached": [
+      0,
+      2704,
+      2704,
+      2704,
+      2704
+    ],
+    "features": {
+      "mean_hit": 0.9879430032882718,
+      "variance_hit": 0.0,
+      "min_hit": 0.9879430032882718,
+      "below_floor_count": 0,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-03-llama70b-baseline/data/session-20261003T053328Z-f7d64c/e1/20261003T053354Z-mapshared-none-5745d7",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-llama-n5-r1-front",
+    "model": "llama",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-llama",
+    "split": "test-only-anchor",
+    "label": 1,
+    "category": "front",
+    "N": 5,
+    "prompt": [
+      2739,
+      2739,
+      2740,
+      2740,
+      2741
+    ],
+    "cached": [
+      0,
+      704,
+      704,
+      704,
+      704
+    ],
+    "features": {
+      "mean_hit": 0.25693432368095936,
+      "variance_hit": 4.396562142032502e-09,
+      "min_hit": 0.2568405691353521,
+      "below_floor_count": 4,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-03-llama70b-baseline/data/session-20261003T053328Z-f7d64c/e1/20261003T053402Z-mapshared-prefix-53568a",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-llama-n5-r2-none",
+    "model": "llama",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-llama",
+    "split": "test-only-anchor",
+    "label": 0,
+    "category": "none",
+    "N": 5,
+    "prompt": [
+      2737,
+      2737,
+      2737,
+      2737,
+      2737
+    ],
+    "cached": [
+      0,
+      2704,
+      2704,
+      2704,
+      2704
+    ],
+    "features": {
+      "mean_hit": 0.9879430032882718,
+      "variance_hit": 0.0,
+      "min_hit": 0.9879430032882718,
+      "below_floor_count": 0,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-03-llama70b-baseline/data/session-20261003T053328Z-f7d64c/e1/20261003T053428Z-mapshared-none-117e47",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-llama-n5-r2-front",
+    "model": "llama",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-llama",
+    "split": "test-only-anchor",
+    "label": 1,
+    "category": "front",
+    "N": 5,
+    "prompt": [
+      2739,
+      2739,
+      2740,
+      2740,
+      2741
+    ],
+    "cached": [
+      0,
+      704,
+      704,
+      704,
+      704
+    ],
+    "features": {
+      "mean_hit": 0.25693432368095936,
+      "variance_hit": 4.396562142032502e-09,
+      "min_hit": 0.2568405691353521,
+      "below_floor_count": 4,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-03-llama70b-baseline/data/session-20261003T053328Z-f7d64c/e1/20261003T053436Z-mapshared-prefix-10e942",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-llama-n5-r3-none",
+    "model": "llama",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-llama",
+    "split": "test-only-anchor",
+    "label": 0,
+    "category": "none",
+    "N": 5,
+    "prompt": [
+      2737,
+      2737,
+      2737,
+      2737,
+      2737
+    ],
+    "cached": [
+      0,
+      2704,
+      2704,
+      2704,
+      2704
+    ],
+    "features": {
+      "mean_hit": 0.9879430032882718,
+      "variance_hit": 0.0,
+      "min_hit": 0.9879430032882718,
+      "below_floor_count": 0,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-03-llama70b-baseline/data/session-20261003T053328Z-f7d64c/e1/20261003T053503Z-mapshared-none-3f0f9a",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-llama-n5-r3-front",
+    "model": "llama",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-llama",
+    "split": "test-only-anchor",
+    "label": 1,
+    "category": "front",
+    "N": 5,
+    "prompt": [
+      2739,
+      2739,
+      2740,
+      2740,
+      2741
+    ],
+    "cached": [
+      0,
+      704,
+      704,
+      704,
+      704
+    ],
+    "features": {
+      "mean_hit": 0.25693432368095936,
+      "variance_hit": 4.396562142032502e-09,
+      "min_hit": 0.2568405691353521,
+      "below_floor_count": 4,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-03-llama70b-baseline/data/session-20261003T053328Z-f7d64c/e1/20261003T053511Z-mapshared-prefix-b04766",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-llama-n5-r4-none",
+    "model": "llama",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-llama",
+    "split": "test-only-anchor",
+    "label": 0,
+    "category": "none",
+    "N": 5,
+    "prompt": [
+      2737,
+      2737,
+      2737,
+      2737,
+      2737
+    ],
+    "cached": [
+      0,
+      2704,
+      2704,
+      2704,
+      2704
+    ],
+    "features": {
+      "mean_hit": 0.9879430032882718,
+      "variance_hit": 0.0,
+      "min_hit": 0.9879430032882718,
+      "below_floor_count": 0,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-03-llama70b-baseline/data/session-20261003T053328Z-f7d64c/e1/20261003T053538Z-mapshared-none-22ef71",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-llama-n5-r4-front",
+    "model": "llama",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-llama",
+    "split": "test-only-anchor",
+    "label": 1,
+    "category": "front",
+    "N": 5,
+    "prompt": [
+      2739,
+      2739,
+      2740,
+      2740,
+      2741
+    ],
+    "cached": [
+      0,
+      704,
+      704,
+      704,
+      704
+    ],
+    "features": {
+      "mean_hit": 0.25693432368095936,
+      "variance_hit": 4.396562142032502e-09,
+      "min_hit": 0.2568405691353521,
+      "below_floor_count": 4,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-03-llama70b-baseline/data/session-20261003T053328Z-f7d64c/e1/20261003T053546Z-mapshared-prefix-b99489",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-llama-n5-r5-none",
+    "model": "llama",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-llama",
+    "split": "test-only-anchor",
+    "label": 0,
+    "category": "none",
+    "N": 5,
+    "prompt": [
+      2737,
+      2737,
+      2737,
+      2737,
+      2737
+    ],
+    "cached": [
+      0,
+      2704,
+      2704,
+      2704,
+      2704
+    ],
+    "features": {
+      "mean_hit": 0.9879430032882718,
+      "variance_hit": 0.0,
+      "min_hit": 0.9879430032882718,
+      "below_floor_count": 0,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-03-llama70b-baseline/data/session-20261003T053328Z-f7d64c/e1/20261003T053611Z-mapshared-none-365f77",
+    "reference_n": 5
+  },
+  {
+    "key": "B1-llama-n5-r5-front",
+    "model": "llama",
+    "task": "synthetic-anchor",
+    "group": "shared-synthetic-anchor-llama",
+    "split": "test-only-anchor",
+    "label": 1,
+    "category": "front",
+    "N": 5,
+    "prompt": [
+      2739,
+      2739,
+      2740,
+      2740,
+      2741
+    ],
+    "cached": [
+      0,
+      704,
+      704,
+      704,
+      704
+    ],
+    "features": {
+      "mean_hit": 0.25693432368095936,
+      "variance_hit": 4.396562142032502e-09,
+      "min_hit": 0.2568405691353521,
+      "below_floor_count": 4,
+      "health_floor": 0.95,
+      "reusing_replicas": 4
+    },
+    "source": "archived-vLLM",
+    "source_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-03-llama70b-baseline/data/session-20261003T053328Z-f7d64c/e1/20261003T053619Z-mapshared-prefix-2aa704",
+    "reference_n": 5
+  }
+]

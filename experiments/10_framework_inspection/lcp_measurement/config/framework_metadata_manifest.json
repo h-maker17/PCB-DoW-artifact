@@ -1,0 +1,5141 @@
+{
+  "scope": "framework_archive_metadata_only",
+  "execution_authorized": false,
+  "datasets": [
+    {
+      "dataset": "langchain_original_main",
+      "rank": 3,
+      "role": "main",
+      "run": "exec/pilot/langchain-ai__langchain/run_20261011T182244686484Z",
+      "repeat_files": [
+        {
+          "file": "exec/pilot/langchain-ai__langchain/run_20261011T182244686484Z/repeat_1/trace.json",
+          "sha256": "0b2984d7bf0db2bda75811c5827fb31c522dff05ae58be3566db211ad0fdee44",
+          "bytes": 2708362,
+          "repeat": 1,
+          "instrumentation_commit": "8ee30445f7d3b431ec32ae26dcfad7aae9a2bdaf",
+          "stored_pair_integrity": true,
+          "failed_stage": null,
+          "phases": {
+            "benign": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            },
+            "attacked": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            }
+          },
+          "measurement_inventory": [
+            {
+              "phase": "benign",
+              "template": "llama33",
+              "stored_LCP_read_only": 637,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "benign",
+              "template": "qwen3",
+              "stored_LCP_read_only": 623,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "llama33",
+              "stored_LCP_read_only": 88,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "qwen3",
+              "stored_LCP_read_only": 66,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            }
+          ]
+        },
+        {
+          "file": "exec/pilot/langchain-ai__langchain/run_20261011T182244686484Z/repeat_2/trace.json",
+          "sha256": "fb48a7f890e7b6009cd2a1bf607379c320213265b7e677775214f1a5dcd7a814",
+          "bytes": 2708362,
+          "repeat": 2,
+          "instrumentation_commit": "8ee30445f7d3b431ec32ae26dcfad7aae9a2bdaf",
+          "stored_pair_integrity": true,
+          "failed_stage": null,
+          "phases": {
+            "benign": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            },
+            "attacked": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            }
+          },
+          "measurement_inventory": [
+            {
+              "phase": "benign",
+              "template": "llama33",
+              "stored_LCP_read_only": 637,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "benign",
+              "template": "qwen3",
+              "stored_LCP_read_only": 623,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "llama33",
+              "stored_LCP_read_only": 88,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "qwen3",
+              "stored_LCP_read_only": 66,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            }
+          ]
+        }
+      ],
+      "new_observer_applied": false,
+      "new_classification": null,
+      "stored_repeat_check": {
+        "code_commit": "8ee30445f7d3b431ec32ae26dcfad7aae9a2bdaf",
+        "repeat": 2,
+        "identical_raw_trace": false,
+        "identical_full_invariant": true,
+        "note": "Only cross-branch scheduling metadata removed; all semantic bytes and per-branch event order preserved"
+      }
+    },
+    {
+      "dataset": "langchain_v5_replication",
+      "rank": 3,
+      "role": "same-framework replication",
+      "run": "exec/pilot/langchain-ai__langchain/confirmation_4aeb9964_v5_recovery_once",
+      "repeat_files": [
+        {
+          "file": "exec/pilot/langchain-ai__langchain/confirmation_4aeb9964_v5_recovery_once/repeat_1/trace.json",
+          "sha256": "f0a103c57eb0cacb051299e4c4301647179aa77aacba8bdb9b72c647e53c4ba8",
+          "bytes": 2722676,
+          "repeat": 1,
+          "instrumentation_commit": "4aeb99646d1eb57614b5acf42f024c4521e037b4",
+          "stored_pair_integrity": true,
+          "failed_stage": null,
+          "phases": {
+            "benign": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            },
+            "attacked": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            }
+          },
+          "measurement_inventory": [
+            {
+              "phase": "benign",
+              "template": "llama33",
+              "stored_LCP_read_only": 637,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "benign",
+              "template": "qwen3",
+              "stored_LCP_read_only": 623,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "llama33",
+              "stored_LCP_read_only": 88,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "qwen3",
+              "stored_LCP_read_only": 66,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            }
+          ]
+        },
+        {
+          "file": "exec/pilot/langchain-ai__langchain/confirmation_4aeb9964_v5_recovery_once/repeat_2/trace.json",
+          "sha256": "6229a7462863d21afba7231616ea87b83af8e94ea3e5d07467f376c59091982d",
+          "bytes": 2722676,
+          "repeat": 2,
+          "instrumentation_commit": "4aeb99646d1eb57614b5acf42f024c4521e037b4",
+          "stored_pair_integrity": true,
+          "failed_stage": null,
+          "phases": {
+            "benign": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            },
+            "attacked": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            }
+          },
+          "measurement_inventory": [
+            {
+              "phase": "benign",
+              "template": "llama33",
+              "stored_LCP_read_only": 637,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "benign",
+              "template": "qwen3",
+              "stored_LCP_read_only": 623,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "llama33",
+              "stored_LCP_read_only": 88,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "qwen3",
+              "stored_LCP_read_only": 66,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            }
+          ]
+        }
+      ],
+      "new_observer_applied": false,
+      "new_classification": null,
+      "stored_repeat_check": {
+        "code_commit": "4aeb99646d1eb57614b5acf42f024c4521e037b4",
+        "repeat": 2,
+        "identical_raw_trace": false,
+        "identical_full_invariant": true,
+        "note": "Only cross-branch scheduling metadata removed; all semantic bytes and per-branch event order preserved"
+      }
+    },
+    {
+      "dataset": "openwebui_main",
+      "rank": 2,
+      "role": "main",
+      "run": "exec/pilot/open-webui__open-webui/run_20261011T172427107831Z",
+      "repeat_files": [
+        {
+          "file": "exec/pilot/open-webui__open-webui/run_20261011T172427107831Z/repeat_1/trace.json",
+          "sha256": "d1caf910e09f4aa3e2b2d5c93a2f9285a5068e7452bb88a18db9604b1ff89677",
+          "bytes": 25245137,
+          "repeat": 1,
+          "instrumentation_commit": "23784b054382693d2fc28da6d6e0c0471db85f55",
+          "stored_pair_integrity": true,
+          "failed_stage": null,
+          "phases": {
+            "benign": {
+              "requests": 8,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            },
+            "attacked": {
+              "requests": 8,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            }
+          },
+          "measurement_inventory": [
+            {
+              "phase": "benign",
+              "template": "llama33",
+              "stored_LCP_read_only": 6969,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "benign",
+              "template": "qwen3",
+              "stored_LCP_read_only": 5926,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "llama33",
+              "stored_LCP_read_only": 6899,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "qwen3",
+              "stored_LCP_read_only": 5852,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            }
+          ]
+        },
+        {
+          "file": "exec/pilot/open-webui__open-webui/run_20261011T172427107831Z/repeat_2/trace.json",
+          "sha256": "776bae8a0c8a44048bcd76a09938d1d86df209aa668a7e3570c7bc5f476b0496",
+          "bytes": 25245137,
+          "repeat": 2,
+          "instrumentation_commit": "23784b054382693d2fc28da6d6e0c0471db85f55",
+          "stored_pair_integrity": true,
+          "failed_stage": null,
+          "phases": {
+            "benign": {
+              "requests": 8,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            },
+            "attacked": {
+              "requests": 8,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    302
+                  ],
+                  "chunk_utf8_sha256": [
+                    "4a47cbdcea998ab85df8090c820bb53cd6aea743c1c9a55041417b9a811dc8f5"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            }
+          },
+          "measurement_inventory": [
+            {
+              "phase": "benign",
+              "template": "llama33",
+              "stored_LCP_read_only": 6969,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "benign",
+              "template": "qwen3",
+              "stored_LCP_read_only": 5926,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "llama33",
+              "stored_LCP_read_only": 6899,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "qwen3",
+              "stored_LCP_read_only": 5852,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            }
+          ]
+        }
+      ],
+      "new_observer_applied": false,
+      "new_classification": null,
+      "stored_repeat_check": {
+        "code_commit": "23784b054382693d2fc28da6d6e0c0471db85f55",
+        "repeat": 2,
+        "identical_raw_trace": false,
+        "identical_full_invariant": true,
+        "note": "Only cross-branch scheduling metadata removed; all semantic bytes and per-branch event order preserved"
+      }
+    },
+    {
+      "dataset": "autogen_main",
+      "rank": 7,
+      "role": "main",
+      "run": "exec/pilot/microsoft__autogen/run_20261011T225843774924Z",
+      "repeat_files": [
+        {
+          "file": "exec/pilot/microsoft__autogen/run_20261011T225843774924Z/repeat_1/trace.json",
+          "sha256": "5b4f3225951bce0e5491cf5aa61726414db8690bd8d3714765a1d838cd892bbc",
+          "bytes": 2498357,
+          "repeat": 1,
+          "instrumentation_commit": "3b5aaf4a54c8b775e79c5622b337d36cf02d4520",
+          "stored_pair_integrity": true,
+          "failed_stage": null,
+          "phases": {
+            "benign": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            },
+            "attacked": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            }
+          },
+          "measurement_inventory": [
+            {
+              "phase": "benign",
+              "template": "llama33",
+              "stored_LCP_read_only": 588,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "benign",
+              "template": "qwen3",
+              "stored_LCP_read_only": 574,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "llama33",
+              "stored_LCP_read_only": 556,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "qwen3",
+              "stored_LCP_read_only": 538,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            }
+          ]
+        },
+        {
+          "file": "exec/pilot/microsoft__autogen/run_20261011T225843774924Z/repeat_2/trace.json",
+          "sha256": "8c513b92c8ce98c3411ffdd7588b357dbf7a9c24b994656b291ee0efdfa0aa6f",
+          "bytes": 2498357,
+          "repeat": 2,
+          "instrumentation_commit": "3b5aaf4a54c8b775e79c5622b337d36cf02d4520",
+          "stored_pair_integrity": true,
+          "failed_stage": null,
+          "phases": {
+            "benign": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            },
+            "attacked": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            }
+          },
+          "measurement_inventory": [
+            {
+              "phase": "benign",
+              "template": "llama33",
+              "stored_LCP_read_only": 588,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "benign",
+              "template": "qwen3",
+              "stored_LCP_read_only": 574,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "llama33",
+              "stored_LCP_read_only": 556,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "qwen3",
+              "stored_LCP_read_only": 538,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            }
+          ]
+        }
+      ],
+      "new_observer_applied": false,
+      "new_classification": null,
+      "stored_repeat_check": {
+        "code_commit": "3b5aaf4a54c8b775e79c5622b337d36cf02d4520",
+        "repeat": 2,
+        "identical_raw_trace": false,
+        "identical_full_invariant": true,
+        "note": "Only cross-branch scheduling metadata removed; all semantic bytes and per-branch event order preserved"
+      }
+    },
+    {
+      "dataset": "crewai_main",
+      "rank": 8,
+      "role": "main",
+      "run": "exec/pilot/crewAIInc__crewAI/run_20261011T235956899392Z",
+      "repeat_files": [
+        {
+          "file": "exec/pilot/crewAIInc__crewAI/run_20261011T235956899392Z/repeat_1/trace.json",
+          "sha256": "8e9ec66e079b67711c2961d5762e99a35420e2d178f287145d09785bf495ac6a",
+          "bytes": 4116588,
+          "repeat": 1,
+          "instrumentation_commit": "082a76b000ff6e64cb5a1403fe46936d4a7253c3",
+          "stored_pair_integrity": true,
+          "failed_stage": null,
+          "phases": {
+            "benign": {
+              "requests": 8,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            },
+            "attacked": {
+              "requests": 8,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            }
+          },
+          "measurement_inventory": [
+            {
+              "phase": "benign",
+              "template": "llama33",
+              "stored_LCP_read_only": 657,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "benign",
+              "template": "qwen3",
+              "stored_LCP_read_only": 643,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "llama33",
+              "stored_LCP_read_only": 595,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "qwen3",
+              "stored_LCP_read_only": 577,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            }
+          ]
+        },
+        {
+          "file": "exec/pilot/crewAIInc__crewAI/run_20261011T235956899392Z/repeat_2/trace.json",
+          "sha256": "27fac76cc9902e719fc6a5c55042c1724195f9f6e9816b262cd409ead8b66a97",
+          "bytes": 4116588,
+          "repeat": 2,
+          "instrumentation_commit": "082a76b000ff6e64cb5a1403fe46936d4a7253c3",
+          "stored_pair_integrity": true,
+          "failed_stage": null,
+          "phases": {
+            "benign": {
+              "requests": 8,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            },
+            "attacked": {
+              "requests": 8,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    300
+                  ],
+                  "chunk_utf8_sha256": [
+                    "d421e8746ab7436663ea410b12761fedbb645cbf53b5809bfea1a0b648bcfd71"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            }
+          },
+          "measurement_inventory": [
+            {
+              "phase": "benign",
+              "template": "llama33",
+              "stored_LCP_read_only": 657,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "benign",
+              "template": "qwen3",
+              "stored_LCP_read_only": 643,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "llama33",
+              "stored_LCP_read_only": 595,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "qwen3",
+              "stored_LCP_read_only": 577,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            }
+          ]
+        }
+      ],
+      "new_observer_applied": false,
+      "new_classification": null,
+      "stored_repeat_check": {
+        "code_commit": "082a76b000ff6e64cb5a1403fe46936d4a7253c3",
+        "repeat": 2,
+        "identical_raw_trace": false,
+        "identical_full_invariant": true,
+        "note": "Only cross-branch scheduling metadata removed; all semantic bytes and per-branch event order preserved"
+      }
+    },
+    {
+      "dataset": "mem0_diagnostic",
+      "rank": 6,
+      "role": "diagnostic; independent repeat failure retained",
+      "run": "exec/pilot/mem0ai__mem0/run_20261011T213437684403Z",
+      "repeat_files": [
+        {
+          "file": "exec/pilot/mem0ai__mem0/run_20261011T213437684403Z/repeat_1/trace.json",
+          "sha256": "dc2bdf30de5763f3486a91858afc902afabeae18a29a439787d8a25b55cefb44",
+          "bytes": 32260183,
+          "repeat": 1,
+          "instrumentation_commit": "6ab6fb5b09d895f2c6d9055f334d1963e0bba084",
+          "stored_pair_integrity": true,
+          "failed_stage": null,
+          "phases": {
+            "benign": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            },
+            "attacked": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            }
+          },
+          "measurement_inventory": [
+            {
+              "phase": "benign",
+              "template": "llama33",
+              "stored_LCP_read_only": 7816,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "benign",
+              "template": "qwen3",
+              "stored_LCP_read_only": 8053,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "llama33",
+              "stored_LCP_read_only": 7732,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "qwen3",
+              "stored_LCP_read_only": 7965,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            }
+          ]
+        },
+        {
+          "file": "exec/pilot/mem0ai__mem0/run_20261011T213437684403Z/repeat_2/trace.json",
+          "sha256": "e609c3ee04023f92f1aa1cb19681b931ac0cbc980001112ee06e0e009817750b",
+          "bytes": 32260183,
+          "repeat": 2,
+          "instrumentation_commit": "6ab6fb5b09d895f2c6d9055f334d1963e0bba084",
+          "stored_pair_integrity": true,
+          "failed_stage": null,
+          "phases": {
+            "benign": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            },
+            "attacked": {
+              "requests": 4,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 3,
+                  "chunk_utf8_bytes": [
+                    162,
+                    64,
+                    70
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176",
+                    "329e6f106d022fcf5594a92cc4617b9975b6d8dfd53884513d4484f106009f0a",
+                    "843a812d3124015dcdd10cf09a90ef95cb6bf4e4a772389a123e916d525be008"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": true,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            }
+          },
+          "measurement_inventory": [
+            {
+              "phase": "benign",
+              "template": "llama33",
+              "stored_LCP_read_only": 7816,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "benign",
+              "template": "qwen3",
+              "stored_LCP_read_only": 8053,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "llama33",
+              "stored_LCP_read_only": 7732,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "qwen3",
+              "stored_LCP_read_only": 7965,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 4,
+              "final_request_rounds": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ambiguous",
+                "ambiguous",
+                "ambiguous",
+                "ambiguous"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            }
+          ]
+        }
+      ],
+      "new_observer_applied": false,
+      "new_classification": null,
+      "stored_repeat_check": {
+        "code_commit": "6ab6fb5b09d895f2c6d9055f334d1963e0bba084",
+        "repeat": 2,
+        "identical_raw_trace": false,
+        "identical_full_invariant": false,
+        "note": "Only cross-branch scheduling metadata removed; all semantic bytes and per-branch event order preserved"
+      }
+    },
+    {
+      "dataset": "deerflow_diagnostic",
+      "rank": 4,
+      "role": "diagnostic; independent pair failure retained",
+      "run": "exec/pilot/bytedance__deer-flow/run_20261011T192459267672Z",
+      "repeat_files": [
+        {
+          "file": "exec/pilot/bytedance__deer-flow/run_20261011T192459267672Z/repeat_1/failure.json",
+          "sha256": "2685fc5d9675a318483a5bd9d4f81547724bd8b91500941acd70a2dfb97e8826",
+          "bytes": 14900833,
+          "repeat": 1,
+          "instrumentation_commit": "3be9353056d7e25e5da64242c0a132ab06ed25e7",
+          "stored_pair_integrity": null,
+          "failed_stage": "pair_integrity",
+          "phases": {
+            "benign": {
+              "requests": 8,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": false,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            },
+            "attacked": {
+              "requests": 8,
+              "returns": 4,
+              "native_chunks_recoverable": true,
+              "native_chunk_bindings": [
+                {
+                  "replica": 0,
+                  "call_key": "R0_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 2,
+                  "call_key": "R2_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 1,
+                  "call_key": "R1_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                },
+                {
+                  "replica": 3,
+                  "call_key": "R3_C0000",
+                  "native_chunk_count": 1,
+                  "chunk_utf8_bytes": [
+                    162
+                  ],
+                  "chunk_utf8_sha256": [
+                    "0405d6d36ffac2ce8f5ab741099641ac3b45495781920006a27dcefb434dd176"
+                  ],
+                  "actual_return_observer_fields": [
+                    "replica",
+                    "call",
+                    "call_key",
+                    "query",
+                    "raw",
+                    "raw_chunks",
+                    "returned",
+                    "returned_chunks",
+                    "native_result_metadata",
+                    "sha256"
+                  ]
+                }
+              ],
+              "request_body_text_available": true,
+              "canonical_trace_already_saved": false,
+              "each_replica_return_count": {
+                "0": 1,
+                "1": 1,
+                "2": 1,
+                "3": 1
+              }
+            }
+          },
+          "measurement_inventory": [
+            {
+              "phase": "benign",
+              "template": "llama33",
+              "stored_LCP_read_only": 2250,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "benign",
+              "template": "qwen3",
+              "stored_LCP_read_only": 2043,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "llama33",
+              "stored_LCP_read_only": 2251,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            },
+            {
+              "phase": "attacked",
+              "template": "qwen3",
+              "stored_LCP_read_only": 2044,
+              "final_replicas": 4,
+              "all_saved_request_prompts": 8,
+              "final_request_rounds": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "final_G_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "final_S_statuses_from_old_observer": [
+                "ok",
+                "ok",
+                "ok",
+                "ok"
+              ],
+              "old_S_lengths_chars": [
+                3139,
+                3139,
+                3139,
+                3139
+              ],
+              "old_S_sha256s": [
+                "b78f483df61f57576dd9c07a7afa87c727a15e583a296c96b47d94a15300adb1"
+              ],
+              "saved_token_offset_schema_valid_without_retokenization": true
+            }
+          ]
+        }
+      ],
+      "new_observer_applied": false,
+      "new_classification": null
+    }
+  ],
+  "source_files_baseline": {
+    "exec/pilot/langchain-ai__langchain/run_20261011T182244686484Z/repeat_check.json": "de31ade107fb0254bf56a7fe1df234713f1e2a89a7790ee751320f7ff6a8db71",
+    "exec/pilot/langchain-ai__langchain/run_20261011T182244686484Z/repeat_1/trace.json": "0b2984d7bf0db2bda75811c5827fb31c522dff05ae58be3566db211ad0fdee44",
+    "exec/pilot/langchain-ai__langchain/run_20261011T182244686484Z/repeat_2/trace.json": "fb48a7f890e7b6009cd2a1bf607379c320213265b7e677775214f1a5dcd7a814",
+    "exec/pilot/langchain-ai__langchain/confirmation_4aeb9964_v5_recovery_once/repeat_check.json": "2acf5bceca93b7c81f2ca9459bcf6aa4f6a1df7369ea049da8e2748abbcf0476",
+    "exec/pilot/langchain-ai__langchain/confirmation_4aeb9964_v5_recovery_once/repeat_1/trace.json": "f0a103c57eb0cacb051299e4c4301647179aa77aacba8bdb9b72c647e53c4ba8",
+    "exec/pilot/langchain-ai__langchain/confirmation_4aeb9964_v5_recovery_once/repeat_2/trace.json": "6229a7462863d21afba7231616ea87b83af8e94ea3e5d07467f376c59091982d",
+    "exec/pilot/open-webui__open-webui/run_20261011T172427107831Z/repeat_check.json": "ff27f1d8d8b5055af407998b224b69ac3faf09e043329d1b3c9a4a362e53b48f",
+    "exec/pilot/open-webui__open-webui/run_20261011T172427107831Z/repeat_1/trace.json": "d1caf910e09f4aa3e2b2d5c93a2f9285a5068e7452bb88a18db9604b1ff89677",
+    "exec/pilot/open-webui__open-webui/run_20261011T172427107831Z/repeat_2/trace.json": "776bae8a0c8a44048bcd76a09938d1d86df209aa668a7e3570c7bc5f476b0496",
+    "exec/pilot/microsoft__autogen/run_20261011T225843774924Z/repeat_check.json": "85b8de2db47329de9025205788aa9dd1ddbd506c10ec7613130cf5b370c4a6aa",
+    "exec/pilot/microsoft__autogen/run_20261011T225843774924Z/repeat_1/trace.json": "5b4f3225951bce0e5491cf5aa61726414db8690bd8d3714765a1d838cd892bbc",
+    "exec/pilot/microsoft__autogen/run_20261011T225843774924Z/repeat_2/trace.json": "8c513b92c8ce98c3411ffdd7588b357dbf7a9c24b994656b291ee0efdfa0aa6f",
+    "exec/pilot/crewAIInc__crewAI/run_20261011T235956899392Z/repeat_check.json": "e425d495f70f9e599d009b254606b9dda4c6d5e0a2dbe5a80465384c92ec526a",
+    "exec/pilot/crewAIInc__crewAI/run_20261011T235956899392Z/repeat_1/trace.json": "8e9ec66e079b67711c2961d5762e99a35420e2d178f287145d09785bf495ac6a",
+    "exec/pilot/crewAIInc__crewAI/run_20261011T235956899392Z/repeat_2/trace.json": "27fac76cc9902e719fc6a5c55042c1724195f9f6e9816b262cd409ead8b66a97",
+    "exec/pilot/mem0ai__mem0/run_20261011T213437684403Z/repeat_check.json": "db339001889a7189598b06aa92b7bb8d83528bbea597d130dc1920fb1a3a533e",
+    "exec/pilot/mem0ai__mem0/run_20261011T213437684403Z/repeat_1/trace.json": "dc2bdf30de5763f3486a91858afc902afabeae18a29a439787d8a25b55cefb44",
+    "exec/pilot/mem0ai__mem0/run_20261011T213437684403Z/repeat_2/trace.json": "e609c3ee04023f92f1aa1cb19681b931ac0cbc980001112ee06e0e009817750b",
+    "exec/pilot/bytedance__deer-flow/run_20261011T192459267672Z/repeat_1/failure.json": "2685fc5d9675a318483a5bd9d4f81547724bd8b91500941acd70a2dfb97e8826",
+    "exec/pilot/langflow-ai__langflow/run_20261011T163709844546Z/repeat_1/failure.json": "e3ed28ae079948d27faf91b17e186d94b3249c9f3692403ab526470a1af80506",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/grounding_first_independent_pre/repeat_1/trace.json": "60c751b772b2be26605ed752d7e166973dfd523f1e75f77b15ee49e2a25d6e32",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/grounding_first_independent_pre/repeat_2/trace.json": "60c751b772b2be26605ed752d7e166973dfd523f1e75f77b15ee49e2a25d6e32",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/append_independent_pre/repeat_1/trace.json": "7a4d2d585e5a1bb7376dc024e3afbe41638fe0b53bd80053fd4a0225c40dfe0d",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/append_independent_pre/repeat_2/trace.json": "7a4d2d585e5a1bb7376dc024e3afbe41638fe0b53bd80053fd4a0225c40dfe0d",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/broadcast/repeat_1/trace.json": "ef87a28c4208506d3bdbaf237aa4a5cda0fa7c6ea09e587e0058c7c6c258c9d5",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/broadcast/repeat_2/trace.json": "ef87a28c4208506d3bdbaf237aa4a5cda0fa7c6ea09e587e0058c7c6c258c9d5",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/react_mid_generation_diverged/repeat_1/trace.json": "fbfed909e1390f0d8de2d2a2b752b295e2777c04ab5678bec229f4fc2ef5bf54",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated/react_mid_generation_diverged/repeat_2/trace.json": "fbfed909e1390f0d8de2d2a2b752b295e2777c04ab5678bec229f4fc2ef5bf54",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/grounding_first_independent_pre/repeat_1/trace.json": "f0c04a6971b87baaf5b8360b6451391c8255e787a0f8af424d8faf4303efc586",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/grounding_first_independent_pre/repeat_2/trace.json": "f0c04a6971b87baaf5b8360b6451391c8255e787a0f8af424d8faf4303efc586",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/append_independent_pre/repeat_1/trace.json": "08267acd6fb90c8dd22cfa9186eddc59b63f32ec3c4623d181362022cbbef1a1",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/append_independent_pre/repeat_2/trace.json": "08267acd6fb90c8dd22cfa9186eddc59b63f32ec3c4623d181362022cbbef1a1",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/broadcast/repeat_1/trace.json": "4aa4db886abb7b8d8bd644be8c1b6170eae4a31a404c20a0263bb08546109173",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/broadcast/repeat_2/trace.json": "4aa4db886abb7b8d8bd644be8c1b6170eae4a31a404c20a0263bb08546109173",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/react_mid_generation_diverged/repeat_1/trace.json": "d2f0eada6af8adc80c4e90e3eab5a7d80ef4e1c4c1298cf3f3baae9f4c24b8e9",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse/react_mid_generation_diverged/repeat_2/trace.json": "d2f0eada6af8adc80c4e90e3eab5a7d80ef4e1c4c1298cf3f3baae9f4c24b8e9",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/grounding_first_independent_pre/repeat_1/trace.json": "1ee8fe5945d0a0fbc598b756728346cb370c4d9dff85db5e4ad63862471c7b9f",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/grounding_first_independent_pre/repeat_2/trace.json": "73d29d1578634056158f32047041381b5dea7822f8d934de08a8e91aaab16362",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/append_independent_pre/repeat_1/trace.json": "96cd6a17d314b88ef997229452700d077339f7920c190b4e37f3593e224c872e",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/append_independent_pre/repeat_2/trace.json": "5dde64c8a4ee1cc0ed78a2e3cef71e4776b0e171a5d09c66e2d672bcc8381342",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/broadcast/repeat_1/trace.json": "75c2872319b50ea83a4a12ea6044b59fcbd7bf897cae422b253e9066f282ec73",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/broadcast/repeat_2/trace.json": "0069f6befc66d2a4a682559b1ca171253818b8dfcc8d79d4dae3be544f4af399",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/react_mid_generation_diverged/repeat_1/trace.json": "50a05af27e7a2dce09379e0a388bc86fade7bbabe0a8e4b90063172925d791de",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_json_concurrent/react_mid_generation_diverged/repeat_2/trace.json": "2fd7345a747f449047ecd99c18b4caf5eebfb39b022f04e629c146022901b93b",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/grounding_first_independent_pre/repeat_1/trace.json": "d8dcf11211e7394562dbcdbcc684b6fac0f9d9c58fceb60a43992b253d0426bd",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/grounding_first_independent_pre/repeat_2/trace.json": "d8977c38f171f81f54be01558348355eb161f5421f855c8c558c8ed67a339c6a",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/append_independent_pre/repeat_1/trace.json": "cdcb2ce5b4f9de5106c99dc54297b0a8d155fb0b59b1a252119fadfd8eb9955a",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/append_independent_pre/repeat_2/trace.json": "3a51be778671ed44b38fc6ba4ae9a4539c68fb8c913f94b31a717582700c6b1b",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/broadcast/repeat_1/trace.json": "6e1bf56d45dcc6cd441bca95e3ac18b8b0133bf1c318d4ff756983aad3a14b5c",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/broadcast/repeat_2/trace.json": "812d9fd91756566f07b220f174e3d5e2bec7ca2414ac4b3d7f9473896fd91666",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/react_mid_generation_diverged/repeat_1/trace.json": "4952df88664a613d7dc0c194a47edfc3e97f3fd899599f74301caa26ff077eec",
+    "controls/runs/4aeb99646d1eb57614b5acf42f024c4521e037b4/run_20261012T040651491068Z/validated_sse_concurrent/react_mid_generation_diverged/repeat_2/trace.json": "4558cce99d047ee09ca3b93816e0db320040a8837666194b82b6e12c100a4e8a",
+    "config/measurement_protocol.json": "bd6215458160f8d23f548a9faad84491a681a40fc0f87ba2cc859e7bdd8b1605",
+    "config/controls_expected.json": "e1615cfa619938ad2f606d8a110be62605dc13c7d225b58c6c43d74b02f3cfd2",
+    "config/frameworks.json": "f6100e98ae436c794e66457c87512d491858570f65fd024334743483aaad579b",
+    "reports/scan_final_1_10_20261012T024209Z/final_matrix_1_10.json": "68978825daafefbdcba115b17983e84555d7a45a561a169120164783c6d1ae2c",
+    "reports/langchain_confirmed_supplement_20261012T065205Z/SCAN_current_evidence_matrix.json": "e3dc0380520c5ac6197ccd34348fc074b3d42d023c569662ce30509b1c8595e3"
+  },
+  "no_new_G_LCP_or_classification": true
+}

@@ -1,0 +1,32 @@
+{
+  "model": "llama-3.3-70b",
+  "P": 2000,
+  "block_size": 16,
+  "repeats": 5,
+  "formal_runs": 75,
+  "formal_requests": 555,
+  "execution": "sequential",
+  "E1": [
+    "none",
+    "prefix",
+    "midfix",
+    "suffix"
+  ],
+  "E2_N": [
+    3,
+    5,
+    10,
+    20
+  ],
+  "E5": [
+    "const-tool",
+    "nonce-tool",
+    "nonce-late"
+  ],
+  "go_floor_tolerance_tokens": 32,
+  "go_high_hit_threshold": 0.9,
+  "marker": "unchanged zwsp_k",
+  "temperature": 0,
+  "seed": 42,
+  "thinking": "none; Llama no thinking kwargs"
+}

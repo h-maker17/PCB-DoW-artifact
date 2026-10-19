@@ -1,0 +1,25 @@
+{
+  "date_D_local":"2026-10-10",
+  "timezone":"Asia/Shanghai",
+  "primary_metric":"GitHub stargazers_count at archived retrieval timestamp",
+  "robustness_metric":"PyPI daily downloads over latest available contiguous 90 complete days; mirrors excluded; never change primary sample",
+  "top_K":6,
+  "pilot_ranks":[1,2],
+  "extension_max":4,
+  "per_framework_timebox_hours":8,
+  "discovery_queries":[
+    "topic:agent-framework language:Python",
+    "topic:llm-framework language:Python",
+    "topic:rag language:Python stars:>1000",
+    "topic:multi-agent language:Python stars:>1000",
+    "topic:agents language:Python stars:>10000"
+  ],
+  "discovery_sort":"stars desc",
+  "per_query_limit":100,
+  "scope_note":"Finite search-defined discovery universe, not an exhaustive census of all Python frameworks. Eligibility provenance must be archived before any framework execution.",
+  "eligibility":"Python agent/RAG framework with official-documentation-linked runnable RAG example. Official parallel/ensemble primitive is a later recipe-selection requirement, NOT a candidate eligibility criterion. Exclude lists, courses, standalone model implementations, and personal demos. Application builders are not excluded merely because they have a UI. Do not exclude based on expected class.",
+  "dedup":"same canonical repository once; projects in same ecosystem remain separate and ecosystem is annotated",
+  "recipe_rule":"step-1: same official example contains retrieval plus parallel/ensemble primitive detected by AST/keyword scan; otherwise step-2 official RAG branch body combined with official parallel primitive, with both provenance pointers and unchanged prompt/defaults",
+  "selection_gate":"Do not select pilot until complete candidate eligibility registry and star snapshots are frozen",
+  "classification_gate":"User clarified two-pass measurement; require 4/4 controls in each of both exact templates before any framework execution"
+}

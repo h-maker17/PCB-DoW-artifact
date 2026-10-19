@@ -1,0 +1,7 @@
+layout,mode,canonical_name,definition
+prepend,const-tool,prepend-const-tool,marker at G start; G before S
+prepend,nonce-tool,prepend-G,marker at G start; G before S
+prepend,broadcast,prepend-broadcast,marker at G start; G before S
+append,const-tool,append-const-tool,marker at G start; G after S
+append,nonce-tool,append-G,marker at G start; G after S
+append,broadcast,append-broadcast,marker at G start; G after S

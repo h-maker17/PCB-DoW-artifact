@@ -1,0 +1,35 @@
+{
+  "stage": "integration preparation only",
+  "formal_extension_started": false,
+  "shared_pipeline_called": false,
+  "classification_called": false,
+  "adapter_file": "adapter_autogen_integration.py",
+  "proposed_shared_adapter_entry": "adapter_autogen_parent_entry.py",
+  "proposed_runtime_manifest": "runtime_manifest_candidate_ag.json",
+  "proposed_runtime_manifest_destination_if_parent_triggers": "evidence/runtime_manifests/ag.json",
+  "runtime_directory_argument": "ag",
+  "interpreter": "preparation/autogen_night/env/Scripts/python.exe",
+  "identity_headers": [
+    "X-SCAN-Replica",
+    "X-SCAN-Attempt",
+    "X-SCAN-Phase"
+  ],
+  "preserve_input": "ordinary task = config.query + two newlines + config.history; no new role, trim, nonce, G relocation, or last-request edit",
+  "retrieval_observer": "native-start before original native query; native-return original ordered string chunks/metadata; copy returned text only with approved prefix",
+  "model_observer": "original SDK body archived, copied unchanged, identity only headers; shared stub response remains canned through native client",
+  "error_contract": "native_failure.json plus per-branch evidence; native_complete.json only after every native TaskResult and final generation; retain native exceptions/cancellation logs",
+  "privacy": "private attempt/phase/branch input and persistent Chroma directories; readonly shared source/model cache within prep",
+  "test_boundaries": {
+    "runtime": "frozen original native pub/sub",
+    "indexer_storage_search_embedding": "real native complete RAG chain",
+    "prompt_TaskResult_generation": "native assembly/completion with canned LLM transport",
+    "LLM_and_shared_observer_fixture": "local mock transport conforming to current shared routes; actual shared pipeline not imported/called"
+  },
+  "parent_actions_after_condition": [
+    "register proposed adapter entry and verified runtime manifest",
+    "freeze recipe/defaults/source/provider metadata at unchanged fixed rank7",
+    "commit shared instrumentation and rerun required controls before any formal measurement",
+    "use existing shared pair gate/tokenizers/continuousG-and-S/last request/repeat contract without modifications"
+  ],
+  "not_exercised": "actual shared pipeline/common controls, formal benign/attacked two passes, tokenizer/template LCP classification and formal extension trigger"
+}

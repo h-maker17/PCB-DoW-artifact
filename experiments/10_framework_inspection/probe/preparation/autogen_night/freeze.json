@@ -1,0 +1,51 @@
+{
+  "repo": "microsoft/autogen",
+  "rank": 7,
+  "commit": "027ecf0a379bcc1d09956d46d12d44a3ad9cee14",
+  "source_archive_receipt": {
+    "commit": "027ecf0a379bcc1d09956d46d12d44a3ad9cee14",
+    "url": "https://codeload.github.com/microsoft/autogen/tar.gz/027ecf0a379bcc1d09956d46d12d44a3ad9cee14",
+    "sha256": "8cddbcfcade34b5dbaa71f6f2ef1539b583321370ded6ebf09b7adaf08cb0192",
+    "bytes": 23027919,
+    "utc": "2026-10-11T19:57:13.743459+00:00"
+  },
+  "shared_inputs": [
+    {
+      "file": "evidence/guide_v7_3.md",
+      "sha256": "9bbeccfc4bb386a7e5495c177511b5c7be376ea0b906281c673564a5f690abb9"
+    },
+    {
+      "file": "config/frameworks.json",
+      "sha256": "6685b8541722eb7fb77e0bdf58a61390e5c130cc36d556835f811b5a04962b7b"
+    },
+    {
+      "file": "config/qualification_facts.json",
+      "sha256": "797ff571759079f548bf5a01822d5272bbd5fd29b8ed581cdf9ca246362d6db7"
+    },
+    {
+      "file": "config/corpus.json",
+      "sha256": "170f865d281d39ac6c0bf3141495a2a0fbb6bdbc8521096912704f0ed73b1ead"
+    }
+  ],
+  "stage": "isolated preparation only",
+  "formal_N4_ran": false,
+  "classification_ran": false,
+  "timebox_hours": 8,
+  "source_packages": [
+    {
+      "package": "autogen-core",
+      "version": "0.7.5",
+      "pyproject_sha256": "c03e79e63ab76b148a1ff2d7c196ac1c305437100e5792aed065bdbe7c068609"
+    },
+    {
+      "package": "autogen-agentchat",
+      "version": "0.7.5",
+      "pyproject_sha256": "5ac2695523f388001f9d55c0f5cdf011c46871f9bb5560179bd851bbfadc8b79"
+    },
+    {
+      "package": "autogen-ext",
+      "version": "0.7.5",
+      "pyproject_sha256": "834c6f6c671927ea060f31d2a17ce217e2a63f5ba70f60ede28867e8e5c734df"
+    }
+  ]
+}

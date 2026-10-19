@@ -1,0 +1,40 @@
+{
+  "model": "llama-3.3-70b",
+  "S_tokens": 2000,
+  "G_tokens": [
+    50,
+    2000,
+    4000
+  ],
+  "N": [
+    5,
+    20
+  ],
+  "repeats": 5,
+  "layouts": [
+    "prepend",
+    "append"
+  ],
+  "modes": [
+    "const-tool",
+    "nonce-tool",
+    "broadcast"
+  ],
+  "temperature": 0,
+  "seed": 42,
+  "top_p": 1,
+  "stream": false,
+  "max_tokens": 16,
+  "block_size": 16,
+  "formal_runs": 180,
+  "formal_model_requests": 2250,
+  "fixed_benign_marker": "one U+200B plus newline, identical to nonce tool first call, to match cold requests and broadcast byte for byte",
+  "answer_scope": "cache-only, direct answer without model tools; externally invoked AutoGen FunctionTool",
+  "old_name_aliases": {
+    "marker-after": "marker-at-end",
+    "nonce-late": "marker-at-end"
+  },
+  "new_layout_name": "append-G; marker at beginning of G after S, distinct from historical marker-at-end",
+  "user_overrides": "S=2000,N=5/20,matched baseline in both layouts,broadcast in both layouts; keep guideline G=2000/4000 and add50 control",
+  "created_utc": "2026-10-05T08:35:07.680342+00:00"
+}

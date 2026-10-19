@@ -1,0 +1,9 @@
+{
+  "vllm": "0.11.2",
+  "method": "chat_completion_full_generator",
+  "original_sha256": "10ceb607a7312ca4ad1c9bcc4581ebbc5434a0097d5ddf5edc6977c012ba3a5d",
+  "patched_sha256": "da9d5a3fcba0c313183c6ad8ba769e7486df5c09568d38640d67668ee770c573",
+  "installed_shared_files_modified": false,
+  "private_source_only": true,
+  "semantics": "engine real zero preserved; None remains unknown; non-stream only"
+}

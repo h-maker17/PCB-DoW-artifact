@@ -1,0 +1,200 @@
+{
+  "contracts": {
+    "empty_join": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "empty_join"
+      },
+      "expression_ast_sha256": "aaacc5d564f207a921a3c1b18530d2497c3e34694dbdcaac79d67f343b5935aa",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "newline_join": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "newline_join"
+      },
+      "expression_ast_sha256": "3bb1cde35e417c43c353d2fc3bc316a87a00879950b7e5e32f8326a24a6f2551",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "labelled_join": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "labelled_join"
+      },
+      "expression_ast_sha256": "fe382fe0f8034593570be5a888ff0a323b93877393de91a118cdb320b8b74177",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "json_empty": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "json_empty"
+      },
+      "expression_ast_sha256": "d51f15cf8173da8baf3081ccf4027788becdae24443767f8c0dd27cbfae7d74b",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "json_newline": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "json_newline"
+      },
+      "expression_ast_sha256": "6faf4164a543c71b46d7b553c5179f62c385040715e8f389245166f55cf77acc",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "json_labelled": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "json_labelled"
+      },
+      "expression_ast_sha256": "39aecd93c344045c9d148b6e6cd5a40b1808d1c1940071587254bc621236a62e",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "reversed_join": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "reversed_join"
+      },
+      "expression_ast_sha256": "c20214620da04f8d2c7efe541029f1ca82e599042c032878435cea791dcde7f9",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "gap64": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "gap64"
+      },
+      "expression_ast_sha256": "1169f2ea45528701fde94791853ac1eebcc71cf7eab3c535609fcfd386cb381a",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "gap65": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "gap65"
+      },
+      "expression_ast_sha256": "58b98c16ca8ee3a0fba93057c42dcc68f0ceab102fe7faddab462cb6c6ea7397",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "gap43": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "gap43"
+      },
+      "expression_ast_sha256": "47946bedcc5971ae3948293d18071518f9e4406ea7e967a24dcbf688a1173008",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "gap_unicode33": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "gap_unicode33"
+      },
+      "expression_ast_sha256": "6619a9e4435f8a22bac654a6ead769ff9d38dd045cb190cd603655eda839dbc9",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "query_gap": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "query_gap"
+      },
+      "expression_ast_sha256": "6b1344587cfecacce7fec98dc139103dcecb1c8df7b6896d13d11f94f599fc97",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "marker_gap": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "marker_gap"
+      },
+      "expression_ast_sha256": "f7a494edcfe7994493d959158395f56b9dd97d4d84d4a2de6732174eadb89beb",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "legal_glue_LCP": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "legal_glue_LCP"
+      },
+      "expression_ast_sha256": "4e63fef5f17ab8e3b153e2be03009667631f4c708b0ea725cbfd2877a72cb35b",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "policy_word_gap": {
+      "scope": "synthetic",
+      "source_file": "sources/assembly_sources.py",
+      "source_sha256": "dbf5e8d8ce7e6bf6ecae417f5d2ab75cfa0016d902ef9fcc4b80306450eb1720",
+      "selector": {
+        "function": "policy_word_gap"
+      },
+      "expression_ast_sha256": "e102c34380e5d4f9a6a8e060238211f2bad862b909a69460637f077a2703d132",
+      "native_symbol": "chunks",
+      "native_field": "raw_chunks",
+      "source_semantics": "Fixed constructed single retrieval assembly block; known source truth, no self-declared runtime boolean."
+    },
+    "control_scalar": {
+      "scope": "constructed_control",
+      "source_file": "sources/pipeline_8ee30445.txt",
+      "source_sha256": "45c5a7e6bbde59d53ec70dcaff13383617772ec3644e5c1058210f2e0c051ddf",
+      "selector": {
+        "function": "control_recipe",
+        "message_symbol": "g"
+      },
+      "expression_ast_sha256": "de5cae6c2c6f8d54cc39b86e57470a235e9ef4ee1b6c0748d498754f08d5af6b",
+      "native_symbol": "g",
+      "scalar": true,
+      "native_field": "raw_chunks",
+      "source_semantics": "Frozen control_recipe contentg comes from ctx.retrieve; frozen retrieve calls retrieval_return(...,[raw],...), preserving direct native raw_chunks."
+    }
+  },
+  "framework_specific_algorithm_branches": false,
+  "source_contracts_for_actual_framework_reclassification_not_enabled": true
+}

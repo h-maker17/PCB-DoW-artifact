@@ -1,0 +1,68 @@
+{
+  "kind": "PROSPECTIVE_CALIBRATION_USAGE_VALUATION_CONTRACT_V2",
+  "public_contract_validated": true,
+  "invoice_time_source_proven": false,
+  "deepseek": {
+    "model": "deepseek-v4-pro",
+    "public_version": "DeepSeek-V4-Pro-0813",
+    "input_context_upper": 1048576,
+    "surcharge_upper": "1",
+    "highest_rates": {
+      "hit": "0.30",
+      "miss": "9.0",
+      "output": "27.0"
+    },
+    "peak_rates": {
+      "hit": "0.30",
+      "miss": "9.0",
+      "output": "27.0"
+    },
+    "offpeak_rates": {
+      "hit": "0.15",
+      "miss": "4.5",
+      "output": "13.5"
+    },
+    "covered_dates": {
+      "2026-10-13": {
+        "nonholiday_verified": true
+      },
+      "2026-10-14": {
+        "nonholiday_verified": true
+      },
+      "2026-10-15": {
+        "nonholiday_verified": true
+      }
+    },
+    "valuation_inference": "All reported created precision sensitivity, client start/send/end are in one published price window; usage valuation estimate only, not independent invoice."
+  },
+  "openai": {
+    "model": "gpt-6-astra",
+    "input_context_upper": 1050000,
+    "surcharge_upper": "1",
+    "highest_rates": {
+      "ordinary": "20",
+      "read": "2",
+      "write": "25",
+      "output": "75"
+    },
+    "short_rates": {
+      "ordinary": "10",
+      "read": "1",
+      "write": "12.5",
+      "output": "50"
+    },
+    "required_input_categories": [
+      "ordinary",
+      "read",
+      "write"
+    ],
+    "cache_write_not_assumed_zero": true,
+    "long_price_at_any_unclear_boundary": "INTERVAL_AND_STOP_NO_BOUNDARY_INVENTED",
+    "unambiguous_short_max_input": 250000,
+    "unambiguous_long_min_input": 300000,
+    "price_safe_band_reason": "Strictly below/above the published272K boundary under either decimal orbinaryK convention; deliberately leave the edge unassigned. These are price classification bands, not authorization/input acceptance bounds."
+  },
+  "surcharge_evidence": "Existing user declarations, not independent invoice/tax proof",
+  "usage_source": "Trusted actual HTTPS response; never local codec or synthetic fixture",
+  "date_contract_source": "sources/NORMALIZED_CURRENT_DATE_CONTRACT.json"
+}

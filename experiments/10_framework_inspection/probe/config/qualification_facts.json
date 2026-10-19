@@ -1,0 +1,673 @@
+{
+  "frozen": false,
+  "selection": false,
+  "behavior_labels": 0,
+  "qualification_is_not_recipe_selection": true,
+  "dossiers": [
+    {
+      "repo": "langflow-ai/langflow",
+      "status": "qualified",
+      "framework_commit": "504c02fc47e76087b82b0e7cbe4186e9cdd916d4",
+      "evidence": [
+        {
+          "file": "evidence/official/langflow-ai__langflow/document_corpus/docs/docs/Tutorials/chat-with-rag.mdx",
+          "url": "https://raw.githubusercontent.com/langflow-ai/langflow/504c02fc47e76087b82b0e7cbe4186e9cdd916d4/docs/docs/Tutorials/chat-with-rag.mdx",
+          "sha256": "1bbb3e35e5407cd1dac8857fe3c81c9743934738b170b80045cbc901fb3b02a2",
+          "required_literals": [
+            "select the **Vector Store RAG** template",
+            "/api/v1/run/FLOW_ID"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        },
+        {
+          "file": "evidence/official/langflow-ai__langflow/sources/src/backend/base/langflow/initial_setup/starter_projects/Vector Store RAG.json",
+          "url": "https://raw.githubusercontent.com/langflow-ai/langflow/504c02fc47e76087b82b0e7cbe4186e9cdd916d4/src/backend/base/langflow/initial_setup/starter_projects/Vector%20Store%20RAG.json",
+          "sha256": "3965768bdb59c93dd6e097a7ba1b48f16d5c53a242df8c9a6b3022dd77295c1c",
+          "required_literals": [
+            "Knowledge",
+            "Prompt",
+            "Agent"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        },
+        {
+          "file": "evidence/official/langflow-ai__langflow/sources/src/lfx/src/lfx/components/files_and_knowledge/knowledge.py",
+          "url": "https://raw.githubusercontent.com/langflow-ai/langflow/504c02fc47e76087b82b0e7cbe4186e9cdd916d4/src/lfx/src/lfx/components/files_and_knowledge/knowledge.py",
+          "sha256": "ee4404b67fa3cb4473c5b4d83084601d83554f81f8dba472557bb9eaef13bad0",
+          "required_literals": [
+            "backend.similarity_search",
+            "self.top_k",
+            "User ID is required"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        }
+      ],
+      "official_default_contract": {
+        "template_name": "Vector Store RAG",
+        "flow_node_types": [
+          "ChatInput",
+          "Prompt",
+          "ChatOutput",
+          "parser",
+          "Knowledge",
+          "note",
+          "Agent"
+        ],
+        "prompt_template": "{context}\n\n---\n\nGiven the context above, answer the question as best as possible.\n\nQuestion: {question}\n\nAnswer: ",
+        "retrieval_mode": "Retrieve",
+        "top_k": 5
+      },
+      "documented_dependency_contract": {
+        "required": [
+          "Langflow server/database and authenticated user",
+          "indexed Knowledge base",
+          "Agent model credentials"
+        ],
+        "documented_setup": "Install/start Langflow, populate vector store, provide API key, call shipped flow."
+      },
+      "qualification_scope": "Documented runnable recipe with required inputs/services; runtime success is a later separate gate.",
+      "fact_note": "The prose describes an older Astra/Chroma two-flow layout. The pinned shipped JSON now uses Knowledge→parser→Prompt→Agent; the dossier preserves both and chooses neither silently. Standalone lfx is insufficient for Knowledge: user/DB services are required.",
+      "parallel_primitive_not_qualification_filter": true,
+      "execution_label": null
+    },
+    {
+      "repo": "open-webui/open-webui",
+      "status": "qualified",
+      "framework_commit": "8bd8b4fac5e059578ac0c74b3c18d11139f88b7d",
+      "evidence": [
+        {
+          "file": "evidence/official/open-webui__docs/sources/docs/reference/api-endpoints.md",
+          "url": "https://raw.githubusercontent.com/open-webui/docs/48990af3b46fe4dc20a6a2c717ed2d20256d890f/docs/reference/api-endpoints.md",
+          "sha256": "37e41512e59c16fee2378fc0413b84864778c3078aebf9ca7f3dd56523840441",
+          "required_literals": [
+            "def chat_with_file(",
+            "files",
+            "file_id",
+            "/api/chat/completions"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        },
+        {
+          "file": "evidence/official/open-webui__docs/sources/docs/features/chat-conversations/rag/index.md",
+          "url": "https://raw.githubusercontent.com/open-webui/docs/48990af3b46fe4dc20a6a2c717ed2d20256d890f/docs/features/chat-conversations/rag/index.md",
+          "sha256": "ff1009aec8635b3bd1de5da6c646c650c1319a56abf7d3ede7082f21c979b9c7",
+          "required_literals": [
+            "RAG"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        },
+        {
+          "file": "evidence/official/open-webui__open-webui/sources/pyproject.toml",
+          "url": "https://raw.githubusercontent.com/open-webui/open-webui/8bd8b4fac5e059578ac0c74b3c18d11139f88b7d/pyproject.toml",
+          "sha256": "3f55419c8a339d206920938834df0d355a8cac1d2709a166a850605bacd6d958",
+          "required_literals": [
+            "name = \"open-webui\""
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        },
+        {
+          "file": "evidence/official/open-webui__open-webui/sources/backend/open_webui/utils/middleware.py",
+          "url": "https://raw.githubusercontent.com/open-webui/open-webui/8bd8b4fac5e059578ac0c74b3c18d11139f88b7d/backend/open_webui/utils/middleware.py",
+          "sha256": "bda81a45b4169ec2af351c3eed7a574b0e43cf1026c3d6945dada7290a5af497",
+          "required_literals": [
+            "get_sources_from_items",
+            "apply_source_context_to_messages"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        }
+      ],
+      "official_default_contract": {
+        "recipe": "official file upload/indexing + chat_with_file API example",
+        "request_default": "one model; files=[{type:file,id:file_id}]"
+      },
+      "documented_dependency_contract": {
+        "required": [
+          "Open WebUI backend",
+          "authenticated API token",
+          "uploaded/indexed file",
+          "configured model endpoint"
+        ],
+        "example_language": "Python requests; framework backend Python"
+      },
+      "qualification_scope": "Documented runnable recipe with required inputs/services; runtime success is a later separate gate.",
+      "fact_note": "Inline executable API examples are valid source locations. UI presence is not an exclusion. Multi-model dispatch is checked separately from qualification.",
+      "parallel_primitive_not_qualification_filter": true,
+      "execution_label": null
+    },
+    {
+      "repo": "langchain-ai/langchain",
+      "status": "qualified",
+      "framework_commit": "b060a7466482ed5dac5fa1ef12e3ad21cccce385",
+      "evidence": [
+        {
+          "file": "evidence/official/langchain-ai__docs/sources/src/oss/langchain/knowledge-base.mdx",
+          "url": "https://raw.githubusercontent.com/langchain-ai/docs/cd302e5548df094a85b34dfb6eb23823c66614f4/src/oss/langchain/knowledge-base.mdx",
+          "sha256": "56be177b63bce9d07a6e2924dd248611ff0168e053be750b1c3adf6f9c89ec31",
+          "required_literals": [
+            "/langsmith/evaluate-rag-tutorial"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        },
+        {
+          "file": "evidence/official/langchain-ai__docs/sources/src/langsmith/evaluate-rag-tutorial.mdx",
+          "url": "https://raw.githubusercontent.com/langchain-ai/docs/cd302e5548df094a85b34dfb6eb23823c66614f4/src/langsmith/evaluate-rag-tutorial.mdx",
+          "sha256": "34bba3ecb9da86835c273cb6932b32a966521ea9c454f5621b886daf779f5fc3",
+          "required_literals": [
+            "EvaluateRagIndexingPy",
+            "EvaluateRagGenerationPy",
+            "langchain[openai]"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        },
+        {
+          "file": "evidence/official/langchain-ai__docs/sources/src/code-samples/langsmith/evaluate-rag-tutorial.py",
+          "url": "https://raw.githubusercontent.com/langchain-ai/docs/cd302e5548df094a85b34dfb6eb23823c66614f4/src/code-samples/langsmith/evaluate-rag-tutorial.py",
+          "sha256": "f1fe97035f865c12be33abddccf3006c9f2d6fdc1ad4f42c9605298a0af75c51",
+          "required_literals": [
+            "retriever.invoke(question)",
+            "ChatOpenAI(",
+            "InMemoryVectorStore.from_documents"
+          ],
+          "syntax_check": "python",
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 1
+        },
+        {
+          "file": "evidence/official/langchain-ai__docs/sources/src/snippets/code-samples/evaluate-rag-generation-py.mdx",
+          "url": "https://raw.githubusercontent.com/langchain-ai/docs/cd302e5548df094a85b34dfb6eb23823c66614f4/src/snippets/code-samples/evaluate-rag-generation-py.mdx",
+          "sha256": "433b501a19b16ea54f3a44431e619929317abafa002112c4b2490b853d389da7",
+          "required_literals": [
+            "retriever.invoke(question)",
+            "llm.invoke"
+          ],
+          "syntax_check": "markdown_python",
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 1
+        }
+      ],
+      "official_default_contract": {
+        "recipe": "rag_bot plus preceding indexing block",
+        "chat_model": "gpt-5.5",
+        "temperature": 1,
+        "splitter": {
+          "chunk_size": 250,
+          "chunk_overlap": 0
+        },
+        "retriever_constructor": "vectorstore.as_retriever(k=6); do not reinterpret this literal as search_kwargs"
+      },
+      "documented_dependency_contract": {
+        "required": [
+          "langsmith",
+          "langchain[openai]",
+          "langchain-text-splitters",
+          "bs4",
+          "requests",
+          "OpenAI credentials",
+          "LangSmith credentials for full evaluation example"
+        ]
+      },
+      "qualification_scope": "Documented runnable recipe with required inputs/services; runtime success is a later separate gate.",
+      "fact_note": "The current semantic-search page links to the official LangSmith RAG tutorial. That tutorial explicitly installs LangChain and supplies the complete LangChain rag_bot. This does not reattribute the separate Deep Agents tutorial to LangChain or require the evaluation phase as the measured RAG body.",
+      "parallel_primitive_not_qualification_filter": true,
+      "execution_label": null
+    },
+    {
+      "repo": "FoundationAgents/MetaGPT",
+      "status": "qualified",
+      "framework_commit": "11cdf466d042aece04fc6cfd13b28e1a70341b1f",
+      "evidence": [
+        {
+          "file": "evidence/official/geekan__MetaGPT-docs/canonical_framework_alias.json",
+          "url": "https://api.github.com/repos/geekan/MetaGPT",
+          "sha256": "72b67326b91cd08a336806fb9ab23a17d9edb80be6e6b055ac9f34ed57d87e0f",
+          "required_literals": [
+            "FoundationAgents/MetaGPT"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        },
+        {
+          "file": "evidence/official/geekan__MetaGPT-docs/sources/src/en/guide/in_depth_guides/rag_module.md",
+          "url": "https://raw.githubusercontent.com/geekan/MetaGPT-docs/a5b3e8f95e9c4d4a31267e603c96b1edb3f939df/src/en/guide/in_depth_guides/rag_module.md",
+          "sha256": "76446aa966bf96a955a32ba7c0c393569d7271e92bc9a3871fe716bfe032f17e",
+          "required_literals": [
+            "examples/rag/rag_pipeline.py",
+            "metagpt[rag]",
+            "SimpleEngine.from_docs"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        },
+        {
+          "file": "evidence/universe_sources/FoundationAgents__MetaGPT/recipe_leads/examples/rag/rag_pipeline.py",
+          "url": "https://raw.githubusercontent.com/FoundationAgents/MetaGPT/11cdf466d042aece04fc6cfd13b28e1a70341b1f/examples/rag/rag_pipeline.py",
+          "sha256": "9849c686459bc0acb6a0fb502582529069f31c1fb140ecba3b94744370afcbd7",
+          "required_literals": [
+            "SimpleEngine",
+            "use_llm_ranker=False"
+          ],
+          "syntax_check": "python",
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 1
+        }
+      ],
+      "official_default_contract": {
+        "recipe": "rag_pipeline.py main()",
+        "use_llm_ranker": false,
+        "variant_selection": "Do not replace the default full main() by a desired-layout subexample."
+      },
+      "documented_dependency_contract": {
+        "required": [
+          "metagpt[rag]",
+          "configured embedding/LLM",
+          "example files",
+          "Chroma and Elasticsearch services for default full pipeline demonstration"
+        ]
+      },
+      "qualification_scope": "Documented runnable recipe with required inputs/services; runtime success is a later separate gate.",
+      "fact_note": "The canonical GitHub API resolves geekan/MetaGPT to FoundationAgents/MetaGPT. Official documentation source belongs to the project and links both pipeline and search files.",
+      "parallel_primitive_not_qualification_filter": true,
+      "execution_label": null
+    },
+    {
+      "repo": "mem0ai/mem0",
+      "status": "qualified",
+      "framework_commit": "b7ad69afda6b6ed030347c66d48a13e4de9dec08",
+      "evidence": [
+        {
+          "file": "evidence/official/mem0ai__mem0/sources/docs/cookbooks/essentials/building-ai-companion.mdx",
+          "url": "https://raw.githubusercontent.com/mem0ai/mem0/b7ad69afda6b6ed030347c66d48a13e4de9dec08/docs/cookbooks/essentials/building-ai-companion.mdx",
+          "sha256": "1910981685182cb89369d903a4497ce9cf7845ba9076cdcd3c1b782dc4bde8a7",
+          "required_literals": [
+            "from mem0 import Memory",
+            "Memory.from_config",
+            "memory.search",
+            "memory.add",
+            "ollama_chat.chat.completions.create"
+          ],
+          "syntax_check": "markdown_python",
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 47
+        }
+      ],
+      "official_default_contract": {
+        "recipe_section": "Basic Loop with Memory / Open Source",
+        "top_k": 5,
+        "backend": "Qdrant",
+        "embedding_model": "nomic-embed-text:latest",
+        "embedding_model_dims": 768,
+        "chat_model": "llama3.1:latest",
+        "memory_llm_temperature": 0,
+        "memory_llm_max_tokens": 2000
+      },
+      "documented_dependency_contract": {
+        "required": [
+          "mem0ai",
+          "qdrant-client",
+          "openai",
+          "ollama",
+          "Qdrant",
+          "Ollama chat/embedding models"
+        ]
+      },
+      "qualification_scope": "Documented runnable recipe with required inputs/services; runtime success is a later separate gate.",
+      "fact_note": "The documented OSS variant is a complete runnable memory-RAG loop. Platform MemoryClient and OSS Memory are separate variants. Full memory.add and state reset must be preserved in any eventual adapter.",
+      "parallel_primitive_not_qualification_filter": true,
+      "execution_label": null
+    },
+    {
+      "repo": "microsoft/autogen",
+      "status": "qualified",
+      "framework_commit": "027ecf0a379bcc1d09956d46d12d44a3ad9cee14",
+      "evidence": [
+        {
+          "file": "evidence/official/microsoft__autogen/sources/python/docs/src/user-guide/agentchat-user-guide/memory.ipynb",
+          "url": "https://raw.githubusercontent.com/microsoft/autogen/027ecf0a379bcc1d09956d46d12d44a3ad9cee14/python/docs/src/user-guide/agentchat-user-guide/memory.ipynb",
+          "sha256": "ec6b6ac9a3210f518c64c3664aa2fe0cebcd379c4f5d26809aa05bd2ddd28f2b",
+          "required_literals": [
+            "RAG Agent: Putting It All Together",
+            "SimpleDocumentIndexer",
+            "ChromaDBVectorMemory",
+            "rag_assistant.run_stream"
+          ],
+          "syntax_check": "notebook",
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 13
+        },
+        {
+          "file": "evidence/official/microsoft__autogen/sources/python/samples/agentchat_graphrag/README.md",
+          "url": "https://raw.githubusercontent.com/microsoft/autogen/027ecf0a379bcc1d09956d46d12d44a3ad9cee14/python/samples/agentchat_graphrag/README.md",
+          "sha256": "d05af6ca08f785a3e453b8166c8ed79b3b66d78f9c9bbef074d748884147dc06",
+          "required_literals": [
+            "python app.py",
+            "pip install -r requirements.txt"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        }
+      ],
+      "official_default_contract": {
+        "recipe": "Memory and RAG notebook / Building a Simple RAG Agent",
+        "chunk_size": 1500,
+        "k": 3,
+        "score_threshold": 0.4,
+        "model": "gpt-4o"
+      },
+      "documented_dependency_contract": {
+        "required": [
+          "autogen-agentchat",
+          "autogen-ext OpenAI/Chroma extras",
+          "aiohttp",
+          "aiofiles",
+          "ChromaDB",
+          "OpenAI credentials"
+        ]
+      },
+      "qualification_scope": "Documented runnable recipe with required inputs/services; runtime success is a later separate gate.",
+      "fact_note": "Official documentation itself contains the complete runnable notebook; no separate .py URL is invented. GraphRAG app is another official runnable example, not automatically chosen for measurement.",
+      "parallel_primitive_not_qualification_filter": true,
+      "execution_label": null
+    },
+    {
+      "repo": "crewAIInc/crewAI",
+      "status": "qualified",
+      "framework_commit": "6b93fa0e25a926215ca7bb52a95d4db7d9d7262d",
+      "evidence": [
+        {
+          "file": "evidence/universe_sources/crewAIInc__crewAI/recipe_leads/docs/edge/en/concepts/knowledge.mdx",
+          "url": "https://raw.githubusercontent.com/crewAIInc/crewAI/6b93fa0e25a926215ca7bb52a95d4db7d9d7262d/docs/edge/en/concepts/knowledge.mdx",
+          "sha256": "cf1f60ce85ced6e1a8bd500bcb9c21a9d1cd3fcc8a8d9e6c701dc89c5788410a",
+          "required_literals": [
+            "Basic String Knowledge Example",
+            "StringKnowledgeSource",
+            "knowledge_sources=[string_source]",
+            "crew.kickoff",
+            "default provider is ChromaDB"
+          ],
+          "syntax_check": "markdown_python",
+          "python_block_selector_contains_all": [
+            "knowledge_sources=[string_source]",
+            "crew.kickoff"
+          ],
+          "parsed_code_blocks": 1
+        }
+      ],
+      "official_default_contract": {
+        "recipe": "Basic String Knowledge Example",
+        "model": "gpt-4o-mini",
+        "temperature": 0,
+        "process": "Process.sequential",
+        "allow_delegation": false,
+        "verbose": true
+      },
+      "documented_dependency_contract": {
+        "required": [
+          "crewai",
+          "ChromaDB knowledge storage",
+          "OpenAI chat and default embedding credentials"
+        ]
+      },
+      "qualification_scope": "Documented runnable recipe with required inputs/services; runtime success is a later separate gate.",
+      "fact_note": "The pinned edge documentation contains the full runnable StringKnowledgeSource→Crew example and explicitly documents the RAG storage. Edge documentation provenance is recorded; it is not silently substituted for a versioned stable document.",
+      "parallel_primitive_not_qualification_filter": true,
+      "execution_label": null
+    },
+    {
+      "repo": "run-llama/llama_index",
+      "status": "qualified",
+      "framework_commit": "6dd2f3cdd9ce7ff927ea8d46ccee08875bb00f95",
+      "evidence": [
+        {
+          "file": "evidence/universe_sources/run-llama__llama_index/readmes/README.md",
+          "url": "https://raw.githubusercontent.com/run-llama/llama_index/6dd2f3cdd9ce7ff927ea8d46ccee08875bb00f95/README.md",
+          "sha256": "625c49e7dedf84826b350be28d118e7823e669504689105611e91ff709406d1f",
+          "required_literals": [
+            "LlamaIndex is a \"data framework\"",
+            "index = VectorStoreIndex.from_documents",
+            "query_engine.query(\"YOUR_QUESTION\")",
+            "llama-index-core"
+          ],
+          "syntax_check": "markdown_python",
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 6
+        }
+      ],
+      "official_default_contract": {
+        "recipe": "README Example Usage / OpenAI VectorStoreIndex / To query",
+        "constructor": "VectorStoreIndex.from_documents(documents)",
+        "query_engine": "index.as_query_engine()"
+      },
+      "documented_dependency_contract": {
+        "required": [
+          "llama-index-core",
+          "llama-index-llms-openai",
+          "OpenAI credentials",
+          "input directory"
+        ],
+        "alternate_documented_variant": "Ollama plus HuggingFace bge-small-en-v1.5; do not select variants by expected class"
+      },
+      "qualification_scope": "Documented runnable recipe with required inputs/services; runtime success is a later separate gate.",
+      "fact_note": "Official root documentation provides the complete inline indexing and query recipe and links the docs/examples directory. The OpenAI and Ollama variants remain separately identified.",
+      "parallel_primitive_not_qualification_filter": true,
+      "execution_label": null
+    },
+    {
+      "repo": "agno-agi/agno",
+      "status": "qualified",
+      "framework_commit": "3be277189d760be71a4982b844e59fc8578e8038",
+      "evidence": [
+        {
+          "file": "evidence/universe_sources/agno-agi__agno/recipe_leads/cookbook/07_knowledge/01_getting_started/README.md",
+          "url": "https://raw.githubusercontent.com/agno-agi/agno/3be277189d760be71a4982b844e59fc8578e8038/cookbook/07_knowledge/01_getting_started/README.md",
+          "sha256": "ccc3b51edfd95be806bb98a4321fea06e897bdcee3f1fae9065acb18df10d4c5",
+          "required_literals": [
+            "01_basic_rag.py"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        },
+        {
+          "file": "evidence/universe_sources/agno-agi__agno/recipe_leads/cookbook/07_knowledge/01_getting_started/01_basic_rag.py",
+          "url": "https://raw.githubusercontent.com/agno-agi/agno/3be277189d760be71a4982b844e59fc8578e8038/cookbook/07_knowledge/01_getting_started/01_basic_rag.py",
+          "sha256": "27661640869a863fcd3448ae1e3bb768c0194f618ae53069074d24fbde2b46c1",
+          "required_literals": [
+            "OpenAIResponses(id=\"gpt-5.2\")",
+            "SearchType.hybrid",
+            "knowledge.ainsert",
+            "agent.print_response"
+          ],
+          "syntax_check": "python",
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 1
+        }
+      ],
+      "official_default_contract": {
+        "recipe": "01_basic_rag.py full main",
+        "model_api": "OpenAIResponses",
+        "model": "gpt-5.2",
+        "vector_store": "Qdrant",
+        "search_type": "hybrid",
+        "embedding": "text-embedding-3-small",
+        "add_knowledge_to_context": true,
+        "search_knowledge": false,
+        "markdown": true,
+        "stream": true
+      },
+      "documented_dependency_contract": {
+        "required": [
+          "agno",
+          "qdrant-client",
+          "OpenAI credentials",
+          "Qdrant at localhost:6333",
+          "document PDF"
+        ]
+      },
+      "qualification_scope": "Documented runnable recipe with required inputs/services; runtime success is a later separate gate.",
+      "fact_note": "The official cookbook README links the complete file. Native Responses API and streaming are required for eventual execution; swapping to ChatCompletions is not a documented-default-preserving adapter.",
+      "parallel_primitive_not_qualification_filter": true,
+      "execution_label": null
+    },
+    {
+      "repo": "agentscope-ai/agentscope",
+      "status": "qualified",
+      "framework_commit": "faf54fdd463b933cb29f46a80ae9f2a758d06bff",
+      "evidence": [
+        {
+          "file": "evidence/official/agentscope-ai__agentscope/sources/examples/rag/README.md",
+          "url": "https://raw.githubusercontent.com/agentscope-ai/agentscope/faf54fdd463b933cb29f46a80ae9f2a758d06bff/examples/rag/README.md",
+          "sha256": "bee2f39066525f339e67d29668f84b65b4cf66e7a74a5cd826960c246cbf0216",
+          "required_literals": [
+            "integrate_with_agent.py"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        },
+        {
+          "file": "evidence/official/agentscope-ai__agentscope/sources/examples/rag/integrate_with_agent.py",
+          "url": "https://raw.githubusercontent.com/agentscope-ai/agentscope/faf54fdd463b933cb29f46a80ae9f2a758d06bff/examples/rag/integrate_with_agent.py",
+          "sha256": "fd8feb9a246088e5480fc22e4fabfc25c996837139b76d5bc470a007b0e8207b",
+          "required_literals": [
+            "RAGMiddleware",
+            "QdrantStore(location=\":memory:\")",
+            "index_corpus(knowledge)",
+            "await agent.reply",
+            "top_k=3"
+          ],
+          "syntax_check": "python",
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 1
+        }
+      ],
+      "official_default_contract": {
+        "recipe": "integrate_with_agent.py full main",
+        "variants": [
+          "static",
+          "agentic"
+        ],
+        "chunk_size": 256,
+        "overlap": 32,
+        "top_k": 3,
+        "chat_model": "qwen-plus",
+        "stream": false,
+        "embedding": "text-embedding-v4",
+        "dimensions": 1024
+      },
+      "documented_dependency_contract": {
+        "required": [
+          "agentscope RAG dependencies",
+          "qdrant-client",
+          "DashScope credentials"
+        ]
+      },
+      "qualification_scope": "Documented runnable recipe with required inputs/services; runtime success is a later separate gate.",
+      "fact_note": "Both modes are executed by the official full main(). No mode is selected to achieve a desired category. The native provider is DashScope, requiring an explicit provider compatibility audit in any later adapter.",
+      "parallel_primitive_not_qualification_filter": true,
+      "execution_label": null
+    },
+    {
+      "repo": "neuml/txtai",
+      "status": "qualified",
+      "framework_commit": "ca9563daac12ec14cb6eb807a420803941c6b4ea",
+      "evidence": [
+        {
+          "file": "evidence/universe_sources/neuml__txtai/recipe_leads/docs/pipeline/llm/rag.md",
+          "url": "https://raw.githubusercontent.com/neuml/txtai/ca9563daac12ec14cb6eb807a420803941c6b4ea/docs/pipeline/llm/rag.md",
+          "sha256": "5a4f22a660795a20c504ab7d1aede47ef898c73992bce325dd16e6849eeee33e",
+          "required_literals": [
+            "rag_quickstart.py"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        },
+        {
+          "file": "evidence/universe_sources/neuml__txtai/recipe_leads/examples/rag_quickstart.py",
+          "url": "https://raw.githubusercontent.com/neuml/txtai/ca9563daac12ec14cb6eb807a420803941c6b4ea/examples/rag_quickstart.py",
+          "sha256": "6499cd6d14b8183a6a2a0cd552258c50ebebff7ea35fe71de3324a15cd786c64",
+          "required_literals": [
+            "from txtai import Embeddings, RAG",
+            "embeddings.index(chunks)",
+            "rag = RAG(",
+            "print(rag(question"
+          ],
+          "syntax_check": "python",
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 1
+        }
+      ],
+      "official_default_contract": {
+        "recipe": "rag_quickstart.py",
+        "vector_model": "Qwen/Qwen3-Embedding-0.6B",
+        "llm_model": "Qwen/Qwen3-0.6B",
+        "extraction_backend": "docling",
+        "sections": true,
+        "maxlength": 2048,
+        "stripthink": true,
+        "output": "flatten"
+      },
+      "documented_dependency_contract": {
+        "required": [
+          "txtai[pipeline-data]",
+          "input directory",
+          "Docling",
+          "configured embedding/LLM weights or supported serving backends"
+        ]
+      },
+      "qualification_scope": "Documented runnable recipe with required inputs/services; runtime success is a later separate gate.",
+      "fact_note": "The official RAG API document links this complete quickstart. Qualification does not authorize silently replacing the native local-model defaults; eventual serving/stub adaptation must preserve prompt construction and be disclosed.",
+      "parallel_primitive_not_qualification_filter": true,
+      "execution_label": null
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "status": "excluded_scope",
+      "framework_commit": "b6a7a1706bae08c6b4e90f2d9dbfd997f8cbe126",
+      "evidence": [
+        {
+          "file": "evidence/universe_sources/rohitg00__ai-engineering-from-scratch/readmes/README.md",
+          "url": "https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/b6a7a1706bae08c6b4e90f2d9dbfd997f8cbe126/README.md",
+          "sha256": "deff2b1a0d7a552c0a79b19db1176b46b8e3c8c147c39bd5b3ed4266bd00a91c",
+          "required_literals": [
+            "523 lessons. 20 phases.",
+            "Browse the curriculum"
+          ],
+          "syntax_check": null,
+          "python_block_selector_contains_all": [],
+          "parsed_code_blocks": 0
+        }
+      ],
+      "official_default_contract": {},
+      "documented_dependency_contract": {
+        "scope_only": true
+      },
+      "qualification_scope": "Source scope exclusion; no behavior or recipe-execution inference.",
+      "fact_note": "Official root documentation explicitly describes a lesson curriculum rather than an agent/RAG framework. This scope decision does not use any execution outcome.",
+      "parallel_primitive_not_qualification_filter": true,
+      "execution_label": null,
+      "decision_reason": "Explicit official README self-description as a 523-lesson educational curriculum"
+    }
+  ]
+}

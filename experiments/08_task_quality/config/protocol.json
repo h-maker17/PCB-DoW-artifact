@@ -1,0 +1,39 @@
+{
+  "sample_count_each_real_task": 30,
+  "synthetic_anchor_independent_repeats": 30,
+  "N": 5,
+  "arms": [
+    "none",
+    "front"
+  ],
+  "marker": "original C zwsp_k = U+200B repeated worker index, then newline, before context",
+  "model": "Llama-3.3-70B-Instruct-FP8",
+  "TP": 1,
+  "block_size": 16,
+  "APC": true,
+  "activation_dtype": "bfloat16",
+  "KV_dtype": "auto (baseline BF16)",
+  "vllm": "0.11.2",
+  "temperature": 0,
+  "seed": 42,
+  "stream": false,
+  "tools": [],
+  "reflect_on_tool_use": "not applicable; direct task answers",
+  "selection": "first 30 eligible records in original order; native token length 1024..29000; no truncation and no outcome-based selection",
+  "aggregation": "QA official-normalized majority vote; summary/synthetic model merge; aggregation use separately logged and excluded from worker CAF_cache",
+  "budgets": {
+    "all_workers": 2048,
+    "all_model_aggregations": 2048
+  },
+  "requested_test": "two-sided Mann-Whitney U per native metric, with rank-biserial effect size",
+  "supplemental_tests": "paired quality differences and bootstrap CI, paired Wilcoxon; nonsignificance is not equivalence",
+  "formal_worker_requests_expected": 1200,
+  "formal_aggregation_requests_expected": 120,
+  "formal_arms_expected": 240,
+  "scope": "controlled RAG prepend; mechanism generalization and output quality; no single-asset end-to-end delivery claim",
+  "frozen_utc": "2026-10-05T05:27:39.612631+00:00",
+  "map_section_rule": "five contiguous word-count spans of original full context; 10-word start/end cues in per-agent suffix",
+  "sanity_rule": "first 3 fixed HotpotQA and TriviaQA cases, first 1 summary and synthetic case; no outcome-based sample replacement",
+  "preformal_prompt_revision_utc": "20261005T053500Z",
+  "budget_revision_utc": "20261005T054912Z"
+}

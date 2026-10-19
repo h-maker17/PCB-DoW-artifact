@@ -1,0 +1,37 @@
+{
+  "old_acquisition_commit": "8ee30445f7d3b431ec32ae26dcfad7aae9a2bdaf",
+  "reference_commit": "4aeb99646d1eb57614b5acf42f024c4521e037b4",
+  "old_source_sha256": "45c5a7e6bbde59d53ec70dcaff13383617772ec3644e5c1058210f2e0c051ddf",
+  "core_file_sha256": "9a9250c33a60128d5aa039208eaf8f2e5e4a88ee3f36ee5fcb58df163c309b9e",
+  "functions": {
+    "locate": {
+      "old_AST_sha256": "3d6be85f33db295a6c093b65d62c0e560c68ca34940247a99353874e270484fd",
+      "extracted_AST_identical": true,
+      "4aeb_AST_identical": true
+    },
+    "token_lcp": {
+      "old_AST_sha256": "6418fa78326350a5f20d59ff46d5a9201dc58311962e86f0651a36434d1494ec",
+      "extracted_AST_identical": true,
+      "4aeb_AST_identical": true
+    },
+    "classify": {
+      "old_AST_sha256": "4d4bac95eb72b6588e557efdbfb92dbbb4c8fc9f30ebea73afbcf7514b703ace",
+      "extracted_AST_identical": true,
+      "4aeb_AST_identical": true
+    },
+    "pair_integrity": {
+      "old_AST_sha256": "c1954ec136b8979e61d0ffa04f6af351d0520f6e101ec0158ed96500e02c2be7",
+      "extracted_AST_identical": true,
+      "4aeb_AST_identical": true
+    },
+    "repeat_invariant": {
+      "old_AST_sha256": "49b7df873e198169eecfa6af0f9a695da6a3871601148031aefcb36fcf9f484d",
+      "extracted_AST_identical": true,
+      "4aeb_AST_identical": true
+    },
+    "measure": {
+      "old_AST_sha256": "a46417776fd54152312be9d344f5e028190590643826049db5919b4ac39221b3",
+      "extracted_AST_identical": true
+    }
+  }
+}

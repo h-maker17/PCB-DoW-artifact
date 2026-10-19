@@ -1,0 +1,764 @@
+{
+  "run_id": "llama-r6-20261011T131437Z",
+  "model": "llama",
+  "argv": [
+    "/path/to/workspace/多智能体系统实验数据/G-experiment/env/g-venv/bin/python",
+    "-B",
+    "/path/to/workspace/多智能体系统实验数据/G-experiment/revisions/continuation-r6-20261011/code/gserver.py",
+    "serve",
+    "/path/to/workspace/LLM-Model/Llama-3.3-70B-Instruct-FP8",
+    "--served-model-name",
+    "G-llama",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18021",
+    "--api-server-count",
+    "1",
+    "--tensor-parallel-size",
+    "1",
+    "--pipeline-parallel-size",
+    "1",
+    "--max-num-seqs",
+    "32",
+    "--max-num-batched-tokens",
+    "2048",
+    "--max-model-len",
+    "8192",
+    "--gpu-memory-utilization",
+    "0.95",
+    "--block-size",
+    "16",
+    "--dtype",
+    "bfloat16",
+    "--kv-cache-dtype",
+    "auto",
+    "--enable-prefix-caching",
+    "--enable-chunked-prefill",
+    "--enforce-eager",
+    "--no-async-scheduling",
+    "--cpu-offload-gb",
+    "0",
+    "--swap-space",
+    "0",
+    "--enable-prompt-tokens-details",
+    "--disable-log-requests",
+    "--seed",
+    "42"
+  ],
+  "resolved_policy": {
+    "vllm": "0.11.2",
+    "engine": "V1",
+    "host": "127.0.0.1",
+    "port": 18021,
+    "tensor_parallel_size": 1,
+    "pipeline_parallel_size": 1,
+    "max_num_seqs": 32,
+    "max_num_batched_tokens": 2048,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.95,
+    "block_size": 16,
+    "kv_cache_dtype": "auto",
+    "dtype": "bfloat16",
+    "enable_prefix_caching": true,
+    "enable_chunked_prefill": true,
+    "enforce_eager": true,
+    "api_server_count": 1,
+    "speculative_decoding": null,
+    "cpu_offload_gb": 0,
+    "swap_space_gib": 0,
+    "async_scheduling": false
+  },
+  "created_utc": "2026-10-11T13:14:40.023047+00:00",
+  "code_sha256": {
+    "ganalysis.py": "3fb48f1f06296a9570b6e2f42862617443476088399a6ec4811b404c05ce915e",
+    "gchecks.py": "1ca86f6cfac59f2c5914d653a9cdad5495199060664c0496e5d7412e18731d68",
+    "gdriver.py": "09d5701c2128a1faf0839838bafa827134346d34f6f19cd98fa39ac86c556fa4",
+    "gslots.py": "1967ff7522d003ad1aca257e5220bc4eb03ff8f595ba656b6a4317469d0e0df2",
+    "gprotocol_analysis.py": "28f83ee6ed2a49d252da1e1ab996ab74d53e7e3646b49ccdb155be35a87b91e6",
+    "gcommon.py": "240582e46adba8a1f60d9d8467b444e07fb98ca6f7b843f349eb1130dfc891cf",
+    "gstage.py": "3b017bbdbdf8aaa6f6a659da1f3e2438c77c37fb8b2a5c9252291c9f97b62e7a",
+    "gstats.py": "ad74dd74d72a913f99c43fd4561841a65589168f8249fea13402e990c1b8d392",
+    "gburst.py": "196c591a300c06837da45f0bc5e3b1c6d8e343fe0d8271c132a5ebb94721e8df",
+    "gprefill.py": "a4e31f3e4289d048deda37828ffbb62bbc5c2b08f0488523fd029ea6490d553f",
+    "gsample.py": "18126c63766f465b7e67d1b949bcdc66d6621ab9cfee99eac61594780eb87b67",
+    "gseal.py": "8e8cc5a5ad4cedf878ef095bb912c19f95b0c65cfa01ae3aa7df4f7f7868402f",
+    "gserver.py": "7d40af173c8c807c59eb384c07e776ce46c0f0a2a9948f67b149b3247db26d07",
+    "gtrace.py": "4203e1ea9aaa29e04b55845bf8417f2f3f0d0bafd5024df260d78bb6725b4074",
+    "gattempts.py": "b3ca99ceefd57f2d6a7cc8511e863e49052fe8caa4d50e870571b2241c2a95d1",
+    "grecovery.py": "eb75e713de70ce48eda9609da6ce6a8818166dc6d7985422d3907104329cc436",
+    "gcontinuation.py": "e4a41d77b75d55ad1f34dee4583f96d825c6eda29349c8939f282c52171874bd"
+  },
+  "candidate_code_root": "/path/to/workspace/多智能体系统实验数据/G-experiment/revisions/continuation-r6-20261011/code",
+  "environment_metadata": {
+    "python": "3.11.16 (main, Sep 24 2026, 17:56:40) [Clang 22.1.3 ]",
+    "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+    "dependency_lock": {
+      "installed_distribution_versions": [
+        [
+          "Jinja2",
+          "3.1.6"
+        ],
+        [
+          "MarkupSafe",
+          "3.0.3"
+        ],
+        [
+          "PyYAML",
+          "6.0.3"
+        ],
+        [
+          "Pygments",
+          "2.19.2"
+        ],
+        [
+          "aiohappyeyeballs",
+          "2.6.1"
+        ],
+        [
+          "aiohttp",
+          "3.13.2"
+        ],
+        [
+          "aiosignal",
+          "1.4.0"
+        ],
+        [
+          "annotated-doc",
+          "0.0.4"
+        ],
+        [
+          "annotated-types",
+          "0.7.0"
+        ],
+        [
+          "anthropic",
+          "0.71.0"
+        ],
+        [
+          "anyio",
+          "4.12.0"
+        ],
+        [
+          "apache-tvm-ffi",
+          "0.1.4"
+        ],
+        [
+          "astor",
+          "0.8.1"
+        ],
+        [
+          "attrs",
+          "25.4.0"
+        ],
+        [
+          "blake3",
+          "1.0.8"
+        ],
+        [
+          "cachetools",
+          "6.2.2"
+        ],
+        [
+          "cbor2",
+          "5.7.1"
+        ],
+        [
+          "certifi",
+          "2025.11.12"
+        ],
+        [
+          "charset-normalizer",
+          "3.4.4"
+        ],
+        [
+          "click",
+          "8.2.1"
+        ],
+        [
+          "cloudpickle",
+          "3.1.2"
+        ],
+        [
+          "compressed-tensors",
+          "0.12.2"
+        ],
+        [
+          "cuda-bindings",
+          "13.0.3"
+        ],
+        [
+          "cuda-pathfinder",
+          "1.3.2"
+        ],
+        [
+          "cuda-python",
+          "13.0.3"
+        ],
+        [
+          "cupy-cuda12x",
+          "13.6.0"
+        ],
+        [
+          "depyf",
+          "0.20.0"
+        ],
+        [
+          "dill",
+          "0.4.0"
+        ],
+        [
+          "diskcache",
+          "5.6.3"
+        ],
+        [
+          "distro",
+          "1.9.0"
+        ],
+        [
+          "dnspython",
+          "2.8.0"
+        ],
+        [
+          "docstring_parser",
+          "0.17.0"
+        ],
+        [
+          "einops",
+          "0.8.1"
+        ],
+        [
+          "email-validator",
+          "2.3.0"
+        ],
+        [
+          "fastapi",
+          "0.123.0"
+        ],
+        [
+          "fastapi-cli",
+          "0.0.16"
+        ],
+        [
+          "fastapi-cloud-cli",
+          "0.5.2"
+        ],
+        [
+          "fastar",
+          "0.8.0"
+        ],
+        [
+          "fastrlock",
+          "0.8.3"
+        ],
+        [
+          "filelock",
+          "3.20.0"
+        ],
+        [
+          "flashinfer-python",
+          "0.5.2"
+        ],
+        [
+          "frozenlist",
+          "1.8.0"
+        ],
+        [
+          "fsspec",
+          "2025.10.0"
+        ],
+        [
+          "gguf",
+          "0.17.1"
+        ],
+        [
+          "h11",
+          "0.16.0"
+        ],
+        [
+          "hf-xet",
+          "1.2.0"
+        ],
+        [
+          "httpcore",
+          "1.0.9"
+        ],
+        [
+          "httptools",
+          "0.7.1"
+        ],
+        [
+          "httpx",
+          "0.28.1"
+        ],
+        [
+          "huggingface-hub",
+          "0.36.0"
+        ],
+        [
+          "idna",
+          "3.11"
+        ],
+        [
+          "interegular",
+          "0.3.3"
+        ],
+        [
+          "jiter",
+          "0.12.0"
+        ],
+        [
+          "jmespath",
+          "1.0.1"
+        ],
+        [
+          "jsonschema",
+          "4.25.1"
+        ],
+        [
+          "jsonschema-specifications",
+          "2025.9.1"
+        ],
+        [
+          "lark",
+          "1.2.2"
+        ],
+        [
+          "llguidance",
+          "1.3.0"
+        ],
+        [
+          "llvmlite",
+          "0.44.0"
+        ],
+        [
+          "lm-format-enforcer",
+          "0.11.3"
+        ],
+        [
+          "loguru",
+          "0.7.3"
+        ],
+        [
+          "markdown-it-py",
+          "4.0.0"
+        ],
+        [
+          "mdurl",
+          "0.1.2"
+        ],
+        [
+          "mistral_common",
+          "1.8.6"
+        ],
+        [
+          "model-hosting-container-standards",
+          "0.1.9"
+        ],
+        [
+          "mpmath",
+          "1.3.0"
+        ],
+        [
+          "msgpack",
+          "1.1.2"
+        ],
+        [
+          "msgspec",
+          "0.20.0"
+        ],
+        [
+          "multidict",
+          "6.7.0"
+        ],
+        [
+          "networkx",
+          "3.6"
+        ],
+        [
+          "ninja",
+          "1.13.0"
+        ],
+        [
+          "numba",
+          "0.61.2"
+        ],
+        [
+          "numpy",
+          "2.2.6"
+        ],
+        [
+          "nvidia-cublas-cu12",
+          "12.8.4.1"
+        ],
+        [
+          "nvidia-cuda-cupti-cu12",
+          "12.8.90"
+        ],
+        [
+          "nvidia-cuda-nvrtc-cu12",
+          "12.8.93"
+        ],
+        [
+          "nvidia-cuda-runtime-cu12",
+          "12.8.90"
+        ],
+        [
+          "nvidia-cudnn-cu12",
+          "9.10.2.21"
+        ],
+        [
+          "nvidia-cudnn-frontend",
+          "1.16.0"
+        ],
+        [
+          "nvidia-cufft-cu12",
+          "11.3.3.83"
+        ],
+        [
+          "nvidia-cufile-cu12",
+          "1.13.1.3"
+        ],
+        [
+          "nvidia-curand-cu12",
+          "10.3.9.90"
+        ],
+        [
+          "nvidia-cusolver-cu12",
+          "11.7.3.90"
+        ],
+        [
+          "nvidia-cusparse-cu12",
+          "12.5.8.93"
+        ],
+        [
+          "nvidia-cusparselt-cu12",
+          "0.7.1"
+        ],
+        [
+          "nvidia-cutlass-dsl",
+          "4.3.1"
+        ],
+        [
+          "nvidia-ml-py",
+          "13.580.82"
+        ],
+        [
+          "nvidia-nccl-cu12",
+          "2.27.5"
+        ],
+        [
+          "nvidia-nvjitlink-cu12",
+          "12.8.93"
+        ],
+        [
+          "nvidia-nvshmem-cu12",
+          "3.3.20"
+        ],
+        [
+          "nvidia-nvtx-cu12",
+          "12.8.90"
+        ],
+        [
+          "openai",
+          "2.8.1"
+        ],
+        [
+          "openai-harmony",
+          "0.0.8"
+        ],
+        [
+          "opencv-python-headless",
+          "4.12.0.88"
+        ],
+        [
+          "outlines_core",
+          "0.2.11"
+        ],
+        [
+          "packaging",
+          "25.0"
+        ],
+        [
+          "partial-json-parser",
+          "0.2.1.1.post7"
+        ],
+        [
+          "pillow",
+          "12.0.0"
+        ],
+        [
+          "pip",
+          "24.0"
+        ],
+        [
+          "prometheus-fastapi-instrumentator",
+          "7.1.0"
+        ],
+        [
+          "prometheus_client",
+          "0.23.1"
+        ],
+        [
+          "propcache",
+          "0.4.1"
+        ],
+        [
+          "protobuf",
+          "6.33.1"
+        ],
+        [
+          "psutil",
+          "7.1.3"
+        ],
+        [
+          "py-cpuinfo",
+          "9.0.0"
+        ],
+        [
+          "pybase64",
+          "1.4.2"
+        ],
+        [
+          "pycountry",
+          "24.6.1"
+        ],
+        [
+          "pydantic",
+          "2.12.5"
+        ],
+        [
+          "pydantic-extra-types",
+          "2.10.6"
+        ],
+        [
+          "pydantic_core",
+          "2.41.5"
+        ],
+        [
+          "python-dotenv",
+          "1.2.1"
+        ],
+        [
+          "python-json-logger",
+          "4.0.0"
+        ],
+        [
+          "python-multipart",
+          "0.0.20"
+        ],
+        [
+          "pyzmq",
+          "27.1.0"
+        ],
+        [
+          "ray",
+          "2.52.1"
+        ],
+        [
+          "referencing",
+          "0.37.0"
+        ],
+        [
+          "regex",
+          "2025.11.3"
+        ],
+        [
+          "requests",
+          "2.32.5"
+        ],
+        [
+          "rich",
+          "14.2.0"
+        ],
+        [
+          "rich-toolkit",
+          "0.17.0"
+        ],
+        [
+          "rignore",
+          "0.7.6"
+        ],
+        [
+          "rpds-py",
+          "0.30.0"
+        ],
+        [
+          "safetensors",
+          "0.7.0"
+        ],
+        [
+          "scipy",
+          "1.16.3"
+        ],
+        [
+          "sentencepiece",
+          "0.2.1"
+        ],
+        [
+          "sentry-sdk",
+          "2.46.0"
+        ],
+        [
+          "setproctitle",
+          "1.3.7"
+        ],
+        [
+          "setuptools",
+          "80.9.0"
+        ],
+        [
+          "shared-cache-lab",
+          "0.1.0"
+        ],
+        [
+          "shellingham",
+          "1.5.4"
+        ],
+        [
+          "sniffio",
+          "1.3.1"
+        ],
+        [
+          "starlette",
+          "0.50.0"
+        ],
+        [
+          "supervisor",
+          "4.3.0"
+        ],
+        [
+          "sympy",
+          "1.14.0"
+        ],
+        [
+          "tabulate",
+          "0.9.0"
+        ],
+        [
+          "tiktoken",
+          "0.12.0"
+        ],
+        [
+          "tokenizers",
+          "0.22.1"
+        ],
+        [
+          "torch",
+          "2.9.0"
+        ],
+        [
+          "torchaudio",
+          "2.9.0"
+        ],
+        [
+          "torchvision",
+          "0.24.0"
+        ],
+        [
+          "tqdm",
+          "4.67.1"
+        ],
+        [
+          "transformers",
+          "4.57.1"
+        ],
+        [
+          "triton",
+          "3.5.0"
+        ],
+        [
+          "typer",
+          "0.20.0"
+        ],
+        [
+          "typing-inspection",
+          "0.4.2"
+        ],
+        [
+          "typing_extensions",
+          "4.15.0"
+        ],
+        [
+          "urllib3",
+          "2.5.0"
+        ],
+        [
+          "uvicorn",
+          "0.38.0"
+        ],
+        [
+          "uvloop",
+          "0.22.1"
+        ],
+        [
+          "vllm",
+          "0.11.2"
+        ],
+        [
+          "watchfiles",
+          "1.1.1"
+        ],
+        [
+          "websockets",
+          "15.0.1"
+        ],
+        [
+          "xformers",
+          "0.0.33.post1"
+        ],
+        [
+          "xgrammar",
+          "0.1.25"
+        ],
+        [
+          "yarl",
+          "1.22.0"
+        ]
+      ],
+      "scope": "Installed metadata versions; no credentials or source URLs; not wheel-byte verification"
+    },
+    "dependency_lock_sha256": "777b8d175684733df5fc4efb2b51d621a29ee77851d1c7f7d01183d0fb3637f7",
+    "formal_R": 3,
+    "pilot_R": 1,
+    "analysis_seed": 20261011,
+    "bootstrap_document_draws": 10000,
+    "failure_policy": {
+      "whole_round_max_retries": 1,
+      "automatic_HTTP_retries": 0,
+      "automatic_round_retries": 0,
+      "retry_reason_required": true,
+      "retain_all_attempts": true
+    },
+    "full_instrumentation_overhead_measured": false
+  },
+  "model_manifest_sha256": "0b477466473bcd6e849661af186a97d28948047986e686a84086f5862cbc7ba4",
+  "source_protocol_library_identity": {
+    "library_txt_id": "libfile_460ce0930d308191ae25d88dbf6f94f5",
+    "library_docx_id": "libfile_8e1b7a8776a48191b36d0a3cb6f44d62",
+    "version_id": "1",
+    "cover_version": "1.1",
+    "txt_read_lines": 463,
+    "expected_final_body_sha256": "bbfd6e9fb32811920de13e96e3f3d3a7335c64e840e32a561c2edff5706865ad",
+    "original_bytes_sha256_verified": false,
+    "pending_reason": "Windows Library materialize metadata unsupported; explicit authorization permits complete Library read for implementation"
+  },
+  "G_private_HTTP_idle_policy": {
+    "server_seconds": 600,
+    "client_seconds": 120,
+    "scope": "HTTP idle transport only; GPU scheduler/cache policy unchanged"
+  },
+  "G_owned_ephemeral_ipc_directory": "/tmp/g-pcb-_muy0fyk",
+  "environment_overrides": {
+    "G_ROOT": "/path/to/workspace/多智能体系统实验数据/G-experiment",
+    "VLLM_USE_V1": "1",
+    "VLLM_WORKER_MULTIPROC_METHOD": "spawn",
+    "HF_HUB_OFFLINE": "1",
+    "G_TRACE_DIR": "/path/to/workspace/多智能体系统实验数据/G-experiment/traces/llama-r6-20261011T131437Z",
+    "VLLM_RPC_BASE_PATH": "/tmp/g-pcb-_muy0fyk",
+    "TMPDIR": "/tmp/g-pcb-_muy0fyk",
+    "CUDA_VISIBLE_DEVICES": "0",
+    "VLLM_SERVER_DEV_MODE": "1",
+    "VLLM_HTTP_TIMEOUT_KEEP_ALIVE": "600"
+  }
+}

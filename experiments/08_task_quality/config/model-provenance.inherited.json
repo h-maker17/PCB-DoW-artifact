@@ -1,0 +1,129 @@
+{
+  "path": "/path/to/workspace/LLM-Model/Llama-3.3-70B-Instruct-FP8",
+  "source": "https://modelscope.cn/models/nv-community/Llama-3.3-70B-Instruct-FP8",
+  "upstream_id": "nv-community/Llama-3.3-70B-Instruct-FP8",
+  "quantization": {
+    "producer": {
+      "name": "modelopt",
+      "version": "0.27.1"
+    },
+    "quantization": {
+      "quant_algo": "FP8",
+      "kv_cache_quant_algo": "FP8",
+      "exclude_modules": [
+        "lm_head"
+      ]
+    }
+  },
+  "files": [
+    {
+      "name": "model-00001-of-00015.safetensors",
+      "size_bytes": 4819363200,
+      "sha256": "312f8b18fabb460d7c56477a2d936b97f8f61330ea0e2803e13dbdf4f5a6c221"
+    },
+    {
+      "name": "model-00002-of-00015.safetensors",
+      "size_bytes": 4983044160,
+      "sha256": "381fa4a73b9a6c3b6b7803360ee39f20824bfd235c5e49672934689e98fe3447"
+    },
+    {
+      "name": "model-00003-of-00015.safetensors",
+      "size_bytes": 4899126392,
+      "sha256": "e1543002c874e5ebb5bdd1b6a4b506382ae3623bf100f58acc7d68c9d383f50c"
+    },
+    {
+      "name": "model-00004-of-00015.safetensors",
+      "size_bytes": 4899159416,
+      "sha256": "a278579a1ce5bb09b5502dd60bee1eaab66b9ae8c8665c33dbd624de7d8d11c8"
+    },
+    {
+      "name": "model-00005-of-00015.safetensors",
+      "size_bytes": 4899159408,
+      "sha256": "9c39a4b35da5cd2a28f42797c4bf696df22f37390679c4897071ab7bdfbcf9b1"
+    },
+    {
+      "name": "model-00006-of-00015.safetensors",
+      "size_bytes": 4983044296,
+      "sha256": "18ac599be1e44a529241b0daa84e957cc862fdaf619dc396e1e5e64a64d7067f"
+    },
+    {
+      "name": "model-00007-of-00015.safetensors",
+      "size_bytes": 4899126416,
+      "sha256": "9587d29c59796c1e24d89986a18f21639bf422a5fa57394edd428a74b87dea27"
+    },
+    {
+      "name": "model-00008-of-00015.safetensors",
+      "size_bytes": 4899159416,
+      "sha256": "8d7a7da825b712b9713b5226a2fca945756d7514ddfb5472e07e050a02fd69ac"
+    },
+    {
+      "name": "model-00009-of-00015.safetensors",
+      "size_bytes": 4899159408,
+      "sha256": "0cb75db3abdfa5b590ffb195ae21ad89f4a5708ad631122fdb004d33c3bef20c"
+    },
+    {
+      "name": "model-00010-of-00015.safetensors",
+      "size_bytes": 4983044296,
+      "sha256": "45cd3669629787784874907a79966234432d87d939ced840c67f916e1d0c16b5"
+    },
+    {
+      "name": "model-00011-of-00015.safetensors",
+      "size_bytes": 4899126416,
+      "sha256": "de7ead50588d998874ae137460af34a1cf869a12f526ac8c96454001e522ceff"
+    },
+    {
+      "name": "model-00012-of-00015.safetensors",
+      "size_bytes": 4899159416,
+      "sha256": "b44a190208c4aa2483e2c9143b90a796c05592bd54511fa0bd6003a35063e259"
+    },
+    {
+      "name": "model-00013-of-00015.safetensors",
+      "size_bytes": 4899159408,
+      "sha256": "fde6c331c73f052fa346ead5e0e797f486580caa66c10d9d91e2e48046e0e1be"
+    },
+    {
+      "name": "model-00014-of-00015.safetensors",
+      "size_bytes": 4983044296,
+      "sha256": "733528222b6d069797f0f31bcf8f4f8506d0168af3964de20254d10b91c69a40"
+    },
+    {
+      "name": "model-00015-of-00015.safetensors",
+      "size_bytes": 3812709816,
+      "sha256": "0d62b5c8624aad2cfda790d105e6d7cf729e68c9fd09d0e5610bf338a38d0aff"
+    },
+    {
+      "name": "config.json",
+      "size_bytes": 874,
+      "sha256": "76bea1c34b224053cd5706a916d2fdc3c40f332d9f79bd8dd7965e436869c795"
+    },
+    {
+      "name": "hf_quant_config.json",
+      "size_bytes": 240,
+      "sha256": "69e44333ff5ed00aa317805f9d713d5a5a071d15255a148b9585298f5f098a32"
+    },
+    {
+      "name": "tokenizer.json",
+      "size_bytes": 17209920,
+      "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size_bytes": 55406,
+      "sha256": "cf9caa6e3956c24f5787bff455fccb25532afa5091d6b8cbee01a5b7235a1362"
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "size_bytes": 170254,
+      "sha256": "6398071a55c63422e6607f3a2e5b9a28a90f51090aca7a2313386f42a3d957ec"
+    },
+    {
+      "name": "generation_config.json",
+      "size_bytes": 184,
+      "sha256": "f62859b817ec0ad72540dfb2e2ae64fb70b3a8ffd7fad503193fa76e64b80227"
+    }
+  ],
+  "total_weight_bytes": 72656376832,
+  "seconds": 80.96708305785432,
+  "inspected_utc": "2026-10-03T05:34:43.941074+00:00",
+  "limitation": "local SHA256 provenance; not compared against upstream weight checksums"
+}

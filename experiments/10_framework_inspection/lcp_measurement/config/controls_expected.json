@@ -1,0 +1,12 @@
+{
+  "protocol": "SCAN-guide-v7_3",
+  "frozen_before_pipeline_implementation": true,
+  "N": 4,
+  "controls": [
+    {"id":"grounding_first_independent_pre","expected":"full_collapse"},
+    {"id":"append_independent_pre","expected":"bounded_G"},
+    {"id":"broadcast","expected":"immune"},
+    {"id":"react_mid_generation_diverged","expected":"immune","premise":"canned tool-call assistant messages already differ across replicas"}
+  ],
+  "templates": ["meta-llama/Llama-3.3-70B-Instruct", "Qwen/Qwen3-8B"]
+}

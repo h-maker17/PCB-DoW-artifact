@@ -1,0 +1,232 @@
+[
+  {
+    "id": "unissued_archive_mislabeled_synthetic",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "unregistered_input_object",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "scope_contract_mismatch",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "scope_contract_mismatch",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "unregistered_control",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "classification": null,
+      "observer_calls": 0,
+      "reason": "control_not_allowlisted"
+    }
+  },
+  {
+    "id": "mutated_final_messages",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "issued_input_bytes_changed",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "mutated_rendered_outside_G_S",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "issued_input_bytes_changed",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "mutated_token_ids_same_length",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "issued_input_bytes_changed",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "mutated_offsets_legal_range",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "issued_input_bytes_changed",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "template_mislabeled",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "issued_input_bytes_changed",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "control_path_SHA_changed",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "control_input_SHA_mismatch",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "registry_tamper",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "runtime_integrity:config/source_registry.json",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "policy_tamper",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "runtime_integrity:config/policy.json",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "runtime_code_tamper",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "runtime_integrity:observer.py",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "standalone_run_classification",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "classification": null,
+      "observer_calls": 0,
+      "reason": "Standalone run cannot provide two-repeat scientific classification; use measure_episode with an issued Episode."
+    }
+  },
+  {
+    "id": "reissued_wrong_same_scope_contract",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "synthetic_recipe_contract_mismatch",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "reissued_modified_runs",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "synthetic_deterministic_generation_mismatch",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "reissued_modified_receipt",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "synthetic_full_generation_receipt_mismatch",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "reissued_wrong_source_root",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "synthetic_source_root_mismatch",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "reissued_wrong_queries",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "synthetic_history_queries_mismatch",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "untrusted_renderer",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "untrusted_renderer",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "reissued_control_wrong_queries",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "control_native_queries_mismatch",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "duplicated_control_repeat_receipt",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "control_repeat_files_not_unique",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "mixed_control_identity_receipt",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "control_episode_identity_or_repeat_mismatch",
+      "classification": null,
+      "observer_calls": 0
+    }
+  },
+  {
+    "id": "negative_source_probe_byte_identity",
+    "passed": true,
+    "result": {
+      "status": "gate_closed",
+      "reason": "runtime_integrity:negative_source_probe/sources/assembly_sources.py",
+      "classification": null,
+      "observer_calls": 0
+    }
+  }
+]

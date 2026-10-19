@@ -1,0 +1,16 @@
+{
+  "runs": 300,
+  "requests": 3210,
+  "counts": {
+    "('B1', 'qwen')": 20,
+    "('B2', 'qwen')": 40,
+    "('B1', 'llama')": 20,
+    "('B2', 'llama')": 40,
+    "('B3', 'llama')": 180
+  },
+  "plan_sha256": "9fa87a9bf16ee15f93219df091e8c4133058781e7cebbd46fdc13d101f889793",
+  "source_response_files": 3170,
+  "source_write_operations": 0,
+  "qwen_middle_after_vllm_reference_n": 1,
+  "B_repeats": 5
+}

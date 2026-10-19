@@ -1,0 +1,3 @@
+task,metric,n_pairs,none_mean,front_mean,paired_delta_mean,paired_delta_ci95_low,paired_delta_ci95_high,mann_whitney_u_two_sided_p,rank_biserial_front_vs_none,paired_wilcoxon_two_sided_p,paired_cohens_dz
+triviaqa,em,30,0.8666666666666667,0.8666666666666667,0.0,0.0,0.0,1.0,0.0,1.0,0.0
+triviaqa,f1,30,0.9055555555555556,0.9055555555555556,0.0,0.0,0.0,1.0,0.0,1.0,0.0

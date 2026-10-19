@@ -1,0 +1,36 @@
+{
+  "kind": "FROZEN_PROSPECTIVE_FORMAL_V4_STATISTICAL_PLAN",
+  "provider": "deepseek",
+  "primary": {
+    "N": 20,
+    "arm": "frontmeta",
+    "baseline": "baseline",
+    "required_blocks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "estimator": "ratio of sums of allassigned inputusagecosts over five matched doc/repeat blocks",
+    "include_first": true
+  },
+  "bootstrap_resamples": 10000,
+  "seed": 20261012,
+  "confidence": 0.95,
+  "unit": "whole paired doc/repeat block",
+  "percentile_convention": "sorted bootstrap array indices int(.025*(9999)), int(.975*(9999)), as old block_statistics.py; Python random.Random; Decimal costs",
+  "secondary": "N5/N10 and frontzw/end at allN; N5 exploratory; fullfiveassigned blocks required",
+  "warm_subset": "baseline i3..N tokenweightedhit>=0.5 only secondary; if fewerthan2 selectedblock noCI; neverreplace primary",
+  "uniform_price_diagnostic": {
+    "input_hit_CNY_per_million": "0.30",
+    "input_miss_CNY_per_million": "9.0",
+    "F": "1",
+    "not_main": true
+  },
+  "missing_rule": "Any necessaryassigned inputcost missing→endpointnull with missingIDs/blocks; no observedsubset, droppingblocks, predictingcost or zeroimputation",
+  "protocol_deviations": "Preserve everyattempt cost when uniquely valued; flag deviations. Report estimability separately from all700 technicalcompletion; do not delete deviating data",
+  "no_selection_by_pilot_or_interim_effect": true,
+  "truncation_limitation": "Budget stop may be request-cost dependent; nonrandom missingness",
+  "plan_hash": "89c18817e47ad07501ce1014111e9320d219801d1ad443be5dec63fdf4ea95ca"
+}

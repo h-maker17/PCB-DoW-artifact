@@ -1,0 +1,462 @@
+{
+  "experiment_id": "G_FORMAL_20261012_LLAMA_R3_V7",
+  "source_revision": "73db24b400db43b143d7e934c11fcb7131822e507c719c544934a021d84371ae",
+  "startup_diagnostics": {
+    "formal-v7-20261012T080320Z": {
+      "passed": true,
+      "total_requests": 25,
+      "calibration_requests": 19,
+      "overhead_requests": 6,
+      "success_and_metric_valid": 25,
+      "excluded_from_formal": true,
+      "request_record_sha256": {
+        "segments/formal-v7-20261012T080320Z/calibration/cold-and-warm/0001.request-record.json": "aa3d0aa8b6b5373b2351399a00275738eedb3123285c9d234b3e803f42141c9d",
+        "segments/formal-v7-20261012T080320Z/calibration/cold-and-warm/0002.request-record.json": "b96963b19e817495ebac22ebf3a90c526b80f9617197eeec4331bd5207e5550b",
+        "segments/formal-v7-20261012T080320Z/calibration/cold-identical-burst/0001.request-record.json": "55d9ab90d97d1bea7dc3b880dc24189bf0314872651330354affa8ff60b09a19",
+        "segments/formal-v7-20261012T080320Z/calibration/cold-identical-burst/0002.request-record.json": "e4acff57a1d6551d00fbdbd79c3f8913e13c4abf60aa1d0f13e087062eeada71",
+        "segments/formal-v7-20261012T080320Z/calibration/cold-identical-burst/0003.request-record.json": "e04fbefc6fbe82de1b0e689a3af908f7c4a2319eeff52f2aa416f510726d2c53",
+        "segments/formal-v7-20261012T080320Z/calibration/cold-identical-burst/0004.request-record.json": "616aaa023942f9d62ea1e110b5d0fc6acdd45f45490d332fd75b1cad5a2cde4f",
+        "segments/formal-v7-20261012T080320Z/calibration/cold-identical-burst/0005.request-record.json": "16db53f048e1e2000c9e6dbfa7c4bc3bb25af8aae3a0967dd2635680526d571b",
+        "segments/formal-v7-20261012T080320Z/calibration/cross-domain-unreset-B/0001.request-record.json": "1acac2885788ce8e79ffb7c4f82831971572fca3b01c4a1478d4e1adcbfec595",
+        "segments/formal-v7-20261012T080320Z/calibration/fork-80/0001.request-record.json": "96fd2fb179598c7b276e20a10b2070dd2d7f4b5dff1cac8503ea415731a44468",
+        "segments/formal-v7-20261012T080320Z/calibration/fork-80/0002.request-record.json": "7890dfeedea523677df99dce0db562ce8d364d33f49a7f8b7b207c6c75356f4f",
+        "segments/formal-v7-20261012T080320Z/calibration/fork-81/0001.request-record.json": "e16bc301d190f5ee3640859eb18a40c8f9d4801069dc170fd8e418cd3a214946",
+        "segments/formal-v7-20261012T080320Z/calibration/fork-81/0002.request-record.json": "0b016fe5d667004ef75bd8c2036f85fd78a8dc750442e6afac87f1b40d5bcbe5",
+        "segments/formal-v7-20261012T080320Z/calibration/fork-95/0001.request-record.json": "a42044630b75e7bd55d5a41adc10a4b4d8368e8bc07239d7e18e67bc4af6a958",
+        "segments/formal-v7-20261012T080320Z/calibration/fork-95/0002.request-record.json": "d2c1c145775eea6fdf2af9937696a2341d41ccf612e6f52cfb8a2a0296ebec85",
+        "segments/formal-v7-20261012T080320Z/calibration/fork-96/0001.request-record.json": "c6562970630af5b179fc22ba327bb666e6f9daff5f86c4ea0f403172680b7ba1",
+        "segments/formal-v7-20261012T080320Z/calibration/fork-96/0002.request-record.json": "162b583351fa42e7c8d50adae58ac46288f41aa4f9a812583ca9f562b63854ca",
+        "segments/formal-v7-20261012T080320Z/calibration/fork-97/0001.request-record.json": "5a076b5aff78e74247e7f956484aa26ef65c488f807b2d3333cadf0dae7858cd",
+        "segments/formal-v7-20261012T080320Z/calibration/fork-97/0002.request-record.json": "0bda6db30229181f1e9f51081bea94c992212ae7db64839c77a7716e8e7ca51d",
+        "segments/formal-v7-20261012T080320Z/calibration/overhead-0-off/0001.request-record.json": "f33891938d34528ae0eca7945b40ca27fed27dde77248dd46e860bb3c9dccd06",
+        "segments/formal-v7-20261012T080320Z/calibration/overhead-0-on/0001.request-record.json": "57ab8e83cf75a807de3d303fbe4c3a26f77dd73db4e34e7f03f60bb1723792b2",
+        "segments/formal-v7-20261012T080320Z/calibration/overhead-1-off/0001.request-record.json": "a1477a7b2136487ea1c66b24fd75e1a9e94b45eeb0e8879bb06adbd7b192f4d2",
+        "segments/formal-v7-20261012T080320Z/calibration/overhead-1-on/0001.request-record.json": "a91639e0fe3e08cd8cb6d04ab284040dc7afbbc3450332d5a7ec1ecb10999ea8",
+        "segments/formal-v7-20261012T080320Z/calibration/overhead-2-off/0001.request-record.json": "af3c6cd1a70a85067256e1b1207f0ec57dda2045479012c616918665774eef0c",
+        "segments/formal-v7-20261012T080320Z/calibration/overhead-2-on/0001.request-record.json": "7bb0dbb6cd5dde78944a39c91e0f31aea53e39ebc99573f8054b89aca2598781",
+        "segments/formal-v7-20261012T080320Z/calibration/same-domain-A-after-B/0001.request-record.json": "5e18e95a49d2d7839fbe6496ee6b7c9c46bfd4382a5f487a2b9dfda8be1d1757"
+      },
+      "summary_sha256": {
+        "calibration-summary.json": "87e4f41e28b5fd2cd6856dacf95084fc7160f1e0397a7cb8d71c2e0e9bcdce74",
+        "trace-overhead.json": "2c53271a415b139edb9694805057f1604c837287c8aafb7216be86d8e7ec292f",
+        "actual-KV-layout.json": "8c0a8cac707b55170313f68523df7c0e2a9cef8b156e304ee27fde292d97d551",
+        "actual-HTTP-idle-policy.json": "3c00611c5c739719e46708e66a8e2852eeca7c0348406fe971da786e32c29e45",
+        "ready.json": "2dbc191e3987e18c274e53a9e1bec06f4b2b30eedf32ac7c1191033c4c7293fe"
+      }
+    },
+    "formal-runtime-v8-20261012T101824883095Z": {
+      "passed": true,
+      "total_requests": 25,
+      "calibration_requests": 19,
+      "overhead_requests": 6,
+      "success_and_metric_valid": 25,
+      "excluded_from_formal": true,
+      "request_record_sha256": {
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/cold-and-warm/0001.request-record.json": "ddd68176a10b566c87253703b66e5c85b994ed36442561d40e6e0fa3776e262a",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/cold-and-warm/0002.request-record.json": "89d1430d79b4183660cd891afbca10fbba5420903e1058b6caa6939fb7c5922a",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/cold-identical-burst/0001.request-record.json": "b5d626ff5e3d28938905aad36308847c56d25ea98cf077cf8a034bc8f2748324",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/cold-identical-burst/0002.request-record.json": "a31bf0d2f6635bcb862dfbd6a86c04bd30b350a89bbfbc1f8118570c9279c38b",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/cold-identical-burst/0003.request-record.json": "2711ccd1e74c75ecac70c6650a2e35ea71ac018ed09bec04e324a2d90a04c7ac",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/cold-identical-burst/0004.request-record.json": "b1f1efc617f1217341b6f0d2b6dd06c238bd4f856199816e28b9c1a929574f7d",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/cold-identical-burst/0005.request-record.json": "b7895eff1e2015bfcc3a3e78eaa49ed92d5647261d11d6e0a0d83d5910e9281f",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/cross-domain-unreset-B/0001.request-record.json": "6d02bcf7429809a49a6776198c5f9f2cd78354a2ee531670cf6cd0359611822c",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/fork-80/0001.request-record.json": "f907245d618a33642dc2ac75690ac9698f09c5927da2906fa38a70b799f64bad",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/fork-80/0002.request-record.json": "3e303a587c053a5ffd8a454055114b9758bb2eb95a94594b34259afe1d0e716d",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/fork-81/0001.request-record.json": "f2c67a53004dec8fac0bb6f7787ce4a0f1960edc9aad74565ef4e40589cf9bf6",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/fork-81/0002.request-record.json": "1f5bb82e59853b47674e78c9ac9397fb82aa3c90c19434077e282000341257cf",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/fork-95/0001.request-record.json": "19eb9ff8533c7cb9cb136512a1d573def6dc6d244ae214027b1430a40d88cd57",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/fork-95/0002.request-record.json": "189e2452591648086bb60136536cd30879f480b1a50e7eeeb39ba81015b870d8",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/fork-96/0001.request-record.json": "f3f1a5b5eebfdff635867a1e291e9794d85d60e33071223c649c1664416d8951",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/fork-96/0002.request-record.json": "ca71a4bfd3486039c107592e5f6adc453973c6db29a10efb49d47963b6631886",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/fork-97/0001.request-record.json": "3cd246330b54055b3e9d53586e89483c3fb4811c3a818679002891f45dd3d7fc",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/fork-97/0002.request-record.json": "40d7b0a487a236be56cc3bdf71feb7a287390957f6dda175e40ea822baf7cee0",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/overhead-0-off/0001.request-record.json": "25fb0ce2d14fc25d8e6688b4e80e0ba60144ccba6c924f4fd43e86907aec5d0e",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/overhead-0-on/0001.request-record.json": "a6127e2de8d505ed9bc991d9f7b30e2c46dfdeb91193bd79478bd39def2d2ac7",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/overhead-1-off/0001.request-record.json": "d62972ffe63cdcde6b3e3a3b06a49d9a07e330252bf7498b32544edfa0bdcff2",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/overhead-1-on/0001.request-record.json": "ae6e266fc24da4e9ea52743cb30524070c5212f5d4052afb37210cddf48c53ac",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/overhead-2-off/0001.request-record.json": "e5f022d521e286cf8f6a29ddc70d769722d5c191538e4dfc9f8003a89828fb03",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/overhead-2-on/0001.request-record.json": "ce01f62356735e76b0e588dac06e2251c8376f25aba5f8c8f0365d513cd8bf15",
+        "segments/formal-runtime-v8-20261012T101824883095Z/calibration/same-domain-A-after-B/0001.request-record.json": "82d747fb0df56e4c885f0f3fa6a1dd3d3f9f604b05772cf96010dc8373ede10c"
+      },
+      "summary_sha256": {
+        "calibration-summary.json": "4e1634f6788e6c1114c9c7f775cec5d570a75cb1916bee94261caf4f2d0f1dfd",
+        "trace-overhead.json": "ec93ea752495dfdb088f04f97bce580b0351511ffe5bf093f4a5ef88597365f2",
+        "actual-KV-layout.json": "c83cd8a17677157121861ea44a3d6c3d5f5128e016f3432b9d9bd1dd59774fc7",
+        "actual-HTTP-idle-policy.json": "3f3b7f9569ee39d5bee1441f982514a64f5c09a2f99cad45f53aa0d1c0a02859",
+        "ready.json": "e4db61842fdde22aff221458ba346b103e70775546f94cdf4850d7924b993d6c"
+      }
+    }
+  },
+  "planned_model_requests": 20250,
+  "planned_tool_calls": 14040,
+  "counts": {
+    "planned_rounds": 1620,
+    "attempted_original_rounds": 1620,
+    "unattempted_original_rounds": 0,
+    "first": {
+      "attempts": 1620,
+      "invalid_or_failed": 1,
+      "known_actual_sent": 20245,
+      "known_request_failures": 0,
+      "planned_not_sent": 0,
+      "unknown_sent_attempts": 1
+    },
+    "retry": {
+      "attempts": 1,
+      "invalid_or_failed": 0,
+      "known_actual_sent": 5,
+      "known_request_failures": 0,
+      "planned_not_sent": 0,
+      "unknown_sent_attempts": 0
+    },
+    "unfinished": 0
+  },
+  "terminal_reasons": {
+    "qualified": 1620,
+    "harness_violation": 1
+  },
+  "selected_reasons": {
+    "qualified": 1620
+  },
+  "validity_lock_sha256": "7697e9eaa7490c4be79094591f4d9a3587410773f83097d242ef30ebc8e3c67c",
+  "audit_sha256": "53ce2b1cb393211df279f796323299f234072e03334ca0a14ca54eccf1ef7e96",
+  "frozen_analysis_sha256": "62a7f53bb80ac8fecc35f816b858ca122684c805e7e0246a2ebf58044669c7b0",
+  "segments": [
+    {
+      "segment": "formal-runtime-v8-20261012T094759812191Z",
+      "execution-extension-outcome.json": {
+        "execution_extension_source_sha256": "d6b79dc0efe4fd5824cc6419831c4759d4eeeca43b622364ec1cca0cd364b398",
+        "segment": "formal-runtime-v8-20261012T094759812191Z",
+        "stage_returned": false,
+        "error_type": "FileExistsError",
+        "message": "[Errno 17] File exists: '/path/to/workspace/多智能体系统实验数据/G-experiment/formal/G_FORMAL_20261012_LLAMA_R3_V7/segments/formal-runtime-v8-20261012T094759812191Z'",
+        "finished_utc": "2026-10-12T09:48:02.732730+00:00",
+        "stage_evidence_sha256": {
+          "execution-extension.json": "1fa7c85e29c4534005b382c1aae8790c82b0e4bd7dd60f725b793ccbd09deed5"
+        }
+      }
+    },
+    {
+      "segment": "formal-runtime-v8-20261012T101824883095Z",
+      "cleanup-cost.json": {
+        "experiment_id": "G_FORMAL_20261012_LLAMA_R3_V7",
+        "source_revision": "73db24b400db43b143d7e934c11fcb7131822e507c719c544934a021d84371ae",
+        "segment": "formal-runtime-v8-20261012T101824883095Z",
+        "start_utc": "2026-10-12T10:18:28.455829+00:00",
+        "end_utc": "2026-10-12T14:22:11.113673+00:00",
+        "elapsed_seconds": 14622.657887220848,
+        "rate_RMB_per_hour": 6,
+        "actual_cloud_billing_start_unknown": true,
+        "driver_exit": 0,
+        "G_service_stopped": true,
+        "own_port_closed": true,
+        "owned_GPU_idle": true,
+        "cleanup_errors": [],
+        "service_cleanup": {
+          "all_owned_members_gone": true,
+          "signals": [
+            {
+              "pid": 21000,
+              "starttime_ticks": 294435931,
+              "pid_namespace": "pid:[4026546853]",
+              "pgid": 21000,
+              "session": 21000,
+              "PPid": 20993,
+              "NSpid": "21000",
+              "name": "python",
+              "cgroup": [
+                "0::/"
+              ],
+              "state": "S"
+            },
+            {
+              "pid": 22188,
+              "starttime_ticks": 294448090,
+              "pid_namespace": "pid:[4026546853]",
+              "pgid": 21000,
+              "session": 21000,
+              "PPid": 21000,
+              "NSpid": "22188",
+              "name": "python",
+              "cgroup": [
+                "0::/"
+              ],
+              "state": "S"
+            },
+            {
+              "pid": 22189,
+              "starttime_ticks": 294448091,
+              "pid_namespace": "pid:[4026546853]",
+              "pgid": 21000,
+              "session": 21000,
+              "PPid": 21000,
+              "NSpid": "22189",
+              "name": "VLLM::EngineCor",
+              "cgroup": [
+                "0::/"
+              ],
+              "state": "S"
+            }
+          ]
+        },
+        "pinned_cleanup_identities": [
+          {
+            "pid": 21000,
+            "starttime_ticks": 294435931,
+            "pid_namespace": "pid:[4026546853]",
+            "pgid": 21000,
+            "session": 21000,
+            "PPid": 20993,
+            "NSpid": "21000",
+            "name": "python",
+            "cgroup": [
+              "0::/"
+            ],
+            "state": "D"
+          },
+          {
+            "pid": 22188,
+            "starttime_ticks": 294448090,
+            "pid_namespace": "pid:[4026546853]",
+            "pgid": 21000,
+            "session": 21000,
+            "PPid": 21000,
+            "NSpid": "22188",
+            "name": "python",
+            "cgroup": [
+              "0::/"
+            ],
+            "state": "S"
+          },
+          {
+            "pid": 22189,
+            "starttime_ticks": 294448091,
+            "pid_namespace": "pid:[4026546853]",
+            "pgid": 21000,
+            "session": 21000,
+            "PPid": 21000,
+            "NSpid": "22189",
+            "name": "VLLM::EngineCor",
+            "cgroup": [
+              "0::/"
+            ],
+            "state": "R"
+          },
+          {
+            "pid": 22756,
+            "starttime_ticks": 294453118,
+            "pid_namespace": "pid:[4026546853]",
+            "pgid": 21000,
+            "session": 21000,
+            "PPid": 22189,
+            "NSpid": "22756",
+            "name": "python",
+            "cgroup": [
+              "0::/"
+            ],
+            "state": "R"
+          },
+          {
+            "pid": 22768,
+            "starttime_ticks": 294453216,
+            "pid_namespace": "pid:[4026546853]",
+            "pgid": 21000,
+            "session": 21000,
+            "PPid": 22756,
+            "NSpid": "22768",
+            "name": "python",
+            "cgroup": [
+              "0::/"
+            ],
+            "state": "R"
+          }
+        ],
+        "estimated_RMB": 24.371096478701414
+      },
+      "ready.json": {
+        "ready_utc": "2026-10-12T10:22:11.503869+00:00",
+        "startup_seconds": 223.04807863384485
+      },
+      "completion.json": {
+        "planned_rounds": 1620,
+        "attempted_original_rounds": 1620,
+        "unattempted_original_rounds": 0,
+        "first": {
+          "attempts": 1620,
+          "invalid_or_failed": 1,
+          "known_actual_sent": 20245,
+          "known_request_failures": 0,
+          "planned_not_sent": 0,
+          "unknown_sent_attempts": 1
+        },
+        "retry": {
+          "attempts": 1,
+          "invalid_or_failed": 0,
+          "known_actual_sent": 5,
+          "known_request_failures": 0,
+          "planned_not_sent": 0,
+          "unknown_sent_attempts": 0
+        },
+        "unfinished": 0,
+        "model_requests_in_segment_including_checks": 16525,
+        "finished_utc": "2026-10-12T14:22:03.673239+00:00"
+      },
+      "execution-extension-outcome.json": {
+        "execution_extension_source_sha256": "64923a1c6a50cbc2668a4ca032ded6a5ee5058895ed21dae7f0fdefaa9873203",
+        "segment": "formal-runtime-v8-20261012T101824883095Z",
+        "stage_returned": true,
+        "finished_utc": "2026-10-12T14:22:11.137931+00:00",
+        "stage_evidence_sha256": {
+          "execution-extension.json": "cdc7ffb38d9ecafc1f1f8ea0332825458d7cbda7bac02e0b0d6eae059991b3cc",
+          "cleanup-cost.json": "333d9b92b64fa9a6e77b45343d8eab62b386a9e7588a7dda31ce4f157851faf6",
+          "stage-completed.json": "d36bcc66c18389ce421936aca410f3cc0c83bfab05663d8181a6ef821aced3ad",
+          "resource-final-check.json": "5b5850b27ddf00f24d24d3ecdbc2b994c4780dbadd578918ccb26c526d2115d6"
+        }
+      }
+    },
+    {
+      "segment": "formal-v7-20261012T080320Z",
+      "cleanup-cost.json": {
+        "experiment_id": "G_FORMAL_20261012_LLAMA_R3_V7",
+        "source_revision": "73db24b400db43b143d7e934c11fcb7131822e507c719c544934a021d84371ae",
+        "segment": "formal-v7-20261012T080320Z",
+        "start_utc": "2026-10-12T08:03:36.959840+00:00",
+        "end_utc": "2026-10-12T08:39:04.677396+00:00",
+        "elapsed_seconds": 2127.717596760951,
+        "rate_RMB_per_hour": 6,
+        "actual_cloud_billing_start_unknown": true,
+        "driver_exit": null,
+        "G_service_stopped": true,
+        "own_port_closed": true,
+        "owned_GPU_idle": true,
+        "cleanup_errors": [],
+        "service_cleanup": {
+          "all_owned_members_gone": true,
+          "signals": [
+            {
+              "pid": 747,
+              "starttime_ticks": 293626781,
+              "pid_namespace": "pid:[4026546853]",
+              "pgid": 747,
+              "session": 747,
+              "PPid": 739,
+              "NSpid": "747",
+              "name": "python",
+              "cgroup": [
+                "0::/"
+              ],
+              "state": "D"
+            },
+            {
+              "pid": 1590,
+              "starttime_ticks": 293635347,
+              "pid_namespace": "pid:[4026546853]",
+              "pgid": 747,
+              "session": 747,
+              "PPid": 747,
+              "NSpid": "1590",
+              "name": "python",
+              "cgroup": [
+                "0::/"
+              ],
+              "state": "S"
+            },
+            {
+              "pid": 1592,
+              "starttime_ticks": 293635349,
+              "pid_namespace": "pid:[4026546853]",
+              "pgid": 747,
+              "session": 747,
+              "PPid": 747,
+              "NSpid": "1592",
+              "name": "VLLM::EngineCor",
+              "cgroup": [
+                "0::/"
+              ],
+              "state": "R"
+            }
+          ]
+        },
+        "pinned_cleanup_identities": [
+          {
+            "pid": 747,
+            "starttime_ticks": 293626781,
+            "pid_namespace": "pid:[4026546853]",
+            "pgid": 747,
+            "session": 747,
+            "PPid": 739,
+            "NSpid": "747",
+            "name": "python",
+            "cgroup": [
+              "0::/"
+            ],
+            "state": "R"
+          },
+          {
+            "pid": 1590,
+            "starttime_ticks": 293635347,
+            "pid_namespace": "pid:[4026546853]",
+            "pgid": 747,
+            "session": 747,
+            "PPid": 1,
+            "NSpid": "1590",
+            "name": "python",
+            "cgroup": [
+              "0::/"
+            ],
+            "state": "S"
+          },
+          {
+            "pid": 1592,
+            "starttime_ticks": 293635349,
+            "pid_namespace": "pid:[4026546853]",
+            "pgid": 747,
+            "session": 747,
+            "PPid": 747,
+            "NSpid": "1592",
+            "name": "VLLM::EngineCor",
+            "cgroup": [
+              "0::/"
+            ],
+            "state": "D"
+          },
+          {
+            "pid": 2146,
+            "starttime_ticks": 293640250,
+            "pid_namespace": "pid:[4026546853]",
+            "pgid": 747,
+            "session": 747,
+            "PPid": 1592,
+            "NSpid": "2146",
+            "name": "python",
+            "cgroup": [
+              "0::/"
+            ],
+            "state": "R"
+          },
+          {
+            "pid": 2161,
+            "starttime_ticks": 293640305,
+            "pid_namespace": "pid:[4026546853]",
+            "pgid": 747,
+            "session": 747,
+            "PPid": 2146,
+            "NSpid": "2161",
+            "name": "python",
+            "cgroup": [
+              "0::/"
+            ],
+            "state": "S"
+          }
+        ],
+        "estimated_RMB": 3.546195994601585
+      },
+      "ready.json": {
+        "ready_utc": "2026-10-12T08:06:51.664371+00:00",
+        "startup_seconds": 194.7045733886771
+      }
+    }
+  ],
+  "estimates_are_not_platform_bills": true,
+  "actual_cloud_billing_start_unknown": true
+}

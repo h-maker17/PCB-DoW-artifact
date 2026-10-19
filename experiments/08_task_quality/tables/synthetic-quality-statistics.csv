@@ -1,0 +1,4 @@
+task,metric,n_pairs,none_mean,front_mean,paired_delta_mean,paired_delta_ci95_low,paired_delta_ci95_high,mann_whitney_u_two_sided_p,rank_biserial_front_vs_none,paired_wilcoxon_two_sided_p,paired_cohens_dz
+synthetic,citation,30,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0
+synthetic,topic,30,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0
+synthetic,joint,30,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0
