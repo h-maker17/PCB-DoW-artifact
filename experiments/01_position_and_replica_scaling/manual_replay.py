@@ -1,8 +1,3 @@
-"""Run prior Part B and E5 experiments in small, resumable manual phases.
-
-Each phase writes run IDs immediately. Reports use these new IDs rather than
-the original 2026-10-02 experiment index. Part A has its own existing runner.
-"""
 import argparse
 import asyncio
 import json
@@ -15,7 +10,7 @@ from lab import BASE
 from shared_prefix_lab import ASSET, run as run_part_b
 from e5_tool_chain import run as run_e5
 
-RUNS = BASE / "多智能体系统实验数据" / "autogen-handoff-runs"
+RUNS = BASE / "runs"
 PHASES = ("init", "e1", "e2", "e3", "e5-probe", "e5-n5", "e5-n10", "e5-n20")
 
 

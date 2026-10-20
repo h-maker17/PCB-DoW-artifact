@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 ROOT="$(cd -- "$(dirname -- "$0")/.." && pwd)"
-PY='/path/to/workspace/多智能体系统实验数据/autogen-handoff-lab/.venv-autogen/bin/python'
+PY="${PCB_CLIENT_PYTHON:-python3}"
 curl -fsS http://127.0.0.1:8000/health >/dev/null
 SESSION="$("$PY" "$ROOT/code/orchestration/run_all.py" init)"
 LOG="$ROOT/logs/baseline-$(basename "$SESSION").log"

@@ -1,7 +1,7 @@
 import asyncio,json,os,sys
 from pathlib import Path
 from types import SimpleNamespace
-r=Path('/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-03-c-remaining3-models/models/gpt-oss-120b')
+r=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(r/'code/service'))
 os.environ['LAB_SERVER_EVIDENCE']=str(r/'evidence/metering-replay-check')
 Path(os.environ['LAB_SERVER_EVIDENCE']).mkdir(exist_ok=True)

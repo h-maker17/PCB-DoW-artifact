@@ -1,7 +1,7 @@
 """Run one model/phase, or --key a single cell; preserve original decode caps."""
 from pathlib import Path
 import argparse,json,urllib.request,uuid,hashlib,time,os
-R=Path('/path/to/workspace/多智能体系统实验数据/fcb-dow-research/B_cross_engine')
+R=Path(__file__).resolve().parents[1]
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
 def save(p,x):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(x,ensure_ascii=False,indent=2),encoding='utf-8')
 def call(path,payload=None):

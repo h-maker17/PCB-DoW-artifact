@@ -1,4 +1,3 @@
-"""Dedicated vLLM 0.11.2 single API process. Only change: expose reported zero cache hits."""
 import hashlib
 import inspect
 import json

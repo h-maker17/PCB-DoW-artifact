@@ -1,9 +1,9 @@
 """Pure raw/canonical recomputation, using only extracted frozen data functions."""
-import ast,copy,json,hashlib,re,sqlite3
+import ast,copy,json,hashlib,os,re,sqlite3
 from pathlib import Path
 from urllib.parse import unquote,unquote_plus
 from archive_extension.integrity import ROOT,EXT,read_json,sha,objhash,verify_file,ArchiveGateClosed
-SOURCE_ROOT=Path(r'D:\path\to\workspace\SCAN_a2a3_v7')
+SOURCE_ROOT=Path(os.environ.get('PCB_SCAN_ROOT',ROOT.parent/'probe'))
 def digest(b):return hashlib.sha256(b).hexdigest()
 
 def extracted_functions(path,names,overrides=None):

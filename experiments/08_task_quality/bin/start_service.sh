@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
-ROOT='/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-task-generalization'
-BASE='/path/to/workspace'
-PY="$BASE/多智能体系统实验数据/mas-qwen3-system/.venv/bin/python"
-MODEL="$BASE/LLM-Model/Llama-3.3-70B-Instruct-FP8"
+ROOT="$(cd -- "$(dirname -- "$0")/.." && pwd)"
+PY="${PCB_GPU_PYTHON:-python3}"
+MODEL="${PCB_MODEL_DIR:-$ROOT/models}/Llama-3.3-70B-Instruct-FP8"
 TP="${TP:-1}"
 KV="${KV_CACHE_DTYPE:-auto}"
 exec 9>"/tmp/fcb-task-gpu.lock"

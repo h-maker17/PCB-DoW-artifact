@@ -5,9 +5,9 @@ sys.path.insert(0,str(Path(__file__).resolve().parent))
 from engine import R,ensure,save
 from replay import read,run_cell
 def main():
- assert read(R/'config/preregistration.json')['user_approved']
+ assert read(R/'config/preregistration.json')['approved']
  plan=read(R/'datasets/replay-plan.json')['runs']
- meta=read(R/'run_meta.json');meta.update(stage='formal-running',formal_experiments_started=True,user_formal_approval='2026-10-06 explicit approval + config/stage-gate-approved.md',isolation='flush_cache + per-run extra_key; no token salts',B2_parity_tolerance=.05)
+ meta=read(R/'run_meta.json');meta.update(stage='formal-running',formal_experiments_started=True,formal_approval='config/stage-gate-approved.md',isolation='flush_cache + per-run extra_key; no token salts',B2_parity_tolerance=.05)
  save(R/'run_meta.json',meta)
  for phase,model in [('B1','qwen'),('B1','llama'),('B2','qwen'),('B2','llama'),('B3','llama')]:
   part=[r for r in plan if r['phase']==phase and r['model']==model]

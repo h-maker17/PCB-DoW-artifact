@@ -45,7 +45,7 @@
   "L2_gate": {
     "capability_passed": true,
     "short_output_observation_passed": true,
-    "review_reference": "Parent independent dual-gate actual R6 evidence review 2026-10-11T13:30Z",
+    "review_reference": "dual-gate actual R6 evidence review 2026-10-11T13:30Z",
     "status": "passed",
     "final_Llama_pilot_reviewed": true,
     "capability": {
@@ -80,13 +80,13 @@
   "created_utc": "2026-10-12T07:44:58.666946+00:00",
   "owner": "G experiment user",
   "execution_authorized": true,
-  "approval_reference": "Direct human release of reviews/new-instance-20261012/REVIEW-v7.md in current conversation",
+  "approval_reference": "Release review v7 (2026-10-12)",
   "authorization_pending_reason": "Final v7 exact-source Linux CPU verification and review pending; production execution remains closed",
   "host": "<instance-id>",
   "GPU_type": "NVIDIA H100 80GB HBM3",
   "GPU_count": 1,
   "resource_isolation": {
-    "root": "/path/to/workspace/多智能体系统实验数据/G-experiment/formal/G_FORMAL_20261012_LLAMA_R3_V7",
+    "root": "experiments/07_concurrent_dispatch/formal/G_FORMAL_20261012_LLAMA_R3_V7",
     "port": 18021,
     "only_owned_process_cleanup": true,
     "external_GPU_conflict_stops": true,
@@ -105,16 +105,16 @@
   "engine": {
     "name": "vLLM",
     "version": "0.11.2",
-    "path": "/path/to/workspace/多智能体系统实验数据/G-experiment/env/g-venv",
+    "path": "experiments/07_concurrent_dispatch/env/g-venv",
     "dependency_metadata_sha256": "777b8d175684733df5fc4efb2b51d621a29ee77851d1c7f7d01183d0fb3637f7"
   },
   "server_config": {
     "argv": [
-      "/path/to/workspace/多智能体系统实验数据/G-experiment/env/g-venv/bin/python",
+      "experiments/07_concurrent_dispatch/env/g-venv/bin/python",
       "-B",
-      "/path/to/workspace/多智能体系统实验数据/G-experiment/revisions/formal-v7-20261012/code/gserver.py",
+      "experiments/07_concurrent_dispatch/revisions/formal-v7-20261012/code/gserver.py",
       "serve",
-      "/path/to/workspace/LLM-Model/Llama-3.3-70B-Instruct-FP8",
+      "${PCB_MODEL_DIR}/Llama-3.3-70B-Instruct-FP8",
       "--served-model-name",
       "G-llama",
       "--host",
@@ -289,9 +289,9 @@
       "human-new-instance-exclusive-20261012"
     ],
     "user_statements": [
-      "确认，本次运行窗口仅用于 G 实验"
+      "Operator confirmed that the instance window is reserved for this experiment"
     ],
-    "authority": "Direct human async reply in this conversation; statement_id is local evidence label, not platform message ID",
+    "authority": "Operator confirmation recorded under a local evidence label",
     "platform_physical_isolation_claim": false
   },
   "resource_monitor_policy": {
@@ -308,8 +308,8 @@
   "implementation_protocol_sha256": "d3e011eae9a349fce5fed0858e3fb4a44cd39279188ce0122efd01e310323788",
   "billing_provenance": {
     "rate_RMB_per_hour": 6,
-    "user_statement": "实际单价是6元/小时，没有使用时间限制，直到实验结束，我手动关闭",
-    "authority": "Direct human async reply in this conversation",
+    "user_statement": "Operator-reported rate 6 RMB/hour; no time limit; instance stopped manually after the experiment",
+    "authority": "Operator confirmation recorded under a local evidence label",
     "billing_start": null,
     "instance_shutdown_by": "user"
   },

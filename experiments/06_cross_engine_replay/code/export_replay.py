@@ -1,7 +1,7 @@
 """Export archived vLLM token IDs without invoking any prompt assembler."""
 from pathlib import Path
 import json,hashlib,collections
-R=Path('/path/to/workspace/多智能体系统实验数据/fcb-dow-research/B_cross_engine')
+R=Path(__file__).resolve().parents[1]
 SRC=R.parent;OUT=R/'datasets';OUT.mkdir(exist_ok=True)
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
 def digest(x):return hashlib.sha256(json.dumps(x,separators=(',',':')).encode()).hexdigest()

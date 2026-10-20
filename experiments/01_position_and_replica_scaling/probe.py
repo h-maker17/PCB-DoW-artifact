@@ -1,4 +1,3 @@
-"""Controlled HTTP replay of an observed native AutoGen request; no tools are executed."""
 import argparse
 import asyncio
 import copy

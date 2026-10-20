@@ -4,7 +4,7 @@ from common import *
 class CPUEmbedder:
  def __init__(self):
   torch.manual_seed(42);torch.set_num_threads(1);torch.use_deterministic_algorithms(True)
-  self.path=BASE/'LLM-Model/all-MiniLM-L6-v2'
+  self.path=MODEL_DIR/'all-MiniLM-L6-v2'
   self.tokenizer=AutoTokenizer.from_pretrained(self.path,local_files_only=True)
   self.model=AutoModel.from_pretrained(self.path,local_files_only=True).eval().to('cpu')
   pooling=read(self.path/'1_Pooling/config.json');assert pooling['pooling_mode_mean_tokens'] and not pooling['pooling_mode_cls_token']

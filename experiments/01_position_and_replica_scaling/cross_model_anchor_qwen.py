@@ -1,8 +1,3 @@
-"""Repeat the existing Qwen Part B/E5 conditions and report paired 95% CIs.
-
-This does not change the model service, prompts, markers, or tool behavior.
-Each new run uses the existing Trace, which assigns a unique cache_salt.
-"""
 import argparse
 import asyncio
 import csv
@@ -19,7 +14,7 @@ from manual_replay import part_b_args, e5_args
 from shared_prefix_lab import run as run_part_b
 from e5_tool_chain import run as run_e5
 
-RUNS = BASE / "多智能体系统实验数据" / "autogen-handoff-runs"
+RUNS = BASE / "runs"
 T975 = {2: 12.706, 3: 4.303, 4: 3.182, 5: 2.776, 6: 2.571,
         7: 2.447, 8: 2.365, 9: 2.306, 10: 2.262}
 FRACTIONS = (0.1, 0.25, 0.5)

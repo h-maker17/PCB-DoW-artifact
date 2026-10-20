@@ -1,31 +1,31 @@
 [
   {
-    "origin_readonly": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-task-generalization/datasets/raw/gov_report.jsonl",
-    "snapshot": "/path/to/workspace/多智能体系统实验数据/G-experiment/data/frozen/raw-gov_report.jsonl",
+    "origin_readonly": "experiments/08_task_quality/datasets/raw/gov_report.jsonl",
+    "snapshot": "experiments/07_concurrent_dispatch/data/frozen/raw-gov_report.jsonl",
     "sha256": "d28112beb3a9b41d80aa390837fa1a31c9e3da84a5262009c97585cc49f597c4",
     "bytes": 11620138
   },
   {
-    "origin_readonly": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-task-generalization/datasets/processed/gov_report.json",
-    "snapshot": "/path/to/workspace/多智能体系统实验数据/G-experiment/data/frozen/gov_report.json",
+    "origin_readonly": "experiments/08_task_quality/datasets/processed/gov_report.json",
+    "snapshot": "experiments/07_concurrent_dispatch/data/frozen/gov_report.json",
     "sha256": "e5b899f29cff770f3f473a2e6b123e150e18ca410fb392767658dcaa7e72ee02",
     "bytes": 1864185
   },
   {
-    "origin_readonly": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-task-generalization/datasets/raw/source.json",
-    "snapshot": "/path/to/workspace/多智能体系统实验数据/G-experiment/data/frozen/raw-source.json",
+    "origin_readonly": "experiments/08_task_quality/datasets/raw/source.json",
+    "snapshot": "experiments/07_concurrent_dispatch/data/frozen/raw-source.json",
     "sha256": "c2e54bcf88b7a2c316828a00eca9ef603c1c1c4b8b71a612c51b683aee035593",
     "bytes": 1093
   },
   {
-    "origin_readonly": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-task-generalization/datasets/selection-audit.json",
-    "snapshot": "/path/to/workspace/多智能体系统实验数据/G-experiment/data/frozen/selection-audit.json",
+    "origin_readonly": "experiments/08_task_quality/datasets/selection-audit.json",
+    "snapshot": "experiments/07_concurrent_dispatch/data/frozen/selection-audit.json",
     "sha256": "80efe7f287c00e604e2f6751ea85d1492534f87bc20ace6e8d6fc5f4cf1f15c9",
     "bytes": 18693
   },
   {
-    "origin_readonly": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/datasets/blocks.json",
-    "snapshot": "/path/to/workspace/多智能体系统实验数据/G-experiment/data/frozen/E5-blocks.json",
+    "origin_readonly": "experiments/02_layout_return_size_broadcast/datasets/blocks.json",
+    "snapshot": "experiments/07_concurrent_dispatch/data/frozen/E5-blocks.json",
     "sha256": "9cd547f509a02fc27f7e64a020f4cdd44a46ddd8b90d0f36eb11a353fecec0e7",
     "bytes": 42751
   }

@@ -1,6 +1,6 @@
 import hashlib,json
 from pathlib import Path
-r=Path('/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-03-c-remaining3-models/models/glm4-9b')
+r=Path(__file__).resolve().parents[2]
 s=Path((r/'config/latest-session.txt').read_text().strip());status=json.loads((s/'status.json').read_text());assert status['phase']=='complete'
 idx=json.loads((s/'run-index.json').read_text());count=0;salts=[]
 totals={k:0 for k in ('prompt_tokens','cached_tokens','uncached_tokens','completion_tokens','total_tokens')}

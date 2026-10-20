@@ -1,5 +1,5 @@
 {
-  "user_approved": true,
+  "approved": true,
   "approval_date": "2026-10-06 Asia/Shanghai",
   "approval_document": "config/stage-gate-approved.md",
   "sequence": ["B1 qwen", "B1 llama", "B2 qwen", "B2 llama", "B3 llama"],

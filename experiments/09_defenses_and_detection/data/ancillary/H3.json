@@ -10,11 +10,11 @@
     "independent_calls_lost": 4,
     "cache_evidence": "archived E5, no H rerun",
     "source_rounds": [
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n5-r1-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n5-r2-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n5-r3-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n5-r4-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n5-r5-append-broadcast"
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n5-r1-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n5-r2-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n5-r3-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n5-r4-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n5-r5-append-broadcast"
     ],
     "hypothetical_tool_error_p": 0.1,
     "independent_majority_error_analytic": 0.008560000000000002,
@@ -32,11 +32,11 @@
     "independent_calls_lost": 4,
     "cache_evidence": "archived E5, no H rerun",
     "source_rounds": [
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n5-r1-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n5-r2-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n5-r3-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n5-r4-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n5-r5-append-broadcast"
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n5-r1-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n5-r2-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n5-r3-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n5-r4-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n5-r5-append-broadcast"
     ],
     "hypothetical_tool_error_p": 0.1,
     "independent_majority_error_analytic": 0.008560000000000002,
@@ -54,11 +54,11 @@
     "independent_calls_lost": 4,
     "cache_evidence": "archived E5, no H rerun",
     "source_rounds": [
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n5-r1-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n5-r2-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n5-r3-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n5-r4-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n5-r5-append-broadcast"
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n5-r1-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n5-r2-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n5-r3-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n5-r4-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n5-r5-append-broadcast"
     ],
     "hypothetical_tool_error_p": 0.1,
     "independent_majority_error_analytic": 0.008560000000000002,
@@ -76,11 +76,11 @@
     "independent_calls_lost": 4,
     "cache_evidence": "archived E5, no H rerun",
     "source_rounds": [
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n5-r1-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n5-r2-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n5-r3-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n5-r4-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n5-r5-prepend-broadcast"
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n5-r1-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n5-r2-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n5-r3-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n5-r4-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n5-r5-prepend-broadcast"
     ],
     "hypothetical_tool_error_p": 0.1,
     "independent_majority_error_analytic": 0.008560000000000002,
@@ -98,11 +98,11 @@
     "independent_calls_lost": 4,
     "cache_evidence": "archived E5, no H rerun",
     "source_rounds": [
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n5-r1-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n5-r2-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n5-r3-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n5-r4-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n5-r5-prepend-broadcast"
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n5-r1-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n5-r2-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n5-r3-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n5-r4-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n5-r5-prepend-broadcast"
     ],
     "hypothetical_tool_error_p": 0.1,
     "independent_majority_error_analytic": 0.008560000000000002,
@@ -120,11 +120,11 @@
     "independent_calls_lost": 4,
     "cache_evidence": "archived E5, no H rerun",
     "source_rounds": [
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n5-r1-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n5-r2-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n5-r3-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n5-r4-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n5-r5-prepend-broadcast"
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n5-r1-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n5-r2-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n5-r3-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n5-r4-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n5-r5-prepend-broadcast"
     ],
     "hypothetical_tool_error_p": 0.1,
     "independent_majority_error_analytic": 0.008560000000000002,
@@ -142,11 +142,11 @@
     "independent_calls_lost": 19,
     "cache_evidence": "archived E5, no H rerun",
     "source_rounds": [
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n20-r1-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n20-r2-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n20-r3-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n20-r4-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n20-r5-append-broadcast"
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n20-r1-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n20-r2-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n20-r3-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n20-r4-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n20-r5-append-broadcast"
     ],
     "hypothetical_tool_error_p": 0.1,
     "independent_majority_error_analytic": 3.929882327128003e-06,
@@ -164,11 +164,11 @@
     "independent_calls_lost": 19,
     "cache_evidence": "archived E5, no H rerun",
     "source_rounds": [
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n20-r1-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n20-r2-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n20-r3-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n20-r4-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n20-r5-append-broadcast"
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n20-r1-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n20-r2-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n20-r3-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n20-r4-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n20-r5-append-broadcast"
     ],
     "hypothetical_tool_error_p": 0.1,
     "independent_majority_error_analytic": 3.929882327128003e-06,
@@ -186,11 +186,11 @@
     "independent_calls_lost": 19,
     "cache_evidence": "archived E5, no H rerun",
     "source_rounds": [
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n20-r1-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n20-r2-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n20-r3-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n20-r4-append-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n20-r5-append-broadcast"
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n20-r1-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n20-r2-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n20-r3-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n20-r4-append-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n20-r5-append-broadcast"
     ],
     "hypothetical_tool_error_p": 0.1,
     "independent_majority_error_analytic": 3.929882327128003e-06,
@@ -208,11 +208,11 @@
     "independent_calls_lost": 19,
     "cache_evidence": "archived E5, no H rerun",
     "source_rounds": [
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n20-r1-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n20-r2-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n20-r3-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n20-r4-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g50-n20-r5-prepend-broadcast"
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n20-r1-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n20-r2-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n20-r3-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n20-r4-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g50-n20-r5-prepend-broadcast"
     ],
     "hypothetical_tool_error_p": 0.1,
     "independent_majority_error_analytic": 3.929882327128003e-06,
@@ -230,11 +230,11 @@
     "independent_calls_lost": 19,
     "cache_evidence": "archived E5, no H rerun",
     "source_rounds": [
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n20-r1-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n20-r2-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n20-r3-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n20-r4-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g2000-n20-r5-prepend-broadcast"
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n20-r1-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n20-r2-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n20-r3-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n20-r4-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g2000-n20-r5-prepend-broadcast"
     ],
     "hypothetical_tool_error_p": 0.1,
     "independent_majority_error_analytic": 3.929882327128003e-06,
@@ -252,11 +252,11 @@
     "independent_calls_lost": 19,
     "cache_evidence": "archived E5, no H rerun",
     "source_rounds": [
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n20-r1-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n20-r2-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n20-r3-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n20-r4-prepend-broadcast",
-      "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-05-e5-append-G/data/formal/g4000-n20-r5-prepend-broadcast"
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n20-r1-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n20-r2-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n20-r3-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n20-r4-prepend-broadcast",
+      "experiments/02_layout_return_size_broadcast/data/formal/g4000-n20-r5-prepend-broadcast"
     ],
     "hypothetical_tool_error_p": 0.1,
     "independent_majority_error_analytic": 3.929882327128003e-06,

@@ -10,7 +10,7 @@ class RealBackend:
   self.rev=pathlib.Path(rev);self.root=pathlib.Path(experiment_root);self.segment=segment;self.m=manifest
   e=Engine();self.e=e;e.label='llama';e.run_id=segment;e.folder=self.root/'segments'/segment;e.folder.mkdir(parents=True,exist_ok=True);e.round_folder=self.root;e.trace=e.folder/'traces';e.model='G-llama';e.kwargs={};e.experiment_id=manifest['experiment_id'];e.active_info=None;e.capture_sends=[];e.guard=guard
   e.docs=read(self.rev/'data/documents.json');e.calibration_doc=read(self.rev/'data/pilot-documents.json')[0];e.inputs=read(self.rev/'data/inputs.json')
-  e.tokenizer=AutoTokenizer.from_pretrained('/path/to/workspace/LLM-Model/Llama-3.3-70B-Instruct-FP8',local_files_only=True)
+  e.tokenizer=AutoTokenizer.from_pretrained(os.environ.get('PCB_LLAMA_TOKENIZER',os.path.join(os.environ.get('PCB_MODEL_DIR','models'),'Llama-3.3-70B-Instruct-FP8')),local_files_only=True)
   limits=httpx.Limits(max_connections=32,max_keepalive_connections=32,keepalive_expiry=120);e.transport=httpx.AsyncHTTPTransport(retries=0,limits=limits);e.client=httpx.AsyncClient(base_url='http://127.0.0.1:18021',timeout=600,transport=e.transport,trust_env=False)
   from gslots import SlotClients
   e.slots=SlotClients('http://127.0.0.1:18021',timeout=600);e.prefill_reference=None;e.request_count=0;e.calibration=[];e.rounds=[]

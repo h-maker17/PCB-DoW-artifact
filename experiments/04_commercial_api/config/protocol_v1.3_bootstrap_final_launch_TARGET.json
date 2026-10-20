@@ -5,7 +5,7 @@
   "frozen": true,
   "independent_review_approved": true,
   "credentials_configured": true,
-  "root": "D:\\path\\to\\workspace\\I-commercial-api",
+  "root": "experiments\\04_commercial_api",
   "actual_pc_location": "Los Angeles, United States (latest user correction)",
   "master_seed": 20261012,
   "synthetic_algorithm": "synthetic-sha256-v1",
@@ -1841,7 +1841,7 @@
     "budget_authorization_path": "config/USER_BOOTSTRAP_BUDGET_AND_DEEPSEEK_FEE_DECLARATION_20261013.json",
     "budget_authorization_sha256": "1df60251140e6585f53bb3efb3aad40eb70587a272b3c6aaab26a7d376b2081c",
     "review_path": "review/BOOTSTRAP_FINAL_PAID_ACCEPTANCE_20261013.json",
-    "canonical_project_cash_authority": "D:\\path\\to\\workspace\\I-commercial-api\\logs\\project_cash.sqlite",
+    "canonical_project_cash_authority": "experiments\\04_commercial_api\\logs\\project_cash.sqlite",
     "currently_admitted_stages": [
       "calibration"
     ],

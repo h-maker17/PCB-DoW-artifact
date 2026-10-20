@@ -1,7 +1,7 @@
 """Audit raw responses and export compact results; no model or source mutation."""
 from pathlib import Path
 import json,hashlib,collections
-R=Path('/path/to/workspace/多智能体系统实验数据/fcb-dow-research/B_cross_engine')
+R=Path(__file__).resolve().parents[1]
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
 plan={r['key']:r for r in read(R/'datasets/replay-plan.json')['runs']}
 results=[];checks=collections.Counter();issues=[];seen_keys=set()

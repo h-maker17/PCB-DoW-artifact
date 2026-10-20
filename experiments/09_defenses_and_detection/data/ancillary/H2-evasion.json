@@ -93,7 +93,7 @@
     "cost_f01": 3078.0,
     "warm_hit": 0.9841495150224746,
     "input_fingerprint": "3010bbeb6770335b952ea4ef2f27cbdb910187a2c5adb4ea0d51ff3dbea66c7f",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-0",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-0",
     "CAF_f01": 1.0210987261146498,
     "decision": {
       "score": -0.04779991643667971,
@@ -198,7 +198,7 @@
     "cost_f01": 3086.0,
     "warm_hit": 0.983451536643026,
     "input_fingerprint": "c8529555d8c62cb66c2717565fd1aa6e779783235dca5f1dd6b74034df649996",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-8",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-8",
     "CAF_f01": 1.0237526539278132,
     "decision": {
       "score": -0.04779404080769798,
@@ -303,7 +303,7 @@
     "cost_f01": 3143.5999999999985,
     "warm_hit": 0.975886524822695,
     "input_fingerprint": "a1533c847ec61333643043bcb308963f8325493e20d19f25096fbe66c3ff188e",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-16",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-16",
     "CAF_f01": 1.0428609341825898,
     "decision": {
       "score": -0.04779422141412877,
@@ -408,7 +408,7 @@
     "cost_f01": 3201.2000000000007,
     "warm_hit": 0.968321513002364,
     "input_fingerprint": "3b6aa00a33c40b40438212964445cb97c58317f58906e19d3ecf394e63ddf077",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-32",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-32",
     "CAF_f01": 1.0619692144373676,
     "decision": {
       "score": -0.047794400625915306,
@@ -513,7 +513,7 @@
     "cost_f01": 3316.3999999999996,
     "warm_hit": 0.9531914893617022,
     "input_fingerprint": "9744fbf1348ccaecf19aadce27dea79881121b9b84b68e2dbfdee81d55ba963b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-64",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-64",
     "CAF_f01": 1.1001857749469215,
     "decision": {
       "score": 0.025353769444600053,
@@ -618,7 +618,7 @@
     "cost_f01": 3431.5999999999985,
     "warm_hit": 0.9380614657210402,
     "input_fingerprint": "3df83cfc7d4511f37d11bbc6d01fe2c4756eb01ba6d222494b58a4e24cf12db0",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-96",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-96",
     "CAF_f01": 1.1384023354564752,
     "decision": {
       "score": 1.7566201313073586,
@@ -723,7 +723,7 @@
     "cost_f01": 3546.7999999999993,
     "warm_hit": 0.9229314420803783,
     "input_fingerprint": "112132a539ada7f3a0ca92c8753473f619a2be4d97d5aae1e2364802a2d643be",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-128",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-128",
     "CAF_f01": 1.1766188959660295,
     "decision": {
       "score": 1.7566201313073586,
@@ -828,7 +828,7 @@
     "cost_f01": 3777.2000000000007,
     "warm_hit": 0.8926713947990543,
     "input_fingerprint": "146e86b5da3f1576eced2f5823ead5dad768b48aa96c21989d059f6e49fafe35",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-192",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-192",
     "CAF_f01": 1.2530520169851385,
     "decision": {
       "score": 1.7566201313073586,
@@ -933,7 +933,7 @@
     "cost_f01": 4007.5999999999985,
     "warm_hit": 0.8624113475177305,
     "input_fingerprint": "42c8acaa9bef6a88efb9c14d2e71f8b2bdc9db89e7b6e5d81e79f72bfbf4cd35",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-256",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-256",
     "CAF_f01": 1.329485138004246,
     "decision": {
       "score": 1.7566201313073586,
@@ -1038,7 +1038,7 @@
     "cost_f01": 4929.200000000001,
     "warm_hit": 0.741371158392435,
     "input_fingerprint": "038f9e62370534ba1c8db52593a96babd4de7e442d85556bf70becc0eacd297f",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-512",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-512",
     "CAF_f01": 1.6352176220806798,
     "decision": {
       "score": 1.7566201313073586,
@@ -1143,7 +1143,7 @@
     "cost_f01": 6772.4,
     "warm_hit": 0.49929078014184397,
     "input_fingerprint": "d85d235b27f1225386a22cb07501b7459c187a0a810e3dc93712f29c9370b14b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-1024",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-1024",
     "CAF_f01": 2.246682590233546,
     "decision": {
       "score": 2.2278849795965696,
@@ -1248,7 +1248,7 @@
     "cost_f01": 10458.8,
     "warm_hit": 0.015130023640661938,
     "input_fingerprint": "2b968b6e8228f90fb316a47dfb55de3484dfd035bead88d4e4061fb2430a9ce5",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-2048",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-uniform-2048",
     "CAF_f01": 3.469612526539278,
     "decision": {
       "score": 4.57725160375867,
@@ -1352,7 +1352,7 @@
     "cost_f01": 4874.0,
     "warm_hit": 0.7479289940828402,
     "input_fingerprint": "cd145c536d5a3e9d68e0159c7507120c507543f4550e93bbbc598ddddbc87989",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-partial-1",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-partial-1",
     "CAF_f01": 1.6169055201698517,
     "decision": {
       "score": 19.47356408045522,
@@ -1456,7 +1456,7 @@
     "cost_f01": 6734.6,
     "warm_hit": 0.503489885247841,
     "input_fingerprint": "713423e6085c3d1c1e9f5b27cb5cbdf0b9cba23ed43e6836e763afcc3690b9e5",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-partial-2",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-partial-2",
     "CAF_f01": 2.234142781316349,
     "decision": {
       "score": 25.980878000448186,
@@ -1560,7 +1560,7 @@
     "cost_f01": 8595.199999999999,
     "warm_hit": 0.25922421948912017,
     "input_fingerprint": "c708e2ca13372918543a400f068d1bae263d54e9cadabb6e1b9e3494a51d538b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-partial-3",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-partial-3",
     "CAF_f01": 2.851380042462845,
     "decision": {
       "score": 19.47375469879489,
@@ -1664,7 +1664,7 @@
     "cost_f01": 10456.8,
     "warm_hit": 0.015130023640661938,
     "input_fingerprint": "f806b7dd2863addd862a2a26b2c8efdb81684a55d3f2da935cb3ed26235b1f6e",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-partial-4",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N5-partial-4",
     "CAF_f01": 3.4689490445859876,
     "decision": {
       "score": 4.57725160375867,
@@ -1949,7 +1949,7 @@
     "cost_f01": 6613.600000000004,
     "warm_hit": 0.986775380332107,
     "input_fingerprint": "2acee63572324242a1e978ea70ad5a4f6b31f29ce8ffb22d33c9139b71a225bf",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-0",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-0",
     "CAF_f01": 1.0336334083520882,
     "decision": {
       "score": -0.0470019484407991,
@@ -2234,7 +2234,7 @@
     "cost_f01": 6802.0,
     "warm_hit": 0.9817170111287759,
     "input_fingerprint": "7be09bc7fe25ad8160808af00eaeb305a55db9abbe8b5f2d06ce0cca4ab977e5",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-8",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-8",
     "CAF_f01": 1.0630782695673913,
     "decision": {
       "score": -0.04762882524590443,
@@ -2519,7 +2519,7 @@
     "cost_f01": 6902.799999999997,
     "warm_hit": 0.9789348171701113,
     "input_fingerprint": "b81828cfd3ccb95627195a088cbea1c8249eb4e753cbb31b28daa76d7becb7dc",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-16",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-16",
     "CAF_f01": 1.078832208052012,
     "decision": {
       "score": -0.047029386241713975,
@@ -2804,7 +2804,7 @@
     "cost_f01": 7176.399999999997,
     "warm_hit": 0.9713831478537361,
     "input_fingerprint": "0bccd1519690c7ba5bf73e140856602457b7570f2d9b9055d7d7d412b5a84ea7",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-32",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-32",
     "CAF_f01": 1.121592898224555,
     "decision": {
       "score": -0.04702555106125169,
@@ -3089,7 +3089,7 @@
     "cost_f01": 7723.599999999997,
     "warm_hit": 0.9562798092209857,
     "input_fingerprint": "0887a20fcc411d09f0b89f3f1e1ccd91b494701072e1a57a7100f7c18c91d43d",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-64",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-64",
     "CAF_f01": 1.2071142785696414,
     "decision": {
       "score": 0.010379815635011443,
@@ -3374,7 +3374,7 @@
     "cost_f01": 8270.799999999997,
     "warm_hit": 0.9411764705882353,
     "input_fingerprint": "820af00092a8e8a438ddbb3ba6de11f0ce1c1f3ed0d01b1114c2cc9233ace1b2",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-96",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-96",
     "CAF_f01": 1.2926356589147276,
     "decision": {
       "score": 1.7566201313073586,
@@ -3659,7 +3659,7 @@
     "cost_f01": 8818.0,
     "warm_hit": 0.9260731319554849,
     "input_fingerprint": "3ec5d99aa239154783c41ef5d7e00b06fd7e0f483c9957c5444612b8663d3003",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-128",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-128",
     "CAF_f01": 1.3781570392598141,
     "decision": {
       "score": 1.7566201313073586,
@@ -3944,7 +3944,7 @@
     "cost_f01": 9912.399999999998,
     "warm_hit": 0.895866454689984,
     "input_fingerprint": "d0a5899ab3c43d8e1c07ce1480119094e7f81e9f35f3c115cd3e02e786fdfb75",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-192",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-192",
     "CAF_f01": 1.5491997999499865,
     "decision": {
       "score": 1.7566201313073586,
@@ -4229,7 +4229,7 @@
     "cost_f01": 11006.799999999997,
     "warm_hit": 0.8656597774244833,
     "input_fingerprint": "15987cbb63d1ade438aae88e8c92e2e8af6b6a73c189098cb735d18d1523974d",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-256",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-256",
     "CAF_f01": 1.7202425606401588,
     "decision": {
       "score": 1.7566201313073586,
@@ -4514,7 +4514,7 @@
     "cost_f01": 15384.399999999998,
     "warm_hit": 0.7448330683624801,
     "input_fingerprint": "17d2a748752b52d9ebcf185cf9d28221454eaa613a8c029d2c882170200176c7",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-512",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-512",
     "CAF_f01": 2.4044136034008488,
     "decision": {
       "score": 1.7566201313073586,
@@ -4799,7 +4799,7 @@
     "cost_f01": 24139.60000000001,
     "warm_hit": 0.5031796502384738,
     "input_fingerprint": "d8b42e0437590744781077736b9a72616275dbb41eb9f26f445d9998f14d7c79",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-1024",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-1024",
     "CAF_f01": 3.77275568892223,
     "decision": {
       "score": 2.209029852799421,
@@ -5084,7 +5084,7 @@
     "cost_f01": 41650.00000000001,
     "warm_hit": 0.01987281399046105,
     "input_fingerprint": "cbaf68754a22d7d2fea73c3f70a220b222cde7bab2d5f547ad3cb997017b1b67",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-2048",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-uniform-2048",
     "CAF_f01": 6.509439859964989,
     "decision": {
       "score": 4.554256559108125,
@@ -5368,7 +5368,7 @@
     "cost_f01": 8258.000000000005,
     "warm_hit": 0.9409419386992275,
     "input_fingerprint": "9569951e28b70eaf6ef975ef2a3132012436bb44f02840999ab59558335061a3",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-partial-1",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-partial-1",
     "CAF_f01": 1.2906351587896976,
     "decision": {
       "score": 5.143472598206419,
@@ -5652,7 +5652,7 @@
     "cost_f01": 15702.400000000005,
     "warm_hit": 0.7349541650059784,
     "input_fingerprint": "9fcc8f0ccc08fe1e6b982d7dd2718d2dc7aaa0631f363d17ccadef3aa2c4e156",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-partial-5",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-partial-5",
     "CAF_f01": 2.454113528382095,
     "decision": {
       "score": 20.140853878965004,
@@ -5936,7 +5936,7 @@
     "cost_f01": 24976.199999999986,
     "warm_hit": 0.4787294949344087,
     "input_fingerprint": "ee52a3e4ab00837e6a6edf9bfee5d47673eabafd0d21cf97bac2762833c5ac2d",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-partial-10",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-partial-10",
     "CAF_f01": 3.903507126781691,
     "decision": {
       "score": 25.789992267453556,
@@ -6220,7 +6220,7 @@
     "cost_f01": 41648.00000000001,
     "warm_hit": 0.01987281399046105,
     "input_fingerprint": "610185184df22136e28885c2cf148da75ff29f852b9a72f031cd50d8bf7e5ca2",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-partial-19",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-5e3362de0244d2b96c83958c4d3229151999292c369b0197-N20-partial-19",
     "CAF_f01": 6.509127281820453,
     "decision": {
       "score": 4.554256559108125,
@@ -6325,7 +6325,7 @@
     "cost_f01": 3078.0,
     "warm_hit": 0.9841495150224746,
     "input_fingerprint": "ee4c3b71d000ee8560ac8a634556dc1a6f1331f2262bd719640b0daa3d94b767",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-0",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-0",
     "CAF_f01": 1.0210987261146498,
     "decision": {
       "score": -0.04779991643667971,
@@ -6430,7 +6430,7 @@
     "cost_f01": 3086.0,
     "warm_hit": 0.983451536643026,
     "input_fingerprint": "aacfe1ff417e4f10c46857a417145b371267021e4bbf5f9629b3db0403520211",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-8",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-8",
     "CAF_f01": 1.0237526539278132,
     "decision": {
       "score": -0.04779404080769798,
@@ -6535,7 +6535,7 @@
     "cost_f01": 3143.5999999999985,
     "warm_hit": 0.975886524822695,
     "input_fingerprint": "ee9408afbd3e152a8844a66487712427aa8c1858beb1d7fca39a75e74d23b7a7",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-16",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-16",
     "CAF_f01": 1.0428609341825898,
     "decision": {
       "score": -0.04779422141412877,
@@ -6640,7 +6640,7 @@
     "cost_f01": 3201.2000000000007,
     "warm_hit": 0.968321513002364,
     "input_fingerprint": "5f4ce6874082ea26cde4070d608878e931f32d651ac40dff66987798a5c35108",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-32",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-32",
     "CAF_f01": 1.0619692144373676,
     "decision": {
       "score": -0.047794400625915306,
@@ -6745,7 +6745,7 @@
     "cost_f01": 3316.3999999999996,
     "warm_hit": 0.9531914893617022,
     "input_fingerprint": "80ad31a9711c93075ca95e4f49d6eb240bff51b34373031f84e13563aaa87017",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-64",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-64",
     "CAF_f01": 1.1001857749469215,
     "decision": {
       "score": 0.025353769444600053,
@@ -6850,7 +6850,7 @@
     "cost_f01": 3425.5999999999985,
     "warm_hit": 0.9386162034299231,
     "input_fingerprint": "8529019edb77db14f521d89b6e56f043decfa20bc730d24bcab00a6885f608dc",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-96",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-96",
     "CAF_f01": 1.1364118895966027,
     "decision": {
       "score": 1.7566201313073586,
@@ -6955,7 +6955,7 @@
     "cost_f01": 3546.7999999999993,
     "warm_hit": 0.9229314420803783,
     "input_fingerprint": "d5fdc6fb720194da67a33aaaf8b7d3120c08d11bc6873231051d8f3520c621f3",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-128",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-128",
     "CAF_f01": 1.1766188959660295,
     "decision": {
       "score": 1.7566201313073586,
@@ -7060,7 +7060,7 @@
     "cost_f01": 3777.2000000000007,
     "warm_hit": 0.8926713947990543,
     "input_fingerprint": "e93be8710b2497715d9efeb17c8ced1b17515d6b44a1cc4b80d569546d61096a",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-192",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-192",
     "CAF_f01": 1.2530520169851385,
     "decision": {
       "score": 1.7566201313073586,
@@ -7165,7 +7165,7 @@
     "cost_f01": 4007.5999999999985,
     "warm_hit": 0.8624113475177305,
     "input_fingerprint": "947a079148678e35060eb2363129800b1a105099e5af68e527dd1f453a16ef23",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-256",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-256",
     "CAF_f01": 1.329485138004246,
     "decision": {
       "score": 1.7566201313073586,
@@ -7270,7 +7270,7 @@
     "cost_f01": 4929.200000000001,
     "warm_hit": 0.741371158392435,
     "input_fingerprint": "c1f09738b5da117e4275a5cd8b60b2d412c4d35bc99c2dd1d854df4aedf0462c",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-512",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-512",
     "CAF_f01": 1.6352176220806798,
     "decision": {
       "score": 1.7566201313073586,
@@ -7375,7 +7375,7 @@
     "cost_f01": 6772.4,
     "warm_hit": 0.49929078014184397,
     "input_fingerprint": "274020096549d0b929306aeb236d62ba35310be55ab1649e4b61745adfc77520",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-1024",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-1024",
     "CAF_f01": 2.246682590233546,
     "decision": {
       "score": 2.2278849795965696,
@@ -7480,7 +7480,7 @@
     "cost_f01": 10458.8,
     "warm_hit": 0.015130023640661938,
     "input_fingerprint": "fc93ba92546ac37aeb48a3184e7ec38c1bfc68fc0f12babd6b1b5599fd03e517",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-2048",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-uniform-2048",
     "CAF_f01": 3.469612526539278,
     "decision": {
       "score": 4.57725160375867,
@@ -7584,7 +7584,7 @@
     "cost_f01": 4874.0,
     "warm_hit": 0.7479289940828402,
     "input_fingerprint": "cb4b03c9257ae2c19c60873525d4d5556e5fc71a14756f2803340187b3c7b880",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-partial-1",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-partial-1",
     "CAF_f01": 1.6169055201698517,
     "decision": {
       "score": 19.47356408045522,
@@ -7688,7 +7688,7 @@
     "cost_f01": 6734.6,
     "warm_hit": 0.503489885247841,
     "input_fingerprint": "0f0b074014224b30cf91550bd162b7089afbc7cfb1b592352df817633bdd7bec",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-partial-2",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-partial-2",
     "CAF_f01": 2.234142781316349,
     "decision": {
       "score": 25.980878000448186,
@@ -7792,7 +7792,7 @@
     "cost_f01": 8595.199999999999,
     "warm_hit": 0.25922421948912017,
     "input_fingerprint": "649ac11d97b7ea8d674ed946e6ec005fd2734a66b6a272493d4465030f909e70",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-partial-3",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-partial-3",
     "CAF_f01": 2.851380042462845,
     "decision": {
       "score": 19.47375469879489,
@@ -7896,7 +7896,7 @@
     "cost_f01": 10456.8,
     "warm_hit": 0.015130023640661938,
     "input_fingerprint": "944ee35ba5c6fc4a6601afdc50831f22774382795773d970dce39ecf1586ac57",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-partial-4",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-11a7ad9d646184c16480376226d58f1b2754b095563c8344-N5-partial-4",
     "CAF_f01": 3.4689490445859876,
     "decision": {
       "score": 4.57725160375867,
@@ -8001,7 +8001,7 @@
     "cost_f01": 3078.0,
     "warm_hit": 0.9841495150224746,
     "input_fingerprint": "8338768156fed5388c8bcd1b6bc4c93df43b5c801ba64ee3473aacf247220fc1",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-0",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-0",
     "CAF_f01": 1.0210987261146498,
     "decision": {
       "score": -0.04779991643667971,
@@ -8106,7 +8106,7 @@
     "cost_f01": 3086.0,
     "warm_hit": 0.983451536643026,
     "input_fingerprint": "bafe1f60e0e408f02338a13beb56bb35bb59b1a1daf7b8f839fbbb9688d9487b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-8",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-8",
     "CAF_f01": 1.0237526539278132,
     "decision": {
       "score": -0.04779404080769798,
@@ -8211,7 +8211,7 @@
     "cost_f01": 3143.5999999999985,
     "warm_hit": 0.975886524822695,
     "input_fingerprint": "f3ee58730a0761c3c5a5fc0717e82771e8011c4d7b1ae8fbe387fa6faf861b3e",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-16",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-16",
     "CAF_f01": 1.0428609341825898,
     "decision": {
       "score": -0.04779422141412877,
@@ -8316,7 +8316,7 @@
     "cost_f01": 3201.2000000000007,
     "warm_hit": 0.968321513002364,
     "input_fingerprint": "b2fbc9254cf57e2976b662878014261b381357f9ca85b2539121f60c6d453114",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-32",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-32",
     "CAF_f01": 1.0619692144373676,
     "decision": {
       "score": -0.047794400625915306,
@@ -8421,7 +8421,7 @@
     "cost_f01": 3316.3999999999996,
     "warm_hit": 0.9531914893617022,
     "input_fingerprint": "47e4afa845eb8f2f8b1ef9cbd502f2f70f9a4e49a89dc1a1cb1fd3694f026f3d",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-64",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-64",
     "CAF_f01": 1.1001857749469215,
     "decision": {
       "score": 0.025353769444600053,
@@ -8526,7 +8526,7 @@
     "cost_f01": 3431.5999999999985,
     "warm_hit": 0.9380614657210402,
     "input_fingerprint": "6826b2cd63ed70f55ff73d3cb92eda73a307576b82be5c4c56385d4de07a378b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-96",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-96",
     "CAF_f01": 1.1384023354564752,
     "decision": {
       "score": 1.7566201313073586,
@@ -8631,7 +8631,7 @@
     "cost_f01": 3546.7999999999993,
     "warm_hit": 0.9229314420803783,
     "input_fingerprint": "6dc189c06c50f5497bb245eaef654e86fa36cf832afe2d6c0ca04cda7219178c",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-128",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-128",
     "CAF_f01": 1.1766188959660295,
     "decision": {
       "score": 1.7566201313073586,
@@ -8736,7 +8736,7 @@
     "cost_f01": 3777.2000000000007,
     "warm_hit": 0.8926713947990543,
     "input_fingerprint": "dab34cce12198a0ea43b175d9897979ce81197066e4a6667d9818d35ffc42b89",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-192",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-192",
     "CAF_f01": 1.2530520169851385,
     "decision": {
       "score": 1.7566201313073586,
@@ -8841,7 +8841,7 @@
     "cost_f01": 4007.5999999999985,
     "warm_hit": 0.8624113475177305,
     "input_fingerprint": "82a203ed8766842e363ac41854eb5ffeb8d6d713d19e414cf4763d81551cc35f",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-256",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-256",
     "CAF_f01": 1.329485138004246,
     "decision": {
       "score": 1.7566201313073586,
@@ -8946,7 +8946,7 @@
     "cost_f01": 4929.200000000001,
     "warm_hit": 0.741371158392435,
     "input_fingerprint": "7e0b007f15b5bce21862285c38cebc717d675e50099b6fd0b595d3e9395c64c9",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-512",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-512",
     "CAF_f01": 1.6352176220806798,
     "decision": {
       "score": 1.7566201313073586,
@@ -9051,7 +9051,7 @@
     "cost_f01": 6772.4,
     "warm_hit": 0.49929078014184397,
     "input_fingerprint": "4b1cd3971ba607f1d308f01331af1ebe496583b64c1ed9bacfc73a78332c7a62",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-1024",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-1024",
     "CAF_f01": 2.246682590233546,
     "decision": {
       "score": 2.2278849795965696,
@@ -9156,7 +9156,7 @@
     "cost_f01": 10458.8,
     "warm_hit": 0.015130023640661938,
     "input_fingerprint": "520b1807c236574445f05b2331c1aacc70580880d82a2559d39f62bf74c1f9ff",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-2048",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-uniform-2048",
     "CAF_f01": 3.469612526539278,
     "decision": {
       "score": 4.57725160375867,
@@ -9260,7 +9260,7 @@
     "cost_f01": 4874.0,
     "warm_hit": 0.7479289940828402,
     "input_fingerprint": "a9808f04834b0e99ee6dbbf1c2fb79765ad733a8f8624366732c1ee6d7c2da19",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-partial-1",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-partial-1",
     "CAF_f01": 1.6169055201698517,
     "decision": {
       "score": 19.47356408045522,
@@ -9364,7 +9364,7 @@
     "cost_f01": 6734.6,
     "warm_hit": 0.503489885247841,
     "input_fingerprint": "7c686dec33c4b2025ed4b4492b539b66d2c7ab6bcb518924bdacf23ca8402a7b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-partial-2",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-partial-2",
     "CAF_f01": 2.234142781316349,
     "decision": {
       "score": 25.980878000448186,
@@ -9468,7 +9468,7 @@
     "cost_f01": 8595.199999999999,
     "warm_hit": 0.25922421948912017,
     "input_fingerprint": "5a811f1d9ddaf18a502cd248723a72b2e8ebe51fe3314526887d1a694916841e",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-partial-3",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-partial-3",
     "CAF_f01": 2.851380042462845,
     "decision": {
       "score": 19.47375469879489,
@@ -9572,7 +9572,7 @@
     "cost_f01": 10456.8,
     "warm_hit": 0.015130023640661938,
     "input_fingerprint": "3c03caa585d566b179ced0fb9869e1493549c1e23554bd049b8f8843c942d82a",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-partial-4",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-hotpotqa-77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf-N5-partial-4",
     "CAF_f01": 3.4689490445859876,
     "decision": {
       "score": 4.57725160375867,
@@ -9677,7 +9677,7 @@
     "cost_f01": 1913.1999999999998,
     "warm_hit": 0.9738587592664846,
     "input_fingerprint": "eb970137a4a662765f6a91c9f64c8ce7456facecfaa0259ec89f8b7b2045c46a",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-0",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-0",
     "CAF_f01": 1.0371896346091296,
     "decision": {
       "score": -0.04779008718747839,
@@ -9782,7 +9782,7 @@
     "cost_f01": 1916.1999999999998,
     "warm_hit": 0.9734789391575663,
     "input_fingerprint": "63a8df547ddf468a979bebbe20ca8f156d913de284df9bf3db56bf87229984b9",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-8",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-8",
     "CAF_f01": 1.038816003469587,
     "decision": {
       "score": -0.04777439786202226,
@@ -9887,7 +9887,7 @@
     "cost_f01": 1973.8000000000002,
     "warm_hit": 0.9609984399375975,
     "input_fingerprint": "fbe3ae1960dceb3471826f19441507fef9274110f445d34af015d123f6111878",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-16",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-16",
     "CAF_f01": 1.0700422855903724,
     "decision": {
       "score": -0.012529977577374994,
@@ -9992,7 +9992,7 @@
     "cost_f01": 2031.3999999999996,
     "warm_hit": 0.9485179407176287,
     "input_fingerprint": "5870ffbaf1cca28c9841d3ad6924c64408f9fc152a25bc0dbbb1ded9cb113943",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-32",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-32",
     "CAF_f01": 1.101268567711157,
     "decision": {
       "score": 1.7566201313073586,
@@ -10097,7 +10097,7 @@
     "cost_f01": 2146.5999999999995,
     "warm_hit": 0.9235569422776911,
     "input_fingerprint": "7310a97b14f2b0f5f1d08bc21da4b7fa35415f78a656a3c0346c0e9f43540376",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-64",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-64",
     "CAF_f01": 1.163721131952727,
     "decision": {
       "score": 1.7566201313073586,
@@ -10202,7 +10202,7 @@
     "cost_f01": 2261.8,
     "warm_hit": 0.8985959438377535,
     "input_fingerprint": "54cb5c6e4347059fef0bed3dac0694a254ab1418381c95bc1ee56d4ededc64b3",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-96",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-96",
     "CAF_f01": 1.2261736961942973,
     "decision": {
       "score": 1.7566201313073586,
@@ -10307,7 +10307,7 @@
     "cost_f01": 2377.0,
     "warm_hit": 0.8736349453978159,
     "input_fingerprint": "078509ef747f046093d7fccd9d754c20b0c0a674131db43bd2bb6b827c77502f",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-128",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-128",
     "CAF_f01": 1.2886262604358671,
     "decision": {
       "score": 1.7566201313073586,
@@ -10412,7 +10412,7 @@
     "cost_f01": 2607.3999999999996,
     "warm_hit": 0.8237129485179407,
     "input_fingerprint": "d17d362004f025c7c2326148cc5d439f9fefd1d6794dc0b6546c4743ad24ebc7",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-192",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-192",
     "CAF_f01": 1.413531388919007,
     "decision": {
       "score": 1.7566201313073586,
@@ -10517,7 +10517,7 @@
     "cost_f01": 2837.7999999999993,
     "warm_hit": 0.7737909516380655,
     "input_fingerprint": "d1fc73c8dde60e1f5e9ca042861caf550f46ec32614d92ae750cd53db8200d0c",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-256",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-256",
     "CAF_f01": 1.5384365174021468,
     "decision": {
       "score": 1.7566201313073586,
@@ -10622,7 +10622,7 @@
     "cost_f01": 3759.3999999999996,
     "warm_hit": 0.5741029641185648,
     "input_fingerprint": "370b325e2720d789d0b2a76970f3d2e067517a58798cf05a5c6ea12c1c6e72b8",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-512",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-512",
     "CAF_f01": 2.038057031334707,
     "decision": {
       "score": 1.8648619437028124,
@@ -10727,7 +10727,7 @@
     "cost_f01": 5602.6,
     "warm_hit": 0.1747269890795632,
     "input_fingerprint": "7ebdde3d43c13935dfbc78f19a2e4afffc66393f43dab719a78eeeb772000067",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-1024",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-1024",
     "CAF_f01": 3.0372980591998275,
     "decision": {
       "score": 3.802814894701716,
@@ -10832,7 +10832,7 @@
     "cost_f01": 6293.799999999999,
     "warm_hit": 0.0249609984399376,
     "input_fingerprint": "6e2ae9eeb26e27a0f41f4e0b47fddf794e9fc0253ed10b6d5f62a9597963ee29",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-2048",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-uniform-2048",
     "CAF_f01": 3.412013444649247,
     "decision": {
       "score": 4.529547251326305,
@@ -10936,7 +10936,7 @@
     "cost_f01": 2955.3999999999987,
     "warm_hit": 0.7471668620554904,
     "input_fingerprint": "066fbb7622d2c27a970ba18e25cf47f930336a941c8706797bf07729a422a573",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-partial-1",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-partial-1",
     "CAF_f01": 1.6021901767320825,
     "decision": {
       "score": 18.918447288165975,
@@ -11040,7 +11040,7 @@
     "cost_f01": 4067.199999999999,
     "warm_hit": 0.5061511423550088,
     "input_fingerprint": "03aea17d6d891db2457090b2ade69e7ec749cba990337226fd4c64541b3d0574",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-partial-2",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-partial-2",
     "CAF_f01": 2.2049224764176514,
     "decision": {
       "score": 25.241043202134097,
@@ -11144,7 +11144,7 @@
     "cost_f01": 5178.999999999999,
     "warm_hit": 0.2654176424668228,
     "input_fingerprint": "aa5ff84ff5bbeb56fe22a9067d69b6be8d15b5b9c5e813608f455ab4d4cd8c0b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-partial-3",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-partial-3",
     "CAF_f01": 2.8076547761032207,
     "decision": {
       "score": 18.91895883348174,
@@ -11248,7 +11248,7 @@
     "cost_f01": 6291.799999999999,
     "warm_hit": 0.0249609984399376,
     "input_fingerprint": "13b1e61d82c8426592151555cc225e73d6081535e51a3db6bcfcf01ba711cf4f",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-partial-4",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N5-partial-4",
     "CAF_f01": 3.4109291987422754,
     "decision": {
       "score": 4.529547251326305,
@@ -11533,7 +11533,7 @@
     "cost_f01": 4200.7999999999965,
     "warm_hit": 0.9782145782145782,
     "input_fingerprint": "45647ad68c9d37f60fe8cba2dd6a9b71fb5ad2bc0c1e9a98999ab104caf21585",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-0",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-0",
     "CAF_f01": 1.0593100665725241,
     "decision": {
       "score": -0.04561049662594989,
@@ -11818,7 +11818,7 @@
     "cost_f01": 4369.200000000003,
     "warm_hit": 0.9706496377256539,
     "input_fingerprint": "38d308113436d70ec27180e3b2545b542300924befef04a90de053b5ed6469ae",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-8",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-8",
     "CAF_f01": 1.1017752672987715,
     "decision": {
       "score": -0.047335928690915074,
@@ -12103,7 +12103,7 @@
     "cost_f01": 4470.000000000002,
     "warm_hit": 0.966064922837611,
     "input_fingerprint": "b5a353f09da19fffbaf32cc6246c735ccb3b494795e4d4d432ff4638eccbcc89",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-16",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-16",
     "CAF_f01": 1.1271938672584243,
     "decision": {
       "score": -0.0370825300674378,
@@ -12388,7 +12388,7 @@
     "cost_f01": 4743.599999999998,
     "warm_hit": 0.9536206967129232,
     "input_fingerprint": "fd14d532114d4282b011620fcd597288eed7bee3120ebb830c0c18f77b631529",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-32",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-32",
     "CAF_f01": 1.1961872100060529,
     "decision": {
       "score": 0.27736107336431975,
@@ -12673,7 +12673,7 @@
     "cost_f01": 5290.799999999998,
     "warm_hit": 0.9287322444635474,
     "input_fingerprint": "641e2fdbb9f80ead41b23c0f9788a4f865b25c25daa425666d028d1bf7a39f5c",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-64",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-64",
     "CAF_f01": 1.3341738955013125,
     "decision": {
       "score": 1.7566201313073586,
@@ -12958,7 +12958,7 @@
     "cost_f01": 5838.000000000002,
     "warm_hit": 0.9038437922141717,
     "input_fingerprint": "12f2950b914bd37398f570ffcb30144d7fab37ed9109f736dbdf8eb2f35695d4",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-96",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-96",
     "CAF_f01": 1.4721605809965728,
     "decision": {
       "score": 1.7566201313073586,
@@ -13243,7 +13243,7 @@
     "cost_f01": 6385.200000000003,
     "warm_hit": 0.8789553399647959,
     "input_fingerprint": "050d163fdc9ce7281ce4635d74cd79d061a8a410708db470e009b0b0abe9cb0b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-128",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-128",
     "CAF_f01": 1.6101472664918324,
     "decision": {
       "score": 1.7566201313073586,
@@ -13528,7 +13528,7 @@
     "cost_f01": 7479.599999999998,
     "warm_hit": 0.8291784354660444,
     "input_fingerprint": "e1e045c582e4cf7af7124a8eeba0cf277f5bc2cc44998d2bf855ab817561911a",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-192",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-192",
     "CAF_f01": 1.88612063748235,
     "decision": {
       "score": 1.7566201313073586,
@@ -13813,7 +13813,7 @@
     "cost_f01": 8574.0,
     "warm_hit": 0.7794015309672929,
     "input_fingerprint": "ed1195e744419d021dd88668593a9aa71833d08e42a52824f1306a93b7c7e78e",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-256",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-256",
     "CAF_f01": 2.1620940084728693,
     "decision": {
       "score": 1.7566201313073586,
@@ -14098,7 +14098,7 @@
     "cost_f01": 12951.600000000006,
     "warm_hit": 0.580293912972287,
     "input_fingerprint": "f8321402b64c2c01130a13d5da7a90e53382eb9fbf0a8456eb0871ab88562002",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-512",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-512",
     "CAF_f01": 3.265987492434946,
     "decision": {
       "score": 1.8348609679969812,
@@ -14383,7 +14383,7 @@
     "cost_f01": 21706.8,
     "warm_hit": 0.18207867698227517,
     "input_fingerprint": "274c39127c267cc6c9649dd45bee12640e8978920a505efef47c5d1561362af4",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-1024",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-1024",
     "CAF_f01": 5.473774460359095,
     "decision": {
       "score": 3.7671897401925105,
@@ -14668,7 +14668,7 @@
     "cost_f01": 24989.999999999993,
     "warm_hit": 0.032747963486020715,
     "input_fingerprint": "45124f9f09b9eff5595af201613b2b8e0acad6a2ec199a68eaeb3a668ab19c2b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-2048",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-uniform-2048",
     "CAF_f01": 6.30169457333065,
     "decision": {
       "score": 4.491813029765834,
@@ -14952,7 +14952,7 @@
     "cost_f01": 5076.399999999993,
     "warm_hit": 0.9374974283010328,
     "input_fingerprint": "d00a1f7ff1d8bdfcc7b55b0c33a70bfe0fb45780954c2c922603eb1cb8b05851",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-partial-1",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-partial-1",
     "CAF_f01": 1.2801089368569698,
     "decision": {
       "score": 4.995851512168282,
@@ -15236,7 +15236,7 @@
     "cost_f01": 9525.599999999995,
     "warm_hit": 0.7343011062219846,
     "input_fingerprint": "16e5847f65f61b905a019d88254d6ad1aea5a0b08393222e1e0e0714ababe80f",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-partial-5",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-partial-5",
     "CAF_f01": 2.402057696187212,
     "decision": {
       "score": 19.567368897533658,
@@ -15520,7 +15520,7 @@
     "cost_f01": 15055.399999999994,
     "warm_hit": 0.4823790355705249,
     "input_fingerprint": "a3a171ded56d6450dfc97496a4f0a32f3935399f2a159f8d637377bd7421e682",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-partial-10",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-partial-10",
     "CAF_f01": 3.7964998991325434,
     "decision": {
       "score": 24.97971770436241,
@@ -15804,7 +15804,7 @@
     "cost_f01": 24987.999999999993,
     "warm_hit": 0.032747963486020715,
     "input_fingerprint": "69fcd40c9c19a76832d29f6ccf2581e5dc1b0d874948ede55a51534ec4da3396",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-partial-19",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-23c409527f26b4163fd9cdece1156db7aed7a606dd6ae26b-N20-partial-19",
     "CAF_f01": 6.301190236029863,
     "decision": {
       "score": 4.491813029765834,
@@ -15909,7 +15909,7 @@
     "cost_f01": 1739.0,
     "warm_hit": 0.9701169337375487,
     "input_fingerprint": "2421cfacf18bd58cdf99bff5fae675247520dc706101fc0d51856294f466bcd7",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-0",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-0",
     "CAF_f01": 1.0410680076628356,
     "decision": {
       "score": -0.04778658288800455,
@@ -16014,7 +16014,7 @@
     "cost_f01": 1742.0,
     "warm_hit": 0.9696969696969697,
     "input_fingerprint": "764f285bb167757c42d0617db5fe6335732972f96be30f15f9ef0fefc6ab747d",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-8",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-8",
     "CAF_f01": 1.0428639846743297,
     "decision": {
       "score": -0.04776740676478395,
@@ -16119,7 +16119,7 @@
     "cost_f01": 1799.6000000000004,
     "warm_hit": 0.9558441558441558,
     "input_fingerprint": "a88adf39d688bb567ac85de59512a7ebbd92af1748af0d741d8575b284a5cf3a",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-16",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-16",
     "CAF_f01": 1.0773467432950197,
     "decision": {
       "score": 0.01248061382017975,
@@ -16224,7 +16224,7 @@
     "cost_f01": 1857.1999999999998,
     "warm_hit": 0.941991341991342,
     "input_fingerprint": "84210501898a971a6ee83267be8963ee40323b5b728fa6b2e10af637c79c5f50",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-32",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-32",
     "CAF_f01": 1.111829501915709,
     "decision": {
       "score": 1.7566201313073586,
@@ -16329,7 +16329,7 @@
     "cost_f01": 1972.3999999999996,
     "warm_hit": 0.9142857142857143,
     "input_fingerprint": "497224b1b9d79b76d62bbac67c845c2e4f860495872244f4633c74b1bd43a960",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-64",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-64",
     "CAF_f01": 1.1807950191570882,
     "decision": {
       "score": 1.7566201313073586,
@@ -16434,7 +16434,7 @@
     "cost_f01": 2087.6000000000004,
     "warm_hit": 0.8865800865800866,
     "input_fingerprint": "d337d23ef516af29d329e0a83b9ea858b270156b516901476bbeb641f07855ce",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-96",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-96",
     "CAF_f01": 1.2497605363984678,
     "decision": {
       "score": 1.7566201313073586,
@@ -16539,7 +16539,7 @@
     "cost_f01": 2202.7999999999993,
     "warm_hit": 0.8588744588744589,
     "input_fingerprint": "c07ad45ea72f3a09d43fec052d1e29ccc43645f163537acb1c4f6c92651d2062",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-128",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-128",
     "CAF_f01": 1.3187260536398466,
     "decision": {
       "score": 1.7566201313073586,
@@ -16644,7 +16644,7 @@
     "cost_f01": 2433.2,
     "warm_hit": 0.8034632034632034,
     "input_fingerprint": "deb15559739a90fc263d61d72502558fc956482b70e0e48974814ca894442adb",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-192",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-192",
     "CAF_f01": 1.4566570881226055,
     "decision": {
       "score": 1.7566201313073586,
@@ -16749,7 +16749,7 @@
     "cost_f01": 2663.6000000000004,
     "warm_hit": 0.7480519480519481,
     "input_fingerprint": "0c2a24153be5fc4f745f6091c8c2f8712b43da6af5ae11a1165407a61346e80f",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-256",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-256",
     "CAF_f01": 1.5945881226053646,
     "decision": {
       "score": 1.7566201313073586,
@@ -16854,7 +16854,7 @@
     "cost_f01": 3570.7999999999997,
     "warm_hit": 0.5298701298701298,
     "input_fingerprint": "fdc15642bed8b53a3b48b99cea54904e2e9519f0bec6ddbfa5889ce106b8df90",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-512",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-512",
     "CAF_f01": 2.1376915708812265,
     "decision": {
       "score": 2.0795140331496453,
@@ -16959,7 +16959,7 @@
     "cost_f01": 5413.999999999999,
     "warm_hit": 0.08658008658008658,
     "input_fingerprint": "1b3cc65e963a4d5b048ad67918535d0df04611a0a5502ef550e4a5cea256d413",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-1024",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-1024",
     "CAF_f01": 3.241139846743295,
     "decision": {
       "score": 4.2305580665147735,
@@ -17064,7 +17064,7 @@
     "cost_f01": 5658.799999999999,
     "warm_hit": 0.027705627705627706,
     "input_fingerprint": "19560b5ab442c2289f3ff99b7adc40415f36a83fc6ba75efad0e47a6a86728cd",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-2048",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-uniform-2048",
     "CAF_f01": 3.3876915708812265,
     "decision": {
       "score": 4.516229058678416,
@@ -17168,7 +17168,7 @@
     "cost_f01": 2665.9999999999995,
     "warm_hit": 0.7462039045553145,
     "input_fingerprint": "5196d60bc35140cb2b69f91bf6b348c248f005e950e34ca4f15ba6b55e7269fa",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-partial-1",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-partial-1",
     "CAF_f01": 1.5960249042145596,
     "decision": {
       "score": 18.72558897796357,
@@ -17272,7 +17272,7 @@
     "cost_f01": 3662.5999999999995,
     "warm_hit": 0.5063949707348797,
     "input_fingerprint": "014d7258b146363e1a0866c1184e732773540641f1b156c768c3f21e6ef01110",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-partial-2",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-partial-2",
     "CAF_f01": 2.1926484674329503,
     "decision": {
       "score": 24.984014312135137,
@@ -17376,7 +17376,7 @@
     "cost_f01": 4659.2,
     "warm_hit": 0.2668977469670711,
     "input_fingerprint": "c283756bb90bbdb2e4d3aac52868f15bcf4059f9cdda5809e99550b0448d0525",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-partial-3",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-partial-3",
     "CAF_f01": 2.7892720306513414,
     "decision": {
       "score": 18.726216048223808,
@@ -17480,7 +17480,7 @@
     "cost_f01": 5656.799999999999,
     "warm_hit": 0.027705627705627706,
     "input_fingerprint": "b3ce60a4c49effe176c7f45dfc9a743f8a2786ba31b65d6d9246933ce4dfb7b6",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-partial-4",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-9f08297041c2ec050e1dd51d1fe8af8289bd24c46443c26b-N5-partial-4",
     "CAF_f01": 3.3864942528735633,
     "decision": {
       "score": 4.516229058678416,
@@ -17585,7 +17585,7 @@
     "cost_f01": 2099.8,
     "warm_hit": 0.9785588752196837,
     "input_fingerprint": "89655c3648d1fffd5b0f6722a710acb936a144433641bc557118d31b2be78c04",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-0",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-0",
     "CAF_f01": 1.00526618153964,
     "decision": {
       "score": -0.047792928982025355,
@@ -17690,7 +17690,7 @@
     "cost_f01": 2102.8,
     "warm_hit": 0.9782150386507379,
     "input_fingerprint": "30d545a7a4d82309d3d51f0fa65c0e1cf3580966e286f1ef553641626665ac8e",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-8",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-8",
     "CAF_f01": 1.0067024128686326,
     "decision": {
       "score": -0.04778006861965234,
@@ -17795,7 +17795,7 @@
     "cost_f01": 2160.3999999999996,
     "warm_hit": 0.9669711876317639,
     "input_fingerprint": "359a8fb5fe72bcb3ef4d96dc758d868a96f57d52318e6ee732a2ebc475cb5696",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-16",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-16",
     "CAF_f01": 1.0342780543852927,
     "decision": {
       "score": -0.041512183222823955,
@@ -17900,7 +17900,7 @@
     "cost_f01": 2218.0,
     "warm_hit": 0.9557273366127899,
     "input_fingerprint": "d88ebc5250291674024028e33c0564a1c67e26065f28817e82bf2d191fef5fa4",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-32",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-32",
     "CAF_f01": 1.061853695901953,
     "decision": {
       "score": 0.013048066707252814,
@@ -18005,7 +18005,7 @@
     "cost_f01": 2333.2,
     "warm_hit": 0.9332396345748419,
     "input_fingerprint": "76a626cf84e6dd04fe6c91553d0281a09a156381743777ad58da83617199818b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-64",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-64",
     "CAF_f01": 1.1170049789352736,
     "decision": {
       "score": 1.7566201313073586,
@@ -18110,7 +18110,7 @@
     "cost_f01": 2448.3999999999996,
     "warm_hit": 0.9107519325368939,
     "input_fingerprint": "8e5cad561b26c90a4e0830ba4a1410f347c4b22dc58c3733e5eb975a49da5ad1",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-96",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-96",
     "CAF_f01": 1.1721562619685941,
     "decision": {
       "score": 1.7566201313073586,
@@ -18215,7 +18215,7 @@
     "cost_f01": 2563.5999999999995,
     "warm_hit": 0.8882642304989459,
     "input_fingerprint": "1e1ada7ef5f0373547b0d6bd2d3540d71dc381676c3d5ce0978c3b111aeef331",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-128",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-128",
     "CAF_f01": 1.2273075450019146,
     "decision": {
       "score": 1.7566201313073586,
@@ -18320,7 +18320,7 @@
     "cost_f01": 2794.0,
     "warm_hit": 0.8432888264230499,
     "input_fingerprint": "92f3001485bf38802d4697dfae2e0e2d5eae348c807f61b7c46cf73427366c1b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-192",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-192",
     "CAF_f01": 1.337610111068556,
     "decision": {
       "score": 1.7566201313073586,
@@ -18425,7 +18425,7 @@
     "cost_f01": 3024.3999999999996,
     "warm_hit": 0.7983134223471539,
     "input_fingerprint": "7d90a8514bc9f6c98421ffa7bb2b3233f415401646d30ee4ececc6a38d4d635c",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-256",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-256",
     "CAF_f01": 1.447912677135197,
     "decision": {
       "score": 1.7566201313073586,
@@ -18530,7 +18530,7 @@
     "cost_f01": 3946.0,
     "warm_hit": 0.6184118060435699,
     "input_fingerprint": "30ce81591b4960f977e25da35def99e0294d5fb2085ce278c65e75097c6949e0",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-512",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-512",
     "CAF_f01": 1.8891229414017616,
     "decision": {
       "score": 1.7566201313073586,
@@ -18635,7 +18635,7 @@
     "cost_f01": 5789.200000000001,
     "warm_hit": 0.258608573436402,
     "input_fingerprint": "b7988a5c6013ab34a1c3a740a46a6e99670a050caaf6b8f8c0e581243a0446a7",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-1024",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-1024",
     "CAF_f01": 2.771543469934891,
     "decision": {
       "score": 3.395783562371982,
@@ -18740,7 +18740,7 @@
     "cost_f01": 6998.799999999999,
     "warm_hit": 0.022487702037947997,
     "input_fingerprint": "9f4f48158d0ea464d267b01ddc25777ac483efcac2a85a4e56f89121468fcf08",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-2048",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-uniform-2048",
     "CAF_f01": 3.3506319417847563,
     "decision": {
       "score": 4.541548810903584,
@@ -18844,7 +18844,7 @@
     "cost_f01": 3314.7999999999993,
     "warm_hit": 0.7405843013023583,
     "input_fingerprint": "716c96945a2a114ce016abdd0b1f85ebc0d2c1e30bfff2b54a2aa383b7021efa",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-partial-1",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-partial-1",
     "CAF_f01": 1.5869398697816923,
     "decision": {
       "score": 18.701960714904278,
@@ -18948,7 +18948,7 @@
     "cost_f01": 4541.799999999999,
     "warm_hit": 0.500967458223395,
     "input_fingerprint": "4e04839f983c186d6ae9bc705c44e2bb1ec0eaa96198c917ed7fe4d90b7fc68c",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-partial-2",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-partial-2",
     "CAF_f01": 2.174358483339716,
     "decision": {
       "score": 24.952295676841498,
@@ -19052,7 +19052,7 @@
     "cost_f01": 5768.799999999999,
     "warm_hit": 0.2616033755274262,
     "input_fingerprint": "0bf8c696985935150e161cf40e15fc49c3ceb8e3437eba337119275c553d28fd",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-partial-3",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-partial-3",
     "CAF_f01": 2.7617770968977395,
     "decision": {
       "score": 18.702373498393392,
@@ -19156,7 +19156,7 @@
     "cost_f01": 6996.799999999999,
     "warm_hit": 0.022487702037947997,
     "input_fingerprint": "4f71320247691a32f4506a3601374f12e585a8518a80968d950cf669c1043870",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-partial-4",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-triviaqa-25da093dbc421f8bbcdb3627f8a3194d0664d2b741319921-N5-partial-4",
     "CAF_f01": 3.3496744542320944,
     "decision": {
       "score": 4.541548810903584,
@@ -19261,7 +19261,7 @@
     "cost_f01": 3078.0,
     "warm_hit": 0.9841495150224746,
     "input_fingerprint": "80f7746e1e712b891df355454e4f965dff8f2d95f88c666d4eb0ff82bbe85170",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-0",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-0",
     "CAF_f01": 1.0210987261146498,
     "decision": {
       "score": -0.04779991643667971,
@@ -19366,7 +19366,7 @@
     "cost_f01": 3086.0,
     "warm_hit": 0.983451536643026,
     "input_fingerprint": "777dcaacfafc06d1fdd04a8dee0cc581b5dfbcffb3c0e4626051f35883fb2ee9",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-8",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-8",
     "CAF_f01": 1.0237526539278132,
     "decision": {
       "score": -0.04779404080769798,
@@ -19471,7 +19471,7 @@
     "cost_f01": 3143.5999999999985,
     "warm_hit": 0.975886524822695,
     "input_fingerprint": "6a18fe276fbda699ee016009c904f2bb704f43ca4be9df9a59ce77eafbb42108",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-16",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-16",
     "CAF_f01": 1.0428609341825898,
     "decision": {
       "score": -0.04779422141412877,
@@ -19576,7 +19576,7 @@
     "cost_f01": 3201.2000000000007,
     "warm_hit": 0.968321513002364,
     "input_fingerprint": "f667803740bf17043d0c77a2ecefb380e9144d54c007bb0ee225dd9e26401154",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-32",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-32",
     "CAF_f01": 1.0619692144373676,
     "decision": {
       "score": -0.047794400625915306,
@@ -19681,7 +19681,7 @@
     "cost_f01": 3316.3999999999996,
     "warm_hit": 0.9531914893617022,
     "input_fingerprint": "1dfb80754b04cdcd593bc4332e463f569ff3081e82a33bde19f517c3c4c778b3",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-64",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-64",
     "CAF_f01": 1.1001857749469215,
     "decision": {
       "score": 0.025353769444600053,
@@ -19786,7 +19786,7 @@
     "cost_f01": 3431.5999999999985,
     "warm_hit": 0.9380614657210402,
     "input_fingerprint": "ce19d86fdb5222109d802a9648443f3b9ea406eee01b3eb35cc7c1f8be832e6b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-96",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-96",
     "CAF_f01": 1.1384023354564752,
     "decision": {
       "score": 1.7566201313073586,
@@ -19891,7 +19891,7 @@
     "cost_f01": 3546.7999999999993,
     "warm_hit": 0.9229314420803783,
     "input_fingerprint": "e21df9b1bbe1828c2eb741bffee210e6602a4e82526fc81a8dc272bc5cb8098d",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-128",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-128",
     "CAF_f01": 1.1766188959660295,
     "decision": {
       "score": 1.7566201313073586,
@@ -19996,7 +19996,7 @@
     "cost_f01": 3777.2000000000007,
     "warm_hit": 0.8926713947990543,
     "input_fingerprint": "070ebb1f1248921f1baa928f467ea82b920cc6b734d6647fd2eb775f37ca9224",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-192",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-192",
     "CAF_f01": 1.2530520169851385,
     "decision": {
       "score": 1.7566201313073586,
@@ -20101,7 +20101,7 @@
     "cost_f01": 4007.5999999999985,
     "warm_hit": 0.8624113475177305,
     "input_fingerprint": "1045b089874311ebf0d3f9dfff676dce1aa16a770671eac1c9a234361bab1a85",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-256",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-256",
     "CAF_f01": 1.329485138004246,
     "decision": {
       "score": 1.7566201313073586,
@@ -20206,7 +20206,7 @@
     "cost_f01": 4929.200000000001,
     "warm_hit": 0.741371158392435,
     "input_fingerprint": "a8c362a292db2ae87412be7a3afeb43295736942dad5c3fa504022ce3ece5f82",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-512",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-512",
     "CAF_f01": 1.6352176220806798,
     "decision": {
       "score": 1.7566201313073586,
@@ -20311,7 +20311,7 @@
     "cost_f01": 6772.4,
     "warm_hit": 0.49929078014184397,
     "input_fingerprint": "696211dd7ed47bfac25ea44f6e0a70d6f37bf0a779f6109523d218cddd9e8426",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-1024",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-1024",
     "CAF_f01": 2.246682590233546,
     "decision": {
       "score": 2.2278849795965696,
@@ -20416,7 +20416,7 @@
     "cost_f01": 10458.8,
     "warm_hit": 0.015130023640661938,
     "input_fingerprint": "0389b5d81901fa150ab617b958760e86f42d36215a7f3e071adad0e349cdb06c",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-2048",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-uniform-2048",
     "CAF_f01": 3.469612526539278,
     "decision": {
       "score": 4.57725160375867,
@@ -20520,7 +20520,7 @@
     "cost_f01": 4874.0,
     "warm_hit": 0.7479289940828402,
     "input_fingerprint": "be74d37aa374ee5ef4dc51cf45451f7bbda4a13da880a1187d1979d86b1309b1",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-partial-1",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-partial-1",
     "CAF_f01": 1.6169055201698517,
     "decision": {
       "score": 19.47356408045522,
@@ -20624,7 +20624,7 @@
     "cost_f01": 6734.6,
     "warm_hit": 0.503489885247841,
     "input_fingerprint": "a4afde6e6effa440574127b9f109f84d4c2586a0646659636ab8b1458f45625e",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-partial-2",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-partial-2",
     "CAF_f01": 2.234142781316349,
     "decision": {
       "score": 25.980878000448186,
@@ -20728,7 +20728,7 @@
     "cost_f01": 8595.199999999999,
     "warm_hit": 0.25922421948912017,
     "input_fingerprint": "7d7ce7f34a1b0961a0a2a3988921ccae8d13dd9635b03694613fd9dd0d88420c",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-partial-3",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-partial-3",
     "CAF_f01": 2.851380042462845,
     "decision": {
       "score": 19.47375469879489,
@@ -20832,7 +20832,7 @@
     "cost_f01": 10456.8,
     "warm_hit": 0.015130023640661938,
     "input_fingerprint": "1cfbd00b9e46b29cd65e4af90bdc82e56d39d4142205dc818747dc871df40adf",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-partial-4",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N5-partial-4",
     "CAF_f01": 3.4689490445859876,
     "decision": {
       "score": 4.57725160375867,
@@ -21117,7 +21117,7 @@
     "cost_f01": 6613.600000000004,
     "warm_hit": 0.986775380332107,
     "input_fingerprint": "33519522d5c80fc03e6e6fb94c9d78307f59284737ac1f4f460238105d843d51",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-0",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-0",
     "CAF_f01": 1.0336334083520882,
     "decision": {
       "score": -0.0470019484407991,
@@ -21402,7 +21402,7 @@
     "cost_f01": 6802.0,
     "warm_hit": 0.9817170111287759,
     "input_fingerprint": "e93cb928b407bcd1c6e455bac890a4545bd0690ab75fd6036648a3b3f89f5711",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-8",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-8",
     "CAF_f01": 1.0630782695673913,
     "decision": {
       "score": -0.04762882524590443,
@@ -21687,7 +21687,7 @@
     "cost_f01": 6902.799999999997,
     "warm_hit": 0.9789348171701113,
     "input_fingerprint": "e16fe30f9746192efe2f76cb9e7180b2727f3831d96170f273456285245bd173",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-16",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-16",
     "CAF_f01": 1.078832208052012,
     "decision": {
       "score": -0.047029386241713975,
@@ -21972,7 +21972,7 @@
     "cost_f01": 7176.399999999997,
     "warm_hit": 0.9713831478537361,
     "input_fingerprint": "51aa72f12e438b3c1ec1d4d1070725a3a70a94bcc0f24dfa4a6fdea12b599020",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-32",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-32",
     "CAF_f01": 1.121592898224555,
     "decision": {
       "score": -0.04702555106125169,
@@ -22257,7 +22257,7 @@
     "cost_f01": 7723.599999999997,
     "warm_hit": 0.9562798092209857,
     "input_fingerprint": "404b13590a90e09876e66c7d0994095613d61ee452bfb3a7ebc559413d814ddd",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-64",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-64",
     "CAF_f01": 1.2071142785696414,
     "decision": {
       "score": 0.010379815635011443,
@@ -22542,7 +22542,7 @@
     "cost_f01": 8270.799999999997,
     "warm_hit": 0.9411764705882353,
     "input_fingerprint": "2bc1cea7ed79caee9ff22253c3c562a07d95fe133d3f06c95f32fc2ca9ec5f0e",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-96",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-96",
     "CAF_f01": 1.2926356589147276,
     "decision": {
       "score": 1.7566201313073586,
@@ -22827,7 +22827,7 @@
     "cost_f01": 8818.0,
     "warm_hit": 0.9260731319554849,
     "input_fingerprint": "fe626b6fbaa42e99e78bdc1da9afabc7cab11ecf7a5c767f36f10882abdd7e79",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-128",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-128",
     "CAF_f01": 1.3781570392598141,
     "decision": {
       "score": 1.7566201313073586,
@@ -23112,7 +23112,7 @@
     "cost_f01": 9912.399999999998,
     "warm_hit": 0.895866454689984,
     "input_fingerprint": "33c71cb48d6e3001596fbdf72a0168f7ae61800e5ed7c39bad1bfad9dae57bd6",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-192",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-192",
     "CAF_f01": 1.5491997999499865,
     "decision": {
       "score": 1.7566201313073586,
@@ -23397,7 +23397,7 @@
     "cost_f01": 11006.799999999997,
     "warm_hit": 0.8656597774244833,
     "input_fingerprint": "a3eb58b6fcdeda5d2a8c2a172b3cd320100346fcab487d4681b1e5d9673c5f61",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-256",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-256",
     "CAF_f01": 1.7202425606401588,
     "decision": {
       "score": 1.7566201313073586,
@@ -23682,7 +23682,7 @@
     "cost_f01": 15384.399999999998,
     "warm_hit": 0.7448330683624801,
     "input_fingerprint": "c289a0a00724d4beaceb6c46a10283438dd4c91c0427723acaaabeec82f3343b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-512",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-512",
     "CAF_f01": 2.4044136034008488,
     "decision": {
       "score": 1.7566201313073586,
@@ -23967,7 +23967,7 @@
     "cost_f01": 24139.60000000001,
     "warm_hit": 0.5031796502384738,
     "input_fingerprint": "5882cc2baa9b5df1f48d4c9875ccc1bcf0d8ce655db051882b1c591ce1f0b3fc",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-1024",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-1024",
     "CAF_f01": 3.77275568892223,
     "decision": {
       "score": 2.209029852799421,
@@ -24252,7 +24252,7 @@
     "cost_f01": 41650.00000000001,
     "warm_hit": 0.01987281399046105,
     "input_fingerprint": "4375dc1f94017b10f466a4a74511dd445db4a45c57484e957ee53eac2e42d0d1",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-2048",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-uniform-2048",
     "CAF_f01": 6.509439859964989,
     "decision": {
       "score": 4.554256559108125,
@@ -24536,7 +24536,7 @@
     "cost_f01": 8258.000000000005,
     "warm_hit": 0.9409419386992275,
     "input_fingerprint": "f2c0c2e43fa59d7c2733f7fded14f96b5b642cc9109ac2e64d992a2a250b0576",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-partial-1",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-partial-1",
     "CAF_f01": 1.2906351587896976,
     "decision": {
       "score": 5.143472598206419,
@@ -24820,7 +24820,7 @@
     "cost_f01": 15702.400000000005,
     "warm_hit": 0.7349541650059784,
     "input_fingerprint": "66cd338792fec57f5fe460a232c9e10b57f999f53d33d4316084781ededa2eab",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-partial-5",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-partial-5",
     "CAF_f01": 2.454113528382095,
     "decision": {
       "score": 20.140853878965004,
@@ -25104,7 +25104,7 @@
     "cost_f01": 24976.199999999986,
     "warm_hit": 0.4787294949344087,
     "input_fingerprint": "95dc2c680eceeb60ae53ace30c1bb7e43f1dc1d42673238dfee6647e5c9a3478",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-partial-10",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-partial-10",
     "CAF_f01": 3.903507126781691,
     "decision": {
       "score": 25.789992267453556,
@@ -25388,7 +25388,7 @@
     "cost_f01": 41648.00000000001,
     "warm_hit": 0.01987281399046105,
     "input_fingerprint": "50165def5b8e464ec35610ac2ef62289e60ccb704639c5687bcb7b964ad1f307",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-partial-19",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-81e845f35acd55c1f6b4edda428a0a52fd22bade5be9cf13-N20-partial-19",
     "CAF_f01": 6.509127281820453,
     "decision": {
       "score": 4.554256559108125,
@@ -25493,7 +25493,7 @@
     "cost_f01": 3078.0,
     "warm_hit": 0.9841495150224746,
     "input_fingerprint": "bcecdf762db211e6444940d45edb58d31632b3d164e9f4df7f08cac1d541ad2b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-0",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-0",
     "CAF_f01": 1.0210987261146498,
     "decision": {
       "score": -0.04779991643667971,
@@ -25598,7 +25598,7 @@
     "cost_f01": 3086.0,
     "warm_hit": 0.983451536643026,
     "input_fingerprint": "517638225fa970c14a07339cd423f00c6950d9c546fe6b36a946edcd1c90fabc",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-8",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-8",
     "CAF_f01": 1.0237526539278132,
     "decision": {
       "score": -0.04779404080769798,
@@ -25703,7 +25703,7 @@
     "cost_f01": 3143.5999999999985,
     "warm_hit": 0.975886524822695,
     "input_fingerprint": "427eecf26b55b4970589055d2b37472e6b8c4c9accd757f801e59e73b8ac1a52",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-16",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-16",
     "CAF_f01": 1.0428609341825898,
     "decision": {
       "score": -0.04779422141412877,
@@ -25808,7 +25808,7 @@
     "cost_f01": 3201.2000000000007,
     "warm_hit": 0.968321513002364,
     "input_fingerprint": "907614e23e893f4f9ae8478c0f3df089eda13f01b701a42299c7f1d1590553de",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-32",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-32",
     "CAF_f01": 1.0619692144373676,
     "decision": {
       "score": -0.047794400625915306,
@@ -25913,7 +25913,7 @@
     "cost_f01": 3316.3999999999996,
     "warm_hit": 0.9531914893617022,
     "input_fingerprint": "103b4d45888f3dc2c50ea7d1af8327baf286b0428654fe5075e7c2dfa9ac8380",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-64",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-64",
     "CAF_f01": 1.1001857749469215,
     "decision": {
       "score": 0.025353769444600053,
@@ -26018,7 +26018,7 @@
     "cost_f01": 3431.5999999999985,
     "warm_hit": 0.9380614657210402,
     "input_fingerprint": "f0baa1e15962eca9e1dd5e0af899830de02ea96b6a426835cb4d65d6cc82762b",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-96",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-96",
     "CAF_f01": 1.1384023354564752,
     "decision": {
       "score": 1.7566201313073586,
@@ -26123,7 +26123,7 @@
     "cost_f01": 3546.7999999999993,
     "warm_hit": 0.9229314420803783,
     "input_fingerprint": "113d5b7cc72afa1e29c810df843a0b1d1a407b0f67ca8013a613217c1d8cb900",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-128",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-128",
     "CAF_f01": 1.1766188959660295,
     "decision": {
       "score": 1.7566201313073586,
@@ -26228,7 +26228,7 @@
     "cost_f01": 3777.2000000000007,
     "warm_hit": 0.8926713947990543,
     "input_fingerprint": "b729f14b211d975dcb4dea9ff3122656f815da1f8257d1f44e0dd8f0629ac3fa",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-192",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-192",
     "CAF_f01": 1.2530520169851385,
     "decision": {
       "score": 1.7566201313073586,
@@ -26333,7 +26333,7 @@
     "cost_f01": 4007.5999999999985,
     "warm_hit": 0.8624113475177305,
     "input_fingerprint": "edc34d5e09376977a3f040ece3d951538c2bd2b1d988cd36b4538fe20b9113d8",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-256",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-256",
     "CAF_f01": 1.329485138004246,
     "decision": {
       "score": 1.7566201313073586,
@@ -26438,7 +26438,7 @@
     "cost_f01": 4929.200000000001,
     "warm_hit": 0.741371158392435,
     "input_fingerprint": "68b750a3c547b350ccebe4d5cf6292b8edeed3a4f51a9ff3f2cf3b6997be93bf",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-512",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-512",
     "CAF_f01": 1.6352176220806798,
     "decision": {
       "score": 1.7566201313073586,
@@ -26543,7 +26543,7 @@
     "cost_f01": 6772.4,
     "warm_hit": 0.49929078014184397,
     "input_fingerprint": "8ea208ee8a0d92a8aee78c6c82256afaa18528f74e4faa321afef82c9fc7858f",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-1024",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-1024",
     "CAF_f01": 2.246682590233546,
     "decision": {
       "score": 2.2278849795965696,
@@ -26648,7 +26648,7 @@
     "cost_f01": 10458.8,
     "warm_hit": 0.015130023640661938,
     "input_fingerprint": "d3bd345f3e1ee0e3b4581484a5c89c37c4c9691a1692bd6ee73cf51de108b250",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-2048",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-uniform-2048",
     "CAF_f01": 3.469612526539278,
     "decision": {
       "score": 4.57725160375867,
@@ -26752,7 +26752,7 @@
     "cost_f01": 4874.0,
     "warm_hit": 0.7479289940828402,
     "input_fingerprint": "3b3d3f2c7151f900c7087f7d0de1b4e63315466951d65630552e677b3fac09ed",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-partial-1",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-partial-1",
     "CAF_f01": 1.6169055201698517,
     "decision": {
       "score": 19.47356408045522,
@@ -26856,7 +26856,7 @@
     "cost_f01": 6734.6,
     "warm_hit": 0.503489885247841,
     "input_fingerprint": "cf0128ac379fcda47711f58c79b18d60d1a52e5e1f4dbccccd4d532e059e2654",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-partial-2",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-partial-2",
     "CAF_f01": 2.234142781316349,
     "decision": {
       "score": 25.980878000448186,
@@ -26960,7 +26960,7 @@
     "cost_f01": 8595.199999999999,
     "warm_hit": 0.25922421948912017,
     "input_fingerprint": "1fd5fe1fcd3590ff07b803fb720d44193b614fe2d17baf60fa4ab79f657dc00d",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-partial-3",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-partial-3",
     "CAF_f01": 2.851380042462845,
     "decision": {
       "score": 19.47375469879489,
@@ -27064,7 +27064,7 @@
     "cost_f01": 10456.8,
     "warm_hit": 0.015130023640661938,
     "input_fingerprint": "fcaff0cc481fad27673e64b125b1c8893c4fc01320c87d42b1e83672554a7e41",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-partial-4",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-eaf2acd9c4a757fefc0b0933bd274cccefa900eb9790f6aa-N5-partial-4",
     "CAF_f01": 3.4689490445859876,
     "decision": {
       "score": 4.57725160375867,
@@ -27169,7 +27169,7 @@
     "cost_f01": 3078.0,
     "warm_hit": 0.9841495150224746,
     "input_fingerprint": "d8ee188c1719cb347f3a9e6eb10f3dcc2e8d746bb61c36d8c328b2bd557eed05",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-0",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-0",
     "CAF_f01": 1.0210987261146498,
     "decision": {
       "score": -0.04779991643667971,
@@ -27274,7 +27274,7 @@
     "cost_f01": 3086.0,
     "warm_hit": 0.983451536643026,
     "input_fingerprint": "2437f66e9cfcd62f9cc681469e189dbfdf00b600a30cd4918c02122e3b39271a",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-8",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-8",
     "CAF_f01": 1.0237526539278132,
     "decision": {
       "score": -0.04779404080769798,
@@ -27379,7 +27379,7 @@
     "cost_f01": 3143.5999999999985,
     "warm_hit": 0.975886524822695,
     "input_fingerprint": "ec7ba10295968eb6e068718647c3a3d7c28a5ef59927ff6673adf169d21d696a",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-16",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-16",
     "CAF_f01": 1.0428609341825898,
     "decision": {
       "score": -0.04779422141412877,
@@ -27484,7 +27484,7 @@
     "cost_f01": 3201.2000000000007,
     "warm_hit": 0.968321513002364,
     "input_fingerprint": "c7cbadc1ee7da9c24b871109cd11c2ee516ebd1feb4502f4d20851bd966c3c69",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-32",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-32",
     "CAF_f01": 1.0619692144373676,
     "decision": {
       "score": -0.047794400625915306,
@@ -27589,7 +27589,7 @@
     "cost_f01": 3316.3999999999996,
     "warm_hit": 0.9531914893617022,
     "input_fingerprint": "171c90de0ecfaba3fa150a37cb7eac4582f85293eef7cdc052991475a7f18c26",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-64",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-64",
     "CAF_f01": 1.1001857749469215,
     "decision": {
       "score": 0.025353769444600053,
@@ -27694,7 +27694,7 @@
     "cost_f01": 3431.5999999999985,
     "warm_hit": 0.9380614657210402,
     "input_fingerprint": "6423dec9809498a49e4a2c9616325f877de417df41883ab571554beccfd8158c",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-96",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-96",
     "CAF_f01": 1.1384023354564752,
     "decision": {
       "score": 1.7566201313073586,
@@ -27799,7 +27799,7 @@
     "cost_f01": 3546.7999999999993,
     "warm_hit": 0.9229314420803783,
     "input_fingerprint": "16af6cb8d03760b6ffac05a2a711e7107df12ba368c918e4400f2d1b3a273cd0",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-128",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-128",
     "CAF_f01": 1.1766188959660295,
     "decision": {
       "score": 1.7566201313073586,
@@ -27904,7 +27904,7 @@
     "cost_f01": 3777.2000000000007,
     "warm_hit": 0.8926713947990543,
     "input_fingerprint": "16845045d8535d0fae3869714eada69a364eda98a9bac683b0d1262f642ad1db",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-192",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-192",
     "CAF_f01": 1.2530520169851385,
     "decision": {
       "score": 1.7566201313073586,
@@ -28009,7 +28009,7 @@
     "cost_f01": 4007.5999999999985,
     "warm_hit": 0.8624113475177305,
     "input_fingerprint": "cf50af6f6ff65c6eb11261d7c567554189b982aa957edc3e5493c840a8f3a691",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-256",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-256",
     "CAF_f01": 1.329485138004246,
     "decision": {
       "score": 1.7566201313073586,
@@ -28114,7 +28114,7 @@
     "cost_f01": 4929.200000000001,
     "warm_hit": 0.741371158392435,
     "input_fingerprint": "e7f665a14d942754da56eec41f4ca92d60eb698f1cf0beca10b6e427804baba3",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-512",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-512",
     "CAF_f01": 1.6352176220806798,
     "decision": {
       "score": 1.7566201313073586,
@@ -28219,7 +28219,7 @@
     "cost_f01": 6772.4,
     "warm_hit": 0.49929078014184397,
     "input_fingerprint": "45fa5bf90f0e22af53eb18851d94640c35f5d547fe0059846cc9ea8eb32cccce",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-1024",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-1024",
     "CAF_f01": 2.246682590233546,
     "decision": {
       "score": 2.2278849795965696,
@@ -28324,7 +28324,7 @@
     "cost_f01": 10458.8,
     "warm_hit": 0.015130023640661938,
     "input_fingerprint": "8f0367b4dbee0f158379f8aea8005a167b561b012151b9bb15d34650d3a49203",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-2048",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-uniform-2048",
     "CAF_f01": 3.469612526539278,
     "decision": {
       "score": 4.57725160375867,
@@ -28428,7 +28428,7 @@
     "cost_f01": 4874.0,
     "warm_hit": 0.7479289940828402,
     "input_fingerprint": "ed1ebcb12c0f5c815c3549e33bbcac0576203cf3e523758747878ddbaa61cfb8",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-partial-1",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-partial-1",
     "CAF_f01": 1.6169055201698517,
     "decision": {
       "score": 19.47356408045522,
@@ -28532,7 +28532,7 @@
     "cost_f01": 6734.6,
     "warm_hit": 0.503489885247841,
     "input_fingerprint": "f2109679b4232dd2d7f98bb7fe524beaea3ed46c4e0d148038dbd4ce1e1f7901",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-partial-2",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-partial-2",
     "CAF_f01": 2.234142781316349,
     "decision": {
       "score": 25.980878000448186,
@@ -28636,7 +28636,7 @@
     "cost_f01": 8595.199999999999,
     "warm_hit": 0.25922421948912017,
     "input_fingerprint": "711d75dfc9d5bea2f3c92201992e7260a0992627b9e6e4bb83d4a774680ecb04",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-partial-3",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-partial-3",
     "CAF_f01": 2.851380042462845,
     "decision": {
       "score": 19.47375469879489,
@@ -28740,7 +28740,7 @@
     "cost_f01": 10456.8,
     "warm_hit": 0.015130023640661938,
     "input_fingerprint": "dccd9d6c499a21c6dbb72ef40f36ca178a9dc4e3149f938ae29031fc93ad027a",
-    "run_directory": "/path/to/workspace/多智能体系统实验数据/fcb-dow-research/H_defense/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-partial-4",
+    "run_directory": "experiments/09_defenses_and_detection/data/formal/H2-evasion-gov_report-4cb713e43fe0e8e6185cec6d49636297caf933ab15697ef8-N5-partial-4",
     "CAF_f01": 3.4689490445859876,
     "decision": {
       "score": 4.57725160375867,

@@ -122,30 +122,23 @@ def report(session):
         front_near_floor=front_close,e5_front_near_floor=e5_close,controls_high=high,
         completed_utc=now(),e5_tool_invocation='application calls one shared AutoGen FunctionTool; model does not select tool',
         statistics='paired CAF by replicate; t CI; zero width denotes fixed-condition reproducibility'))
-    lines=['# DeepSeek-V4-Flash-FP8 跨模型基线实测记录','',
-        f'结果：**{verdict}**。{len(index)}/{reps*15} 个正式 run，{summary["model_requests"]} 次真实模型请求；每格 {reps} 个独立 salt，worker1 缓存命中均为 0。',
-        f'P=2000；H={statistics.mean(hs):.2f}；P+s={statistics.mean(ps):.2f}；预测地板 H/(P+s)={floor:.6f}。',
-        f'答案自动筛选 {summary["answer_screen_passes"]}/{summary["answer_screen_count"]}；C组仅测缓存机制，该值不参与Go判定。','',
-        '假设：front 应塌至自身 tokenizer 对应的地板；none/suffix/const/late 应保持高缓存率。Go 判据预先采用距离地板不超过 32/(P+s)，高位阈值 0.90。No-Go 时检查装配证据，不改变注入方式。','',
-        '|条件|后续 worker 命中率均值|95% CI|','|---|---:|---|']
+    lines=[f'# {MODEL} cross-deployment baseline','',
+        f'Verdict: {verdict}. Formal runs: {len(index)}/{reps*15}; model requests: {summary["model_requests"]}.',
+        f'P=2000; H={statistics.mean(hs):.2f}; P+s={statistics.mean(ps):.2f}; predicted floor H/(P+s)={floor:.6f}.','',
+        '| Condition | Reusing-replica hit rate (mean) | 95% CI |','|---|---:|---|']
     for k in ('e1_none','e1_prefix','e1_midfix','e1_suffix','e5_const-tool','e5_nonce-tool','e5_nonce-late'):
         key=k+'_reusing_hit_rate'
         lines.append(f'|{k}|{summary[key+"_mean"]:.6f}|[{summary[key+"_ci95_low"]:.6f}, {summary[key+"_ci95_high"]:.6f}]|')
-    lines+=['',f'Qwen 锚点地板 {float(qwen["predicted_collapse_floor_mean"]):.6f}、front 命中率 {float(qwen["e1_prefix_reusing_hit_rate_mean"]):.6f}；本模型必须与自身地板比较。','',
-        '|N|CAF f=0.1|CAF f=0.25|CAF f=0.5|','|---|---:|---:|---:|']
+    lines+=['','| N | CAF f=0.1 | CAF f=0.25 | CAF f=0.5 |','|---|---:|---:|---:|']
     for n in (3,5,10,20):
         values=[summary[f"e2_n{n}_caf_f{str(f).replace('.', '_')}_mean"] for f in FRACTIONS]
         lines.append(f'|{n}|'+ '|'.join(f'{v:.4f}' for v in values)+'|')
-    lines+=['','CAF 与 CI 全字段见 tables/metrics-ci.csv；Qwen/DeepSeek-V4-Flash-FP8 同字段对照见 tables/qwen-deepseek-v4-flash-comparison.csv。',
-        'C组沿用 reflect_on_tool_use=False；回答筛选不用于证明任务性能。',
-        'CI 零宽时仅表示固定任务、固定种子的复现性，不代表跨任务不确定性为零。',
-        'E5 工具由应用调用后装配输入；没有将其表述为模型自主调用工具或原生 Swarm handoff。',
-        '本实例 GPU/TP/KV 和 vLLM 参数见 session.json 与 evidence/service-*；权重来源与 SHA256 见 config/model-files.actual-sha256.json。']
     reports=session/'reports';reports.mkdir(exist_ok=True)
-    (reports/'实验记录_deepseek-v4-flash基线.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+    (reports/'baseline-summary.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     for path in tables.iterdir():
         (ROOT/'tables'/path.name).write_bytes(path.read_bytes())
-    (ROOT/'reports/实验记录_deepseek-v4-flash基线.md').write_bytes((reports/'实验记录_deepseek-v4-flash基线.md').read_bytes())
+    (ROOT/'reports').mkdir(exist_ok=True)
+    (ROOT/'reports/baseline-summary.md').write_bytes((reports/'baseline-summary.md').read_bytes())
     save(session/'status.json',dict(phase='complete',verdict=verdict,completed_runs=len(index),
         expected_runs=reps*15,updated_utc=now()))
     print('REPORT_COMPLETE',verdict,session,'P=2000','H=',statistics.mean(hs),'floor=',floor,flush=True)

@@ -1,9 +1,3 @@
-"""E5: one AutoGen FunctionTool asset naturally varies across sequential workers.
-
-The application calls the same FunctionTool once for each worker before that
-worker's single model request. The model does not choose or invoke this tool.
-"""
-
 import argparse
 import asyncio
 import hashlib
@@ -193,7 +187,7 @@ def parse_args(argv=None):
     parser.add_argument("--url", default="http://127.0.0.1:8000")
     parser.add_argument("--model", default="qwen3-8b")
     parser.add_argument("--output", default=str(
-        BASE / "多智能体系统实验数据" / "autogen-handoff-runs"))
+        BASE / "runs"))
     return parser.parse_args(argv)
 
 

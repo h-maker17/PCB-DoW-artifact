@@ -3,7 +3,7 @@
   "llama33": {
     "model_family": "Llama-3.3-70B-Instruct",
     "source": "User-supplied files from the original-paper cloud deployment, independently byte-verified against the NVIDIA-published FP8 repository",
-    "source_directory": "D:/path/to/workspace",
+    "source_directory": "D:${PCB_WORK_DIR}",
     "source_clarified_by_user": "2026-10-10",
     "official_reference_revision": "6f6073b423013f6a7d4d9f39144961bfbfbc386b",
     "official_byte_parity": "not confirmed; three small config files differ in public Git blob hash and byte size; gated LFS tokenizer hash is redacted",

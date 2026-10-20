@@ -348,7 +348,7 @@
                 "metadata": {
                   "chunk_index": 0,
                   "mime_type": "MemoryMimeType.TEXT",
-                  "source": "D:\\path\\to\\workspace\\SCAN_a2a3_v7\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_benign\\run_20261011T225843774924Z-repeat_1\\benign\\R0\\document_0.txt",
+                  "source": "experiments\\10_framework_inspection\\probe\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_benign\\run_20261011T225843774924Z-repeat_1\\benign\\R0\\document_0.txt",
                   "score": 0.6705647706985474,
                   "id": "fc488131-3064-4820-92f9-5fdbcda80476"
                 }
@@ -378,7 +378,7 @@
                 "content": "SCAN_CONTROL_G_614B_BEGIN The laboratory retention policy requires retaining audit records for seven years. Access requires two approvals. SCAN_CONTROL_G_614B_END",
                 "mime_type": "MemoryMimeType.TEXT",
                 "metadata": {
-                  "source": "D:\\path\\to\\workspace\\SCAN_a2a3_v7\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_benign\\run_20261011T225843774924Z-repeat_1\\benign\\R1\\document_0.txt",
+                  "source": "experiments\\10_framework_inspection\\probe\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_benign\\run_20261011T225843774924Z-repeat_1\\benign\\R1\\document_0.txt",
                   "mime_type": "MemoryMimeType.TEXT",
                   "chunk_index": 0,
                   "score": 0.6705647706985474,
@@ -410,7 +410,7 @@
                 "content": "SCAN_CONTROL_G_614B_BEGIN The laboratory retention policy requires retaining audit records for seven years. Access requires two approvals. SCAN_CONTROL_G_614B_END",
                 "mime_type": "MemoryMimeType.TEXT",
                 "metadata": {
-                  "source": "D:\\path\\to\\workspace\\SCAN_a2a3_v7\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_benign\\run_20261011T225843774924Z-repeat_1\\benign\\R2\\document_0.txt",
+                  "source": "experiments\\10_framework_inspection\\probe\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_benign\\run_20261011T225843774924Z-repeat_1\\benign\\R2\\document_0.txt",
                   "mime_type": "MemoryMimeType.TEXT",
                   "chunk_index": 0,
                   "score": 0.6705647706985474,
@@ -444,7 +444,7 @@
                 "metadata": {
                   "chunk_index": 0,
                   "mime_type": "MemoryMimeType.TEXT",
-                  "source": "D:\\path\\to\\workspace\\SCAN_a2a3_v7\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_benign\\run_20261011T225843774924Z-repeat_1\\benign\\R3\\document_0.txt",
+                  "source": "experiments\\10_framework_inspection\\probe\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_benign\\run_20261011T225843774924Z-repeat_1\\benign\\R3\\document_0.txt",
                   "score": 0.6705647706985474,
                   "id": "474a5bb7-070b-4a1e-b424-e54e357f1d27"
                 }
@@ -781,7 +781,7 @@
                 "mime_type": "MemoryMimeType.TEXT",
                 "metadata": {
                   "chunk_index": 0,
-                  "source": "D:\\path\\to\\workspace\\SCAN_a2a3_v7\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_attacked\\run_20261011T225843774924Z-repeat_1\\attacked\\R1\\document_0.txt",
+                  "source": "experiments\\10_framework_inspection\\probe\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_attacked\\run_20261011T225843774924Z-repeat_1\\attacked\\R1\\document_0.txt",
                   "mime_type": "MemoryMimeType.TEXT",
                   "score": 0.6705647706985474,
                   "id": "33bbdea0-19fa-4a28-8419-226ffef66264"
@@ -813,7 +813,7 @@
                 "mime_type": "MemoryMimeType.TEXT",
                 "metadata": {
                   "chunk_index": 0,
-                  "source": "D:\\path\\to\\workspace\\SCAN_a2a3_v7\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_attacked\\run_20261011T225843774924Z-repeat_1\\attacked\\R2\\document_0.txt",
+                  "source": "experiments\\10_framework_inspection\\probe\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_attacked\\run_20261011T225843774924Z-repeat_1\\attacked\\R2\\document_0.txt",
                   "mime_type": "MemoryMimeType.TEXT",
                   "score": 0.6705647706985474,
                   "id": "93fffe34-32c4-4e5d-8a20-b83323134a31"
@@ -845,7 +845,7 @@
                 "mime_type": "MemoryMimeType.TEXT",
                 "metadata": {
                   "mime_type": "MemoryMimeType.TEXT",
-                  "source": "D:\\path\\to\\workspace\\SCAN_a2a3_v7\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_attacked\\run_20261011T225843774924Z-repeat_1\\attacked\\R0\\document_0.txt",
+                  "source": "experiments\\10_framework_inspection\\probe\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_attacked\\run_20261011T225843774924Z-repeat_1\\attacked\\R0\\document_0.txt",
                   "chunk_index": 0,
                   "score": 0.6705647706985474,
                   "id": "19fff9a4-3c35-46e3-98a8-992353b6c014"
@@ -876,7 +876,7 @@
                 "content": "SCAN_CONTROL_G_614B_BEGIN The laboratory retention policy requires retaining audit records for seven years. Access requires two approvals. SCAN_CONTROL_G_614B_END",
                 "mime_type": "MemoryMimeType.TEXT",
                 "metadata": {
-                  "source": "D:\\path\\to\\workspace\\SCAN_a2a3_v7\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_attacked\\run_20261011T225843774924Z-repeat_1\\attacked\\R3\\document_0.txt",
+                  "source": "experiments\\10_framework_inspection\\probe\\exec\\pilot\\microsoft__autogen\\run_20261011T225843774924Z\\repeat_1\\native_ag_attacked\\run_20261011T225843774924Z-repeat_1\\attacked\\R3\\document_0.txt",
                   "mime_type": "MemoryMimeType.TEXT",
                   "chunk_index": 0,
                   "score": 0.6705647706985474,

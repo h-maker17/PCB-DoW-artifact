@@ -1,6 +1,6 @@
 import json,uuid,urllib.request
 from pathlib import Path
-r=Path('/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-03-c-remaining3-models/models/glm4-9b')
+r=Path(__file__).resolve().parents[2]
 s=Path((r/'config/latest-session.txt').read_text().strip())
 assert json.loads((s/'status.json').read_text())['phase']=='complete','Do not interleave with formal runs'
 req=dict(model='glm-4-9b-0414',messages=[dict(role='user',content='Use the calculate tool to compute 7 * 8.')],

@@ -7,7 +7,7 @@ import math
 import statistics
 import urllib.request
 
-model = Path('/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-04-deepseek-v4-rerun/models/deepseek-v4-flash')
+model = Path(__file__).resolve().parents[2]
 session = Path((model / 'config/latest-session.txt').read_text().strip())
 read = lambda p: json.loads(p.read_text())
 index = read(session / 'run-index.json')

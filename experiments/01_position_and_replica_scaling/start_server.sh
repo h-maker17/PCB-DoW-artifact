@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 ROOT="$(cd -- "$(dirname -- "$0")" && pwd)"
-BASE="/path/to/workspace"
-PROJECT="$BASE/多智能体系统实验数据/mas-qwen3-system"
+PROJECT="${PCB_ENV_DIR:-$ROOT/env}"
 : "${GPU_PYTHON:=$PROJECT/.venv/bin/python}"
-: "${MODEL_PATH:=$BASE/LLM-Model/Qwen3-8B}"
+: "${MODEL_PATH:=${PCB_MODEL_DIR:-$ROOT/models}/Qwen3-8B}"
 : "${PORT:=8000}"
 : "${PREFIX_CACHE:=1}"
 test -x "$GPU_PYTHON" || { echo "Missing GPU environment: $GPU_PYTHON"; exit 2; }

@@ -129,7 +129,7 @@
         "segment": "formal-runtime-v8-20261012T094759812191Z",
         "stage_returned": false,
         "error_type": "FileExistsError",
-        "message": "[Errno 17] File exists: '/path/to/workspace/多智能体系统实验数据/G-experiment/formal/G_FORMAL_20261012_LLAMA_R3_V7/segments/formal-runtime-v8-20261012T094759812191Z'",
+        "message": "[Errno 17] File exists: 'experiments/07_concurrent_dispatch/formal/G_FORMAL_20261012_LLAMA_R3_V7/segments/formal-runtime-v8-20261012T094759812191Z'",
         "finished_utc": "2026-10-12T09:48:02.732730+00:00",
         "stage_evidence_sha256": {
           "execution-extension.json": "1fa7c85e29c4534005b382c1aae8790c82b0e4bd7dd60f725b793ccbd09deed5"

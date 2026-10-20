@@ -35,7 +35,7 @@ from autogen_ext.models.openai import OpenAIChatCompletionClient
 INFO = dict(vision=False, function_calling=True, json_output=True,
             family="unknown", structured_output=False)
 ACTIVE_CALL = contextvars.ContextVar("active_call", default=None)
-BASE = Path("/path/to/workspace")
+BASE = Path(__file__).resolve().parent
 # AutoGen's count_tokens() falls back to this fixed encoding for unknown "qwen3-8b".
 # This only decides TokenLimited's trimming; measured tokens always come from vLLM.
 os.environ.setdefault("TIKTOKEN_CACHE_DIR", str(Path(__file__).resolve().parent / "offline/tiktoken-cache"))
@@ -500,7 +500,7 @@ if __name__ == "__main__":
     parser.add_argument("--task", default=DEFAULT_TASK)
     parser.add_argument("--url", default="http://127.0.0.1:8000")
     parser.add_argument("--model", default="qwen3-8b")
-    parser.add_argument("--output", default=str(BASE / "多智能体系统实验数据" / "autogen-handoff-runs"))
+    parser.add_argument("--output", default=str(BASE / "runs"))
     parser.add_argument("--allow-code", action="store_true")
     parser.add_argument("--context", choices=tuple(CONTEXT_DEFAULTS), default="unbounded")
     parser.add_argument("--ctx-param", help="buffer size, token limit, or HEAD,TAIL for headtail")

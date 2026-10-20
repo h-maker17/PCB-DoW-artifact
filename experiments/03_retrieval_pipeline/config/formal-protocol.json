@@ -97,7 +97,7 @@
     "index_scope": "unchanged controlled 132-passage/3-context index; 60 real queries; do not claim web scale; out-of-index answer coverage explicitly measured",
     "neutral_CI": "10000 query-group bootstrap 95% CI of paired per-query CAF mean; report whether interval crosses 1, never change rows or thresholds to force it",
     "claim_scope": "grounding-first + per-replica independent retrieval modes cited in section III; prevalence deferred to A2/A3 scan and Limitations",
-    "fixed_S": "受控应用历史(2000-token 合成共享历史); single S point, no real-user-history claim",
+    "fixed_S": "controlled application history(2000-token synthetic shared history); single S point, no real-user-history claim",
     "acceptance": "No post-hoc hypothesis thresholds. Neutral 95% CI crossing1 reported as observation; full-collapse numeric and G/S divergence logged, wrong-placement or A2 failures No-Go; non-significant quality difference is not equivalence."
   },
   "audit": {
@@ -115,7 +115,7 @@
     "E-E5": "only deployment-side rendering variation permits conditional static-vector collapse",
     "E-E6": "native mid-generation FunctionTool append causes bounded G loss or none"
   },
-  "approval": "User explicitly approved formal E-E2/E-E4 and recommended E-E5/E-E6, with eight constraints in this chat on 2026-10-07",
+  "approval": "Formal arms E-E2/E-E4 approved before execution; E-E5/E-E6 added as recommended controls with eight constraints (2026-10-07)",
   "amendment": "2026-10-07: after one native auto-choice request failed to invoke any tool, select the named tool for native call-generation to test actual append placement; disclose policy-conditioned E6 and default-auto failure separately, not default autonomous invocation success.",
   "native_completion_boundary": "A native reflection reaching the fixed 2048-token cap is an answer-completion FAILURE retained in the E6 boundary data, not a successful full answer. No model inputs/decoding/budget or primary E4 acceptance are changed; primary pre-retrieval E4 still requires stop. All attempted native pairs, including capped outputs, remain in native cache/cost statistics; their raw-output QA scores are exploratory and not E4 completeness evidence."
 }

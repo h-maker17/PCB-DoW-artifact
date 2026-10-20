@@ -1,7 +1,7 @@
 """Launch only B-owned services. All caches and runtime fixes stay inside B."""
 from pathlib import Path
 import subprocess,os,json,time,signal,urllib.request
-R=Path('/path/to/workspace/多智能体系统实验数据/fcb-dow-research/B_cross_engine')
+R=Path(__file__).resolve().parents[1]
 def save(p,x):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(x,ensure_ascii=False,indent=2))
 def health():
  try:
@@ -23,7 +23,7 @@ def stop():
   except ProcessLookupError:pass
  time.sleep(2)
 def ensure(model,page=1):
- target=R.parent.parent.parent/'LLM-Model'/('Qwen3-8B' if model=='qwen' else 'Llama-3.3-70B-Instruct-FP8')
+ target=Path(os.environ.get('PCB_MODEL_DIR',R/'models'))/('Qwen3-8B' if model=='qwen' else 'Llama-3.3-70B-Instruct-FP8')
  if health():
   info=model_info()
   current=R/'evidence/current-server.json'

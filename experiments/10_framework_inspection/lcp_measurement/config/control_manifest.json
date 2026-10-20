@@ -1,6 +1,6 @@
 {
   "scope": "constructed_control",
-  "original_root": "D:\\path\\to\\workspace\\SCAN_a2a3_v7",
+  "original_root": "experiments\\10_framework_inspection\\probe",
   "files": [
     {
       "control": "grounding_first_independent_pre",

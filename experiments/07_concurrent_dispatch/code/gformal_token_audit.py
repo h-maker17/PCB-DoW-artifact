@@ -1,12 +1,12 @@
 """Readonly tokenizer audit of retained T30; zero model generations."""
-import pathlib,json,sys,hashlib
+import pathlib,json,os,sys,hashlib
 from transformers import AutoTokenizer
 from formal_core import read,save,canonical
 from gcommon import prepare_arm,lcp
 def audit(rev):
  rev=pathlib.Path(rev);docs=read(rev/'data/documents.json');pilot=read(rev/'data/pilot-documents.json');inputs=read(rev/'data/inputs.json')
  if len(docs)!=30 or {d['id'] for d in docs}&{d['id'] for d in pilot}:raise ValueError('Data counts or pilot overlap')
- tok=AutoTokenizer.from_pretrained('/path/to/workspace/LLM-Model/Llama-3.3-70B-Instruct-FP8',local_files_only=True);rows=[]
+ tok=AutoTokenizer.from_pretrained(os.environ.get('PCB_LLAMA_TOKENIZER',os.path.join(os.environ.get('PCB_MODEL_DIR','models'),'Llama-3.3-70B-Instruct-FP8')),local_files_only=True);rows=[]
  for d in docs:
   if hashlib.sha256(d['G'].encode()).hexdigest()!=d['G_sha256']:raise ValueError('G content differs')
   prepared={a:prepare_arm(d,inputs['S'],inputs['markers'],20,a) for a in ('D','A','B')};ids={a:[tok.apply_chat_template(m,tokenize=True,add_generation_prompt=True) for m in v[0]] for a,v in prepared.items()}

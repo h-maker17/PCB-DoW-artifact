@@ -3,7 +3,21 @@ import hashlib,json,os,platform,sys,zipfile,subprocess
 from importlib.metadata import version
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
-cfg=json.loads((ROOT/'config/model.json').read_text())
+import os
+_PATH_KEYS=('model_path','gpu_python','client_python','batch_root','project_root','resource_environment_root',
+            'cuda_toolkit_root','cuda_link_library_dir','cuda_supplemental_include_dir','cuda_vendor_library_dir','local_kernel_cache_dir')
+def _resolve_profile(cfg,root):
+    """Expand ${VAR} references; resolve relative path settings against the model folder."""
+    out=dict(cfg)
+    for k in _PATH_KEYS:
+        v=out.get(k)
+        if isinstance(v,str):
+            v=os.path.expandvars(v)
+            if not v.startswith('$') and not os.path.isabs(v):
+                v=str((root/v).resolve())
+            out[k]=v
+    return out
+cfg=_resolve_profile(json.loads((ROOT/'config/model.json').read_text()),ROOT)
 folder=Path(cfg['resource_environment_root'])/'runtime/compiled-cache-snapshots'
 metadata=folder/'deepseek-vllm030-cu130-sm90a.json'
 if not metadata.exists():

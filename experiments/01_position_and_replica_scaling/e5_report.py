@@ -1,4 +1,3 @@
-"""Audit real E5 traces and compare one shared tool under three placements."""
 import argparse
 import csv
 import json

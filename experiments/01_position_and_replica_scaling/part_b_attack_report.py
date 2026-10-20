@@ -1,4 +1,3 @@
-"""Audit and tabulate live Part B attack runs; no synthetic measurements."""
 import argparse
 import csv
 import json

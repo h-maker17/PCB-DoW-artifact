@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
-ROOT='/path/to/workspace/多智能体系统实验数据/fcb-dow-research/experiments/2026-10-03-llama70b-baseline'
-BASE='/path/to/workspace'
-PY="$BASE/多智能体系统实验数据/mas-qwen3-system/.venv/bin/python"
-MODEL="$BASE/LLM-Model/Llama-3.3-70B-Instruct-FP8"
+ROOT="$(cd -- "$(dirname -- "$0")/.." && pwd)"
+PY="${PCB_GPU_PYTHON:-python3}"
+MODEL="${PCB_MODEL_DIR:-$ROOT/models}/Llama-3.3-70B-Instruct-FP8"
 TP="${TP:-1}"
 KV="${KV_CACHE_DTYPE:-auto}"
-exec 9>"$BASE/多智能体系统实验数据/mas-qwen3-system/cache/experiment.lock"
+mkdir -p "$ROOT/cache"
+exec 9>"$ROOT/cache/experiment.lock"
 flock -n 9 || { echo 'GPU lock held by another service/experiment' >&2; exit 2; }
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 VLLM_USE_V1=1
 export TOKENIZERS_PARALLELISM=false PYTHONUNBUFFERED=1 VLLM_WORKER_MULTIPROC_METHOD=spawn
