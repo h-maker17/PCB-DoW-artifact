@@ -41,9 +41,9 @@ def new_session(root, repeats):
                    "-" + uuid.uuid4().hex[:6])
     dest.mkdir(parents=True)
     save(dest / "session.json", dict(model="qwen3-8b", repeats=repeats,
-         created_utc=datetime.now(timezone.utc).isoformat(),
-         source="real vLLM only; no fixtures", execution="sequential",
-         methods="Student t 95% CI across independent salted runs; E2/E5 CAF paired by replicate"))
+                                     created_utc=datetime.now(timezone.utc).isoformat(),
+                                     source="real vLLM only; no fixtures", execution="sequential",
+                                     methods="Student t 95% CI across independent salted runs; E2/E5 CAF paired by replicate"))
     save(dest / "anchor-index.json", {})
     return dest
 
@@ -234,9 +234,9 @@ def report(session, root):
     write_csv(session / "cross-model-summary.csv", [summary])
     prior_audit = load(session / "report-audit.json", {})
     save(session / "report-audit.json", dict(run_ids=index, unique_salts=True,
-         cold_worker_1=True, total_runs=expected, method="paired t CI",
-         completed_utc=prior_audit.get("completed_utc") or
-         datetime.now(timezone.utc).isoformat()))
+                                             cold_worker_1=True, total_runs=expected, method="paired t CI",
+                                             completed_utc=prior_audit.get("completed_utc") or
+                                                           datetime.now(timezone.utc).isoformat()))
     print("REPORT", session / "cross-model-summary.csv", flush=True)
 
 

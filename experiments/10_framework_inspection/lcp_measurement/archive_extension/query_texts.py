@@ -1,4 +1,6 @@
 """Query inspection texts only; never modifies archived values or model input."""
+
+
 def collect_query_texts(runs):
     texts = set()
     for run in runs:

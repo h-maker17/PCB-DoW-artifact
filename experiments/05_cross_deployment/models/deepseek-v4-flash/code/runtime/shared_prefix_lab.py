@@ -25,7 +25,6 @@ from autogen_core.model_context import UnboundedChatCompletionContext
 from lab import BASE, Trace, inspect_prompts, tools_for, write_json
 from model_settings import template_kwargs
 
-
 ASSET = Path(__file__).resolve().parent / "assets" / "shared_doc.txt"
 SYSTEM = (
     "You are a research worker. Answer only your assigned question from the "
@@ -84,6 +83,7 @@ async def calibrate_shared_document(asset, target_tokens, url, model, transport=
             if type(data.get("count")) is not int:
                 raise RuntimeError("Server /tokenize did not return a token count.")
             return data["count"]
+
         base = await count("")
         lower, upper = 128, min(12000, max(256, target_tokens * 2))
         best = None
@@ -178,6 +178,7 @@ async def midpoint_word_index(document, url, model, transport=None):
                 chat_template_kwargs=template_kwargs()))
             response.raise_for_status()
             return response.json()["count"]
+
         base = await count("")
         target = (await count(document) - base) / 2
         low, high = 1, len(words) - 1
@@ -216,7 +217,7 @@ def analyze_run(dest, workers):
     dest = Path(dest)
     manifest = json.loads((dest / "manifest.json").read_text(encoding="utf-8"))
     rows = json.loads((dest / "usage.json").read_text(encoding="utf-8")) if (
-        dest / "usage.json").exists() else []
+            dest / "usage.json").exists() else []
     first = []
     result = []
     for index in range(1, workers + 1):
@@ -237,7 +238,7 @@ def analyze_run(dest, workers):
                            completion_tokens=row["completion_tokens"] if row else None,
                            total_tokens=row["total_tokens"] if row else None,
                            hit_rate=(hit / prompt) if type(hit) is int and
-                           type(prompt) is int and prompt > 0 else None,
+                                                      type(prompt) is int and prompt > 0 else None,
                            lcp_with_worker_1=common,
                            first_prompt_ids_sha256=sha256_text(
                                json.dumps(ids, separators=(",", ":"))) if ids is not None else None))
@@ -277,7 +278,7 @@ def analyze_run(dest, workers):
     if valid_usage:
         for fraction in (0.1, 0.25, 0.5):
             costs[str(fraction)] = sum(row["uncached_tokens"] +
-                                        fraction * row["cached_tokens"] for row in result)
+                                       fraction * row["cached_tokens"] for row in result)
     checks_path = dest / "answer-checks.json"
     checks = json.loads(checks_path.read_text(encoding="utf-8")) if checks_path.exists() else []
     metrics = dict(run_id=dest.name, variance=manifest.get("variance"),
@@ -343,7 +344,8 @@ async def run(args, *, transport=None):
                            for i in range(1, workers + 1)],
                     url=args.url, model=args.model, cache_salt=trace.salt,
                     natural_model_run=(transport is None), api=dict(temperature=0, seed=42,
-                    enable_thinking=(False if args.model.startswith("qwen") else None), parallel_tool_calls=False),
+                                                                    enable_thinking=(False if args.model.startswith(
+                                                                        "qwen") else None), parallel_tool_calls=False),
                     versions={p: version(p) for p in
                               ("autogen-agentchat", "autogen-core", "autogen-ext", "openai", "httpx")})
     write_json(trace.dest / "manifest.json", manifest)
@@ -365,7 +367,7 @@ async def run(args, *, transport=None):
                 CancellationToken())
             write_json(trace.dest / f"{name}.result.json", answer)
             checks.append(check_answer(json.loads((trace.dest / f"{name}.result.json")
-                                             .read_text(encoding="utf-8")), index))
+                                                  .read_text(encoding="utf-8")), index))
             write_json(trace.dest / "answer-checks.json", checks)
             trace.event("worker_end", agent=name)
     except BaseException as exc:

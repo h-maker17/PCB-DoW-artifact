@@ -25,11 +25,13 @@ empty_outputs = 0
 reasoning_outputs = 0
 finish_reasons = collections.Counter()
 
+
 def lcp(left, right):
     for position, (a, b) in enumerate(zip(left, right)):
         if a != b:
             return position
     return min(len(left), len(right))
+
 
 for key, relative in index.items():
     root = session / relative
@@ -67,7 +69,7 @@ for key, relative in index.items():
         rows.append(dict(run=key, worker=worker, prompt_tokens=len(tokens),
                          cached_tokens=cached, max_lcp_prior_workers=best,
                          block_size=block, block_predicted_cached=predicted,
-                         observed_minus_predicted=cached-predicted))
+                         observed_minus_predicted=cached - predicted))
         previous.append(tokens)
         requests += 1
 
@@ -81,7 +83,8 @@ with (tables / 'block-alignment-audit.csv').open('w', newline='') as stream:
     writer.writerows(rows)
 calibration = read(session / 'probe/calibration.json')
 body_floor = calibration['H_actual_pre_marker_LCP_tokens'] / calibration['P_plus_s_full_prompt_tokens']
-block_floor = (calibration['H_actual_pre_marker_LCP_tokens'] // block * block) / calibration['P_plus_s_full_prompt_tokens']
+block_floor = (calibration['H_actual_pre_marker_LCP_tokens'] // block * block) / calibration[
+    'P_plus_s_full_prompt_tokens']
 metrics_text = urllib.request.urlopen('http://127.0.0.1:8000/metrics', timeout=5).read().decode()
 (session / 'metrics-after-formal.txt').write_text(metrics_text)
 nan_lines = [line for line in metrics_text.splitlines()

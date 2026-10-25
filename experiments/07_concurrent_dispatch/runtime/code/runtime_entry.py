@@ -92,7 +92,7 @@ def run(approval,segment,extension=EXT,formal=None):
     # outside that directory before calling stage; do not pre-create its folder.
     intent=frozen/'segment-intents'/(segment+'.json')
     core.save(intent,provenance)
-    spec=importlib.util.spec_from_file_location('approved_runtime_v8_monitor',extension/'code/runtime_v8_monitor.py')
+    spec=importlib.util.spec_from_file_location('approved_runtime_v8_monitor',extension/'code/runtime_monitor.py')
     monitor=importlib.util.module_from_spec(spec);spec.loader.exec_module(monitor)
     monitor.EXECUTION_EXTENSION_SOURCE=seal['source_bundle_sha256']
     original=stage.ResourceMonitor

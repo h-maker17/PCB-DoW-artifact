@@ -45,6 +45,7 @@ def install_patch():
 if __name__ == "__main__":
     install_patch()
     from harmony_tokenize_patch import install_harmony_tokenize_patch
+
     install_harmony_tokenize_patch()
     if sys.argv[1:] == ["--check-patch"]:
         sys.exit(0)
@@ -54,4 +55,5 @@ if __name__ == "__main__":
     if sys.argv[sys.argv.index("--api-server-count") + 1] != "1":
         raise RuntimeError("This lab requires exactly one API process.")
     from vllm.entrypoints.cli.main import main
+
     main()
